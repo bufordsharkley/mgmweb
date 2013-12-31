@@ -1,14 +1,10 @@
-import flask
- 
-app = flask.Flask(__name__)
+from flask import Flask, render_template
 
-#Set application.debug=true to enable tracebacks on Beanstalk log output. 
-#Make sure to remove this line before deploying to production.
-app.debug=True
- 
+app = Flask(__name__)
+
 @app.route('/')
-def hello_world():
-    return "Hello world, running as package!"
- 
+def index():
+    return render_template('index.html')
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    app.run(debug=True)
