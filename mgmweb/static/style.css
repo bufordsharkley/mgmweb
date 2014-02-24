@@ -1,0 +1,115 @@
+@font-face{ 
+	font-family: 'caslonitalic';
+    src: url('/static/webfonts/adobe_caslon_pro_italic.eot');
+    src: url('/static/webfonts/adobe_caslon_pro_italic.eot?#iefix') format('embedded-opentype'), url('/static/webfonts/adobe_caslon_pro_italic.svg#Adobe Caslon Pro Italic') format('svg'), url('/static/webfonts/adobe_caslon_pro_italic.woff') format('woff'), url('/static/webfonts/adobe_caslon_pro_italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MenschRegular';
+    src: url('/static/webfonts/mensch-wf.eot');
+    src: url('/static/webfonts/mensch-wf.eot?#iefix') format('embedded-opentype'),
+         url('/static/webfonts/mensch-wf.woff') format('woff'),
+         url('/static/webfonts/mensch-wf.ttf') format('truetype'),
+         url('/static/webfonts/mensch-wf.svg#MenschMenschRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Use a CSS reset to smooth out browser incongruities. */
+/* CSS Reset from meyerweb.com v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* okay, back to me */
+
+body{
+    background: #eee; 
+    font-family: serif;
+}
+
+div.content{
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a, h1, h2 {
+    color: #147ca8;
+    line-height: .9;
+    font-family: MenschRegular, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+}
+
+h1  {
+    font-size: 3.2em;
+}
+
+h2  {
+    font-size: 2.22em;
+    color:black;
+    font-family: caslonitalic, serif;
+    text-align:right;
+}
+
+.page   {
+    display: inline-block;
+    margin: 1em auto;
+    border: 5px solid #dcc;
+    padding: .4em;
+    background: white;
+    text-align:center;
+}
+
+.left   {
+    float:left;
+}
+
+footer {
+    font-size: 0.82em;
+}

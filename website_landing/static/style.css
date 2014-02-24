@@ -1,9 +1,0 @@
-body            { font-family: sans-serif; background: #eee; }
-a, h1, h2       { color: #147ca8; }
-h1, h2          { font-family: Mensch, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;  margin: 0; line-height: .9;}
-h1              { border-bottom: .02px solid #eee; font-size: 11.2em;}
-h2              { font-size: 121.2em; }
-
-.page           { margin: 10em auto; width: 25em; border: 5px solid #dcc;
-                  padding: .4em; background: none; font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif; }
-
