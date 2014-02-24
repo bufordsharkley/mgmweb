@@ -75,11 +75,23 @@ body{
     font-family: serif;
 }
 
-div.content{
-  width: 770px;
+nav{
+  width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
+
+div.content{
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav.frontpagenav{
+  width: 320px;
+  margin-left:0;
+}
+
 a, h1, h2 {
     color: #147ca8;
     line-height: .9;
@@ -92,13 +104,14 @@ h1  {
 
 h2  {
     font-size: 2.22em;
-    color:black;
+    color:#baa;
     font-family: caslonitalic, serif;
     text-align:right;
 }
 
 .page   {
     display: inline-block;
+    width:100%;
     margin: 1em auto;
     border: 5px solid #dcc;
     padding: .4em;

@@ -9,7 +9,17 @@
   {% endblock %}
 </head>
 <body>
+  <nav>
+  <a href="{{url_for('index')}}">
+  <div class=page>
+    <h1>mark grover mollineaux</h1>
+    <h2>the website</h2>
+  </div>
+  </a>
+  </nav>
+
   <div class=content>
+    
   {% block content %}{% endblock %}
   </div>
   {% block footer %}

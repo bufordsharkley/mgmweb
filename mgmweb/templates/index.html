@@ -1,9 +1,31 @@
 {% extends "layout.html" %}
 {% block content %}    
-<div>
+<nav class="frontpagenav">
+<a href={{url_for('subpage',path='drawing_test')}}>
 <div class=page>
-    <h1>mark grover mollineaux</h1>
-    <h2>the website</h2>
+    <h2>about</h2>
 </div>
+<div class=page>
+    <h2>drawings</h2>
 </div>
+</a>
+<div class=page>
+    <h2>radio</h2>
+</div>
+<div class=page>
+    <h2>academic</h2>
+</div>
+<div class=page>
+    <h2>design</h2>
+</div>
+<div class=page>
+    <h2>film...opinion</h2>
+</div>
+<div class=page>
+    <h2>etc</h2>
+</div>
+<div class=page>
+    <h2>reely phunny jokes</h2>
+</div>
+</nav>
 {% endblock %}
