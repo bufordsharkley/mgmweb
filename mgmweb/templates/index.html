@@ -1,10 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}    
 <nav class="frontpagenav">
-<div class=page>
-    <h2>about</h2>
-</div>
-<a href={{url_for('subpage',path='drawing_test')}}>
+<a href={{url_for('random_drawing')}}>
 <div class=page>
     <h2>drawings</h2>
 </div>
@@ -26,6 +23,9 @@
 </div>
 <div class=page>
     <h2>reely phunny jokes</h2>
+</div>
+<div class=page>
+    <h2>about</h2>
 </div>
 </nav>
 {% endblock %}

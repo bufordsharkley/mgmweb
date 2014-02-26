@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="mid-section">
+  <div class="left-wrapper">
+    <h1 style="text-align:right">Drawing #{{number}}</h1>
+    <h2>{{date}}</h2>
+    <div class="button_panel">
+    <a href="{{url_for('drawing', num=number+1)}}">
+      <div class="button">
+        <h2>next</h2>
+    </div>
+    </a>
+    <a href="{{url_for('drawing', num=number-1)}}">
+      <div class="button">
+        <h2>previous</h2>
+      </div>
+    </a>
+    <a href="{{url_for('random_drawing')}}">
+      <div class="button">
+        <h2>random</h2>
+      </div>
+    </a>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="drawingpage" style="float: left">
+      <img src={{small_src}} alt="drawing"/>
+    </div>
+  </div>
+  <div class="right-wrapper">
+    <div class="drawingtext"><div class="additionaltext">
+      {% for addtlline in additionaltext %}
+        {{addtlline|safe}}<br/><br/>
+      {% endfor %}
+    </div>
+    {% for line in caption %}
+    {{line|safe}}
+    {% for ii in range(loop.cycle(1,2)) %}
+    <br/>
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}
