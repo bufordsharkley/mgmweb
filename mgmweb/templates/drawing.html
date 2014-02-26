@@ -2,25 +2,52 @@
 {% block content %}
 <div class="mid-section">
   <div class="left-wrapper">
-    <h1 style="text-align:right">Drawing #{{number}}</h1>
+    <h1 style="text-align:right">Drawing {{number}}</h1>
     <h2>{{date}}</h2>
-    <div class="button_panel">
+    <nav class="button_panel">
+    {% if firstorlast != 'last' %}
     <a href="{{url_for('drawing', num=number+1)}}">
       <div class="button">
         <h2>next</h2>
     </div>
     </a>
+    {% else %}
+      <div class="button">
+        <h2>the end</h2>
+    </div>
+    {% endif %}
+    {% if firstorlast != 'first' %}
     <a href="{{url_for('drawing', num=number-1)}}">
       <div class="button">
         <h2>previous</h2>
       </div>
     </a>
+    {% endif %}
     <a href="{{url_for('random_drawing')}}">
       <div class="button">
         <h2>random</h2>
       </div>
     </a>
+    {% if firstorlast != 'last' %}
+    <a href="{{url_for('last_drawing')}}">
+      <div class="button">
+        <h2>last</h2>
+      </div>
+    </a>
+    {% endif %}
+    </nav>
+    <nav class="high_level_drawing_nav">
+    <a href="/dinsoaru">
+      <div class="button">
+        <h2>about</h2>
     </div>
+    </a>
+    <a href="/dinsoaru">
+      <div class="button">
+        <h2>sketches</h2>
+      </div>
+    </a>
+    </nav>
   </div>
   <div class="main-content">
     <div class="drawingpage" style="float: left">

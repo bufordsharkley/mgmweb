@@ -25,6 +25,11 @@ def subpage(path):
 @app.route('/drawing/<int:num>/')
 def drawing(num):
     try:
+        firstorlast = None
+        if num == len(metadata):
+            firstorlast = 'last'
+        if num == 1:
+            firstorlast = 'first'
         metadatum = sorted(metadata, key=lambda k: k['number'])[num-1]
     except IndexError:
         abort(404)
@@ -32,15 +37,30 @@ def drawing(num):
                            number=metadatum['number'],
                            small_src=metadatum['image']['src_small'],
                            date=metadatum['date'],
-                           caption=metadatum.get('caption',''),
-                           additionaltext=metadatum.get('wordsinimage',''))
+                           caption=metadatum.get('caption', ''),
+                           additionaltext=metadatum.get('wordsinimage', ''),
+                           firstorlast = firstorlast)
 
 
 @app.route('/drawing/')
 @app.route('/drawing/random/')
 def random_drawing():
-    metadatum = metadata[random.randrange(len(metadata)) + 1]
-    return redirect(url_for('drawing', num=random.randrange(len(metadata))))
+    return redirect(url_for('drawing', num=1+random.randrange(len(metadata))))
+
+@app.route('/drawing/last/')
+def last_drawing():
+    return redirect(url_for('drawing', num=len(metadata)))
+
+
+@app.route('/poetry/', defaults={'opus':''})
+@app.route('/poetry/<path:opus>/')
+def poetry(opus):
+    if not opus:
+        return render_template('/poetry/index.html')
+    try:
+        return render_template('/poetry/' + opus + '.html')        
+    except TemplateNotFound:
+        abort(404)
 
 
 @app.route('/hackers.txt')
@@ -51,6 +71,7 @@ def hackers():
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
+
 
 if __name__ == '__main__':
     application.run(debug=True)

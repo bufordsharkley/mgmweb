@@ -159,6 +159,7 @@ footer {
     display:block;
     float:left;
     margin:0;
+    position:relative;
 }
 
 .huge{
@@ -170,7 +171,7 @@ footer {
 }
 
 .main-content {
-    width: 48%;
+    width: 25em;
     height: 100%;
     margin:0;
     float:left;
@@ -201,14 +202,26 @@ footer {
 
 }
 
-div.button_panel {
-    width: 16%;
-    position:absolute;
-    top:18em;
-
+.poem  a {
+    font-family: caslonitalic, serif;
 }
+
+
+nav.button_panel {
+    position:absolute;
+    top:9.5em;
+    right:0em;
+}
+
+nav.high_level_drawing_nav {
+    position:absolute;
+    top:31em;
+    right:0em;
+}
+
+
 div.button   {
-    width: 56%;
+    width: 11em;
     clear: right; 
     float: right;
     border: 5px solid #dcc;
