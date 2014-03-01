@@ -64,7 +64,11 @@
     </nav>
   </div>
   <div class="main-content">
+  {% if large_src %}
   <a class="magnifier-thumb-wrapper" href="{{large_src}}">
+  {% else %}
+  <a href="{{small_src}}">
+  {% endif %}
     <div class="drawingpage" style="float: left">
       <div>
       <img id="thumb" src={{small_src}} alt="drawing"/>
