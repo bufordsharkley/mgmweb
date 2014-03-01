@@ -36,6 +36,7 @@ def drawing(num):
     return render_template('drawing.html',
                            number=metadatum['number'],
                            small_src=metadatum['image']['src_small'],
+                           large_src=metadatum['image']['src_large'],
                            date=metadatum['date'],
                            caption=metadatum.get('caption', ''),
                            additionaltext=metadatum.get('wordsinimage', ''),

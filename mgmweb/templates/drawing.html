@@ -1,9 +1,23 @@
 {% extends "layout.html" %}
+{% block head %}
+{{ super() }}
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='magnifier.css') }}">
+  <script type="text/javascript" src="{{ url_for('static', filename='event.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='magnifier.js') }}"></script>
+    <script type="text/javascript">
+    var evt = new Event(),
+        m = new Magnifier(evt);
+    </script>
+{% endblock %}
 {% block content %}
 <div class="mid-section">
   <div class="left-wrapper">
+    <div id="preview" class="magnifier-preview" style="width: 100%; height: 20em;">
+    <div class='drawingnumdate'>
     <h1 style="text-align:right">Drawing {{number}}</h1>
     <h2>{{date}}</h2>
+    </div>
+    </div>
     <nav class="button_panel">
     {% if firstorlast != 'last' %}
     <a href="{{url_for('drawing', num=number+1)}}">
@@ -50,12 +64,17 @@
     </nav>
   </div>
   <div class="main-content">
+  <a class="magnifier-thumb-wrapper" href="{{large_src}}">
     <div class="drawingpage" style="float: left">
-      <img src={{small_src}} alt="drawing"/>
+      <div>
+      <img id="thumb" src={{small_src}} alt="drawing"/>
+      </div>
     </div>
+  </a>
   </div>
   <div class="right-wrapper">
-    <div class="drawingtext"><div class="additionaltext">
+    <div class="drawingtext">
+      <div class="additionaltext">
       {% for addtlline in additionaltext %}
         {{addtlline|safe}}<br/><br/>
       {% endfor %}
@@ -68,5 +87,15 @@
     {% endfor %}
   </div>
 </div>
-
+</div>
+    {% if large_src %}
+    <script type="text/javascript">
+m.attach({
+    thumb: '#thumb',
+    large: '{{large_src}}',
+    largeWrapper: 'preview',
+    zoom: 8
+    });
+    </script>
+    {% endif %}
 {% endblock %}

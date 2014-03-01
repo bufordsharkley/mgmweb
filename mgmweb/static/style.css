@@ -238,3 +238,7 @@ div.button a{
     font-family: caslonitalic, serif;
     text-decoration:none;
 }
+
+div.drawingnumdate {
+    margin-right:.1em;
+}
