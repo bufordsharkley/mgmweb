@@ -1,4 +1,4 @@
 splash_descriptions = {
-'default': {'summary': 'Mark Mollineaux'},
+'defaultsplash': {'summary': 'Mark Mollineaux'},
 'drawings': {'summary': 'here are drawings'},
 }

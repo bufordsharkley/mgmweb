@@ -1,10 +1,11 @@
 import datetime
 import random
 
-from flask import Flask, render_template, abort, redirect, url_for
+from flask import Flask, render_template, abort, redirect, url_for, jsonify
 from jinja2 import TemplateNotFound
 
 from .drawing_metadata import metadata
+from .frontpage_descriptions import splash_descriptions
 
 application = app = Flask(__name__)
 
@@ -67,6 +68,11 @@ def poetry(opus):
 @app.route('/hackers.txt')
 def hackers():
     return 'site has been hacked at time: {}'.format(datetime.datetime.now())
+
+
+@app.route('/_frontpagedescriptions/')
+def frontpagedescriptions():
+    return jsonify(splash_descriptions)
 
 
 @app.errorhandler(404)
