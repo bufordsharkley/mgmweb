@@ -8,7 +8,7 @@
   <title>MGM {% block title %}{% endblock %}</title>
   {% endblock %}
 </head>
-<body>
+<body onload="{% block bodyonload %}{% endblock %}">
   <nav>
   <a href="{{url_for('index')}}">
   <div class=page>

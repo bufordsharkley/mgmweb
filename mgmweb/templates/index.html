@@ -1,5 +1,12 @@
 {% extends "layout.html" %}
+{% block head %}
+  {{ super() }}
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='splashajax.js') }}"></script>
+{% endblock %}
+{% block bodyonload %}loadForFrontPage();{% endblock %}
 {% block content %}    
+<div class="frontpageleft">
 <nav class="frontpagenav">
 <a href={{url_for('random_drawing')}}>
 <div class=page>
@@ -30,4 +37,12 @@
     <h2>about</h2>
 </div>
 </nav>
+  </div>
+  <div class="frontpageright">
+    <div class="poem">
+      asdfkasdflaKDSLFSDF
+      <div id="summary">
+      </div>
+    </div>
+  </div>
 {% endblock %}

@@ -139,7 +139,7 @@ h2  {
 }
 
 footer {
-    width=100%;
+    width: 100%;
     clear: both;
     position: relative;
     font-size: 0.82em;
@@ -242,3 +242,15 @@ div.button a{
 div.drawingnumdate {
     margin-right:.1em;
 }
+
+div.frontpageleft {
+    float:left;
+    width:20%;
+}
+
+div.frontpageright {
+    float:right;
+    width:80%;
+    padding-top:15em;
+}
+
