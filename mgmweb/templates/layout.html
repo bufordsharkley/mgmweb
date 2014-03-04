@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-  {% block head %}
-  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
-  <title>MGM {% block title %}{% endblock %}</title>
-  <script type=text/javascript>
-    // Allows jquery modules to successfully call subpages without being dependent on full URLs:
-    $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-  </script>
-  {% endblock %}
-</head>
-<body onload="{% block bodyonload %}{% endblock %}">
-  <nav>
-  <a href="{{url_for('index')}}">
-  <div class=page>
-    <h1>mark grover mollineaux</h1>
-    <h2>the website</h2>
-  </div>
-  </a>
-  </nav>
-
-  <div class=content>
-    
-  {% block content %}{% endblock %}
-  </div>
-  {% block footer %}
-  <footer>
-    &copy; 2014 Mark Mollineaux.<br/>
-  </footer>
-  {% endblock %}
-</body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {% block head %}
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <title>MGM {% block title %}{% endblock %}</title>
+    <script type=text/javascript>
+      // Allows jquery modules to successfully call subpages without being dependent on full URLs:
+      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    {% endblock %}
+  </head>
+  <body onload="{% block bodyonload %}{% endblock %}">
+    <nav>
+      <a href="{{url_for('index')}}">
+        <div class=page>
+          <h1>mark grover mollineaux</h1>
+          <h2>the website</h2>
+        </div>
+      </a>
+    </nav>
+    <div class=content>
+      {% block content %}{% endblock %}
+    </div>
+    {% block footer %}
+    <footer>
+      &copy; 2014 Mark Mollineaux.<br/>
+    </footer>
+    {% endblock %}
+  </body>
 </html>

@@ -115,6 +115,7 @@ a, h1, h2 {
 }
 
 h1  {
+    margin-top: .2em;
     font-size: 3.2em;
 }
 
@@ -255,7 +256,8 @@ div.frontpageright {
     padding-top:1em;
 }
 
-.splash   {
+#splash   {
+    min-height: 40.5em;
     width: 100%;
     margin-top:1em;
     border: 5px solid #dcc;
@@ -263,7 +265,7 @@ div.frontpageright {
     font-family: caslonitalic, serif;
 }
 
-.splash a{
+#splash a{
     font-family: caslonitalic, serif;
 }
 

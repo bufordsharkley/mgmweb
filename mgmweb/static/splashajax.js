@@ -1,30 +1,33 @@
 function loadForFrontPage() {
-  console.log("update");
-  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions/", function(data) {
-    //$("#summary").text(data.defaultsplash.summary);
-    /console.log(data.defaultsplash.summary);
+  $('.initiator').on('mouseenter mouseleave', function(e) {
+    if (e.type === "mouseleave"){
+      loadSummary('default');
+    }else{
+      loadSummary(this.id);
+    }
+    //$('.receiver').trigger(e.type);
+  })  
+}
+
+function loadSummary(button) {
+  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions/" + button + "/", function(data) {
+    var summary = data.summary;
+    var htmlsummary = new Array();
+    for (i=0; i < summary.length; i++){
+      if (summary[i].length == 0) {
+        htmlsummary.push('<br/>');
+      }else{
+        htmlsummary.push(summary[i]);
+      }
+    }
+    $("#frontpageimage").attr("src",data.img);
+    $("#summary").html(htmlsummary.join(''));
+    /*var splash_height = $('#splash').height();
+    console.log(splash_height);
+    if ( splash_height < 650 ) {
+       $('#splash').attr("height", splash_height);
+    }*/
   });
 }
 
-
-function loadFlickr() {
-  // Receives JSON of many HTML images; simply concatenates.
-    $.getJSON($SCRIPT_ROOT + "/api/randomflickr/8/", function(data) {
-        if (data["status"] == "OK") {
-            var allphotos = "";
-            var photo_list = data.photos.photos; // TODO: Fix this in the backend
-            for (var i = 0; i < photo_list.length; i++) {
-                var photo_html = '<a href="' + photo_list[i].detail
-                           + '"><img src="' + photo_list[i].img
-                           + '" alt= "' + photo_list[i].alt
-                           + '" height=75 width=75 border=0></a>'
-                allphotos += photo_html;
-            }
-            $("#flickr-box").html(allphotos);
-        }
-        else {
-          // TODO: Fail gracefully by displaying an error to the user
-        }
-    });
-}
 

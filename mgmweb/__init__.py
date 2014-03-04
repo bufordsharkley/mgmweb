@@ -12,7 +12,7 @@ application = app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index.html', splash=splash_descriptions['default'])
 
 
 @app.route('/<path:path>/')
@@ -70,9 +70,12 @@ def hackers():
     return 'site has been hacked at time: {}'.format(datetime.datetime.now())
 
 
-@app.route('/_frontpagedescriptions/')
-def frontpagedescriptions():
-    return jsonify(splash_descriptions)
+@app.route('/_frontpagedescriptions/<button>/')
+def frontpagedescriptions(button):
+    try:
+        return jsonify(splash_descriptions[button])
+    except KeyError:
+        return jsonify(splash_descriptions['default'])
 
 
 @app.errorhandler(404)

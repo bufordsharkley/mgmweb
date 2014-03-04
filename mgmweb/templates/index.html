@@ -7,49 +7,49 @@
 {% block bodyonload %}loadForFrontPage();{% endblock %}
 {% block content %}    
 <div class="frontpageleft">
-<nav class="frontpagenav">
-<a href={{url_for('random_drawing')}}>
-<div class=page>
-    <h2>drawings</h2>
-</div>
-</a>
-<div class=page>
-    <h2>radio</h2>
-</div>
-<div class=page>
-    <h2>academic</h2>
-</div>
-<div class=page>
-    <h2>projects&design</h2>
-</div>
-<div class=page>
-    <h2>film lists</h2>
-</div>
-<a href={{url_for('poetry')}}>
-<div class=page>
-    <h2>poetry&more</h2>
-</div>
-</a>
-<div class=page>
-    <h2>reely phunny jokes</h2>
-</div>
-<div class=page>
-    <h2>about</h2>
-</div>
-</nav>
-  </div>
-  <div class="frontpageright">
-    <div class="splash">
-      <img id="frontpageimage" src="{{ url_for('static', filename='lobster.png') }}", alt="lobster"/>
-      <div id="summary">
-        Hey. This is Mark Mollineaux, speaking at the behest of the Mark Mollineaux website.
-        <br/><br/>
-        I'm currently a PhD Candidate at Stanford University.
-        <br/>
-        This site contains things I've done.
-        <br/><br/>
-        Check out my <a href="//github.com/bufordsharkley/">github</a>. I probably should get a linkedin. Twitter: no.
+  <nav class="frontpagenav">
+    <a href={{url_for('random_drawing')}}>
+      <div class="page initiator" id="drawings">
+        <h2>drawings</h2>
       </div>
+    </a>
+    <div class="page initiator" id="radio">
+      <h2>radio</h2>
+    </div>
+    <div class="page initiator" id="academic">
+      <h2>academic</h2>
+    </div>
+    <div class="page initiator" id="projectsanddesign">
+      <h2>projects&design</h2>
+    </div>
+    <div class="page initiator" id="filmlists">
+      <h2>film lists</h2>
+    </div>
+    <a href={{url_for('poetry')}}>
+      <div class="page initiator" id="etc">
+        <h2>etc</h2>
+      </div>
+    </a>
+    <div class="page initiator" id="jokes">
+      <h2>reely phunny jokes</h2>
+    </div>
+    <div class="page initiator" id="about">
+      <h2>about</h2>
+    </div>
+  </nav>
+</div>
+<div class="frontpageright">
+  <div id="splash">
+    <img id="frontpageimage" src="{{ splash.img }}", alt="lobster"/>
+    <div id="summary">
+      {% for line in splash.summary %}
+        {% if line %}
+          {{ line | safe}}
+        {% else %}
+          <br/>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
+</div>
 {% endblock %}
