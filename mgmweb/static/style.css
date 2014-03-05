@@ -114,6 +114,13 @@ a, h1, h2 {
     text-decoration: none;
 }
 
+p  {
+    margin:1em;
+    font-size:1.1em;
+    font-family: caslonitalic, serif;
+}
+
+
 h1  {
     margin-top: .2em;
     font-size: 3.2em;
@@ -204,7 +211,7 @@ footer {
 
 }
 
-.poem  a {
+a {
     font-family: caslonitalic, serif;
 }
 
@@ -263,6 +270,7 @@ div.frontpageright {
     border: 5px solid #dcc;
     background: white;
     font-family: caslonitalic, serif;
+    padding-top:1em;
 }
 
 #splash a{
@@ -273,8 +281,7 @@ div.frontpageright {
 img#frontpageimage {
     width: 35em;
     display:block;
-    margin: 3em;
-    margin-bottom:1.4em;
+    margin: 1.4em;
     margin-left: auto;
     margin-right: auto;
     
@@ -288,4 +295,41 @@ div#summary {
     margin-bottom: 2em;
     font-size: 1.2em;
 
+}
+
+.filmlist   {
+    width: 40%;
+    margin: 0 auto;
+    border: 5px solid #dcc;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-left: 4em;
+    padding-right: .8em;
+    background: white;
+}
+
+.film{
+    font-family: caslonitalic, serif;
+    margin:0;
+    margin-bottom:.3em;
+}
+
+.filmtitle {
+    text-align:left;
+    font-size:2.2em;
+    margin: 0;
+}
+
+.filmmetadata {
+    text-align:center;
+    margin:0;
+    font-size:1.2em;
+}
+
+.generalpage {
+    width:80%;
+    margin: auto;
+    border: 5px solid #dcc;
+    padding: .4em;
+    background: white;
 }

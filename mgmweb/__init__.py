@@ -6,8 +6,9 @@ from jinja2 import TemplateNotFound
 
 from .drawing_metadata import metadata
 from .frontpage_descriptions import splash_descriptions
+from .film_100 import top100films
 
-application = app = Flask(__name__)
+app = Flask(__name__)
 
 
 @app.route('/')
@@ -76,6 +77,11 @@ def frontpagedescriptions(button):
         return jsonify(splash_descriptions[button])
     except KeyError:
         return jsonify(splash_descriptions['default'])
+
+
+@app.route('/film100/')
+def film100():
+    return render_template('film100.html', films=top100films)
 
 
 @app.errorhandler(404)

@@ -13,18 +13,22 @@
         <h2>drawings</h2>
       </div>
     </a>
-    <div class="page initiator" id="radio">
-      <h2>radio</h2>
-    </div>
+    <a href={{url_for('subpage', path='radio')}}>
+      <div class="page initiator" id="radio">
+        <h2>radio</h2>
+      </div>
+    </a>
     <div class="page initiator" id="academic">
       <h2>academic</h2>
     </div>
     <div class="page initiator" id="projectsanddesign">
       <h2>projects&design</h2>
     </div>
-    <div class="page initiator" id="filmlists">
-      <h2>film lists</h2>
-    </div>
+    <a href={{url_for('film100')}}>
+      <div class="page initiator" id="filmlists">
+        <h2>film lists</h2>
+      </div>
+    </a>
     <a href={{url_for('poetry')}}>
       <div class="page initiator" id="etc">
         <h2>etc</h2>
@@ -33,13 +37,16 @@
     <div class="page initiator" id="jokes">
       <h2>reely phunny jokes</h2>
     </div>
-    <div class="page initiator" id="about">
-      <h2>about</h2>
-    </div>
+    <a href={{url_for('subpage', path='about')}}>
+      <div class="page initiator" id="about">
+        <h2>about</h2>
+      </div>
+    </a>
   </nav>
 </div>
 <div class="frontpageright">
   <div id="splash">
+    <h2>howdy...</h2>
     <img id="frontpageimage" src="{{ splash.img }}", alt="lobster"/>
     <div id="summary">
       {% for line in splash.summary %}

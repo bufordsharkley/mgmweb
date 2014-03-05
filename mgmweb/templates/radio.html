@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="generalpage">
+  <h2>college radio: if you don't listen to it, you're not trying hard enough...</h2>
+  <p>Here's some content about my work in radio.</p>
+  <p>I have a radio show. It is named:</p>
+
+  <img src="{{ url_for('static', filename='bjspresents.png') }}" alt="Buford J Sharkley Presents" style="width:100%;"/>
+
+  <p>Welcome back.</p>
+
+  <p>My show can be heard on KZSU Stanford (90.1 on your FM dial). [LINK TO PLAYLISTS] KZSU Stanford is a place.<br/>
+I have been serving as Program Director for KZSU since 2010. This puts me in charge of scheduling, but the station has given me the opportunity to work on many different things. [LIST GOES HERE]</p>
+
+  <h2>listen...</h2>
+
+  <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague [DJ PJs] along with a few guest appearances.</p>
+
+    <audio controls>
+        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_Show.mp3">
+    </audio>
+    <audio controls>
+        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_II_Holiday_Pheastivities.mp3">
+    </audio>
+    <audio controls>
+        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_III_PheastBQ.mp3">
+    </audio>
+    <audio controls>
+        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_IV_Labor_Day_Pheast.mp3">
+    </audio>
+
+  <p>I have also conducted the running of several bouts of radio dramas at KZSU (culled from ...) Find them <a href="http://nickandnoah.com/bufordjsharkley/">here</a></p>
+  <h2>earful of convoy...</h2>
+
+  <p><a href="//earfulofconvoy.com">COMING SOON.</a></p>
+</div>
+
+{% endblock %}

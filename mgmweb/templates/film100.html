@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="filmlist">
+  <h2>Top 100 films...</h2>
+  <p>This page will eventually contain an introduction.</p>
+  <p>It will also contain a link to the software I pieced together to maintain
+  looking at several dozen film canons.
+  And person recommendations?<br/>
+  Yes! Personal recommendations.
+  There will be a master sheet of recommendations, but here's a top 100 that 
+  I cooked up some years ago.
+  Contents subject to change, etc, etc, etc...</p>
+  <br/>
+  {% for film in films %}
+    <div class="film">
+    {{ film.number }}. 
+    <span class="filmtitle">
+    {{ film.title }}
+    </span>
+    <div class="filmmetadata">
+    {{ film.directorandyear }}
+    </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
