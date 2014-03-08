@@ -1,7 +1,8 @@
 import datetime
 import random
 
-from flask import Flask, render_template, abort, redirect, url_for, jsonify
+from flask import Flask, render_template, abort, redirect, url_for, jsonify,\
+    send_from_directory, request
 from jinja2 import TemplateNotFound
 
 from .drawing_metadata import metadata
@@ -66,8 +67,14 @@ def poetry(opus):
         abort(404)
 
 
+@app.route('/robots.txt')
+@app.route('/humans.txt')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
+
+
 @app.route('/hackers.txt')
-def hackers():
+def hackers_txt():
     return 'site has been hacked at time: {}'.format(datetime.datetime.now())
 
 
