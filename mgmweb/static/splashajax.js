@@ -1,4 +1,5 @@
 function loadForFrontPage() {
+  loadAllDescriptions();
   $('.initiator').on('mouseenter mouseleave', function(e) {
     if (e.type === "mouseleave"){
       loadSummary('default');
@@ -9,8 +10,15 @@ function loadForFrontPage() {
   })  
 }
 
+function loadAllDescriptions() {
+  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions/", function(data) {
+    window.descriptions = data;
+  });
+}
+
+
 function loadSummary(button) {
-  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions/" + button + "/", function(data) {
+    var data = descriptions[button];
     var summary = data.summary;
     var htmlsummary = new Array();
     for (i=0; i < summary.length; i++){
@@ -22,12 +30,6 @@ function loadSummary(button) {
     }
     $("#frontpageimage").attr("src",data.img);
     $("#summary").html(htmlsummary.join(''));
-    /*var splash_height = $('#splash').height();
-    console.log(splash_height);
-    if ( splash_height < 650 ) {
-       $('#splash').attr("height", splash_height);
-    }*/
-  });
 }
 
 

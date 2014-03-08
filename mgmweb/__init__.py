@@ -71,8 +71,11 @@ def hackers():
     return 'site has been hacked at time: {}'.format(datetime.datetime.now())
 
 
+@app.route('/_frontpagedescriptions/', defaults={'button': ''})
 @app.route('/_frontpagedescriptions/<button>/')
 def frontpagedescriptions(button):
+    if not button:
+        return jsonify(splash_descriptions)
     try:
         return jsonify(splash_descriptions[button])
     except KeyError:

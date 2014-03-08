@@ -8,7 +8,7 @@ splash_descriptions = {
     'etc': {'img': '/static/lobster.png',
                 'summary': ["Odds and ends. Doggerel and such.","","","COMING SOON"]},
     'radio': {'img': '/static/lobster.png',
-                'summary': ["KZSU is the radio station of Stanford University.","","I've been doing a show for several years, and have done other work at the station.","","","Links to audio and more.","","","COMING SOON"]},
+                'summary': ["Audio works of musical selection, talk, and radio drama, 2009-present.","","","Via KZSU, the radio station of Stanford University."]},
     'academic': {'img': '/static/lobster.png',
                 'summary': ["I'm a student of structural engineering.","Here, my CV, projects and papers, etc","","","COMING SOON"]},
     'about': {'img': '/static/lobster.png',
