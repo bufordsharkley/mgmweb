@@ -206,10 +206,28 @@ footer {
     padding-right: .8em;
     background: white;
     text-align:left;
-    font-size:1.2em;
+    font-size:1em;
     font-family: caslonitalic, serif;
 
 }
+
+.title {
+    text-align:center;
+    margin-bottom: 3em;
+}
+
+.short_story   {
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid #dcc;
+    background: white;
+    padding:4em;
+    text-align:left;
+    font-size:1em;
+    font-family: caslonitalic, serif;
+
+}
+
 
 a {
     font-family: caslonitalic, serif;

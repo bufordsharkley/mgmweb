@@ -56,13 +56,13 @@ def last_drawing():
     return redirect(url_for('drawing', num=len(metadata)))
 
 
-@app.route('/poetry/', defaults={'opus':''})
-@app.route('/poetry/<path:opus>/')
-def poetry(opus):
+@app.route('/writings/', defaults={'opus':''})
+@app.route('/writings/<path:opus>/')
+def writings(opus):
     if not opus:
-        return render_template('/poetry/index.html')
+        return render_template('/writings/index.html')
     try:
-        return render_template('/poetry/' + opus + '.html')        
+        return render_template('/writings/' + opus + '.html')        
     except TemplateNotFound:
         abort(404)
 

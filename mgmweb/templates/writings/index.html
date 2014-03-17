@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %} - Poetry{% endblock %}
+{% block content %}
+<div class='poem'>
+  POEMS
+  <br/>
+  <br/>
+  <a href="{{url_for('writings', opus='spider')}}">You need not bite a spider</a> 2008
+  <br/>
+  <a href="{{url_for('writings', opus='vagrant')}}">A Message for a Vagrant</a> 2004
+  <br/>
+  <a href="{{url_for('writings', opus='yolk')}}">The Cry of One, Just Stepped into Shoe, Full of Egg Yolk</a> 2004
+  <br/>
+  <br/>
+  STORIES
+  <br/>
+  <br/>
+  <a href="{{url_for('writings', opus='shambeaux')}}">Chapter 1: How Timothy Became a Businessman</a> 2011
+  <br/>
+  <a href="{{url_for('writings', opus='egg_story')}}">Egg Story</a> 2009
+  <br/>
+  <a href="{{url_for('writings', opus='stan')}}">The Unique Situation of Stan</a> 2004
+  <br/>
+</div>
+{% endblock %}
+
+
