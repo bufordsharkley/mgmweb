@@ -114,6 +114,14 @@ a, h1, h2 {
     text-decoration: none;
 }
 
+.content {
+    font-family: caslonitalic, serif;
+}
+
+.banner_under_h2 {
+    margin-top: 2em;
+}
+
 p  {
     margin:1em;
     font-size:1.1em;
@@ -147,6 +155,11 @@ h2  {
     float:left;
 }
 
+.right   {
+    float:right;
+}
+
+
 footer {
     width: 100%;
     clear: both;
@@ -173,6 +186,14 @@ footer {
 
 .huge{
  font-size:8em;   
+}
+
+.largeish{
+ font-size:2em;   
+}
+
+li {
+    margin-bottom: .8em;
 }
 
 .right-wrapper {
@@ -246,6 +267,10 @@ nav.high_level_drawing_nav {
     right:0em;
 }
 
+ul {
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
 
 div.button   {
     width: 11em;

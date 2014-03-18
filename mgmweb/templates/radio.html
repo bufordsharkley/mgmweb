@@ -2,37 +2,68 @@
 {% block content %}
 <div class="generalpage">
   <h2>college radio: if you don't listen to it, you're not trying hard enough...</h2>
-  <p>Here's some content about my work in radio.</p>
-  <p>I have a radio show. It is named:</p>
-
-  <img src="{{ url_for('static', filename='bjspresents.png') }}" alt="Buford J Sharkley Presents" style="width:100%;"/>
-
-  <p>Welcome back.</p>
-
-  <p>My show can be heard on KZSU Stanford (90.1 on your FM dial). [LINK TO PLAYLISTS] KZSU Stanford is a place.<br/>
-I have been serving as Program Director for KZSU since 2010. This puts me in charge of scheduling, but the station has given me the opportunity to work on many different things. [LIST GOES HERE]</p>
-
-  <h2>listen...</h2>
-
-  <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague [DJ PJs] along with a few guest appearances.</p>
+  <img class="banner_under_h2" src="{{ url_for('static', filename='bjspresents.png') }}" alt="Buford J Sharkley Presents" style="width:100%;"/>
+  <p>...is the title of a radio show I've been doing since late 2009, on KZSU Stanford (90.1 on your FM dial).</p>
+  <p>Wanna see playlists? I got playlists.</p>
+  <ul>
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&seq=selUser&viewuser=768">playlists for my themed shows</a> (songs about worms, songs about Jack Klugman, etc&hellip;)</li>
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&seq=selUser&viewuser=1041">playlists for my freeform shows</a> (which are perhaps slightly more listenable)</li>
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&seq=selUser&viewuser=1116">playlists for my shows featuring radio drama</a> (see <a href="#drama">here</a> for more details)</li> 
+  </ul>
+  <p>The ability to listen to these shows? COMING SOON</p>
+  <hr/>
+  <h2>the pheast&hellip;</h2>
+  <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague <a href="http://kristenleach.com/">DJ PJs</a> along with a few guest appearances.</p>
 
     <audio controls>
         <source src="http://nickandnoah.com/old/archives/Trent/Pheast_Show.mp3">
     </audio>
+    The Pheast: November 2011.
+    <br/>
     <audio controls>
         <source src="http://nickandnoah.com/old/archives/Trent/Pheast_II_Holiday_Pheastivities.mp3">
     </audio>
+    Holiday Pheastivities. December 2012.
+    <br/>
     <audio controls>
         <source src="http://nickandnoah.com/old/archives/Trent/Pheast_III_PheastBQ.mp3">
     </audio>
+    PheastBQ. June 2013.
+    <br/>
     <audio controls>
         <source src="http://nickandnoah.com/old/archives/Trent/Pheast_IV_Labor_Day_Pheast.mp3">
     </audio>
+    Labor Day Pheast. September 2013.
+    <br/>
+<hr/>
+  <h2 id="drama">radio drama&hellip;</h2>
+  <p>Acting/radio dramas with friends: enjoyed by many at the station. Hypothetically enjoyed by listeners.</p>
+  <p>Such bouts of radio dramas (scripts culled mainly from the incredible resource <a href="http://www.genericradio.com/">The Generic Radio Workshop</a>) have been happening off and on since early 2012.</p>
+  <p>A history:</p>
+    <ul>
+      <li><a href="http://nickandnoah.com/bufordjsharkley/">Our American Cousin, and a full season of weekly radio plays. Via the website of Nick&amp;Noah (former KZSU royalty).</a></li>
+      <li>A 12-hour marathon, held January 2013. <a href="http://kzsuradioplaymarathon.tumblr.com/">Highlights available here.</a></li>
+      <li>A three-hour session of...</li>
+      <li>Two radio plays: <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-ozzie-and/">a sitcom</a> and <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-amanda-of/">a soap</a>. Featuring acting from Hervey Okkles's own ma and <a href="http://www.emilymollineaux.com">sister</a>.</li>
+      <li>A six-hour mini-marathon, January 2014.</li>
+    </ul>
+<hr/>
+  <h2>assorted content&hellip;</h2>
+    <br/>
+    <ul>
+      <li><a href="https://soundcloud.com/stanford-radio-news/taco-talk/">Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius.</a> December 2012.</li>
+      <li><a href="https://soundcloud.com/stanford-radio-news/horse_ebooks-rip/">horse_ebooks. I host a call-in show, explore my depression.</a> September 2013.</li>
+      <li>[KZSU book club]</li>
+    </ul>
+<hr/>
 
-  <p>I have also conducted the running of several bouts of radio dramas at KZSU (culled from ...) Find them <a href="http://nickandnoah.com/bufordjsharkley/">here</a></p>
-  <h2>earful of convoy...</h2>
-
+  <h2>earful of convoy&hellip;</h2>
+  <img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/>
   <p><a href="//earfulofconvoy.com">COMING SOON.</a></p>
+<hr/>
+  <h2>more about kzsu&hellip;</h2>
+  <p>KZSU Stanford is a place.</p>
+  <p>I have been serving as Program Director for KZSU since 2010. This puts me in charge of scheduling, but the station has given me the opportunity to work on many different things. [LIST GOES HERE]</p>
 </div>
 
 {% endblock %}
