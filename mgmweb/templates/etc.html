@@ -2,8 +2,7 @@
 {% block title %} - Poetry{% endblock %}
 {% block content %}
 <div class='poem'>
-  POEMS
-  <br/>
+  <span class="menschy">POEMS</span>
   <br/>
   <a href="{{url_for('writings', opus='spider')}}">You need not bite a spider</a> 2008
   <br/>
@@ -12,14 +11,18 @@
   <a href="{{url_for('writings', opus='yolk')}}">The Cry of One, Just Stepped into Shoe, Full of Egg Yolk</a> 2004
   <br/>
   <br/>
-  STORIES
-  <br/>
+  <span class="menschy">STORIES</span>
   <br/>
   <a href="{{url_for('writings', opus='shambeaux')}}">Chapter 1: How Timothy Became a Businessman</a> 2011
   <br/>
   <a href="{{url_for('writings', opus='egg_story')}}">Egg Story</a> 2009
   <br/>
   <a href="{{url_for('writings', opus='stan')}}">The Unique Situation of Stan</a> 2004
+  <br/>
+  <br/>
+  <span class="menschy">INFOMERCIALS</span>
+  <br/>
+  <a href="{{url_for('infomercial')}}">Superbo-Cooker</a> 2001
   <br/>
 </div>
 {% endblock %}

@@ -272,6 +272,9 @@ ul {
     margin-bottom: 1em;
 }
 
+.menschy {
+    font-family: MenschRegular;
+}
 div.button   {
     width: 11em;
     clear: right; 

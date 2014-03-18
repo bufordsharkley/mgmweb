@@ -56,11 +56,19 @@ def last_drawing():
     return redirect(url_for('drawing', num=len(metadata)))
 
 
+@app.route('/infomercial/')
+@app.route('/superbocooker/')
+@app.route('/superbo-cooker/')
+@app.route('/superbo_cooker/')
+def infomercial():
+    return redirect(url_for('drawing', num=2))
+
+
 @app.route('/writings/', defaults={'opus':''})
 @app.route('/writings/<path:opus>/')
 def writings(opus):
     if not opus:
-        return render_template('/writings/index.html')
+        return render_template('/etc.html')
     try:
         return render_template('/writings/' + opus + '.html')        
     except TemplateNotFound:
