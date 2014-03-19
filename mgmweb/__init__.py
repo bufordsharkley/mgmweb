@@ -86,6 +86,11 @@ def hackers_txt():
     return 'site has been hacked at time: {}'.format(datetime.datetime.now())
 
 
+@app.route('/<htmlfile>.html/')
+def html_call(htmlfile):
+    return render_template(htmlfile + '.html')
+
+
 @app.route('/_frontpagedescriptions/', defaults={'button': ''})
 @app.route('/_frontpagedescriptions/<button>/')
 def frontpagedescriptions(button):
