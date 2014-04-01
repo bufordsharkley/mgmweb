@@ -216,8 +216,8 @@ var Magnifier = function (evt, options) {
             pos.l = Math.round(l);
             pos.t = Math.round(t);
             
-            curData.lensBgX = pos.l - 15;
-            curData.lensBgY = pos.t - 10;
+            curData.lensBgX = pos.l - 18;
+            curData.lensBgY = pos.t - 8;
 
             if (curData.mode === 'inside') {
                 curData.largeL = Math.round(xPos * (curData.zoom - (curData.lensW / curData.w)));

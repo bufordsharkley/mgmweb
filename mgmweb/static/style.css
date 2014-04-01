@@ -68,6 +68,12 @@ time, mark, audio, video {
     background:transparent;
 }
 
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+    -moz-box-sizing: border-box; /* Needed for Firefox */
+    box-sizing: border-box
+}
+
 /* okay, back to me */
 
 body{
@@ -88,14 +94,21 @@ div.content{
 }
 
 div.drawingpage{
-  width: 660px;
-  display: inline-block;
-    border: 5px solid #dcc;
-    padding: .4em;
+  width: 42.5em;
+  /*display: inline-block;*/
+  border: .5em solid #dcc;
+  margin-left: .6em;
+  /*padding: .4em;
     margin-left:.4em;
-    text-align:center;
+    margin-right: 4em;
+    text-align:center;*/
     background-color:#dcc;
 
+}
+
+.drawingpage img {
+    display:block;
+    margin:auto;
 }
 
 div.drawingtext{
