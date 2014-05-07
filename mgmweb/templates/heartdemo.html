@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Testing Snap</title>
+        <script type="text/javascript" src="{{ url_for('static', filename='snap/snap.svg-min.js') }}"></script>
+    </head>
+    <body>
+      <svg id="heartsvg"></svg>
+        <script type="text/javascript">
+            var s = Snap("#heartsvg");
+            var beatingheart = s.group()
+            var floatingtext = s.group()
+            var listengroup = floatingtext.group()
+
+            var heart = Snap.load("{{ url_for('static', filename='plain_heart.svg') }}", function ( loadedFragment ) {
+                beatingheart.append( loadedFragment );
+                var t = new Snap.Matrix();
+                t.translate(100,100);
+                beatingheart.transform(t,500);
+                beatingheart.mouseover(hoverover);
+                beatingheart.mouseout(hoverout);
+                beatingheart.click(CLICK);
+                setInterval(beat, 1800);
+            });
+
+            var listen = Snap.load("{{ url_for('static', filename='listen.svg') }}", function ( loadedFragment ) {
+                listengroup.append( loadedFragment );
+                var t = new Snap.Matrix();
+                t.translate(135,280);
+                listengroup.transform(t,500);
+                listengroup.attr({ style: "pointer-events: none" });
+            });
+
+            var play = s.path(Snap.format("M 190,275 v 100 l 100,-50 z"));
+
+            play.attr({fill:'white'});
+            play.attr({style: "pointer-events: none" });
+            play.attr({opacity: 0});
+
+            var hoverover = function(){
+                listengroup.attr({opacity: 0});
+                play.attr({opacity: 1});
+            };
+
+            var hoverout = function(){
+                listengroup.attr({opacity: 1});
+                play.attr({opacity: 0});
+            };
+            
+            var beat = function(){
+                beatingheart.animate({ transform: 's.95,250,300,t100,100' }, 50, function(){
+                    beatingheart.animate({ transform: 's1.1,250,300,t100,100' }, 50, function(){
+                        beatingheart.animate({ transform: 's1,250,300,t100,100'}, 200);
+                    });
+                });
+            };
+
+            var CLICK = function(){
+                play.attr({fill: "aquamarine"});
+                console.log("click");
+            }
+        </script>
+    </body>
+</html>

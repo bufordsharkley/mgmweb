@@ -17,6 +17,10 @@ def index():
     return render_template('index.html', splash=splash_descriptions['default'])
 
 
+@app.route('/heartdemo/')
+def heartdemo():
+    return render_template('heartdemo.html')
+
 @app.route('/<path:path>/')
 def subpage(path):
     try:
