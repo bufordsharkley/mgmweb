@@ -53,7 +53,8 @@ def drawing(num):
 @app.route('/drawing/')
 @app.route('/drawing/random/')
 def random_drawing():
-    return redirect(url_for('drawing', num=1+random.randrange(len(metadata))))
+    return render_template('randomdrawing.html', drawcount = len(metadata))
+
 
 @app.route('/drawing/last/')
 def last_drawing():
@@ -81,6 +82,7 @@ def writings(opus):
 
 @app.route('/robots.txt')
 @app.route('/humans.txt')
+@app.route('/hackers.txt')
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
