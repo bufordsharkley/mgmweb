@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MARK MOLLINEAUX GIVES YOU A RANDOM DRAWING</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+        // random integer in range (1, maxdrawingnumber)
+        var drawing = Math.floor(Math.random() * ({{drawcount}} - 2)) + 1;
+        window.location.replace("/drawing/" + drawing + "/");
+    </script>
+  </body>
+</html>
