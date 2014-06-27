@@ -25,6 +25,12 @@ def subpage(path):
         abort(404)
 
 
+        
+@app.route('/slideshowtest/')
+def slideshow_test():
+    return render_template('slideshow_test.html')
+
+
 @app.route('/drawing/<int:num>/')
 def drawing(num):
     try:
