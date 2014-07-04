@@ -80,6 +80,11 @@ def writings(opus):
         abort(404)
 
 
+@app.route('/bridge/')
+def bridge_flowchart():
+    return redirect(url_for('static', filename='BRIDGEFLOWCHART.pdf'))
+
+
 @app.route('/robots.txt')
 @app.route('/humans.txt')
 @app.route('/hackers.txt')
