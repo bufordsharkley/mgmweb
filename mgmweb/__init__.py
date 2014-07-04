@@ -82,7 +82,7 @@ def writings(opus):
 
 @app.route('/bridge/')
 def bridge_flowchart():
-    return redirect(url_for('static', filename='BRIDGEFLOWCHART.pdf'))
+    return send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
 
 
 @app.route('/robots.txt')

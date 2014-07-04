@@ -6,7 +6,7 @@ splash_descriptions = {
     'filmlists': {'img': '/static/lobster.png',
                 'summary': ["Some personal lists about film.","","","A top 100 list, and links to software I developed for tracking film canons","","","COMING SOON"]},
     'etc': {'img': '/static/lobster.png',
-                'summary': ["Odds and ends. Doggerel and such.","","","COMING SOON"]},
+                'summary': ["Odds and ends.", "", "Doggerel and such, and whatever else I can't fit somewhere better on this site."]},
     'radio': {'img': '/static/lobster.png',
                 'summary': ["Audio works of musical selection, talk, and radio drama, 2009-present.","","","Via KZSU, the radio station of Stanford University."]},
     'resume': {'img': '/static/lobster.png',
