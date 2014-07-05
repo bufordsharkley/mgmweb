@@ -1,7 +1,7 @@
 @font-face{ 
-	font-family: 'caslonitalic';
-    src: url('/static/webfonts/adobe_caslon_pro_italic.eot');
-    src: url('/static/webfonts/adobe_caslon_pro_italic.eot?#iefix') format('embedded-opentype'), url('/static/webfonts/adobe_caslon_pro_italic.svg#Adobe Caslon Pro Italic') format('svg'), url('/static/webfonts/adobe_caslon_pro_italic.woff') format('woff'), url('/static/webfonts/adobe_caslon_pro_italic.ttf') format('truetype');
+	font-family: 'italic_oblique';
+    src: url('/static/webfonts/italic_oblique.eot');
+    src: url('/static/webfonts/italic_oblique.eot?#iefix') format('embedded-opentype'), url('/static/webfonts/italic_oblique.svg') format('svg'), url('/static/webfonts/italic_oblique.woff') format('woff'), url('/static/webfonts/italic_oblique.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -128,7 +128,7 @@ a, h1, h2 {
 }
 
 .content {
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 }
 
 .banner_under_h2 {
@@ -138,7 +138,7 @@ a, h1, h2 {
 p  {
     margin:1em;
     font-size:1.1em;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 }
 
 
@@ -150,7 +150,7 @@ h1  {
 h2  {
     font-size: 2.22em;
     color:#baa;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
     text-align:right;
 }
 
@@ -221,7 +221,7 @@ li {
 }
 
 .drawingtext{
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 
 }
 
@@ -241,7 +241,7 @@ li {
     background: white;
     text-align:left;
     font-size:1em;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 
 }
 
@@ -258,13 +258,13 @@ li {
     padding:4em;
     text-align:left;
     font-size:1em;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 
 }
 
 
 a {
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 }
 
 
@@ -297,13 +297,13 @@ div.button   {
     padding: .24em;
     background: white;
     text-align:right;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 }
 
 div.button a{
     font-size: 2.22em;
     color:#baa;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
     text-decoration:none;
 }
 
@@ -328,12 +328,12 @@ div.frontpageright {
     margin-top:1em;
     border: 5px solid #dcc;
     background: white;
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
     padding-top:1em;
 }
 
 #splash a{
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
 }
 
 
@@ -368,7 +368,7 @@ div#summary {
 }
 
 .film{
-    font-family: caslonitalic, serif;
+    font-family: italic_oblique, serif;
     margin:0;
     margin-bottom:.3em;
 }
