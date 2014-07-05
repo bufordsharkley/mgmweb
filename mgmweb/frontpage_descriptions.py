@@ -12,10 +12,10 @@ splash_descriptions = {
     'resume': {'img': '/static/lobster.png',
                 'summary': ["My CV."]},
     'about': {'img': '/static/lobster.png',
-                'summary': ["Personal bio, etc, etc.","","","COMING SOON"]},
+                'summary': ["Personal bio, etc, etc."]},
     'projectsanddesign': {'img': '/static/lobster.png',
                 'summary': ["Graphic design, non-graphic design, etc.","","","COMING SOON"]},
     'jokes': {'img': '/static/lobster.png',
-                'summary': ["Info about an upcoming jokebook with lotsa yuks.","","","COMING SOON"]},
+                'summary': ["Info about an upcoming jokebook with lotsa yuks."]},
 
 }
