@@ -19,4 +19,4 @@
     Language: English
     Standards: HTML5, CSS3, PEP8
     Components: Flask, magnifier.js, jQuery
-    Software: python, gedit, Inkscape, git
+    Software: python, vim, Inkscape, git
