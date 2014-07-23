@@ -17,10 +17,6 @@ def index():
     return render_template('index.html', splash=splash_descriptions['default'])
 
 
-@app.route('/heartdemo/')
-def heartdemo():
-    return render_template('heartdemo.html')
-
 @app.route('/<path:path>/')
 def subpage(path):
     try:
@@ -80,6 +76,11 @@ def writings(opus):
         abort(404)
 
 
+@app.route('/bridge/')
+def bridge_flowchart():
+    return send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
+
+
 @app.route('/robots.txt')
 @app.route('/humans.txt')
 @app.route('/hackers.txt')
@@ -108,14 +109,20 @@ def frontpagedescriptions(button):
         return jsonify(splash_descriptions['default'])
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
+# as of yet un-documented routes:
 @app.route('/film100/')
 def film100():
     return render_template('film100.html', films=top100films)
 
 
-@app.errorhandler(404)
-def page_not_found(e):
-    return render_template('404.html'), 404
+@app.route('/heartdemo/')
+def heartdemo():
+    return render_template('heartdemo.html')
 
 
 if __name__ == '__main__':
