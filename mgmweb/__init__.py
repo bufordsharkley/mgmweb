@@ -88,11 +88,6 @@ def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
 
-@app.route('/hackers.txt')
-def hackers_txt():
-    return 'site has been hacked at time: {}'.format(datetime.datetime.now())
-
-
 @app.route('/<htmlfile>.html/')
 def html_call(htmlfile):
     return render_template(htmlfile + '.html')
@@ -113,13 +108,11 @@ def frontpagedescriptions(button):
 def page_not_found(e):
     return render_template('404.html'), 404
 
-
-# as of yet un-documented routes:
 @app.route('/film100/')
 def film100():
     return render_template('film100.html', films=top100films)
 
-
+# as of yet un-documented routes:
 @app.route('/heartdemo/')
 def heartdemo():
     return render_template('heartdemo.html')

@@ -1,15 +1,18 @@
 {% extends "layout.html" %}
 {% block content %}
 <div class="filmlist">
-  <h2>Top 100 films...</h2>
-  <p>This page will eventually contain an introduction.</p>
-  <p>It will also contain a link to the software I pieced together to maintain
-  looking at several dozen film canons.
-  And person recommendations?<br/>
-  Yes! Personal recommendations.
-  There will be a master sheet of recommendations, but here's a top 100 that 
-  I cooked up some years ago.
-  Contents subject to change, etc, etc, etc...</p>
+  <h2>a webpage about films...</h2>
+  <p>This will eventually contain things. I used to be able to have time to watch 300+ movies a year, and I feel like listing things here. Because it's my website, and you're not the boss of me.</p>
+  <ul>
+    <li>Information on software I've written and use to maintain looking over several dozen film canons</li>
+    <li>Personal recommendations</li>
+    <li>Perhaps a database of all films I've ever seen, mostly as a convenience to myself</li>
+    <li>Yeah&hellip; that's essentially it.</li>
+  </ul>
+  <h2>top 100 films...</h2>
+  <p>But for now, here's <i>something</i>, a top 100 list I cooked up
+  several years ago. <br/>
+  I'm not sure I stand behind all the choices below; the contents are subject to change; etc, etc, etc&hellip;</p>
   <br/>
   {% for film in films %}
     <div class="film">
