@@ -2,14 +2,18 @@
 {% block head %}
 {{super()}}
 <style type="text/css">
+  .container:after{
+    clear: both;
+    content: "";
+    display: block;
+  }
   .container div{
     float: left;
-    width: 20%;
+    width: 50%;
   }
   img {
-    width: auto;
+    width: 100%;
   }
-}
 </style>
 {% endblock %}
 {% block content %}
@@ -25,7 +29,7 @@
 	    A Tomfool's Compendium of Reely Phunny Jokes (aka "A Snapster's Compendium of Dinosaur, Prohibition, Subway, Hair, Beach, and Hamburger Jokes") is an upcoming jokebook of considerable excitement.
           </p>
           <p>
-	    Ita will exist at some undetermined time in the future. Stay posted.
+	    It will exist at some undetermined time in the future. Stay posted.
           </p>
         </div>
       </div>
