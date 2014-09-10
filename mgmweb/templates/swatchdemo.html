@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Swatch Internet Time</title>
+    <script type="text/javascript" src="{{ url_for('static', filename='snap/snap.svg-min.js') }}"></script>
+    <style type="text/css">
+      .time{
+        font-family: existence, fira sans, sans-serif, fira sans;/*, existence, sans-serif;*/
+        font-weight: lighter;
+        font-size: 8em;
+        fill: white;
+      }
+      body {
+      /* overwrite so it's a pure white page */
+        background-color: #000000;
+        /*padding: 0;
+        background-image: none;*/
+      }
+    </style>
+  </head>
+  <body>
+    <svg id="heartsvg"></svg>
+      <script type="text/javascript">
+        var s = Snap("#heartsvg");
+        var timetext = s.group()
+        var time = timetext.text(100,0,getSwatchTime()).attr({class: "time"});
+        //time.addClass("time");
+        var t = new Snap.Matrix();
+        t.translate(0,100);
+        timetext.transform(t);
+
+        function getSwatchTime() {
+            var d = new Date();
+            var h = d.getHours();
+            var m = d.getMinutes();
+            var s = d.getSeconds();
+            var tzoff = 60 + d.getTimezoneOffset();
+            var time = '@' + ('000'+Math.floor((h * 3600 + (m + tzoff) * 60 + s) / 86.4) % 1000).slice(-3);
+            return time + ".beats";
+        }
+      </script>
+  </body>
+</html>

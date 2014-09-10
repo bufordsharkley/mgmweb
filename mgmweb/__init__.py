@@ -117,6 +117,9 @@ def film100():
 def heartdemo():
     return render_template('heartdemo.html')
 
+@app.route('/beats/')
+def swatchtimedemo():
+    return render_template('swatchdemo.html')
 
 if __name__ == '__main__':
     application.run(debug=True)
