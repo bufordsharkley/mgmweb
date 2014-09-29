@@ -1,9 +1,10 @@
 import datetime
-import random
+import os
 
 from flask import Flask, render_template, abort, redirect, url_for, jsonify,\
-    send_from_directory, request
+    send_from_directory, request, Markup
 from jinja2 import TemplateNotFound
+import markdown2
 
 from .drawing_metadata import metadata
 from .frontpage_descriptions import splash_descriptions
@@ -71,9 +72,22 @@ def writings(opus):
     if not opus:
         return render_template('/etc.html')
     try:
-        return render_template('/writings/' + opus + '.html')        
+        return render_template('/writings/' + opus + '.html')
     except TemplateNotFound:
         abort(404)
+
+
+@app.route('/markdownwriting/<title>/')
+def writing_with_markdown(title):
+    filepath = os.path.join(app.static_folder, 'writings',
+                            '{}.md'.format(title))
+    try:
+        with open(filepath) as f:
+            content = f.read()
+    except IOError:
+        abort(404)
+    content = Markup(markdown2.markdown(content, extras=["smarty-pants"]))
+    return render_template('/poem.html', content=content)
 
 
 @app.route('/bridge/')
