@@ -71,7 +71,7 @@ def writings(opus):
     if not opus:
         return render_template('/etc.html')
     try:
-        return render_template('/writings/' + opus + '.html')        
+        return render_template('/writings/' + opus + '.html')
     except TemplateNotFound:
         abort(404)
 
@@ -84,6 +84,7 @@ def bridge_flowchart():
 @app.route('/robots.txt')
 @app.route('/humans.txt')
 @app.route('/hackers.txt')
+@app.route('/keybase.txt')
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
