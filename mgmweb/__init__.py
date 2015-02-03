@@ -109,6 +109,11 @@ def frontpagedescriptions(button):
 def page_not_found(e):
     return render_template('404.html'), 404
 
+@app.errorhandler(500)
+@app.route('/500/', defaults={'e': 'e'})
+def page_error(e):
+    return render_template('error.html'), 404
+
 @app.route('/film100/')
 def film100():
     return render_template('film100.html', films=top100films)
