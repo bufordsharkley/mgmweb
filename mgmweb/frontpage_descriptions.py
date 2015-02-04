@@ -8,7 +8,7 @@ splash_descriptions = {
                             "This site contains things I've done.",
                             "",
                             "",
-                            "Check out my <a href=\"//github.com/bufordsharkley/\">github</a> or <a href=\"//twitter.com/bufordsharkley/\">twitter</a>. No linkedin, because linkedin is spam, and pretty gross."]},
+                            "Check out my <a href=\"//github.com/bufordsharkley/\">github</a> or <a href=\"//twitter.com/bufordsharkley/\">twitter</a>. Or <a href=\"//keybase.io/mgm/\">keybase</a>, if you want to send me a secret message. No linkedin, because linkedin is spam, and pretty gross."]},
     'drawings': {'img': '/static/lobster.png',
                 'summary': ['Drawings and sketches, 2001-present.',"","","The medium is ballpoint pen and notebook paper."]},
     'filmlists': {'img': '/static/lobster.png',
