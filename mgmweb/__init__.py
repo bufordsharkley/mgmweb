@@ -83,6 +83,7 @@ def bridge_flowchart():
 
 @app.route('/robots.txt')
 @app.route('/humans.txt')
+@app.route('/friends.txt')
 @app.route('/hackers.txt')
 @app.route('/keybase.txt')
 def static_from_root():
