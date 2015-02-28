@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-"""Tests for the Flask Heroku template."""
+"""Tests for the Flask Heroku template.
+
+This persists from a Heroku boilerplate. TODO:
+expand on it."""
 
 import unittest
 from app import app
