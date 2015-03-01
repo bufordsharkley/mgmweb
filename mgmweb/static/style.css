@@ -323,7 +323,7 @@ div.frontpageright {
 }
 
 #splash   {
-    min-height: 40.5em;
+    height: 45em;
     width: 100%;
     margin-top:1em;
     border: 5px solid #dcc;
