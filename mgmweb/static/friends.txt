@@ -1,3 +1,4 @@
+friendstxt = "
 # prototype friends.txt, for the friends.txt webring
 Alan Joyce, http://thisisalan.com
 AJ Ferrick, http://ajferrick.com
@@ -8,3 +9,5 @@ Nick Tatonetti, http://nickandnoah.com
 Truc Nguyen, http://trucnguyen.org
 Jin Zhu, http://www.killeryellow.com
 Noah Zimmerman, http://nickandnoah.com /* repetition of a site for two people it represents... */
+# don't forget this line
+"
