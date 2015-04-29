@@ -24,6 +24,8 @@ splash_descriptions = {
                 'summary': ["Audio works of musical selection, talk, and radio drama, 2009-present.","","","Via KZSU, the radio station of Stanford University."]},
     'resume': {'img': '/static/lobster.png',
                 'summary': ["My CV."]},
+    'faqs': {'img': '/static/lobster.png',
+                'summary': ['A list of F.A.Q.s']},
     'about': {'img': '/static/lobster.png',
                 'summary': ["Personal bio, etc, etc."]},
     'projectsanddesign': {'img': '/static/lobster.png',
