@@ -27,14 +27,14 @@
     </div>
     <!-- webring gets inserted between the end of the body, but missing anything with footer
     tag, or with class or id = footer -->
-    <div id="friendstxt_webring" style="display:block;background-color:#ff0;clear:both;margin-top:20em;margin-left:auto;margin-right:auto;width:30em;">
-      <div style="text-align:center">webring</div>
-      <div style="display: inline-block;vertical-align:top;width:7em;">previous</div>
-      <div style="display: inline-block;vertical-align:top;width:15em;">
-        <div>some friend's name</div>
-        <div><a href="http://example.com" target="_blank">some friend's site</a></div>
+    <div id="friendstxt_webring" style="display:block;background-color:#fff;clear:both;margin-top:20em;margin-left:auto;margin-right:auto;width:30em;">
+      <div style="text-align:center"><h3>friends.txt webring</h3></div>
+      <div style="display: inline-block;text-align:center;vertical-align:top;width:7em; cursor: pointer;" onClick="friendstxt_carousel('left')">&lt;</div>
+      <div style="display: inline-block;text-align:center;vertical-align:top;width:15em;">
+        <h4 id="friendstxt_webring_name">some friend's name</h4>
+        <a href="http://example.com" target="_blank" id="friendstxt_webring_url">some friend's site</a>
       </div>
-      <div style="display: inline-block;vertical-align:top;width:7em;">next</div>
+      <div style="display: inline-block;vertical-align:top;width:7em; cursor: pointer;" onClick="friendstxt_carousel('right')">&gt;</div>
     </div>
     {% block footer %}
     <footer>
