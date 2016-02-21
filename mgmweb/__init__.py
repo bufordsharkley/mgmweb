@@ -110,14 +110,21 @@ def frontpagedescriptions(button):
 def page_not_found(e):
     return render_template('error.html'), 404
 
+
 @app.errorhandler(500)
 @app.route('/500/', defaults={'e': 'e'})
 def page_error(e):
     return render_template('error.html'), 404
 
+
 @app.route('/film100/')
 def film100():
     return render_template('film100.html', films=top100films)
+
+
+@app.route('/garfield/')
+def garfield_mirror():
+    return render_template('garfield.html')
 
 # as of yet un-documented routes:
 @app.route('/heartdemo/')
