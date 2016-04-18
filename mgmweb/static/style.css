@@ -80,12 +80,117 @@ time, mark, audio, video {
 body{
     background: #eee; 
     font-family: serif;
+    max-width:100%;
 }
 
 nav{
   width: 720px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+
+  .name_part {
+    font-size: .01em;
+
+  }
+
+  .name_part:first-letter {
+    font-size:100em;
+    }
+
+  .boxy {
+    display: inline-block;
+
+  }
+
+  body div.frontpageleft {
+    float: none;
+    width: 100%;
+    !important;
+  }
+
+
+  body div.frontpageright {
+    float: none;
+    width: 100%;
+    padding: 0;
+    !important;
+  }
+
+  .frontpagenav .boxy {
+    max-width: 49%;
+    margin: 0 auto;
+
+  }
+
+  .content .short_story {
+    padding: 5%;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+
+  }
+
+  body nav.frontpagenav {
+    width: 100%;
+    margin: 0em auto;
+
+  }
+  
+
+}
+
+.frontpagenav .boxy {
+  height: 4em;
+  width: 60em;
+}
+
+
+.banner .name_part {
+  display: inline-block;
+
+}
+
+a, h1, h2 {
+    color: #147ca8;
+    line-height: .9;
+    font-family: MenschRegular, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+    text-decoration: none;
+}
+
+a {
+    font-family:  italic_oblique, serif;
+}
+
+p  {
+    margin:1em;
+    font-size:1.1em;
+    font-family: italic_oblique, serif;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+
+h1  {
+    margin-top: .2em;
+    font-size: 3.2em;
+}
+
+h2  {
+    font-size: 2.22em;
+    color:#baa;
+    font-family: italic_oblique, serif;
+    text-align:right;
+    text-transform: lowercase;
+}
+
+div {
+  max-width:100%;
 }
 
 div.content{
@@ -118,15 +223,10 @@ div.drawingtext{
 
 nav.frontpagenav{
   width: 320px;
+  max-width: 100%;
   margin-left:0;
 }
 
-a, h1, h2 {
-    color: #147ca8;
-    line-height: .9;
-    font-family: MenschRegular, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
-    text-decoration: none;
-}
 
 .content {
     font-family:  italic_oblique, serif;
@@ -136,33 +236,19 @@ a, h1, h2 {
     margin-top: 2em;
 }
 
-p  {
-    margin:1em;
-    font-size:1.1em;
-    font-family:  italic_oblique, serif;
-}
-
-
-h1  {
-    margin-top: .2em;
-    font-size: 3.2em;
-}
-
-h2  {
-    font-size: 2.22em;
-    color:#baa;
-    font-family:  italic_oblique, serif;
-    text-align:right;
-}
-
-.page   {
-    display: inline-block;
-    width:100%;
+.boxy  {
     margin: 1em auto;
     border: 5px solid #dcc;
     padding: .4em;
     background: white;
     text-align:center;
+    overflow:hidden;
+}
+
+.banner  {
+    display: inline-block;
+    width:100%;
+    overflow: hidden;
 }
 
 .left   {
@@ -185,7 +271,6 @@ footer {
 {
     width: 100%;
     height:100%;
-    overflow:hidden;
 }
 
 .left-wrapper, .right-wrapper {
@@ -264,10 +349,6 @@ li {
 }
 
 
-a {
-    font-family:  italic_oblique, serif;
-}
-
 
 nav.button_panel {
     position:absolute;
@@ -289,6 +370,7 @@ ul {
 .menschy {
     font-family: MenschRegular;
 }
+
 div.button   {
     width: 11em;
     clear: right; 
@@ -315,11 +397,12 @@ div.drawingnumdate {
 div.frontpageleft {
     float:left;
     width:35%;
+    margin-right: 3%;
 }
 
 div.frontpageright {
     float:right;
-    width:65%;
+    width:62%;
     padding-top:1em;
 }
 

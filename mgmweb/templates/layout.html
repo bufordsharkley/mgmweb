@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/plain" rel="author" href="/humans.txt" />
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     {% block head %}
@@ -16,9 +17,9 @@
   <body onload="{% block bodyonload %}{% endblock %}">
     <nav>
       <a href="{{url_for('index')}}">
-        <div class=page>
-          <h1>mark grover mollineaux</h1>
-          <h2>the website</h2>
+        <div class="boxy banner">
+          <h1><div class="name_part">Mark</div> <div class="name_part">Grover</div> <div class="name_part">Mollineaux</div></h1>
+          <h2>The website</h2>
         </div>
       </a>
     </nav>
