@@ -89,6 +89,7 @@ nav{
   margin: 0 auto;
 }
 
+
 @media screen and (max-width: 480px) {
 
   .name_part {
@@ -96,7 +97,7 @@ nav{
 
   }
 
-  .name_part:first-letter {
+  .name_part::first-letter {
     font-size:100em;
     }
 
@@ -138,8 +139,6 @@ nav{
     margin: 0em auto;
 
   }
-  
-
 }
 
 .frontpagenav .boxy {
@@ -158,6 +157,7 @@ a, h1, h2 {
     line-height: .9;
     font-family: MenschRegular, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
     text-decoration: none;
+    font-weight: normal;
 }
 
 a {
