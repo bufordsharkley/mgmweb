@@ -1,15 +1,16 @@
 import datetime
 import random
 
-from flask import Flask, render_template, abort, redirect, url_for, jsonify,\
-    send_from_directory, request
+import flask
+from flask import render_template, request
 from jinja2 import TemplateNotFound
+import markdown
 
 from .drawing_metadata import metadata
 from .frontpage_descriptions import splash_descriptions
 from .film_100 import top100films
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
 @app.route('/')
@@ -22,7 +23,7 @@ def subpage(path):
     try:
         return render_template(path + '.html')
     except TemplateNotFound:
-        abort(404)
+        flask.abort(404)
 
 
 @app.route('/drawing/<int:num>/')
@@ -35,7 +36,7 @@ def drawing(num):
             firstorlast = 'first'
         metadatum = sorted(metadata, key=lambda k: k['number'])[num-1]
     except IndexError:
-        abort(404)
+        flask.abort(404)
     return render_template('drawing.html',
                            number=metadatum['number'],
                            small_src=metadatum['image']['src_small'],
@@ -54,7 +55,7 @@ def random_drawing():
 
 @app.route('/drawing/last/')
 def last_drawing():
-    return redirect(url_for('drawing', num=len(metadata)))
+    return flask.redirect(flask.url_for('drawing', num=len(metadata)))
 
 
 @app.route('/infomercial/')
@@ -62,7 +63,7 @@ def last_drawing():
 @app.route('/superbo-cooker/')
 @app.route('/superbo_cooker/')
 def infomercial():
-    return redirect(url_for('drawing', num=2))
+    return flask.redirect(flask.url_for('drawing', num=2))
 
 
 @app.route('/writings/', defaults={'opus':''})
@@ -73,12 +74,12 @@ def writings(opus):
     try:
         return render_template('/writings/' + opus + '.html')
     except TemplateNotFound:
-        abort(404)
+        flask.abort(404)
 
 
 @app.route('/bridge/')
 def bridge_flowchart():
-    return send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
+    return flask.send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
 
 
 @app.route('/robots.txt')
@@ -87,7 +88,7 @@ def bridge_flowchart():
 @app.route('/hackers.txt')
 @app.route('/keybase.txt')
 def static_from_root():
-    return send_from_directory(app.static_folder, request.path[1:])
+    return flask.send_from_directory(app.static_folder, request.path[1:])
 
 
 @app.route('/<htmlfile>.html/')
@@ -99,11 +100,11 @@ def html_call(htmlfile):
 @app.route('/_frontpagedescriptions/<button>/')
 def frontpagedescriptions(button):
     if not button:
-        return jsonify(splash_descriptions)
+        return flask.jsonify(splash_descriptions)
     try:
-        return jsonify(splash_descriptions[button])
+        return flask.jsonify(splash_descriptions[button])
     except KeyError:
-        return jsonify(splash_descriptions['default'])
+        return flask.jsonify(splash_descriptions['default'])
 
 
 @app.errorhandler(404)
@@ -125,6 +126,16 @@ def film100():
 @app.route('/garfield/')
 def garfield_mirror():
     return render_template('garfield.html')
+
+
+@app.route('/mediumish/<post>')
+def mediumish(post):
+    source = app.open_resource('static/markdown/{}.md'.format(post)).read()
+    source = unicode(source, 'utf-8')
+    content = flask.Markup(markdown.markdown(source))
+    title = post.replace('_', ' ')
+    return flask.render_template('mediumish.html', **locals())
+
 
 # as of yet un-documented routes:
 @app.route('/heartdemo/')

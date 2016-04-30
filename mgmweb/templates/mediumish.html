@@ -1,0 +1,13 @@
+<html>
+  <head>
+    {% if title -%}
+      <title>{{ title  }}</title>
+    {%- else -%}
+      <title>title</title>
+    {%- endif %}
+    <link rel="stylesheet" type="text/css" media="screen"  href="/static/mediumish.css" />
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
