@@ -90,7 +90,7 @@ nav{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
 
   .name_part {
     font-size: .01em;
@@ -126,8 +126,11 @@ nav{
 
   }
 
+   body div.content {
+     width: 100%; !important
+   }
+
   .content .short_story {
-    padding: 5%;
     margin: 0 auto;
     max-width: 100%;
     width: 100%;
@@ -139,6 +142,23 @@ nav{
     margin: 0em auto;
 
   }
+
+  .content .page   {
+    padding: 5%;
+  }
+  
+  .page ul {
+    margin-left: 5%;
+
+  }
+
+  .content .poem p {
+    padding: 0%;
+    margin-left: 0%;
+    font-size: .9em;
+  }
+
+
 }
 
 .frontpagenav .boxy {
@@ -170,6 +190,11 @@ p  {
     font-family: italic_oblique, serif;
 }
 
+footer {
+    font-size:3.1em;
+
+}
+
 img {
   max-width: 100%;
 
@@ -189,12 +214,17 @@ h2  {
     text-transform: lowercase;
 }
 
+h4  {
+    font-family: mensch, serif;
+    text-transform: uppercase;
+}
+
 div {
   max-width:100%;
 }
 
 div.content{
-  width: 1220px;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -229,7 +259,7 @@ nav.frontpagenav{
 
 
 .content {
-    font-family:  italic_oblique, serif;
+    font-family: italic_oblique, serif;
 }
 
 .banner_under_h2 {
@@ -264,7 +294,7 @@ footer {
     width: 100%;
     clear: both;
     position: relative;
-    font-size: 0.82em;
+    font-size: 1.1em;
 }
 
 .mid-section
@@ -316,19 +346,41 @@ li {
     margin-top:1em;
 }
 
-.poem   {
-    width: 40%;
+
+.page   {
+    width: 100%;
     margin: 0 auto;
     border: 5px solid #dcc;
-    padding-top: 3em;
-    padding-bottom: 4em;
-    padding-left: 4em;
-    padding-right: .8em;
     background: white;
+    padding: 4em;
     text-align:left;
     font-size:1em;
+    line-height:1.5;
     font-family:  italic_oblique, serif;
+}
 
+
+.poem {
+    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-left: 20%;
+    padding-right: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.poem h2 {
+  line-height: 1.2em;
+  margin-top: 
+}
+
+
+.poem p {
+   white-space: nowrap;
+}
+
+.poem footer {
+  text-align: right
 }
 
 .title {
@@ -467,12 +519,4 @@ div#summary {
     text-align:center;
     margin:0;
     font-size:1.2em;
-}
-
-.generalpage {
-    width:80%;
-    margin: auto;
-    border: 5px solid #dcc;
-    padding: .4em;
-    background: white;
 }

@@ -1,39 +1,31 @@
 {% extends "layout.html" %}
 {% block title %} - Poetry{% endblock %}
 {% block content %}
-<div class='poem'>
-  <span class="menschy">POEMS</span>
-  <br/>
-  <a href="{{url_for('writings', opus='spider')}}">You need not bite a spider</a> 2008
-  <br/>
-  <a href="{{url_for('writings', opus='vagrant')}}">A Message for a Vagrant</a> 2004
-  <br/>
-  <a href="{{url_for('writings', opus='yolk')}}">The Cry of One, Just Stepped into Shoe, Full of Egg Yolk</a> 2004
-  <br/>
-  <br/>
-  <span class="menschy">STORIES</span>
-  <br/>
-  <a href="{{url_for('writings', opus='shambeaux')}}">Chapter 1: How Timothy Became a Businessman</a> 2011
-  <br/>
-  <a href="{{url_for('writings', opus='egg_story')}}">Egg Story</a> 2009
-  <br/>
-  <a href="{{url_for('writings', opus='stan')}}">The Unique Situation of Stan</a> 2004
-  <br/>
-  <br/>
-  <span class="menschy">INFOMERCIALS</span>
-  <br/>
-  <a href="{{url_for('infomercial')}}">Superbo-Cooker</a> 2001
-  <br/>
-  <br/>
-  <span class="menschy">FLOWCHARTS ABOUT HOW TO BID ON CONTRACT BRIDGE</span>
-  <br/>
-  <a href="{{url_for('bridge_flowchart')}}">Bridge flowchart</a> 2011
-  <br/>
-  <br/>
-  <span class="menschy">A TIME MY CHARACTER WAS ASSASSINATED BY THE ADMIN ON THE GARFIELD WIKI</span>
-  <br/>
-  <a href="{{url_for('garfield_mirror')}}">Garfield: Comic Errors</a> 2016
-  <br/>
+<div class='page'>
+  <h4>POEMS</h4>
+  <ul>
+  {% for poem in poems %}
+  <li> <a href="{{url_for('poems', opus=poem[2])}}">{{poem[0]}}</a> {{poem[1]}} </li>
+  {% endfor %}
+  </ul>
+  <h4>STORIES</h4>
+  <ul>
+    <li> <a href="{{url_for('writings', opus='shambeaux')}}">Chapter 1: How Timothy Became a Businessman</a> 2011 </li>
+    <li> <a href="{{url_for('writings', opus='egg_story')}}">Egg Story</a> 2009 </li>
+    <li> <a href="{{url_for('writings', opus='stan')}}">The Unique Situation of Stan</a> 2004 </li>
+  </ul>
+  <h4>INFOMERCIALS</h4>
+  <ul>
+    <li> <a href="{{url_for('infomercial')}}">Superbo-Cooker</a> 2001 </li>
+  </ul>
+  <h4>FLOWCHARTS ABOUT HOW TO BID ON CONTRACT BRIDGE</h4>
+  <ul>
+    <li> <a href="{{url_for('bridge_flowchart')}}">Bridge flowchart</a> 2011 </li>
+  </ul>
+  <h4>A TIME MY CHARACTER WAS ASSASSINATED BY THE ADMIN ON THE GARFIELD WIKI</h4>
+  <ul>
+    <li><a href="{{url_for('garfield_mirror')}}">Garfield: Comic Errors</a> 2016</li>
+  </ul>
 </div>
 {% endblock %}
 

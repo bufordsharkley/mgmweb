@@ -1,9 +1,10 @@
 import datetime
+import os
 import random
+import re
 
 import flask
-from flask import render_template, request
-from jinja2 import TemplateNotFound
+import jinja2
 import markdown
 
 from .drawing_metadata import metadata
@@ -15,16 +16,30 @@ app = flask.Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html', splash=splash_descriptions['default'])
+    return flask.render_template('index.html',
+                                 splash=splash_descriptions['default'])
 
 
 @app.route('/<path:path>/')
 def subpage(path):
     try:
-        return render_template(path + '.html')
-    except TemplateNotFound:
+        return flask.render_template(path + '.html')
+    except jinja2.TemplateNotFound:
         flask.abort(404)
 
+
+@app.route('/etc')
+def etc():
+    poem_dir = os.path.join(app.root_path, 'static/markdown/poems')
+    poems = []
+    for poem in os.listdir(poem_dir):
+        src = app.open_resource(os.path.join(poem_dir, poem)).read()
+        link = poem.rsplit('.md', 1)[0]
+        title = _extract_title(src)
+        year = _extract_year(src)
+        poems.append((title, year, link))
+    poems.sort(key=lambda x: x[1], reverse=True)
+    return flask.render_template('etc.html', poems=poems)
 
 @app.route('/drawing/<int:num>/')
 def drawing(num):
@@ -37,7 +52,7 @@ def drawing(num):
         metadatum = sorted(metadata, key=lambda k: k['number'])[num-1]
     except IndexError:
         flask.abort(404)
-    return render_template('drawing.html',
+    return flask.render_template('drawing.html',
                            number=metadatum['number'],
                            small_src=metadatum['image']['src_small'],
                            large_src=metadatum['image']['src_large'],
@@ -50,7 +65,8 @@ def drawing(num):
 @app.route('/drawing/')
 @app.route('/drawing/random/')
 def random_drawing():
-    return render_template('randomdrawing.html', drawcount = len(metadata))
+    return flask.render_template('randomdrawing.html',
+                                 drawcount = len(metadata))
 
 
 @app.route('/drawing/last/')
@@ -66,15 +82,52 @@ def infomercial():
     return flask.redirect(flask.url_for('drawing', num=2))
 
 
-@app.route('/writings/', defaults={'opus':''})
+@app.route('/writings/')
+def all_writings():
+    return flask.redirect(flask.url_for('subpage', path='etc'))
+    try:
+        return flask.render_template('/writings/' + opus + '.html')
+    except jinja2.TemplateNotFound:
+        flask.abort(404)
+
+
 @app.route('/writings/<path:opus>/')
 def writings(opus):
-    if not opus:
-        return render_template('/etc.html')
     try:
-        return render_template('/writings/' + opus + '.html')
-    except TemplateNotFound:
+        return flask.render_template('/writings/' + opus + '.html')
+    except jinja2.TemplateNotFound:
         flask.abort(404)
+
+
+@app.route('/poems/<opus>')
+def poems(opus):
+    try:
+        src = app.open_resource('static/markdown/poems/{}.md'.format(opus))
+    except IOError:
+        flask.abort(404)
+    src = src.read()
+    year = _extract_year(src)
+    # replace regular line breaks with two spaces so markdown sees line breaks:
+    src = re.sub(r'([^\n])\n', r'\1  \n', src)
+    src = unicode(src, 'utf-8')
+    content = flask.Markup(markdown.markdown(src))
+    title = opus.replace('_', ' ')
+    return flask.render_template('poem.html', **locals())
+
+
+# some markdown stuff TODO: move to separate module
+def _extract_year(text):
+    try:
+        meta = text.split('(META')[1].split(')',1)[0]
+        meta = [x.split(':') for x in meta.split(';')]
+        meta = {k: v for k, v in meta}
+        return meta['year']
+    except (IndexError, KeyError):
+        return ''
+
+
+def _extract_title(text):
+    return text.split('##')[1].split('\n')[0]
 
 
 @app.route('/bridge/')
@@ -88,12 +141,12 @@ def bridge_flowchart():
 @app.route('/hackers.txt')
 @app.route('/keybase.txt')
 def static_from_root():
-    return flask.send_from_directory(app.static_folder, request.path[1:])
+    return flask.send_from_directory(app.static_folder, flask.request.path[1:])
 
 
 @app.route('/<htmlfile>.html/')
 def html_call(htmlfile):
-    return render_template(htmlfile + '.html')
+    return flask.render_template(htmlfile + '.html')
 
 
 @app.route('/_frontpagedescriptions/', defaults={'button': ''})
@@ -109,23 +162,23 @@ def frontpagedescriptions(button):
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('error.html'), 404
+    return flask.render_template('error.html'), 404
 
 
 @app.errorhandler(500)
 @app.route('/500/', defaults={'e': 'e'})
 def page_error(e):
-    return render_template('error.html'), 404
+    return flask.render_template('error.html'), 404
 
 
 @app.route('/film100/')
 def film100():
-    return render_template('film100.html', films=top100films)
+    return flask.render_template('film100.html', films=top100films)
 
 
 @app.route('/garfield/')
 def garfield_mirror():
-    return render_template('garfield.html')
+    return flask.render_template('garfield.html')
 
 
 @app.route('/mediumish/<post>')
@@ -140,7 +193,7 @@ def mediumish(post):
 # as of yet un-documented routes:
 @app.route('/heartdemo/')
 def heartdemo():
-    return render_template('heartdemo.html')
+    return flask.render_template('heartdemo.html')
 
 
 if __name__ == '__main__':
