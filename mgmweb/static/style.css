@@ -349,6 +349,7 @@ li {
 
 .page   {
     width: 100%;
+    max-width: 720px;
     margin: 0 auto;
     border: 5px solid #dcc;
     background: white;
