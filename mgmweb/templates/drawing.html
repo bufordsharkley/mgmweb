@@ -1,6 +1,11 @@
 {% extends "layout.html" %}
 {% block head %}
-{{ super() }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style-old.css') }}">
+    <title>MGM {% block title %}{% endblock %}</title>
+    <script type=text/javascript>
+      // Allows jquery modules to successfully call subpages without being dependent on full URLs:
+      $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='magnifier.css') }}">
   <script type="text/javascript" src="{{ url_for('static', filename='event.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='magnifier.js') }}"></script>
