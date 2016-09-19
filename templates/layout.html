@@ -4,19 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/plain" rel="author" href="/humans.txt" />
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ '/static/favicon.ico'|url }}">
     {% block head %}
-    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <link rel=stylesheet type=text/css href="{{ '/static/style.css'|url }}">
     <title>MGM {% block title %}{% endblock %}</title>
+    {# <title>{% block title %}Welcome{% endblock %} — mgm.ink</title>
     <script type=text/javascript>
       // Allows jquery modules to successfully call subpages without being dependent on full URLs:
       $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
-    </script>
+    </script> #}
     {% endblock %}
   </head>
   <body onload="{% block bodyonload %}{% endblock %}">
     <nav>
-      <a href="{{url_for('index')}}">
+      <a href="{{ '/'|url }}">
         <div class="boxy banner">
           <h1><div class="name_part">Mark</div> <div class="name_part">Grover</div> <div class="name_part">Mollineaux</div></h1>
           <h2>The website</h2>
@@ -39,7 +40,7 @@
     </div>
     {% block footer %}
     <footer>
-      &copy; 2014 Mark Mollineaux.<br/>
+      &copy; 2016 Mark Mollineaux.<br/>
     </footer>
     {% endblock %}
   </body>
