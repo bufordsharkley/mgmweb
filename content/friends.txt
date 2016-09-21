@@ -5,6 +5,7 @@ var friendstxt = function(){/* don't touch anything on this line-- it's magic.
 Alan Joyce, http://thisisalan.com
 AJ Ferrick, http://ajferrick.com
 Kristen Leach, http://www.kristenleach.com
+George Lu, http://geo.rge.lu
 Emily Mollineaux, http://www.emilymollineaux.com
 Mark Mollineaux, http://www.markmollineaux.com # even if I list my own site (let's say I copy-and-paste this list) it'll ignore it in the end
 Truc Nguyen, http://trucnguyen.org

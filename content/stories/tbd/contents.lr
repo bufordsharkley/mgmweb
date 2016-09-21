@@ -1,4 +1,10 @@
-##TBD
+_model: story
+---
+title: TBD
+---
+_hidden: yes
+---
+body:
 
 It was early 2014, when Brumston Bagg and Craxton Butter were 43 years old, when they discovered each other. They were both from the Old Country, in ways they only vaguely remembered. They both were raised and they both were graduated from finishing school in the Old Country, although they no longer recalled any of that.
 
@@ -10,7 +16,7 @@ To their delight, as they arrived at their respective workplaces the next mornin
 Their delight could not have been improved upon, and as their puddingish faces became ruddier as grotesque grins slashed upon their faces.
 they turned away from the street and gyrated their large yellow signs towards each other, and continued doing so for the remainder of the day.
 
--------------------------------
+--------------------------------
 
 An incident that tells you much about the friendship between Brumston Bagg and Craxton Butter:
 
@@ -29,7 +35,7 @@ Brumston Bagg, alone in his back dinette, felt afraid. They lived on the edge of
 
   This is the sort of friendship that Brumston Bagg and Craxton Butter had.
 
----------------------------------
+----------------------------------
 
   Four years later.
 
@@ -53,7 +59,7 @@ Brumston Bagg, alone in his back dinette, felt afraid. They lived on the edge of
 
   This is the sort of friendship that Brumston Bagg and Craxton Butter had.
 
---------------------------------------------
+---------------------------------------------
 
   Another two years had passed.
 
@@ -85,4 +91,6 @@ Brumston Bagg, alone in his back dinette, felt afraid. They lived on the edge of
   [i remember cars crossfire replacement.]
   [the song is the phrase "Pizza Party" shrieked over and over again, with an omniously slow bass solo.
 
-2014
+
+---
+year: 2014

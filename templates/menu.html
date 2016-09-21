@@ -1,0 +1,9 @@
+{% extends "page.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<ul>
+{% for item in this.children %}
+  <li><a href="{{ item.path|url }}">{{ item.title }}</a> ({{item.year}})
+{% endfor %}
+</ul>
+{% endblock %}
