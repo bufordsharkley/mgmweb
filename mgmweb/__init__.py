@@ -41,6 +41,7 @@ def etc():
     poems.sort(key=lambda x: x[1], reverse=True)
     return flask.render_template('etc.html', poems=poems)
 
+
 @app.route('/drawing/<int:num>/')
 def drawing(num):
     try:
@@ -97,37 +98,6 @@ def writings(opus):
         return flask.render_template('/writings/' + opus + '.html')
     except jinja2.TemplateNotFound:
         flask.abort(404)
-
-
-@app.route('/poems/<opus>')
-def poems(opus):
-    try:
-        src = app.open_resource('static/markdown/poems/{}.md'.format(opus))
-    except IOError:
-        flask.abort(404)
-    src = src.read()
-    year = _extract_year(src)
-    # replace regular line breaks with two spaces so markdown sees line breaks:
-    src = re.sub(r'([^\n])\n', r'\1  \n', src)
-    src = unicode(src, 'utf-8')
-    content = flask.Markup(markdown.markdown(src))
-    title = opus.replace('_', ' ')
-    return flask.render_template('poem.html', **locals())
-
-
-# some markdown stuff TODO: move to separate module
-def _extract_year(text):
-    try:
-        meta = text.split('(META')[1].split(')',1)[0]
-        meta = [x.split(':') for x in meta.split(';')]
-        meta = {k: v for k, v in meta}
-        return meta['year']
-    except (IndexError, KeyError):
-        return ''
-
-
-def _extract_title(text):
-    return text.split('##')[1].split('\n')[0]
 
 
 @app.route('/bridge/')
