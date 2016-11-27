@@ -39,6 +39,8 @@ var Magnifier = function (evt, options) {
             largeL: 0,
             largeT: 0,
             zoom: 2,
+            zoomMin: 1.1,
+            zoomMax: 5,
             mode: 'outside',
             largeWrapperId: (gOptions.largeWrapper !== undefined)
                 ? (gOptions.largeWrapper.id || null)
@@ -75,9 +77,16 @@ var Magnifier = function (evt, options) {
         gZoom = (gOptions.zoom !== undefined)
                     ? gOptions.zoom
                     : curData.zoom,
+        gZoomMin = (gOptions.zoomMin !== undefined)
+                    ? gOptions.zoomMin
+                    : curData.zoomMin,
+        gZoomMax = (gOptions.zoomMax !== undefined)
+                    ? gOptions.zoomMax
+                    : curData.zoomMax,
         gMode = gOptions.mode || curData.mode,
         data = {},
         inBounds = false,
+        isOverThumb = 0,
         getElementsByClass = function (className) {
             var list = [],
                 elements = null,
@@ -215,9 +224,9 @@ var Magnifier = function (evt, options) {
 
             pos.l = Math.round(l);
             pos.t = Math.round(t);
-            
-            curData.lensBgX = pos.l - 18;
-            curData.lensBgY = pos.t - 8;
+
+            curData.lensBgX = pos.l + 1;
+            curData.lensBgY = pos.t + 1;
 
             if (curData.mode === 'inside') {
                 curData.largeL = Math.round(xPos * (curData.zoom - (curData.lensW / curData.w)));
@@ -242,7 +251,9 @@ var Magnifier = function (evt, options) {
 
             curData.zoom = Math.round((curData.zoom + delta) * 10) / 10;
 
-            if (curData.zoom >= 1.1) {
+            if (curData.zoom >= curData.zoomMax) {
+                curData.zoom = curData.zoomMax;
+            } else if (curData.zoom >= curData.zoomMin) {
                 curData.lensW = Math.round(curData.w / curData.zoom);
                 curData.lensH = Math.round(curData.h / curData.zoom);
 
@@ -273,9 +284,8 @@ var Magnifier = function (evt, options) {
                         h: curData.lensH
                     });
                 }
-
             } else {
-                curData.zoom = 1.1;
+                curData.zoom = curData.zoomMin;
             }
         },
         onThumbEnter = function () {
@@ -403,7 +413,7 @@ var Magnifier = function (evt, options) {
 
         var thumb = $(options.thumb),
             i = 0;
-        
+
         if (thumb.length !== undefined) {
             for (i; i < thumb.length; i += 1) {
                 options.thumb = thumb[i];
@@ -437,6 +447,8 @@ var Magnifier = function (evt, options) {
                 $('#' + curData.largeWrapperId)
             ),
             zoom = options.zoom || thumb.getAttribute('data-zoom') || gZoom,
+            zoomMin = options.zoomMin || thumb.getAttribute('data-zoom-min') || gZoomMin,
+            zoomMax = options.zoomMax || thumb.getAttribute('data-zoom-max') || gZoomMax,
             mode = options.mode || thumb.getAttribute('data-mode') || gMode,
             onthumbenter = (options.onthumbenter !== undefined)
                         ? options.onthumbenter
@@ -484,15 +496,17 @@ var Magnifier = function (evt, options) {
 
         data[idx] = {
             zoom: zoom,
+            zoomMin: zoomMin,
+            zoomMax: zoomMax,
             mode: mode,
             zoomable: zoomable,
             thumbCssClass: thumb.className,
             zoomAttached: false,
             status: 0,
             largeUrl: largeUrl,
-            largeWrapperId: largeWrapper.id,
-            largeWrapperW: largeWrapper.offsetWidth,
-            largeWrapperH: largeWrapper.offsetHeight,
+            largeWrapperId: mode === 'outside' ? largeWrapper.id : null,
+            largeWrapperW: mode === 'outside' ? largeWrapper.offsetWidth : null,
+            largeWrapperH: mode === 'outside' ? largeWrapper.offsetHeight : null,
             onzoom: onzoom,
             onthumbenter: onthumbenter,
             onthumbleave: onthumbleave,
@@ -530,6 +544,10 @@ var Magnifier = function (evt, options) {
             }
         }, false);
 
+        evt.attach('mousemove', thumb, function (e, src) {
+            isOverThumb = 1;
+        });
+
         evt.attach('load', thumbObj, function () {
             data[idx].status = 1;
 
@@ -556,9 +574,13 @@ var Magnifier = function (evt, options) {
         if (inBounds === true) {
             move();
         } else {
-            onThumbLeave();
+            if (isOverThumb !== 0) {
+                onThumbLeave();
+            }
+
+            isOverThumb = 0;
         }
-    });
+    }, false);
 
     evt.attach('scroll', window, function () {
         if (curThumb !== null) {

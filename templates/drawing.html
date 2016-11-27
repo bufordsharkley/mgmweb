@@ -1,0 +1,109 @@
+{% set max_drawing = 144 %}
+{% set small_src = "http://media.mgm.ink/drawing/small/{}.jpg".format(this.number) %}
+{% set large_src = "http://media.mgm.ink/drawing/large/{}.jpg".format(this.number) %}
+{% extends "layout.html" %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" type="text/css" href="{{ '/static/magnifier.css'|url }}">
+    <script type="text/javascript" src="{{ '/static/magnifier.js'|url }}"></script>
+    <script type="text/javascript" src="{{ '/static/event.js'|url }}"></script>
+    <script type="text/javascript">
+    var evt = new Event(),
+        m = new Magnifier(evt);
+    </script>
+{% endblock %}
+{% block title %} drawing {{this.number}}{% endblock %}
+{% block content %}
+<div class="mid-section">
+  <div class="left-wrapper">
+    <div id="preview" class="magnifier-preview" style="width: 100%; height: 20em;">
+    <div class='drawingnumdate'>
+    <h1 style="text-align:right">Drawing {{this.number}}</h1>
+    <h2>{{this.date}}</h2>
+    </div>
+    </div>
+    <nav class="button_panel">
+      {# {% if firstorlast != 'last' %} -->#}
+    {% if this.number < max_drawing %}
+    <a href="{{ '/drawing/{}'.format(this.number + 1)|url}}">
+      <div class="button">
+        <h2>next</h2>
+      </div>
+    </a>
+    {% else %}
+      <div class="button">
+        <h2>the end</h2>
+      </div>
+    {% endif %}
+    {% if this.number > 1 %}
+    <a href="{{ '/drawing/{}'.format(this.number - 1)|url}}">
+      <div class="button">
+        <h2>previous</h2>
+      </div>
+    </a>
+    {% endif %}
+    <a href="{{ '/random_drawing'|url }}">
+      <div class="button">
+        <h2>random</h2>
+      </div>
+    </a>
+    {% if this.number < max_drawing %}
+    <a href="{{ '/drawing/{}'.format(max_drawing)|url}}">
+      <div class="button">
+        <h2>last</h2>
+      </div>
+    </a>
+    {% endif %}
+    </nav>
+    <nav class="high_level_drawing_nav">
+    <a href="{{ '/drawing/about'|url }}">
+      <div class="button">
+        <h2>about</h2>
+    </div>
+    </a>
+    <a href="{{ '/drawing/sketches'|url }}">
+      <div class="button">
+        <h2>sketches</h2>
+      </div>
+    </a>
+    </nav>
+  </div>
+  <div class="main-content">
+  {% if large_src %}
+  <a class="magnifier-thumb-wrapper" href="{{large_src}}">
+  {% else %}
+  <a href="{{large_src}}">
+  {% endif %}
+    <div class="drawingpage" style="float: left">
+      <div>
+      <img id="thumb" src="{{small_src}}" alt="drawing"/>
+      </div>
+    </div>
+  </a>
+  </div>
+  <div class="right-wrapper">
+    <div class="drawingtext">
+      {{ this.caption }}
+      <div class="additionaltext">
+      {% for addtlline in additionaltext %}
+        {{addtlline|safe}}<br/><br/>
+      {% endfor %}
+    </div>
+    {% for line in caption %}
+    {{line|safe}}
+    {% for ii in range(loop.cycle(1,2)) %}
+    <br/>
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+</div>
+    <script type="text/javascript">
+    m.attach({
+    thumb: '#thumb',
+    large: '{{large_src}}',
+    largeWrapper: 'preview',
+    zoom: 8
+    });
+    </script>
+{% endblock %}

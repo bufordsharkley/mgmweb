@@ -14,20 +14,6 @@ from .film_100 import top100films
 app = flask.Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return flask.render_template('index.html',
-                                 splash=splash_descriptions['default'])
-
-
-@app.route('/<path:path>/')
-def subpage(path):
-    try:
-        return flask.render_template(path + '.html')
-    except jinja2.TemplateNotFound:
-        flask.abort(404)
-
-
 @app.route('/etc')
 def etc():
     poem_dir = os.path.join(app.root_path, 'static/markdown/poems')
