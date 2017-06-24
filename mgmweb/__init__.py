@@ -28,7 +28,7 @@ def subpage(path):
         flask.abort(404)
 
 
-@app.route('/etc')
+@app.route('/etcfake')
 def etc():
     poem_dir = os.path.join(app.root_path, 'static/markdown/poems')
     poems = []
@@ -40,6 +40,7 @@ def etc():
         poems.append((title, year, link))
     poems.sort(key=lambda x: x[1], reverse=True)
     return flask.render_template('etc.html', poems=poems)
+
 
 @app.route('/drawing/<int:num>/')
 def drawing(num):
