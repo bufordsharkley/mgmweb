@@ -1,13 +1,9 @@
 flask
 markdown
+frozen-flask
 
 # ----------------------
 # Testing
 # ----------------------
 mock
 nose
-
-# ----------------------
-# Production Server
-# ----------------------
-gunicorn

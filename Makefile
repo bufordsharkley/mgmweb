@@ -1,19 +1,21 @@
-# A simple way to update Flask Heroku's static files.
+#build:
+	#virtualenv env
+	#. env/bin/activate && env/bin/pip install -r requirements.txt
+#
+#test:
+	#. env/bin/activate && env/bin/nosetests
+#
+#server:
+	#. env/bin/activate && env/bin/python app.py
+#
+#clean:
+	#find . -name "*.pyc" -exec rm {} \;
+#
+#clean-all: clean
+	#rm -rf env
 
-.PHONY: build test server clean clean-all
+freeze:
+	env/bin/python freeze.py
 
-build:
-	virtualenv env
-	. env/bin/activate && env/bin/pip install -r requirements.txt
-
-test:
-	. env/bin/activate && env/bin/nosetests
-
-server:
-	. env/bin/activate && env/bin/python app.py
-
-clean:
-	find . -name "*.pyc" -exec rm {} \;
-
-clean-all: clean
-	rm -rf env
+server: freeze
+	python -m SimpleHTTPServer
