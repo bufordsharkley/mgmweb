@@ -18,5 +18,5 @@
     Last update: See Github. github.com/bufordsharkley/mgmweb
     Language: English
     Standards: HTML5, CSS3, PEP8
-    Components: Flask, magnifier.js, jQuery
+    Components: Flask, Frozen-Flask, magnifier.js, jQuery
     Software: python, vim, Inkscape, git

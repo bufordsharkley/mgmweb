@@ -4,7 +4,7 @@ mgmweb
 The Mark Grover Mollineaux personal website.
 
 
-http://www.markmollineaux.com
+http://www.markmollineaux.com or http://mgm.ink
 
 
-Using Flask, HTML5, and other stuff to showcase my drawings and more.
+Frozen-Flask site to house drawings, radio stuff, and more.
