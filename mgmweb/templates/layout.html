@@ -12,6 +12,8 @@
       // Allows jquery modules to successfully call subpages without being dependent on full URLs:
       $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
     </script>
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='friendstxtwebringgenerator.js') }}"></script>
     {% endblock %}
   </head>
   <body onload="{% block bodyonload %}{% endblock %}">

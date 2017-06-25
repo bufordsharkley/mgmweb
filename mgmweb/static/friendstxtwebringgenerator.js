@@ -6,8 +6,8 @@ var friendsArrayIndex = 0;
 
 
 function getJSON(path, callback) {
-    var xmlhttp = new XMLHttpRequest();                 
-    xmlhttp.overrideMimeType('application/json');  
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.overrideMimeType('application/json');
     xmlhttp.onreadystatechange = function() {
         ready = (xmlhttp.readyState == 4 && xmlhttp.status == 200);
         callback(ready ? xmlhttp.responseText.split("\n") : false);
@@ -17,7 +17,7 @@ function getJSON(path, callback) {
 };
 
 
-getJSON('friends.txt', function(data){
+getJSON('/friends.txt', function(data){
     if (data){
         // note: hardcoded line indices. nope.
         for (var ii=4; ii < data.length - 3; ii++){
@@ -29,7 +29,6 @@ getJSON('friends.txt', function(data){
         }
         shuffle(friendsArray);
         insertIntoDOM();
-            
         //var url = url + '/friends.txt';
         /*var callback = function(d){ console.log(d); alert(d.attribute_name)};*/
         //J50Npi.getJSON(url, {}, callback);
@@ -45,7 +44,6 @@ getJSON('friends.txt', function(data){
 
 function insertFirst(){
     var ii = 0;
-    
 }
 
 function insertIntoDOM(){
@@ -124,14 +122,14 @@ var J50Npi = {
 }; 
 */
 
-var jsonphack = {  
-    currentScript: null,  
+var jsonphack = {
+    currentScript: null,
     getJSON: function(url, callback) {
       console.log("running jsonhack on " + url);
       var head = document.getElementsByTagName("head")[0];
       var newScript = document.createElement("script");
 
-      newScript.type = "text/javascript";  
+      newScript.type = "text/javascript";
       newScript.src = url;
 
       if(this.currentScript) head.removeChild(this.currentScript);
@@ -139,5 +137,5 @@ var jsonphack = {
       this.currentScript = newScript;
     },
     success: null
-}; 
+};
 var url = "http://thisisalan.com/friends.txt"
