@@ -131,13 +131,6 @@ def _extract_title(text):
     return text.split('##')[1].split('\n')[0]
 
 
-"""
-@app.route('/bridge/')
-def legacy_bridge_flowchart():
-    return flask.redirect(flask.url_for('bridge_flowchart'))
-"""
-
-
 @app.route('/bridge.pdf')
 def bridge_flowchart():
     return flask.send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
