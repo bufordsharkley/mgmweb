@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/mgm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://markmollineaux.com
+  * I am mgm (https://keybase.io/mgm) on keybase.
+  * I have a public key with fingerprint B3ED 9CAC 9010 090F 38A7  FEE3 98A2 8A04 74CB 1A61
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "b3ed9cac9010090f38a7fee398a28a0474cb1a61",
+            "host": "keybase.io",
+            "key_id": "98A28A0474CB1A61",
+            "uid": "05872da76085a5a58170d43fd6e84200",
+            "username": "mgm"
+        },
+        "merkle_root": {
+            "ctime": 1418012899,
+            "hash": "b562895b58bef71bbfac2d44608396c9190ee2110a7f79bece754251258913e31fd3979344793aab9f1beaa6a542b9cc9bdba565f916d7c8f59e1f05f017086e",
+            "seqno": 104273
+        },
+        "service": {
+            "hostname": "markmollineaux.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1418013042,
+    "expire_in": 157680000,
+    "prev": "77c6909d2fa6952aaf43fc3663be57c3a976b5f9b096df95613625259065ea73",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQFVUcxy8oCijKo2uCpJcVa0igfZ3dPRgq4B9OL4iSSKU7Z3fPwgr37nXv
+5RUSkIPjZWQAs5JBhJF84MhtRqNxgGmkdDToHRMUJmlYME1AwkBpr10Gp9yd2Tln
+z+d8f9/v+Z36kEUWf7+jJ2oWe/qjkF//uGh5sTpOLyNETS4lksoIqUDFTo85ciIH
+JpKIfFwqIjdOVDWbU5Nx4h63bYGJJ4qw7lY1p0GRiXwiQ5THm7i5WVGduVh36aqp
+RYgMlqGEJEhSJAlJhREQr2DMQAHRAiJZnpVECnGUIZmnuT0PVCXmNe2qbPyFQgot
+pJh8WiqVMs8Xzi+QQOBpGfEcKQBkvALFkzLLKDKHBZYmSRN0Y30hkiPXYVp1YD2/
+ANt1TZvPK3lUc5ViKYGkaAFCwwxy55n2AWfMgQgEESs8JYoKkmiZZY1qDOQkSEES
+Y5qiSCMVD0UsYR6wNKBoIECKwQylyAzkIcOyxgchESqUiBHikEGJUJKgKIsIcECB
+FCfzkqAAiCmFBAppxBA4bLh3471OzTBHsjTPlJtzvUiVsOnbPLH7wZCe79AKClQn
+RoUliZLmMLa6dM2jSVqBsZ7n8biSzOieUpfJF2PRZ1+QsouqUza69v+2Ugb6wLEw
+Rv14Ape4VB3bVZMAPCeQxmPWwUWGJs9LHCShTCuIg4BGSDH6IDEcx4gY8BKDIM+J
+RlSRhJysQMBRDEcDGkCSAxjxzH9hWcMnyjUk3WquE3kKdUyUe/2jF1v8/C1LAvzN
+e2sJDgq9f5mDb4Va6rOHEpy3z/pamya32EtX9iot3/bGWCYT1o4GfTXxwqb275Zk
+TNMbJ29pZT72QGAgsB0DH+ds+FPqaif4M0+2hfwgP9IRMvT2/uw/1j52KfD4VPNU
+ckVWxPm29zqlV8ezYy5+WOI9RXpXRGWcGPAbGS51LYst3m2B1JEjE1vfr7KVHDoz
+mkcXDJd2nBv07m/bWM48ntlY46tr+WtoLGhOafY9PJiccHRpXu225ADHyeu7vUtf
+2rGqb1Pd3pHty2Ndq57qmL1RB9L9/373gBUPPH+yP9z6zutH4Wzl7U+sna94D0f7
+pXbOjD2kHKy8PNpxp8m+Luay/NuGT8csfV3tM9MXct680Rp26YPCrMwr6794es2P
+pxsOXptcFiNGqq7CJ+Z2Xb2elFksiets1VvZC41f5p9t//lmSNhK9FqcH7Gor3XX
+9sEqVout3zyCa5utQktJZFjD53U943Hnk8FASE7SR0HW2YGpac/mSm59+Bsr6mfL
+v3kGBPRbyhImR5+bSHcd/77xasu6pUNN9dnJO4OyOu+Gfn3HF74l8mJV9LGmmdSX
+036xX6uorgXdn7UeirBOLU9a3dOAPb1D3b/r0zHN/VVtP1Vuq3n0dMSVm8npz4LZ
+f3zx9cXgXlViMz95b6tNznfPdUX9im3D+yb2BEeupqYqek7dfWu4rxusqd2RkS2e
+25lm3ddP/As=
+=eotP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mgm
+
+==================================================================

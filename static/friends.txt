@@ -1,0 +1,18 @@
+/* friends.txt - a very hacky implementation */
+/* edit the part in the center, and leave the crazy outsides where they are, for now */
+var friendstxt = function(){/* don't touch anything on this line-- it's magic.
+
+Alan Joyce, http://thisisalan.com
+AJ Ferrick, http://ajferrick.com
+Kristen Leach, http://www.kristenleach.com
+Emily Mollineaux, http://www.emilymollineaux.com
+Mark Mollineaux, http://www.markmollineaux.com # even if I list my own site (let's say I copy-and-paste this list) it'll ignore it in the end
+Truc Nguyen, http://trucnguyen.org
+Andy Stuhl, http://akstuhl.net
+Nick Tatonetti, http://nickandnoah.com
+Luke Wirth, http://zylucas.info
+Jenan Wise, http://jenanwise.com
+Jin Zhu, http://www.killeryellow.com
+Noah Zimmerman, http://nickandnoah.com # repetition of a site for two people it represents... 
+
+#closing line - don't touch anything on this line, either.*/}.toString();

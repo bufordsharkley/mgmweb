@@ -1,0 +1,23 @@
+rp_ad_response={
+"status":"ok",
+"account_id":7450,
+"site_id":41686,
+"zone_id":175094,
+"size_id":10,
+"tracking":"",
+"inventory":{"loc":"top","pos":"TOP_RIGHT_BOXAD","lang":"en","src":"gpt","s0":"ent","s1":"not a top1k wiki","s2":"article"},
+"ads":[{
+"status":"ok",
+"impression_id":"c68fbfdf-f672-46a9-9c29-80d5dba799d4",
+"size_id":"10",
+"cpm":1.660000,
+"advertiser":27505,
+"network":1994,
+"ad_id":"3164777",
+"creative_id":3175051,
+"seat":1994,
+"type":"script",
+"script":"rubicon_cb%20%3D%20Math.random%28%29%3B%20rubicon_rurl%20%3D%20document.referrer%3B%20if%28top.location%3D%3Ddocument.location%29%7Brubicon_rurl%20%3D%20document.location%3B%7D%20rubicon_rurl%20%3D%20escape%28rubicon_rurl%29%3B%0Awindow.rubicon_ad%20%3D%20\"3164777\"%20%2B%20\".\"%20%2B%20\"js\"%3B%20window.rubicon_creative%20%3D%20\"3175051\"%20%2B%20\".\"%20%2B%20\"js\"%3B%20document.write%28\"\\n\"%29%3B%20rubicon_tag_code%20%3D%20\"%253ciframe%2520src%3D%27http%3A%2F%2Fad-s1.media6degrees.com%2Fadserv%2Fcs%253ftId%3D11806747673842195%257ccb%3D1454739703%257cadType%3Diframe%257ccId%3D78470%257cec%3D1%257cspId%3D256106%257cadvId%3D3061%257cexId%3D25%257cprice%3DDC8FD6837C0B9C4F%257cpubId%3D254%257csecId%3D460%257cinvId%3D6010%257ctpInvId%3D41686%257cnotifyServer%3Dasd726.sd.pl.pvt%257cnotifyPort%3D8080%257csrcAppVersion%3D5.4.4%257cbdie%3D0qy3zcjge6gc8%257cbid%3D1.76%257ctpAuctId%3D52ba642d49ea0d37e960945958b4622eb64a834f%257cbms%3D41686%257cenvType%3DWEB%257cfps%3D1%257csp%3D0.91%257csps%3D1%257cspsid%3D254455%257csrcUrlEnc%3Dhttp%25253A%25252F%25252Fgarfield.wikia.com%25252Fwiki%25252FComic_Errors%252523comm-19277%257cmobileAdLocation%3Dhttp%25253A%25252F%25252Fwww.wikia.com%257cdc%3D1%257cdos%3D3%257cbst%3D1994%257cdIds%3DChEIFhINMHF5M3pjamdlNmdjOA%257c%27%2520frameborder%3D%270%27%2520scrolling%3D%27no%27%2520marginheight%3D%270%27%2520marginwidth%3D%270%27%2520topmargin%3D%270%27%2520leftmargin%3D%270%27%2520allowtransparency%3D%27true%27%2520width%3D%27300%27%2520height%3D%27600%27%253e%253c%2Fiframe%253e\"%3B%20rubicon_tag_code%20%3D%20rubicon_tag_code.replace%28%2F%23%23RUBICON_CB%23%23%2Fg%2Crubicon_cb%29%3B%20document.write%28unescape%28rubicon_tag_code%29%29%3B%20document.write%28\"%3Cdiv%20style%3D\\\"height%3A%200px%3B%20width%3A%200px%3B%20overflow%3A%20hidden\\\"%3E\\n%3Cscript%3E\\n%28function%28%29%20%7Bvar%20proto%20%3D%20document.location.protocol%3B%20var%20server%3D\\\"http%3A%2F%2Ftap2-cdn.rubiconproject.com\\\"%3B%20if%20%28proto%20%3D%3D%20\\\"https%3A\\\"%29%20server%3D\\\"https%3A%2F%2Ftap-secure.rubiconproject.com\\\"%3B%20document.write%28\\%27%3Ciframe%20src%3D\\\"\\%27%2Bserver%2B\\%27%2Fpartner%2Fscripts%2Frubicon%2Femily.html%3Frtb_ext%3D1%26pc%3D7450%2F41686%26geo%3Dna%26co%3Dus\\\"%20frameborder%3D\\\"0\\\"%20marginwidth%3D\\\"0\\\"%20marginheight%3D\\\"0\\\"%20scrolling%3D\\\"NO\\\"%20width%3D\\\"0\\\"%20height%3D\\\"0\\\"%20style%3D\\\"height%3A%200px%3B%20width%3A%200px\\\"%3E%3C%2Fiframe%3E\\%27%29%3B%20%7D%29%28%29%3B\\n%3C\\%2Fscript%3E\\n\\n%3C%2Fdiv%3E\"%29%3B"
+}]
+};
+try{rp_onAdResponseLoaded(rp_ad_response);}catch(ignore){}
