@@ -11,7 +11,7 @@ function loadForFrontPage() {
 }
 
 function loadAllDescriptions() {
-  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions/", function(data) {
+  $.getJSON($SCRIPT_ROOT + "/_frontpagedescriptions.json", function(data) {
     window.descriptions = data;
   });
 }

@@ -6,7 +6,7 @@ They'll say "Howard we all doing?"
 We feel funky; we feel free."
 
 Give a daunting task to Howards,
-To you shock, now, they'll agree.
+To your shock, now, they'll agree.
 They'll say "Howard we to do it?
 Oh, now, just you wait and see!"
 

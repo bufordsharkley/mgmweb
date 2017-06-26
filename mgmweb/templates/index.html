@@ -1,13 +1,10 @@
 {% extends "layout.html" %}
 {% block head %}
   {{ super() }}
-
-  <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='splashajax.js') }}"></script>
-  <script type="text/javascript" src="{{ url_for('static', filename='friendstxtwebringgenerator.js') }}"></script>
 {% endblock %}
 {% block bodyonload %}loadForFrontPage();{% endblock %}
-{% block content %}    
+{% block content %}
 <div class="frontpageleft">
   <nav class="frontpagenav">
     <a href={{url_for('random_drawing')}}>

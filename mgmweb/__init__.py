@@ -28,7 +28,7 @@ def subpage(path):
         flask.abort(404)
 
 
-@app.route('/etc')
+@app.route('/etc/')
 def etc():
     poem_dir = os.path.join(app.root_path, 'static/markdown/poems')
     poems = []
@@ -40,6 +40,7 @@ def etc():
         poems.append((title, year, link))
     poems.sort(key=lambda x: x[1], reverse=True)
     return flask.render_template('etc.html', poems=poems)
+
 
 @app.route('/drawing/<int:num>/')
 def drawing(num):
@@ -99,7 +100,7 @@ def writings(opus):
         flask.abort(404)
 
 
-@app.route('/poems/<opus>')
+@app.route('/poems/<opus>/')
 def poems(opus):
     try:
         src = app.open_resource('static/markdown/poems/{}.md'.format(opus))
@@ -130,7 +131,7 @@ def _extract_title(text):
     return text.split('##')[1].split('\n')[0]
 
 
-@app.route('/bridge/')
+@app.route('/bridge.pdf')
 def bridge_flowchart():
     return flask.send_from_directory(app.static_folder, 'BRIDGEFLOWCHART.pdf')
 
@@ -149,15 +150,9 @@ def html_call(htmlfile):
     return flask.render_template(htmlfile + '.html')
 
 
-@app.route('/_frontpagedescriptions/', defaults={'button': ''})
-@app.route('/_frontpagedescriptions/<button>/')
-def frontpagedescriptions(button):
-    if not button:
-        return flask.jsonify(splash_descriptions)
-    try:
-        return flask.jsonify(splash_descriptions[button])
-    except KeyError:
-        return flask.jsonify(splash_descriptions['default'])
+@app.route('/_frontpagedescriptions.json')
+def frontpagedescriptions():
+    return flask.jsonify(splash_descriptions)
 
 
 @app.errorhandler(404)
@@ -168,7 +163,7 @@ def page_not_found(e):
 @app.errorhandler(500)
 @app.route('/500/', defaults={'e': 'e'})
 def page_error(e):
-    return flask.render_template('error.html'), 404
+    return flask.render_template('error.html'), 200
 
 
 @app.route('/film100/')
