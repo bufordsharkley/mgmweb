@@ -1,5 +1,0 @@
-_402={timingStart:1454727923127,timingTrStart:(new Date).getTime()};
-_402_Show=function(){_402.show();};
-_402.show=function(){};
-if(!window._402nosurvey){document.write('\x3Cscript'+' type=\"text/javascript\"'+' src=\"'+'//survey.g.doubleclick.net/insights/consumersurveys/static/390493614601956699/prompt_embed_static.js'+'\"'+'\x3E\x3C/script\x3E');}
-if(!window._402nosurvey){document.write('\x3Cscript'+' type=\"text/javascript\"'+' src=\"'+'//survey.g.doubleclick.net/prompt?site=_ltvovxgnp5p3wkkemdja6sd2wm&t=1&url=http%3A%2F%2Fgarfield.wikia.com%2Fwiki%2FComic_Errors%23comm-19277&cid=everything'+'&random='+_402.timingTrStart+'&ref='+encodeURIComponent(document.referrer.substr(0,500))+'\"'+'\x3E\x3C/script\x3E');}
