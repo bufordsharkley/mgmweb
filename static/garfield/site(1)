@@ -1,0 +1,3 @@
+$(function(){if(window.disableUsernameReplace||mw.config.get('wgUserName')===null)return;$('span.insertusername').html(mw.config.get('wgUserName'));});;;mw.loader.state({"site":"ready"});
+
+/* cache key: garfield:resourceloader:filter:minify-js:7:354b575d361470f840f28c4ef09fc22a */

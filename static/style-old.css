@@ -1,0 +1,395 @@
+@font-face{ 
+	font-family: 'italic_oblique';
+    src: url('/static/webfonts/italic_oblique.eot');
+    src: url('/static/webfonts/italic_oblique.eot?#iefix') format('embedded-opentype'), url('/static/webfonts/italic_oblique.svg') format('svg'), url('/static/webfonts/italic_oblique.woff') format('woff'), url('/static/webfonts/italic_oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MenschRegular';
+    src: url('/static/webfonts/mensch-wf.eot');
+    src: url('/static/webfonts/mensch-wf.eot?#iefix') format('embedded-opentype'),
+         url('/static/webfonts/mensch-wf.woff') format('woff'),
+         url('/static/webfonts/mensch-wf.ttf') format('truetype'),
+         url('/static/webfonts/mensch-wf.svg#MenschMenschRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Use a CSS reset to smooth out browser incongruities. */
+/* CSS Reset from meyerweb.com v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+    -moz-box-sizing: border-box; /* Needed for Firefox */
+    box-sizing: border-box
+}
+
+/* okay, back to me */
+
+body{
+    background: #eee; 
+    font-family: serif;
+}
+
+nav{
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.content{
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.drawingpage{
+  width: 42.5em;
+  /*display: inline-block;*/
+  border: .5em solid #dcc;
+  margin-left: .6em;
+  /*padding: .4em;
+    margin-left:.4em;
+    margin-right: 4em;
+    text-align:center;*/
+    background-color:#dcc;
+
+}
+
+.drawingpage img {
+    display:block;
+    margin:auto;
+}
+
+div.drawingtext{
+  display: inline-block;
+}
+
+nav.frontpagenav{
+  width: 320px;
+  margin-left:0;
+}
+
+a, h1, h2 {
+    color: #147ca8;
+    line-height: .9;
+    font-family: MenschRegular, Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
+    text-decoration: none;
+}
+
+.content {
+    font-family:  italic_oblique, serif;
+}
+
+.banner_under_h2 {
+    margin-top: 2em;
+}
+
+p  {
+    margin:1em;
+    font-size:1.1em;
+    font-family:  italic_oblique, serif;
+}
+
+
+h1  {
+    margin-top: .2em;
+    font-size: 3.2em;
+}
+
+h2  {
+    font-size: 2.22em;
+    color:#baa;
+    font-family:  italic_oblique, serif;
+    text-align:right;
+}
+
+.page   {
+    display: inline-block;
+    width:100%;
+    margin: 1em auto;
+    border: 5px solid #dcc;
+    padding: .4em;
+    background: white;
+    text-align:center;
+}
+
+.left   {
+    float:left;
+}
+
+.right   {
+    float:right;
+}
+
+
+footer {
+    width: 100%;
+    clear: both;
+    position: relative;
+    font-size: 0.82em;
+}
+
+.mid-section
+{
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.left-wrapper, .right-wrapper {
+    height: 100%;
+    min-height: 100%;
+    width: 21%;
+    display:block;
+    float:left;
+    margin:0;
+    position:relative;
+}
+
+.huge{
+ font-size:8em;   
+}
+
+.largeish{
+ font-size:2em;   
+}
+
+li {
+    margin-bottom: .8em;
+}
+
+.right-wrapper {
+    float:right;
+}
+
+.main-content {
+    width: 25em;
+    height: 100%;
+    margin:0;
+    float:left;
+}
+
+.drawingtext{
+    font-family:  italic_oblique, serif;
+
+}
+
+.additionaltext{
+    text-align:center;
+    margin-top:1em;
+}
+
+.poem   {
+    width: 40%;
+    margin: 0 auto;
+    border: 5px solid #dcc;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    padding-left: 4em;
+    padding-right: .8em;
+    background: white;
+    text-align:left;
+    font-size:1em;
+    font-family:  italic_oblique, serif;
+
+}
+
+.title {
+    text-align:center;
+    margin-bottom: 3em;
+}
+
+.short_story   {
+    width: 70%;
+    margin: 0 auto;
+    border: 5px solid #dcc;
+    background: white;
+    padding:4em;
+    text-align:left;
+    font-size:1em;
+    font-family:  italic_oblique, serif;
+
+}
+
+
+a {
+    font-family:  italic_oblique, serif;
+}
+
+
+nav.button_panel {
+    position:absolute;
+    top:9.5em;
+    right:0em;
+}
+
+nav.high_level_drawing_nav {
+    position:absolute;
+    top:31em;
+    right:0em;
+}
+
+ul {
+    margin-left: 3em;
+    margin-bottom: 1em;
+}
+
+.menschy {
+    font-family: MenschRegular;
+}
+div.button   {
+    width: 11em;
+    clear: right; 
+    float: right;
+    border: 5px solid #dcc;
+    margin-top: 1.5em;
+    padding: .24em;
+    background: white;
+    text-align:right;
+    font-family:  italic_oblique, serif;
+}
+
+div.button a{
+    font-size: 2.22em;
+    color:#baa;
+    font-family:  italic_oblique, serif;
+    text-decoration:none;
+}
+
+div.drawingnumdate {
+    margin-right:.1em;
+}
+
+div.frontpageleft {
+    float:left;
+    width:35%;
+}
+
+div.frontpageright {
+    float:right;
+    width:65%;
+    padding-top:1em;
+}
+
+#splash   {
+    height: 45em;
+    width: 100%;
+    margin-top:1em;
+    border: 5px solid #dcc;
+    background: white;
+    font-family:  italic_oblique, serif;
+    padding-top:1em;
+}
+
+#splash a{
+    font-family:  italic_oblique, serif;
+}
+
+
+img#frontpageimage {
+    width: 35em;
+    display:block;
+    margin: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div#summary {
+    text-align:center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+
+}
+
+.filmlist   {
+    width: 40%;
+    margin: 0 auto;
+    border: 5px solid #dcc;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-left: 4em;
+    padding-right: .8em;
+    background: white;
+}
+
+.film{
+    font-family:  italic_oblique, serif;
+    margin:0;
+    margin-bottom:.3em;
+}
+
+.filmtitle {
+    text-align:left;
+    font-size:2.2em;
+    margin: 0;
+}
+
+.filmmetadata {
+    text-align:center;
+    margin:0;
+    font-size:1.2em;
+}
+
+.generalpage {
+    width:80%;
+    margin: auto;
+    border: 5px solid #dcc;
+    padding: .4em;
+    background: white;
+}
