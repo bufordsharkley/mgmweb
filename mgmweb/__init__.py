@@ -6,8 +6,9 @@ import re
 import flask
 import jinja2
 import markdown
+import yaml
 
-from .drawing_metadata import metadata
+#from .drawing_metadata import metadata
 from .frontpage_descriptions import splash_descriptions
 from .film_100 import top100films
 
@@ -44,6 +45,7 @@ def etc():
 
 @app.route('/drawing/<int:num>/')
 def drawing(num):
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
     try:
         firstorlast = None
         if num == len(metadata):
@@ -55,8 +57,8 @@ def drawing(num):
         flask.abort(404)
     return flask.render_template('drawing.html',
                            number=metadatum['number'],
-                           small_src=metadatum['image']['src_small'],
-                           large_src=metadatum['image']['src_large'],
+                           small_src=metadatum['src_small'],
+                           large_src=metadatum['src_large'],
                            date=metadatum['date'],
                            caption=metadatum.get('caption', ''),
                            additionaltext=metadatum.get('wordsinimage', ''),
@@ -66,6 +68,7 @@ def drawing(num):
 @app.route('/drawing/')
 @app.route('/drawing/random/')
 def random_drawing():
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
     return flask.render_template('randomdrawing.html',
                                  drawcount = len(metadata))
 
