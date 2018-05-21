@@ -1,4 +1,104 @@
 {% extends "layout.html" %}
+{% block head %}
+  {{ super() }}
+  <link href="/static/jplayer/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="/static/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/jplayer/jquery.jplayer.min.js"></script>
+  <script type="text/javascript" src="/static/jplayer/jplayer.playlist.min.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  $(document).ready(function(){
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_specials",
+      cssSelectorAncestor: "#jp_container_specials"
+      }, [
+        {% for episode in content.specials %}
+        {
+          title:"{{ episode.datetime.strftime('%Y-%m-%d')}}: {{ episode.title }}",
+          free:true,
+          mp3:"{{ episode.url }}",
+        },
+        {% endfor %}
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_radio_plays",
+      cssSelectorAncestor: "#jp_container_radio_plays"
+      }, [
+        {% for episode in content.radio_plays %}
+        {
+          title:"{{ episode.datetime.strftime('%Y-%m-%d')}}: {{ episode.title }}",
+          free:true,
+          mp3:"{{ episode.url }}",
+        },
+        {% endfor %}
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
+
+  });
+  //]]>
+  </script>
+{% endblock %}
+{% macro insert_playlist(name) -%}
+<div id="jquery_jplayer_{{name}}" class="jp-jplayer"></div>
+<div id="jp_container_{{name}}" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-playlist">
+    <div class="jp-gui jp-interface">
+      <div class="jp-controls">
+        <button class="jp-previous" role="button" tabindex="0">previous</button>
+        <button class="jp-play" role="button" tabindex="0">play</button>
+        <button class="jp-next" role="button" tabindex="0">next</button>
+        <button class="jp-stop" role="button" tabindex="0">stop</button>
+      </div>
+      <div class="jp-progress">
+        <div class="jp-seek-bar">
+          <div class="jp-play-bar"></div>
+        </div>
+      </div>
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-time-holder">
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+      </div>
+      <div class="jp-toggles">
+        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+      </div>
+    </div>
+    <div class="jp-playlist">
+      <ul>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+{%- endmacro %}
 {% block content %}
 <div class="page">
   <h2>college radio: if you don't listen to it, you're not trying hard enough...</h2>
@@ -8,10 +108,35 @@
   <ul>
     <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1041">playlists for my shows</a></li>
     <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=768">playlists for my themed shows</a> (themed is what the show used to be: songs about worms, songs about Jack Klugman, etc&hellip;)</li>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1116">playlists for my shows featuring radio drama</a> (see <a href="#drama">here</a> for more details)</li> 
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1116">playlists for my shows featuring radio drama</a> (see <a href="#drama">here</a> for more details)</li>
   </ul>
-  <p>The ability to listen to these shows? COMING SOON</p>
   <hr/>
+  <h2>earful of&hellip;</h2>
+  <a href="//earfulofconvoy.com"><img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/></a>
+  <p>45 hours of content about the 1978 film Convoy. Recorded over the course of 2013-2017</p>
+  <a href="//earfulofcocktail.com"><img src="http://www.earfulofcocktail.com/static/cocktail.png" alt="An Earful of Cocktail" style="width:40%"/></a>
+  <p>Same level of analysis, but  about the 1988 film Cocktail. Recorded over the course of 2017-</p>
+  <hr/>
+  <h2>The Henry George Program&hellip;</h2>
+  <a href="//seethecat.org"><img src="http://seethecat.org/static/banner.png" alt="The Henry George Program logo" style="width:80%"/></a>
+  <p>A show about economics, housing, inequality, and reform. Currently airing 9:00am Thursdays on KZSU.</p>
+  <hr/>
+  <h2>assorted content&hellip;</h2>
+    {{ insert_playlist(name='specials') }}
+    <br/>
+    <ul>
+      {% for episode in content.specials %}
+      <li><span class='menschy'>{{episode.title}}</span><br/>{{episode.description}} {{episode.datetime.strftime('%B %Y')}}.</li>
+      {% endfor %}
+    </ul>
+    <ul> [to add]
+      <li>[KZSU book club]</li>
+      <li>orangeasm</li>
+    </ul>
+<hr/>
+  <h2>radio plays&hellip;</h2>
+    {{ insert_playlist(name='radio_plays') }}
+<hr/>
   <h2>the pheast&hellip;</h2>
   <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague <a href="http://kristenleach.com/">DJ PJs</a> along with a few guest appearances.</p>
 
@@ -48,20 +173,7 @@
       <li>A six-hour mini-marathon, January 2014.</li>
     </ul>
 <hr/>
-  <h2>assorted content&hellip;</h2>
-    <br/>
-    <ul>
-      <li><span class='menschy'>TACO TIME</span><br/><a href="https://soundcloud.com/stanford-radio-news/taco-talk/">Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius.</a> December 2012.</li>
-      <li><span class='menschy'>HORSE_EBOOKS RIP</span><br/><a href="https://soundcloud.com/stanford-radio-news/horse_ebooks-rip/">horse_ebooks. I host a call-in show, explore my depression.</a> September 2013.</li>
-      <li>[KZSU book club]</li>
-      <li>orangeasm</li>
-    </ul>
-<hr/>
 
-  <h2>earful of convoy&hellip;</h2>
-  <img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/>
-  <p><a href="//earfulofconvoy.com">COMING SOON.</a></p>
-<hr/>
   <h2>more about kzsu&hellip;</h2>
   <p>KZSU Stanford is a place.</p>
   <p>I have been serving as Program Director for KZSU since 2010. This puts me in charge of scheduling, but the station has given me the opportunity to work on many different things. [LIST GOES HERE]</p>

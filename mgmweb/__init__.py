@@ -43,6 +43,39 @@ def etc():
     return flask.render_template('etc.html', poems=poems)
 
 
+@app.route('/radio/')
+def radio_landing():
+    content = {
+        'specials': [
+                {'url': 'http://media.mgm.ink/radio/2015-10-17.mp3',
+                 'title': 'Interview with a Pirate',
+                 'audio size': 96351459,
+                 'description': 'Alan Joyce and Mark Mollineaux of KZSU Stanford interviewed Anthony Cummins, aka Captain Tonz, for nearly an hour.',
+                 'datetime': '2015-10-17T17:00:00'},
+                {'url': 'http://media.mgm.ink/radio/2013-09-27.mp3',
+                 'title': 'horse_ebooks, RIP',
+                 'audio size': 96351459,
+                 'description': 'horse_ebooks. I host a call-in show, explore my depression.',
+                 'datetime': '2013-09-27T15:00:00'},
+                {'url': 'http://media.mgm.ink/radio/2012-12-15.mp3',
+                 'title': 'TACO TALK',
+                 'audio size': 96351459,
+                 'description': 'Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius.',
+                 'datetime': '2012-12-15T17:00:00'},
+                 ],
+        "radio_plays": [{'url': 'http://media.mgm.ink/radio/2012-04-14.mp3',
+                 'title': 'Our American Cousin',
+                 'audio size': 96351459,
+                 'description': 'Our American Cousin...',
+                 'datetime': '2012-04-14T15:00:00'},
+                 ]}
+    for subset in content.values():
+        for ep in subset:
+            ep['datetime'] = datetime.datetime.strptime(
+                ep['datetime'], "%Y-%m-%dT%H:%M:%S" )
+    return flask.render_template('radio.html', content=content)
+
+
 @app.route('/drawing/<int:num>/')
 def drawing(num):
     metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
