@@ -75,6 +75,7 @@ def random_drawing():
 
 @app.route('/drawing/last/')
 def last_drawing():
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
     return flask.redirect(flask.url_for('drawing', num=len(metadata)))
 
 
