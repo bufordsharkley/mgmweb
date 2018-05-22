@@ -77,7 +77,69 @@
         smoothPlayBar: true,
         keyEnabled: true
       });
-
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_loon",
+      cssSelectorAncestor: "#jp_container_loon"
+      }, [
+        
+        {
+          title:"2015-08-01",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-08-01.mp3",
+        },
+        
+        {
+          title:"2015-08-22",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-08-22.mp3",
+        },
+        
+        {
+          title:"2015-09-19",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-09-19.mp3",
+        },
+        
+        {
+          title:"2015-09-26",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-09-26.mp3",
+        },
+        
+        {
+          title:"2015-10-03",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-10-03.mp3",
+        },
+        
+        {
+          title:"2015-10-10",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-10-10.mp3",
+        },
+        
+        {
+          title:"2015-11-21",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-11-21.mp3",
+        },
+        
+        {
+          title:"2016-01-09",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2016-01-09.mp3",
+        },
+        
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
   });
   //]]>
   </script>
@@ -100,20 +162,27 @@
   <p>...is the title of a radio show I've been doing since late 2009, on KZSU Stanford (90.1 on your FM dial).</p>
   <p>Wanna see playlists? I got playlists.</p>
   <ul>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1041">playlists for my shows</a></li>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=768">playlists for my themed shows</a> (themed is what the show used to be: songs about worms, songs about Jack Klugman, etc&hellip;)</li>
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=768">playlists for my shows</a></li>
+    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1467">playlists for my themed shows</a> (themed is what the show used to be: songs about worms, songs about Jack Klugman, etc&hellip;)</li>
     <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1116">playlists for my shows featuring radio drama</a> (see <a href="#drama">here</a> for more details)</li>
   </ul>
   <hr/>
   <h2>earful of&hellip;</h2>
-  <a href="//earfulofconvoy.com"><img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/></a>
+  <center><a href="//earfulofconvoy.com"><img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/></a></center>
   <p>45 hours of content about the 1978 film Convoy. Recorded over the course of 2013-2017</p>
-  <a href="//earfulofcocktail.com"><img src="http://www.earfulofcocktail.com/static/cocktail.png" alt="An Earful of Cocktail" style="width:40%"/></a>
+  <iframe src="//earfulofconvoy.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  <center><a href="//earfulofcocktail.com"><img src="http://www.earfulofcocktail.com/static/cocktail.png" alt="An Earful of Cocktail" style="width:40%"/></a></center>
   <p>Same level of analysis, but  about the 1988 film Cocktail. Recorded over the course of 2017-</p>
+  <iframe src="//earfulofcocktail.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
   <hr/>
   <h2>The Henry George Program&hellip;</h2>
-  <a href="//seethecat.org"><img src="http://seethecat.org/static/banner.png" alt="The Henry George Program logo" style="width:80%"/></a>
+  <center>
+  <a href="//seethecat.org">
+  <img class="banner_under_h2" src="http://seethecat.org/static/banner.png" alt="The Henry George Program logo" style="width:80%"/>
+  </a>
+  </center>
   <p>A show about economics, housing, inequality, and reform. Currently airing 9:00am Thursdays on KZSU.</p>
+  <iframe src="//seethecat.org/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
   <hr/>
   <h2>assorted content&hellip;</h2>
     <div id="jquery_jplayer_specials" class="jp-jplayer"></div>
@@ -173,7 +242,53 @@
       <li>orangeasm</li>
     </ul>
 <hr/>
-  <h2>radio plays&hellip;</h2>
+  <h2>Loon Talk&hellip;</h2>
+  <img class="banner_under_h2" src="/static/loon_talk.png" alt="Loon Talk" style="width:100%;"/>
+  <p>A freeform conversation program with Matt Rabin.</p>
+  <div id="jquery_jplayer_loon" class="jp-jplayer"></div>
+<div id="jp_container_loon" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-playlist">
+    <div class="jp-gui jp-interface">
+      <div class="jp-controls">
+        <button class="jp-previous" role="button" tabindex="0">previous</button>
+        <button class="jp-play" role="button" tabindex="0">play</button>
+        <button class="jp-next" role="button" tabindex="0">next</button>
+        <button class="jp-stop" role="button" tabindex="0">stop</button>
+      </div>
+      <div class="jp-progress">
+        <div class="jp-seek-bar">
+          <div class="jp-play-bar"></div>
+        </div>
+      </div>
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-time-holder">
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+      </div>
+      <div class="jp-toggles">
+        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+      </div>
+    </div>
+    <div class="jp-playlist">
+      <ul>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+<hr/>
+  <h2 id=drama>radio plays&hellip;</h2>
     <div id="jquery_jplayer_radio_plays" class="jp-jplayer"></div>
 <div id="jp_container_radio_plays" class="jp-audio" role="application" aria-label="media player">
   <div class="jp-type-playlist">
@@ -216,6 +331,17 @@
     </div>
   </div>
 </div>
+  <p>Acting/radio dramas with friends: enjoyed by many at the station. Hypothetically enjoyed by listeners.</p>
+  <p>Such bouts of radio dramas (scripts culled mainly from the incredible resource <a href="http://www.genericradio.com/">The Generic Radio Workshop</a>) have been happening off and on since early 2012.</p>
+  <p>A history:</p>
+    <ul>
+      <li><a href="http://nickandnoah.com/bufordjsharkley/">Our American Cousin, and a full season of weekly radio plays. Via the website of Nick&amp;Noah (former KZSU royalty).</a></li>
+      <li>A 12-hour marathon, held January 2013. <a href="http://kzsuradioplaymarathon.tumblr.com/">Highlights available here.</a></li>
+      <li>A three-hour session of...</li>
+      <li>Two radio plays: <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-ozzie-and/">a sitcom</a> and <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-amanda-of/">a soap</a>. Featuring acting from Hervey Okkles's own ma and <a href="http://www.emilymollineaux.com">sister</a>.</li>
+      <li>A six-hour mini-marathon, January 2014.</li>
+    </ul>
+
 <hr/>
   <h2>the pheast&hellip;</h2>
   <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague <a href="http://kristenleach.com/">DJ PJs</a> along with a few guest appearances.</p>
@@ -241,19 +367,6 @@
     Labor Day Pheast. September 2013.
     <br/>
 <hr/>
-  <h2 id="drama">radio drama&hellip;</h2>
-  <p>Acting/radio dramas with friends: enjoyed by many at the station. Hypothetically enjoyed by listeners.</p>
-  <p>Such bouts of radio dramas (scripts culled mainly from the incredible resource <a href="http://www.genericradio.com/">The Generic Radio Workshop</a>) have been happening off and on since early 2012.</p>
-  <p>A history:</p>
-    <ul>
-      <li><a href="http://nickandnoah.com/bufordjsharkley/">Our American Cousin, and a full season of weekly radio plays. Via the website of Nick&amp;Noah (former KZSU royalty).</a></li>
-      <li>A 12-hour marathon, held January 2013. <a href="http://kzsuradioplaymarathon.tumblr.com/">Highlights available here.</a></li>
-      <li>A three-hour session of...</li>
-      <li>Two radio plays: <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-ozzie-and/">a sitcom</a> and <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-amanda-of/">a soap</a>. Featuring acting from Hervey Okkles's own ma and <a href="http://www.emilymollineaux.com">sister</a>.</li>
-      <li>A six-hour mini-marathon, January 2014.</li>
-    </ul>
-<hr/>
-
   <h2>more about kzsu&hellip;</h2>
   <p>KZSU Stanford is a place.</p>
   <p>I have been serving as Program Director for KZSU since 2010. This puts me in charge of scheduling, but the station has given me the opportunity to work on many different things. [LIST GOES HERE]</p>
