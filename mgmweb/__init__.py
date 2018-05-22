@@ -68,7 +68,34 @@ def radio_landing():
                  'audio size': 96351459,
                  'description': 'Our American Cousin...',
                  'datetime': '2012-04-14T15:00:00'},
-                 ]}
+                 ],
+        "loon": [
+                {'url': 'http://media.mgm.ink/radio/2015-08-01.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-08-01T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-08-22.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-08-22T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-09-19.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-09-19T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-09-26.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-09-26T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-10-03.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-10-03T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-10-10.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-10-10T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2015-11-21.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2015-11-21T00:37:00'},
+                {'url': 'http://media.mgm.ink/radio/2016-01-09.mp3',
+                 'audio size': 96351459,
+                 'datetime': '2016-01-09T00:37:00'},
+                 ],
+        }
     for subset in content.values():
         for ep in subset:
             ep['datetime'] = datetime.datetime.strptime(
