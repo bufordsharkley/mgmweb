@@ -1,0 +1,21 @@
+# Quality:
+#   0: nothing particularly interesting whatsoever, or just a dreadful misfire.
+#      I'd probably prefer that this not exist
+#   3: interesting/funny, though perhaps flawed
+#   4: pretty good and/or very interesting
+#   5: recommended listening without reservation. I think this is actually 'good'
+radio2014:
+   - title: "Rerun of Black Ace"
+     description: >
+       I should remove this from the yaml
+     datetime_a: '2014-04-25T18:00:00'
+     datetime_z: '2014-04-25T18:30:00'
+     url: http://media.mgm.ink/hgp/hgp-2017-04-11.mp3
+   - title: "Lights Out, The Death Pit"
+     description: >
+       With Mark Mollineaux and Darlene Franklin
+     script_url: http://media.mgm.ink/radio/plays/2014-04-25a.mp3
+     datetime_a: '2014-04-25T18:35:00'
+     datetime_z: '2014-04-25T19:05:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25a.mp3
+     quality: 4
