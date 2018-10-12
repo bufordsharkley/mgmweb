@@ -6,7 +6,6 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'MenschRegular';
     src: url('/static/webfonts/mensch-wf.eot');
@@ -557,4 +556,19 @@ div#summary {
     font-size: 100%;
     color: black;
     font-weight: bold;
+}
+
+.wikitoc span {
+    font-family: sans-serif;
+    font-size: 95%;
+}
+
+.wikitoc li {
+    margin-bottom: 0.1em;
+}
+
+.jp-playlist-item {
+  font-size: 1em;
+  font-family: Verdana,Arial,sans-serif;
+  line-height: 1.6;
 }
