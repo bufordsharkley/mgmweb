@@ -1,0 +1,181 @@
+# Relevance:
+#   0: nothing particularly interesting whatsoever, or just a dreadful misfire.
+#      I'd probably prefer that this not exist. Or maybe it's just a non-play.
+#   3: interesting/funny, though perhaps flawed
+#   4: pretty good and/or very interesting
+#   5: recommended listening without reservation. I think this is actually 'good'
+marathon2014:
+   # "Rerun of Black Ace" (1800-1830)
+   - title: "Lights Out: Death Pit"
+     description: >
+       With Mark Mollineaux and Darlene Franklin
+     #script_url:
+     datetime_a: 2014-04-25T18:35:00
+     datetime_z: 2014-04-25T19:05:00
+     url: http://media.mgm.ink/radio/plays/2014-04-25a.mp3
+     relevance: 4
+   # "Rerun of Lucky Strike" (1905-1940)
+   - title: "Cardinal Importance: A Trial Without Laws"
+     description: >
+       Original script by Caleb Smith, featuring Darlene Franklin and Dale Holness
+     datetime_a: '2014-04-25T19:40:00'
+     datetime_z: '2014-04-25T20:00:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25b.mp3
+     relevance: 0
+   - title: '"Chuck" Fanfic, Chapter 1'
+     description: >
+       Found online, read into the record. Featuring Mark Mollineaux, George
+       Lu, Ma'ayan Dembo, Darlene Franklin
+     datetime_a: '2014-04-25T20:05:00'
+     datetime_z: '2014-04-25T20:30:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25c.mp3
+     relevance: 3
+   # "Rerun of that classical thing" (2030-2100)
+   - title: "Mercury Theatre: The Hitchhiker"
+     description: .
+     datetime_a: '2014-04-25T21:00:00'
+     datetime_z: '2014-04-25T21:20:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25d.mp3
+     relevance: 1
+   - title: "Radio Playbill: Skyscraper"
+     description: >
+       With Kedar Naik, Eliza Ridgeway, Henry Hinton, Ma'ayan Dembo, Mark
+       Mollineaux, Emmerich Anklam, Diego Aguilar-Canabal, Tom Colvin, Dale Holness
+     datetime_a: '2014-04-25T21:35:00'
+     datetime_z: '2014-04-25T22:05:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25e.mp3
+     relevance: 4
+   - title: "The Proselytizer Radio News Hour"
+     description: >
+       Father Tom's radio program, but in the radio play marathon
+     datetime_a: '2014-04-25T22:25:00'
+     datetime_z: '2014-04-25T23:20:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25f.mp3
+     relevance: 2
+   - title: "Cardinal Importance: Unified Blues Part I"
+     description: >
+       Original script by Caleb Smith
+     datetime_a: '2014-04-25T23:30:00'
+     datetime_z: '2014-04-25T23:45:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25g.mp3
+     relevance: 0
+   - title: "Interlude: dino jokes"
+     description: >
+       Mark Mollineaux is quizzed about Dino Jokes by George Lu
+     datetime_a: '2014-04-25T23:55:00'
+     datetime_z: '2014-04-26T00:05:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25h.mp3
+     relevance: -1
+   - title: "Inner Sanctum Mystery: The Vengeful Corpse"
+     description: >
+       ...
+     datetime_a: '2014-04-26T00:05:00'
+     datetime_z: '2014-04-26T00:35:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25i.mp3
+     relevance: 2
+   - title: "Gunsmoke: The Guitar"
+     description: >
+       ...
+     datetime_a: '2014-04-26T00:55:00'
+     datetime_z: '2014-04-26T01:20:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25j.mp3
+     relevance: 3
+   - title: 'Interlude: "Gunsmoke" actors workshop'
+     description: >
+       ...
+     datetime_a: '2014-04-26T01:20:00'
+     datetime_z: '2014-04-26T01:30:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25k.mp3
+     relevance: -1
+   # "Rerun of Bickersons" (2535-2550)
+   #
+   - title: "Radio City Playhouse: The Plotters"
+     description: >
+       ...
+     datetime_a: '2014-04-26T01:50:00'
+     datetime_z: '2014-04-26T02:20:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25l.mp3
+     relevance: 0
+   - title: '"Chuck" Fanfic, Chapter 2'
+     description: >
+       ...
+     datetime_a: '2014-04-26T02:30:00'
+     datetime_z: '2014-04-26T03:00:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25m.mp3
+     relevance: 2
+   - title: "Lux Radio Theatre: Wuthering Heights"
+     description: >
+       ...
+     datetime_a: '2014-04-26T03:30:00'
+     datetime_z: '2014-04-26T04:35:00'
+     url: http://media.mgm.ink/radio/plays/2014-04-25n.mp3
+     relevance: 4
+marathon2013:
+   - title: "Quiet Please: Presto Change-o, I'm Sure"
+     description: >
+       ...
+     datetime_a: 2013-01-26T18:05:00
+     datetime_z: 2013-01-26T18:25:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26a.mp3
+     relevance: 3
+   - title: "The Bickersons: Valentine's Day"
+     description: >
+       with Mark Mollineaux and Trent Maverick
+     datetime_a: 2013-01-26T20:35:00
+     datetime_z: 2013-01-26T20:50:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26d.mp3
+     relevance: 5
+   - title: "The Lucky Strike Hour: The Mannington Case"
+     description: >
+       ...
+     datetime_a: 2013-01-27T00:15:00
+     datetime_z: 2013-01-27T00:50:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26i.mp3
+     relevance: 4
+   - title: "Psiloceras"
+     description: >
+       an original dialogue by Charlie Mintz, with George Lu and Mark
+       Mollineaux
+     datetime_a: 2013-01-27T01:05:00
+     datetime_z: 2013-01-27T01:10:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26j.mp3
+     relevance: 4
+   - title: "The Black Ace: Episode 67"
+     description: >
+       ...
+     datetime_a: 2013-01-27T02:25:00
+     datetime_z: 2013-01-27T02:55:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26m.mp3
+     relevance: 5
+   - title: "Romance: The Way to the Castle"
+     description: >
+       ...
+     datetime_a: 2013-01-27T03:00:00
+     datetime_z: 2013-01-27T03:25:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26n.mp3
+     relevance: 4
+   - title: "Inner Sanctum Mystery: The Undead"
+     description: >
+       ...
+     datetime_a: 2013-01-27T04:00:00
+     datetime_z: 2013-01-27T04:30:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26p.mp3
+     relevance: 4
+   - title: "Columbia Shakespearean Cycle: Hamlet"
+     description: >
+       ...
+     datetime_a: 2013-01-27T04:50:00
+     datetime_z: 2013-01-27T05:40:00
+     url: http://media.mgm.ink/radio/plays/2013-01-26r.mp3
+     relevance: 4
+     #1835-1905: b, Night Beat: Railroaded
+     #1925-2015: c, tolstoy redemption
+     #2100-2135: e, The Columbia Workshop: R.U.R.
+     #2145-2205: f, Quiet Please: The Pathetic Fallacy
+     #2245-2345: g, "Mercury Theatre: Treasure Island"
+     #2345-2355: h, Interlude: "Waterworld" chatter
+     #2510-2540: k, fibber mcgee (awful)
+     #2545-2600: l, the sequel
+     #2725-2740: o, Interlude: some live music
+     #2845-2850: q, Interlude: pre-"Hamlet" chatter
+     #2945-3000: s, Interlude: closing and 5BX chatter

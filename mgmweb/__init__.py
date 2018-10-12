@@ -45,67 +45,9 @@ def etc():
 
 @app.route('/radio/')
 def radio_landing():
-    content = {
-        'specials': [
-                {'url': 'http://media.mgm.ink/radio/2015-10-17.mp3',
-                 'title': 'Interview with a Pirate',
-                 'audio size': 96351459,
-                 'description': 'Alan Joyce and Mark Mollineaux of KZSU Stanford interviewed Anthony Cummins, aka Captain Tonz, for nearly an hour.',
-                 'datetime': '2015-10-17T17:00:00'},
-                {'url': 'http://media.mgm.ink/radio/2013-09-27.mp3',
-                 'title': 'horse_ebooks, RIP',
-                 'audio size': 96351459,
-                 'description': 'horse_ebooks. I host a call-in show, explore my depression.',
-                 'datetime': '2013-09-27T15:00:00'},
-                {'url': 'http://media.mgm.ink/radio/2012-12-15.mp3',
-                 'title': 'TACO TALK',
-                 'audio size': 96351459,
-                 'description': 'Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius.',
-                 'datetime': '2012-12-15T17:00:00'},
-                {'url': 'http://media.mgm.ink/radio/2018-05-05.mp3',
-                 'title': 'NO MORE MIITOMO',
-                 'audio size': 96351459,
-                 'description': 'Hervey Okkles and scuttle_toes say goodbye to Miitomo by commiserating to 5 other DJs, inside and outside of the Miitomo-verse',
-                 'datetime': '2018-05-05T17:00:00'},
-                 ],
-        "radio_plays": [{'url': 'http://media.mgm.ink/radio/2012-04-14.mp3',
-                 'title': 'Our American Cousin',
-                 'audio size': 96351459,
-                 'description': 'Our American Cousin...',
-                 'datetime': '2012-04-14T15:00:00'},
-                 ],
-        "loon": [
-                {'url': 'http://media.mgm.ink/radio/2015-08-01.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-08-01T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-08-22.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-08-22T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-09-19.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-09-19T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-09-26.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-09-26T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-10-03.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-10-03T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-10-10.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-10-10T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2015-11-21.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2015-11-21T00:37:00'},
-                {'url': 'http://media.mgm.ink/radio/2016-01-09.mp3',
-                 'audio size': 96351459,
-                 'datetime': '2016-01-09T00:37:00'},
-                 ],
-        }
-    for subset in content.values():
-        for ep in subset:
-            ep['datetime'] = datetime.datetime.strptime(
-                ep['datetime'], "%Y-%m-%dT%H:%M:%S" )
-    return flask.render_template('radio.html', content=content)
+    content = yaml.load(app.open_resource('static/radiocontent.yaml'))
+    plays = yaml.load(app.open_resource('static/radioplays.yaml'))
+    return flask.render_template('radio.html', content=content, plays=plays)
 
 
 @app.route('/drawing/<int:num>/')
