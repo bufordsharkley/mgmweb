@@ -20,10 +20,11 @@
   <script type="text/javascript" src="/static/jquery.min.js"></script>
   <script type="text/javascript" src="/static/jplayer/jquery.jplayer.min.js"></script>
   <script type="text/javascript" src="/static/jplayer/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="/static/md5.js"></script>
   <script type="text/javascript">
   //<![CDATA[
   $(document).ready(function(){
-    new jPlayerPlaylist({
+    window.specials_playlist = new jPlayerPlaylist({
       jPlayer: "#jquery_jplayer_specials",
       cssSelectorAncestor: "#jp_container_specials"
       }, [
@@ -58,6 +59,7 @@
         wmode: "window",
         playlistOptions: {autoPlay: false,},
         useStateClassSkin: true,
+        preload: "none",
         autoBlur: false,
         smoothPlayBar: true,
         keyEnabled: true
@@ -79,10 +81,178 @@
         wmode: "window",
         playlistOptions: {autoPlay: false,},
         useStateClassSkin: true,
+        preload: "none",
         autoBlur: false,
         smoothPlayBar: true,
         keyEnabled: true
       });
+    
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_radio_plays_marathon2013",
+      cssSelectorAncestor: "#jp_container_radio_plays_marathon2013"
+      }, [
+        
+        {
+          title:"Quiet Please: Presto Change-o, I&#39;m Sure",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26a.mp3",
+        },
+        
+        {
+          title:"The Bickersons: Valentine&#39;s Day",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26d.mp3",
+        },
+        
+        {
+          title:"The Lucky Strike Hour: The Mannington Case",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26i.mp3",
+        },
+        
+        {
+          title:"Psiloceras",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26j.mp3",
+        },
+        
+        {
+          title:"The Black Ace: Episode 67",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26m.mp3",
+        },
+        
+        {
+          title:"Romance: The Way to the Castle",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26n.mp3",
+        },
+        
+        {
+          title:"Inner Sanctum Mystery: The Undead",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26p.mp3",
+        },
+        
+        {
+          title:"Columbia Shakespearean Cycle: Hamlet",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2013-01-26r.mp3",
+        },
+        
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        preload: "none",
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
+    
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_radio_plays_marathon2014",
+      cssSelectorAncestor: "#jp_container_radio_plays_marathon2014"
+      }, [
+        
+        {
+          title:"Lights Out: Death Pit",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25a.mp3",
+        },
+        
+        {
+          title:"Cardinal Importance: A Trial Without Laws",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25b.mp3",
+        },
+        
+        {
+          title:"&#34;Chuck&#34; Fanfic, Chapter 1",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25c.mp3",
+        },
+        
+        {
+          title:"Mercury Theatre: The Hitchhiker",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25d.mp3",
+        },
+        
+        {
+          title:"Radio Playbill: Skyscraper",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25e.mp3",
+        },
+        
+        {
+          title:"The Proselytizer Radio News Hour",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25f.mp3",
+        },
+        
+        {
+          title:"Cardinal Importance: Unified Blues Part I",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25g.mp3",
+        },
+        
+        {
+          title:"Interlude: dino jokes",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25h.mp3",
+        },
+        
+        {
+          title:"Inner Sanctum Mystery: The Vengeful Corpse",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25i.mp3",
+        },
+        
+        {
+          title:"Gunsmoke: The Guitar",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25j.mp3",
+        },
+        
+        {
+          title:"Interlude: &#34;Gunsmoke&#34; actors workshop",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25k.mp3",
+        },
+        
+        {
+          title:"Radio City Playhouse: The Plotters",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25l.mp3",
+        },
+        
+        {
+          title:"&#34;Chuck&#34; Fanfic, Chapter 2",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25m.mp3",
+        },
+        
+        {
+          title:"Lux Radio Theatre: Wuthering Heights",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/plays/2014-04-25n.mp3",
+        },
+        
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        preload: "none",
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
+    
     new jPlayerPlaylist({
       jPlayer: "#jquery_jplayer_loon",
       cssSelectorAncestor: "#jp_container_loon"
@@ -140,6 +310,7 @@
         swfPath: "../../dist/jplayer",
         supplied: "oga, mp3",
         wmode: "window",
+        preload: "none",
         playlistOptions: {autoPlay: false,},
         useStateClassSkin: true,
         autoBlur: false,
@@ -148,6 +319,51 @@
       });
   });
   //]]>
+  function load_extra_specials() {
+     var secretword = prompt("What's the secret word", "password");
+     // I obviously don't care if this is secret, congrats
+     if (md5(secretword) == "c90a9ee01d291ca168a6e147fd07c110") {
+       window.specials_playlist.remove();
+       window.specials_playlist.setPlaylist(
+        [
+        
+        {
+          title:"2015-10-17: Interview with a Pirate",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2015-10-17.mp3",
+        },
+        
+        {
+          title:"2013-09-27: horse_ebooks, RIP",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2013-09-27.mp3",
+        },
+        
+        {
+          title:"2012-12-15: TACO TALK",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2012-12-15.mp3",
+        },
+        
+        {
+          title:"2018-06-09: Mother Okkles visit: June 2018",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2018-06-09.mp3",
+        },
+        
+        {
+          title:"2018-05-05: NO MORE MIITOMO",
+          free:true,
+          mp3:"http://media.mgm.ink/radio/2018-05-05.mp3",
+        },
+        
+        ]);
+       window.specials_playlist.shuffle();
+     } else {
+       window.alert("no");
+     }
+  }
+
   </script>
 
   </head>
@@ -163,25 +379,155 @@
     <div class=content>
       
 <div class="page">
-  <h2>college radio: if you don't listen to it, you're not trying hard enough...</h2>
-  <img class="banner_under_h2" src="/static/bjspresents.png" alt="Buford J Sharkley Presents" style="width:100%;"/>
-  <p>...is the title of a radio show I've been doing since late 2009, on KZSU Stanford (90.1 on your FM dial).</p>
-  <p>Wanna see playlists? I got playlists.</p>
+  <h2>college radio is a special medium</h2>
+  <div class="wikitoc">
+    <div class="wikitoctitle">
+      <h2>Contents</h2>
+      <span class="toctoggle">&nbsp;[<a role="button" tabindex="0" class="togglelink">hide</a>]&nbsp;</span>
+    </div>
+    <ul>
+      <li class="toclevel-1">
+        <a href="#radiosection_bjs">
+          <span class="tocnumber">1</span> <span class="toctext">Buford J. Sharkley Presents: As Told to Hervey Okkles (2010-)</span>
+        </a>
+      </li>
+      <li class="toclevel-1">
+        <a href="#radiosection_earful">
+          <span class="tocnumber">2</span> <span class="toctext">An Earful of&hellip;</span>
+        </a>
+      </li>
+      <ul>
+      <li class="toclevel-2">
+        <a href="#radiosection_earfulconvoy">
+          <span class="tocnumber">2.1</span> <span class="toctext">An Earful of Convoy (2013-2017)</span>
+        </a>
+      </li>
+      <li class="toclevel-2">
+        <a href="#radiosection_earfulcocktail">
+          <span class="tocnumber">2.2</span> <span class="toctext">An Earful of Cocktail (2017-)</span>
+        </a>
+      </li>
+      </ul>
+      <li class="toclevel-1">
+        <a href="#radiosection_henrygeorge">
+          <span class="tocnumber">3</span> <span class="toctext">The Henry George Program (2017-)</span>
+        </a>
+      </li>
+      <li class="toclevel-1">
+        <a href="#radiosection_radioplays">
+          <span class="tocnumber">4</span> <span class="toctext">Radio Plays</span>
+        </a>
+      </li>
+      <ul>
+      <li class="toclevel-2">
+        <a href="#radiosection_radioplays_2013">
+          <span class="tocnumber">4.1</span> <span class="toctext">Radio Play Marathon 2013</span>
+        </a>
+      </li>
+      <li class="toclevel-2">
+        <a href="#radiosection_radioplays_2014">
+          <span class="tocnumber">4.2</span> <span class="toctext">Radio Play Marathon 2014</span>
+        </a>
+      </li>
+      </ul>
+      <li class="toclevel-1">
+        <a href="#radiosection_loontalk">
+          <span class="tocnumber">5</span> <span class="toctext">Loon Talk (2015-)</span>
+        </a>
+      </li>
+      <li class="toclevel-1">
+        <a href="#radiosection_specials">
+          <span class="tocnumber">6</span> <span class="toctext">Specials</span>
+        </a>
+      </li>
+      <ul>
+      
+      <li class="toclevel-2">
+        <a href="#radiosection_specials_pirate">
+          <span class="tocnumber">6.1</span> <span class="toctext">Interview with a Pirate (2015)</span>
+        </a>
+      </li>
+      
+      <li class="toclevel-2">
+        <a href="#radiosection_specials_horse_ebooks">
+          <span class="tocnumber">6.2</span> <span class="toctext">horse_ebooks, RIP (2013)</span>
+        </a>
+      </li>
+      
+      <li class="toclevel-2">
+        <a href="#radiosection_specials_taco">
+          <span class="tocnumber">6.3</span> <span class="toctext">TACO TALK (2012)</span>
+        </a>
+      </li>
+      
+      <li class="toclevel-2">
+        <a href="#radiosection_specials_miitomo">
+          <span class="tocnumber">6.4</span> <span class="toctext">NO MORE MIITOMO (2018)</span>
+        </a>
+      </li>
+      
+      </ul>
+      <li class="toclevel-1">
+        <a href="#radiosection_pheast">
+          <span class="tocnumber">7</span> <span class="toctext">The Pheast (2011-2013)</span>
+        </a>
+      </li>
+  </ul>
+  </div>
+  <h2 id="radiosection_bjs">
+    <img class="banner_under_h2" src="/static/bjspresents.png" alt="Buford J Sharkley Presents" style="width:100%;"/>
+  </h2>
+  <p>
+    ...is the title of a radio show I've been doing for some time, on KZSU
+    Stanford (90.1 on your FM dial).
+  </p>
+  <p>
+    Wanna see playlists? I got playlists.
+  </p>
   <ul>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=768">playlists for my shows</a></li>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1467">playlists for my themed shows</a> (themed is what the show used to be: songs about worms, songs about Jack Klugman, etc&hellip;)</li>
-    <li><a class="largeish" href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1116">playlists for my shows featuring radio drama</a> (see <a href="#drama">here</a> for more details)</li>
+    <li>
+      <a class="largeish"
+        href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=768">
+        playlists for my shows
+      </a>
+    </li>
+    <li>
+      <a class="largeish"
+         href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1467">
+        playlists for my themed shows
+      </a>
+      (themed is what the show used to be: songs about worms, songs about Jack Klugman, etc&hellip;)
+    </li>
+    <li>
+      <a class="largeish"
+         href="http://zookeeper.stanford.edu/index.php?action=viewDJ&amp;seq=selUser&amp;viewuser=1116">
+        playlists for my shows featuring radio drama
+      </a>
+      (see <a href="#radiosection_radioplays">here</a> for more details)
+    </li>
   </ul>
   <hr/>
-  <h2>earful of&hellip;</h2>
-  <center><a href="//earfulofconvoy.com"><img src="http://www.earfulofconvoy.com/static/convoy.png" alt="An Earful of Convoy" style="width:40%"/></a></center>
-  <p>45 hours of content about the 1978 film Convoy. Recorded over the course of 2013-2017</p>
-  <iframe src="//earfulofconvoy.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  <h2 id="radiosection_earful">an earful of&hellip;</h2>
+  <h3 id="radiosection_earfulconvoy">
+    <center><a href="//earfulofconvoy.com">
+      <img src="http://www.earfulofconvoy.com/static/convoy.png"
+           alt="An Earful of Convoy" style="width:40%"/>
+      </a></center>
+  </h3>
+  <p>
+    45 hours of content about the 1978 film Convoy. Recorded over the course of
+    2013-2017
+  </p>
+  <iframe src="//earfulofconvoy.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" align="center"><br /> </iframe>
+  <div style="background: black;color:white;">
+  <h3 id="radiosection_earfulcocktail">
   <center><a href="//earfulofcocktail.com"><img src="http://www.earfulofcocktail.com/static/cocktail.png" alt="An Earful of Cocktail" style="width:40%"/></a></center>
+  </h3>
   <p>Same level of analysis, but  about the 1988 film Cocktail. Recorded over the course of 2017-</p>
   <iframe src="//earfulofcocktail.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  </div>
   <hr/>
-  <h2>The Henry George Program&hellip;</h2>
+  <h2 id="radiosection_henrygeorge">The Henry George Program&hellip;</h2>
   <center>
   <a href="//seethecat.org">
   <img class="banner_under_h2" src="http://seethecat.org/static/banner.png" alt="The Henry George Program logo" style="width:80%"/>
@@ -190,7 +536,8 @@
   <p>A show about economics, housing, inequality, and reform. Currently airing 9:00am Thursdays on KZSU.</p>
   <iframe src="//seethecat.org/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
   <hr/>
-  <h2>assorted content&hellip;</h2>
+  <h2 id="radiosection_specials">assorted content&hellip;</h2>
+    <button onclick="load_extra_specials()">Click for secret content</button>
     <div id="jquery_jplayer_specials" class="jp-jplayer"></div>
 <div id="jp_container_specials" class="jp-audio" role="application" aria-label="media player">
   <div class="jp-type-playlist">
@@ -236,21 +583,24 @@
     <br/>
     <ul>
       
-      <li><span class='menschy'>Interview with a Pirate</span><br/>Alan Joyce and Mark Mollineaux of KZSU Stanford interviewed Anthony Cummins, aka Captain Tonz, for nearly an hour. October 2015.</li>
+      <li id="radiosection_specials_pirate"><span class='menschy'>Interview with a Pirate</span><br/>Alan Joyce and Mark Mollineaux of KZSU Stanford interviewed Anthony Cummins, aka Captain Tonz, for nearly an hour.
+ October 2015.</li>
       
-      <li><span class='menschy'>horse_ebooks, RIP</span><br/>horse_ebooks. I host a call-in show, explore my depression. September 2013.</li>
+      <li id="radiosection_specials_horse_ebooks"><span class='menschy'>horse_ebooks, RIP</span><br/>horse_ebooks. I host a call-in show, explore my depression. September 2013.</li>
       
-      <li><span class='menschy'>TACO TALK</span><br/>Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius. December 2012.</li>
+      <li id="radiosection_specials_taco"><span class='menschy'>TACO TALK</span><br/>Four KZSU DJs review seven (?) taco restaurants, all with the same name, all within a two-mile radius.
+ December 2012.</li>
       
-      <li><span class='menschy'>NO MORE MIITOMO</span><br/>Hervey Okkles and scuttle_toes say goodbye to Miitomo by commiserating to 5 other DJs, inside and outside of the Miitomo-verse May 2018.</li>
+      <li id="radiosection_specials_miitomo"><span class='menschy'>NO MORE MIITOMO</span><br/>Hervey Okkles and scuttle_toes say goodbye to Miitomo by commiserating to 5 other DJs, inside and outside of the Miitomo-verse
+ May 2018.</li>
       
     </ul>
     <ul> [to add]
       <li>[KZSU book club]</li>
       <li>orangeasm</li>
     </ul>
-<hr/>
-  <h2>Loon Talk&hellip;</h2>
+  <hr/>
+  <h2 id="radiosection_loontalk">Loon Talk&hellip;</h2>
   <img class="banner_under_h2" src="/static/loon_talk.png" alt="Loon Talk" style="width:100%;"/>
   <p>A freeform conversation program with Matt Rabin.</p>
   <div id="jquery_jplayer_loon" class="jp-jplayer"></div>
@@ -296,7 +646,107 @@
   </div>
 </div>
 <hr/>
-  <h2 id=drama>radio plays&hellip;</h2>
+  <h2 id=radiosection_radioplays>radio plays&hellip;</h2>
+  <p>Acting/radio dramas with friends: enjoyed by many at the station. Hypothetically enjoyed by listeners.</p>
+  <p>Such bouts of radio dramas (scripts culled mainly from the incredible resource <a href="http://www.genericradio.com/">The Generic Radio Workshop</a>) have been happening off and on since early 2012.</p>
+  <p>A history:</p>
+    <ul>
+      <li><a href="http://nickandnoah.com/bufordjsharkley/">Our American Cousin, and a full season of weekly radio plays. Via the website of Nick&amp;Noah (former KZSU royalty).</a></li>
+      <li>Two radio plays: <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-ozzie-and/">a sitcom</a> and <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-amanda-of/">a soap</a>. Featuring acting from Hervey Okkles's own ma and <a href="http://www.emilymollineaux.com">sister</a>.</li>
+      <li>A six-hour mini-marathon, January 2014.</li>
+    </ul>
+
+  <h3 id="radiosection_radioplays_2013">2013 Radio Play Marathon</h3>
+    <p>held January 26, 2013. <a href="http://kzsuradioplaymarathon.tumblr.com/">some photos here.</a></p>
+    <div id="jquery_jplayer_radio_plays_marathon2013" class="jp-jplayer"></div>
+<div id="jp_container_radio_plays_marathon2013" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-playlist">
+    <div class="jp-gui jp-interface">
+      <div class="jp-controls">
+        <button class="jp-previous" role="button" tabindex="0">previous</button>
+        <button class="jp-play" role="button" tabindex="0">play</button>
+        <button class="jp-next" role="button" tabindex="0">next</button>
+        <button class="jp-stop" role="button" tabindex="0">stop</button>
+      </div>
+      <div class="jp-progress">
+        <div class="jp-seek-bar">
+          <div class="jp-play-bar"></div>
+        </div>
+      </div>
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-time-holder">
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+      </div>
+      <div class="jp-toggles">
+        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+      </div>
+    </div>
+    <div class="jp-playlist">
+      <ul>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+  <hr/>
+  <h3 id="radiosection_radioplays_2014">2014 Radio Play Marathon</h3>
+    <p>held April 25, 2014.</p>
+    <div id="jquery_jplayer_radio_plays_marathon2014" class="jp-jplayer"></div>
+<div id="jp_container_radio_plays_marathon2014" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-playlist">
+    <div class="jp-gui jp-interface">
+      <div class="jp-controls">
+        <button class="jp-previous" role="button" tabindex="0">previous</button>
+        <button class="jp-play" role="button" tabindex="0">play</button>
+        <button class="jp-next" role="button" tabindex="0">next</button>
+        <button class="jp-stop" role="button" tabindex="0">stop</button>
+      </div>
+      <div class="jp-progress">
+        <div class="jp-seek-bar">
+          <div class="jp-play-bar"></div>
+        </div>
+      </div>
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-time-holder">
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+      </div>
+      <div class="jp-toggles">
+        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+      </div>
+    </div>
+    <div class="jp-playlist">
+      <ul>
+        <li>&nbsp;</li>
+      </ul>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+  <hr/>
+  <h3 id="radiosection_radioplays_various">Various</h3>
     <div id="jquery_jplayer_radio_plays" class="jp-jplayer"></div>
 <div id="jp_container_radio_plays" class="jp-audio" role="application" aria-label="media player">
   <div class="jp-type-playlist">
@@ -339,16 +789,6 @@
     </div>
   </div>
 </div>
-  <p>Acting/radio dramas with friends: enjoyed by many at the station. Hypothetically enjoyed by listeners.</p>
-  <p>Such bouts of radio dramas (scripts culled mainly from the incredible resource <a href="http://www.genericradio.com/">The Generic Radio Workshop</a>) have been happening off and on since early 2012.</p>
-  <p>A history:</p>
-    <ul>
-      <li><a href="http://nickandnoah.com/bufordjsharkley/">Our American Cousin, and a full season of weekly radio plays. Via the website of Nick&amp;Noah (former KZSU royalty).</a></li>
-      <li>A 12-hour marathon, held January 2013. <a href="http://kzsuradioplaymarathon.tumblr.com/">Highlights available here.</a></li>
-      <li>A three-hour session of...</li>
-      <li>Two radio plays: <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-ozzie-and/">a sitcom</a> and <a href="https://soundcloud.com/stanford-radio-news/kzsu-radio-dramas-amanda-of/">a soap</a>. Featuring acting from Hervey Okkles's own ma and <a href="http://www.emilymollineaux.com">sister</a>.</li>
-      <li>A six-hour mini-marathon, January 2014.</li>
-    </ul>
 
 <hr/>
   <h2>the pheast&hellip;</h2>
