@@ -42,6 +42,27 @@ radio_plays:
     audio size: 96351459,
     description: Our American Cousin...
     datetime: 2012-04-14T15:00:00
+pheast:
+  - url: http://media.mgm.ink/radio/pheast_01.mp3
+    title: The Pheast
+    audio size: 96351459,
+    #description: The Pheast: November 2011.
+    datetime: 2011-11-22T00:00:00
+  - url: http://media.mgm.ink/radio/pheast_02.mp3
+    title: "Pheast II: Holiday Pheastivities"
+    audio size: 96351459,
+    #description: Holiday Pheastivities. December 2012. 
+    datetime: 2012-12-13T00:00:00
+  - url: http://media.mgm.ink/radio/pheast_03.mp3
+    title: "Pheast III: PheastBQ"
+    audio size: 96351459,
+    #description: PheastBQ. June 2013. 
+    datetime: 2013-06-28T16:00:00
+  - url: http://media.mgm.ink/radio/pheast_04.mp3
+    title: "Pheast IV: Labor Day Pheast"
+    audio size: 96351459,
+    #description: Labor Day Pheast. September 2013. 
+    datetime: 2013-09-06T16:00:00
 loon:
   - url: http://media.mgm.ink/radio/2015-08-01.mp3
     audio size: 96351459,
