@@ -9,6 +9,28 @@
   <script type="text/javascript">
   //<![CDATA[
   $(document).ready(function(){
+    window.regulars_playlist = new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_regulars",
+      cssSelectorAncestor: "#jp_container_regulars"
+      }, [
+        {% for episode in content.regular_shows if not episode.secret %}
+        {
+          title:"{{ episode.title }}",
+          free:true,
+          mp3:"{{ episode.url }}",
+        },
+        {% endfor %}
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        preload: "none",
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
     window.specials_playlist = new jPlayerPlaylist({
       jPlayer: "#jquery_jplayer_specials",
       cssSelectorAncestor: "#jp_container_specials"
@@ -99,8 +121,49 @@
         smoothPlayBar: true,
         keyEnabled: true
       });
+    new jPlayerPlaylist({
+      jPlayer: "#jquery_jplayer_pheast",
+      cssSelectorAncestor: "#jp_container_pheast"
+      }, [
+        {% for episode in content.pheast %}
+        {
+          title:"{{ episode.datetime.strftime('%Y-%m-%d')}}: {{ episode.title }}",
+          free:true,
+          mp3:"{{ episode.url }}",
+        },
+        {% endfor %}
+      ], {
+        swfPath: "../../dist/jplayer",
+        supplied: "oga, mp3",
+        wmode: "window",
+        preload: "none",
+        playlistOptions: {autoPlay: false,},
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true
+      });
   });
   //]]>
+  function load_extra_regulars() {
+     var secretword = prompt("What's the secret word", "password");
+     // I obviously don't care if this is secret, congrats
+     if (md5(secretword) == "c90a9ee01d291ca168a6e147fd07c110") {
+       window.regulars_playlist.remove();
+       window.regulars_playlist.setPlaylist(
+        [
+        {% for episode in content.regular_shows %}
+        {
+          title:"{{ episode.title }}",
+          free:true,
+          mp3:"{{ episode.url }}",
+        },
+        {% endfor %}
+        ]);
+     } else {
+       window.alert("no");
+     }
+  }
   function load_extra_specials() {
      var secretword = prompt("What's the secret word", "password");
      // I obviously don't care if this is secret, congrats
@@ -279,6 +342,10 @@
       (see <a href="#radiosection_radioplays">here</a> for more details)
     </li>
   </ul>
+  <h2 id="radiosection_regulars">Show archive (secret stuff&hellip;)</h2>
+    <button onclick="load_extra_regulars()">Click for secret content</button>
+    <button onclick="window.regulars_playlist.shuffle()">Shuffle</button>
+    {{ insert_playlist(name='regulars') }}
   <hr/>
   <h2 id="radiosection_earful">an earful of&hellip;</h2>
   <h3 id="radiosection_earfulconvoy">
@@ -350,28 +417,17 @@
     {{ insert_playlist(name='radio_plays') }}
 
 <hr/>
-  <h2>the pheast&hellip;</h2>
+  <h2 id="radiosection_pheast">the pheast&hellip;</h2>
   <p>Here's some content from The Pheast, a semi-regular program I've done with KZSU colleague <a href="http://kristenleach.com/">DJ PJs</a> along with a few guest appearances.</p>
-
-    <audio controls>
-        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_Show.mp3">
-    </audio>
-    The Pheast: November 2011.
+    {{ insert_playlist(name='pheast') }}
     <br/>
-    <audio controls>
-        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_II_Holiday_Pheastivities.mp3">
-    </audio>
-    Holiday Pheastivities. December 2012.
-    <br/>
-    <audio controls>
-        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_III_PheastBQ.mp3">
-    </audio>
-    PheastBQ. June 2013.
-    <br/>
-    <audio controls>
-        <source src="http://nickandnoah.com/old/archives/Trent/Pheast_IV_Labor_Day_Pheast.mp3">
-    </audio>
-    Labor Day Pheast. September 2013.
+    <!--
+    <ul>
+      {% for episode in content.pheast %}
+      <li id="radiosection_specials_{{episode.id}}"><span class='menschy'>{{episode.title}}</span><br/>{{episode.description}} {{episode.datetime.strftime('%B %Y')}}.</li>
+      {% endfor %}
+    </ul>
+    -->
     <br/>
 <hr/>
   <h2>more about kzsu&hellip;</h2>
