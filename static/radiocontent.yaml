@@ -29,13 +29,6 @@ specials:
       Hervey Okkles and scuttle_toes say goodbye to Miitomo by commiserating to
       5 other DJs, inside and outside of the Miitomo-verse
     datetime: 2018-05-05T17:00:00
-  - url: http://media.mgm.ink/radio/2018-06-09.mp3
-    id: ma2018
-    title: "Mother Okkles visit: June 2018"
-    audio size: 96351459,
-    description: ...
-    secret: True,
-    datetime: 2018-06-09T17:00:00
 radio_plays:
   - url: http://media.mgm.ink/radio/2012-04-14.mp3
     title: Our American Cousin
@@ -109,64 +102,95 @@ loon:
   - url: http://media.mgm.ink/radio/loon/2020-07-18.mp3
     audio size: 96351459,
     datetime: 2020-07-18T17:00:00
-regular_shows:
-  - url: http://media.mgm.ink/radio/2012-09-11.mp3
+bjs:
+  - url: http://media.mgm.ink/radio/bjs/2012-09-11.mp3
     title: "2012-09-11"
     audio size: 96351459,
     secret: True,
     datetime: 2012-09-11T10:30:00
-  - url: http://media.mgm.ink/radio/2012-09-18.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-09-18.mp3
     title: "2012-09-18"
     audio size: 96351459,
     secret: True,
     datetime: 2012-09-18T10:30:00
-  - url: http://media.mgm.ink/radio/2012-09-25.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-09-25.mp3
     title: "2012-09-25"
     audio size: 96351459,
     secret: True,
     datetime: 2012-09-25T10:30:00
-  - url: http://media.mgm.ink/radio/2012-10-06.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-10-06.mp3
     title: "2012-10-06"
     audio size: 96351459,
     secret: True,
     datetime: 2012-10-06T18:00:00
-  - url: http://media.mgm.ink/radio/2012-10-13.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-10-13.mp3
     title: "2012-10-13"
     audio size: 96351459,
     secret: True,
     datetime: 2012-10-13T18:00:00
-  - url: http://media.mgm.ink/radio/2012-10-20.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-10-20.mp3
     title: "2012-10-20"
     audio size: 96351459,
     secret: True,
     datetime: 2012-10-20T18:00:00
-  - url: http://media.mgm.ink/radio/2012-11-03.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-11-03.mp3
     title: "2012-11-03"
     audio size: 96351459,
     secret: True,
     datetime: 2012-11-03T17:00:00
-  - url: http://media.mgm.ink/radio/2012-11-10.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-11-10.mp3
     title: "2012-11-10: Norton Records Showcase"
     audio size: 96351459,
     secret: True,
     datetime: 2012-11-10T18:00:00
-  - url: http://media.mgm.ink/radio/2012-11-17.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-11-17.mp3
     title: "2012-11-17"
     audio size: 96351459,
     secret: True,
     datetime: 2012-11-17T15:00:00
-  - url: http://media.mgm.ink/radio/2012-12-01.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-12-01.mp3
     title: "2012-12-01"
     audio size: 96351459,
     secret: True,
     datetime: 2012-12-01T16:00:00
-  - url: http://media.mgm.ink/radio/2012-12-08.mp3
+  - url: http://media.mgm.ink/radio/bjs/2012-12-08.mp3
     title: "2012-12-08"
     audio size: 96351459,
     secret: True,
     datetime: 2012-12-08T18:00:00
-  - url: http://media.mgm.ink/radio/2013-01-12.mp3
+  - url: http://media.mgm.ink/radio/bjs/2013-01-12.mp3
     title: "2013-01-12"
     audio size: 96351459,
     secret: True,
     datetime: 2013-01-12T18:00:00
+  - url: http://media.mgm.ink/radio/bjs/2015-12-12.mp3
+    title: "2015-12-12"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2015-12-12T00:37:00
+  - url: http://media.mgm.ink/radio/bjs/2016-03-05.mp3
+    title: "2016-03-05"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2016-03-05T00:37:00
+  - url: http://media.mgm.ink/radio/bjs/2017-06-17.mp3
+    title: "Mother Okkles visit: June 2017"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2017-06-17T00:37:00
+  - url: http://media.mgm.ink/radio/bjs/2017-08-12.mp3
+    title: "2017-08-12"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2017-08-12T00:37:00
+  - url: http://media.mgm.ink/radio/bjs/2018-08-04.mp3
+    title: "2018-08-04"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2018-08-04T00:37:00
+  - url: http://media.mgm.ink/radio/bjs/2018-06-09.mp3
+    id: ma2018
+    title: "Mother Okkles visit: June 2018"
+    audio size: 96351459,
+    secret: True,
+    datetime: 2018-06-09T17:00:00
