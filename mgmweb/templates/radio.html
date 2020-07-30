@@ -171,7 +171,7 @@
        window.specials_playlist.remove();
        window.specials_playlist.setPlaylist(
         [
-        {% for episode in content.specials %}
+        {% for episode in (content.specials + content.bjs) %}
         {
           title:"{{ episode.datetime.strftime('%Y-%m-%d')}}: {{ episode.title }}",
           free:true,
