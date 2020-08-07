@@ -13,7 +13,7 @@
       jPlayer: "#jquery_jplayer_regulars",
       cssSelectorAncestor: "#jp_container_regulars"
       }, [
-        {% for episode in content.regular_shows if not episode.secret %}
+        {% for episode in content.bjs if episode.not_secret %}
         {
           title:"{{ episode.title }}",
           free:true,
@@ -152,14 +152,15 @@
        window.regulars_playlist.remove();
        window.regulars_playlist.setPlaylist(
         [
-        {% for episode in content.regular_shows %}
+        {% for episode in content.bjs %}
         {
-          title:"{{ episode.title }}",
+          title:{% if episode.title %}"{{ episode.title }}"{% else %}"{{ episode.url.rsplit('/', 1)[1].split('.')[0] }}"{% endif %},
           free:true,
           mp3:"{{ episode.url }}",
         },
         {% endfor %}
         ]);
+       window.regulars_playlist.shuffle();
      } else {
        window.alert("no");
      }
@@ -171,9 +172,9 @@
        window.specials_playlist.remove();
        window.specials_playlist.setPlaylist(
         [
-        {% for episode in (content.specials + content.bjs) %}
+        {% for episode in (content.specials + (content.bjs|selectattr("is_special")|list)) %}
         {
-          title:"{{ episode.datetime.strftime('%Y-%m-%d')}}: {{ episode.title }}",
+          title:{% if episode.datetime %}"{{ episode.datetime.strftime('%Y-%m-%d')}}: {% else %}" XXXXXX{% endif %}{{ episode.title }}",
           free:true,
           mp3:"{{ episode.url }}",
         },
