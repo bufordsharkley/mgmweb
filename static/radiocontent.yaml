@@ -2,7 +2,6 @@ specials:
   - url: http://media.mgm.ink/radio/specials/2015-10-17.mp3
     id: pirate
     title: Interview with a Pirate
-    audio size: 96351459,
     description: >
        Alan Joyce and Mark Mollineaux of KZSU Stanford interviewed Anthony
        Cummins, aka Captain Tonz, for nearly an hour.
@@ -10,13 +9,11 @@ specials:
   - url: http://media.mgm.ink/radio/specials/2013-09-27.mp3
     id: horse_ebooks
     title: horse_ebooks, RIP
-    audio size: 96351459,
     description: horse_ebooks. I host a call-in show, explore my depression.
     datetime: 2013-09-27T15:00:00
   - url: http://media.mgm.ink/radio/specials/2012-12-15.mp3
     id: taco
     title: TACO TALK
-    audio size: 96351459,
     description: >
        Four KZSU DJs review seven (?) taco restaurants, all with the same name,
        all within a two-mile radius.
@@ -24,173 +21,133 @@ specials:
   - url: http://media.mgm.ink/radio/specials/2018-05-05.mp3
     id: miitomo
     title: NO MORE MIITOMO
-    audio size: 96351459,
     description: >
       Hervey Okkles and scuttle_toes say goodbye to Miitomo by commiserating to
       5 other DJs, inside and outside of the Miitomo-verse
     datetime: 2018-05-05T17:00:00
+  - url: http://media.mgm.ink/radio/specials/2011-04-21.mp3
+    title: ORANGEASM 1
+    description: >
+       Overnight broadcasting.
+    datetime: 2011-04-21T23:59:00
+  - url: http://media.mgm.ink/radio/specials/2011-11-15.mp3
+    title: ORANGEASM 2
+    description: >
+       Overnight broadcasting.
+    datetime: 2011-11-15T23:59:00
 radio_plays:
   - url: http://media.mgm.ink/radio/2012-04-14.mp3
     title: Our American Cousin
-    audio size: 96351459,
     description: Our American Cousin...
     datetime: 2012-04-14T15:00:00
 pheast:
   - url: http://media.mgm.ink/radio/pheast/pheast_01.mp3
     title: The Pheast
-    audio size: 96351459,
     #description: The Pheast: November 2011.
     datetime: 2011-11-22T00:00:00
   - url: http://media.mgm.ink/radio/pheast/pheast_02.mp3
     title: "Pheast II: Holiday Pheastivities"
-    audio size: 96351459,
     #description: Holiday Pheastivities. December 2012. 
     datetime: 2012-12-13T00:00:00
   - url: http://media.mgm.ink/radio/pheast/pheast_03.mp3
     title: "Pheast III: PheastBQ"
-    audio size: 96351459,
     #description: PheastBQ. June 2013. 
     datetime: 2013-06-28T16:00:00
   - url: http://media.mgm.ink/radio/pheast/pheast_04.mp3
     title: "Pheast IV: Labor Day Pheast"
-    audio size: 96351459,
     #description: Labor Day Pheast. September 2013. 
     datetime: 2013-09-06T16:00:00
 loon:
   - url: http://media.mgm.ink/radio/loon/2015-08-01.mp3
-    audio size: 96351459,
     datetime: 2015-08-01T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-08-22.mp3
-    audio size: 96351459,
     datetime: 2015-08-22T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-09-19.mp3
-    audio size: 96351459,
     datetime: 2015-09-19T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-09-26.mp3
-    audio size: 96351459,
     datetime: 2015-09-26T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-10-03.mp3
-    audio size: 96351459,
     datetime: 2015-10-03T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-10-10.mp3
-    audio size: 96351459,
     datetime: 2015-10-10T00:37:00
   - url: http://media.mgm.ink/radio/loon/2015-11-21.mp3
-    audio size: 96351459,
     datetime: 2015-11-21T00:37:00
   - url: http://media.mgm.ink/radio/loon/2016-01-09.mp3
-    audio size: 96351459,
     datetime: 2016-01-09T00:37:00
   - url: http://media.mgm.ink/radio/loon/2020-04-23.mp3
-    audio size: 96351459,
     datetime: 2020-04-23T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-05-07.mp3
-    audio size: 96351459,
     datetime: 2020-05-07T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-05-20.mp3
-    audio size: 96351459,
     datetime: 2020-05-20T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-06-04.mp3
-    audio size: 96351459,
     datetime: 2020-06-04T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-06-18.mp3
-    audio size: 96351459,
     datetime: 2020-06-18T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-07-03.mp3
-    audio size: 96351459,
     datetime: 2020-07-03T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-07-18.mp3
-    audio size: 96351459,
     datetime: 2020-07-18T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-08-01.mp3
+    datetime: 2020-08-01T17:00:00
 bjs:
+  - url: http://media.mgm.ink/radio/bjs/2010-02-26.mp3
+    title: "2010-02-26: Buford J. Sharkley's Presentation of Scorsese-centric Sound Stylings"
+  - url: http://media.mgm.ink/radio/bjs/2010-03-05.mp3
+    title: "2010-03-05: Buford J. Sharkley's Robotic (Musical) Machinations"
+  - url: http://media.mgm.ink/radio/bjs/2010-03-12.mp3
+    title: "2010-03-12: Buford J. Sharkley's Titular Multiplicities"
+  - url: http://media.mgm.ink/radio/bjs/2010-04-02.mp3
+    title: "2010-04-02: Buford J. Sharkley's Vegetative States"
+  - url: http://media.mgm.ink/radio/bjs/2010-04-09.mp3
+    title: "2010-04-09: Buford J. Sharkley's Canine Cavalcade"
+  - url: http://media.mgm.ink/radio/bjs/2010-04-16.mp3
+    title: "2010-04-16: Buford J. Sharkley's Entomological Song Stylings"
+  - url: http://media.mgm.ink/radio/bjs/2010-04-23.mp3
+    title: "2010-04-23: Buford J. Sharkley's Maritime Escapades"
+  - url: http://media.mgm.ink/radio/bjs/2010-05-07.mp3
+    title: "2010-05-07: Buford J. Sharkley's Podiatric Coverings"
+  - url: http://media.mgm.ink/radio/bjs/2010-05-14.mp3
+    title: "2010-05-14: Buford J. Sharkley's Carmina Felidae"
   - url: http://media.mgm.ink/radio/bjs/2012-09-11.mp3
-    title: "2012-09-11"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-09-11T10:30:00
   - url: http://media.mgm.ink/radio/bjs/2012-09-18.mp3
-    title: "2012-09-18"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-09-18T10:30:00
   - url: http://media.mgm.ink/radio/bjs/2012-09-25.mp3
-    title: "2012-09-25"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-09-25T10:30:00
   - url: http://media.mgm.ink/radio/bjs/2012-10-06.mp3
-    title: "2012-10-06"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-10-06T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-10-13.mp3
-    title: "2012-10-13"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-10-13T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-10-20.mp3
-    title: "2012-10-20"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-10-20T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-11-03.mp3
-    title: "2012-11-03"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-11-03T17:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-11-10.mp3
     title: "2012-11-10: Norton Records Showcase"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-11-10T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-11-17.mp3
-    title: "2012-11-17"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-11-17T15:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-12-01.mp3
-    title: "2012-12-01"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-12-01T16:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-12-08.mp3
-    title: "2012-12-08"
-    audio size: 96351459,
-    secret: True,
     datetime: 2012-12-08T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2013-01-12.mp3
-    title: "2013-01-12"
-    audio size: 96351459,
-    secret: True,
     datetime: 2013-01-12T18:00:00
   - url: http://media.mgm.ink/radio/bjs/2015-12-12.mp3
-    title: "2015-12-12"
-    audio size: 96351459,
-    secret: True,
     datetime: 2015-12-12T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2016-03-05.mp3
-    title: "2016-03-05"
-    audio size: 96351459,
-    secret: True,
     datetime: 2016-03-05T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2017-06-17.mp3
     title: "Mother Okkles visit: June 2017"
-    audio size: 96351459,
-    secret: True,
+    is_special: true
     datetime: 2017-06-17T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2017-08-12.mp3
-    title: "2017-08-12"
-    audio size: 96351459,
-    secret: True,
     datetime: 2017-08-12T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2018-08-04.mp3
-    title: "2018-08-04"
-    audio size: 96351459,
-    secret: True,
     datetime: 2018-08-04T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2018-06-09.mp3
     id: ma2018
     title: "Mother Okkles visit: June 2018"
-    audio size: 96351459,
-    secret: True,
+    is_special: true
     datetime: 2018-06-09T17:00:00
