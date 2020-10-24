@@ -15,6 +15,11 @@ from .film_100 import top100films
 app = flask.Flask(__name__)
 
 
+def get_content(app):
+    return yaml.load(app.open_resource('static/radiocontent.yaml'),
+                     Loader=yaml.FullLoader)
+
+
 @app.route('/')
 def index():
     return flask.render_template('index.html',
@@ -45,7 +50,7 @@ def etc():
 
 @app.route('/radio/')
 def radio_landing():
-    content = yaml.load(app.open_resource('static/radiocontent.yaml'))
+    content = get_content(app)
     plays = yaml.load(app.open_resource('static/radioplays.yaml'))
     return flask.render_template('radio.html', content=content, plays=plays)
 
