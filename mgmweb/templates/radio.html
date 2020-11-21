@@ -186,11 +186,19 @@
      }
   }
 
+
+  $(window).load(function() {
+    $('#convoyiframe').css('height', $(window).height()+'px');
+    $('#cocktailiframe').css('height', $(window).height()+'px');
+    $('#ygmiframe').css('height', $(window).height()+'px');
+    $('#hgpiframe').css('height', $(window).height()+'px');
+  });
+  
   </script>
 {% endblock %}
 {% macro insert_playlist(name) -%}
 <div id="jquery_jplayer_{{name}}" class="jp-jplayer"></div>
-<div id="jp_container_{{name}}" class="jp-audio" role="application" aria-label="media player">
+<div id="jp_container_{{name}}" class="jp-audio" role="application" aria-label="media player" style="margin:0 auto">
   <div class="jp-type-playlist">
     <div class="jp-gui jp-interface">
       <div class="jp-controls">
@@ -259,7 +267,12 @@
       </li>
       <li class="toclevel-2">
         <a href="#radiosection_earfulcocktail">
-          <span class="tocnumber">2.2</span> <span class="toctext">An Earful of Cocktail (2017-)</span>
+          <span class="tocnumber">2.2</span> <span class="toctext">An Earful of Cocktail (2017-2019)</span>
+        </a>
+      </li>
+      <li class="toclevel-2">
+        <a href="#radiosection_earfulygm">
+          <span class="tocnumber">2.3</span> <span class="toctext">An Earful of You've Got Mail (2020-)</span>
         </a>
       </li>
       </ul>
@@ -343,9 +356,12 @@
       (see <a href="#radiosection_radioplays">here</a> for more details)
     </li>
   </ul>
+  <hr/>
   <h2 id="radiosection_regulars">Show archive (secret stuff&hellip;)</h2>
-    <button onclick="load_extra_regulars()">Click for secret content</button>
-    <button onclick="window.regulars_playlist.shuffle()">Shuffle</button>
+    <div style="display: flex; justify-content: center; margin-top: 2em;">
+      <button class="bluebutton" onclick="load_extra_regulars()">Click for secret content</button>
+      <button class="bluebutton" onclick="window.regulars_playlist.shuffle()">Shuffle</button>
+    </div>
     {{ insert_playlist(name='regulars') }}
   <hr/>
   <h2 id="radiosection_earful">an earful of&hellip;</h2>
@@ -359,14 +375,24 @@
     45 hours of content about the 1978 film Convoy. Recorded over the course of
     2013-2017
   </p>
-  <iframe src="//earfulofconvoy.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" align="center"><br /> </iframe>
+  <iframe src="//earfulofconvoy.com/playlist.html" id="convoyiframe" name="frame1" width="100%;" height="600px" frameborder="no" align="center"><br /> </iframe>
+
   <div style="background: black;color:white;">
   <h3 id="radiosection_earfulcocktail">
   <center><a href="//earfulofcocktail.com"><img src="http://www.earfulofcocktail.com/static/cocktail.png" alt="An Earful of Cocktail" style="width:40%"/></a></center>
   </h3>
-  <p>Same level of analysis, but  about the 1988 film Cocktail. Recorded over the course of 2017-</p>
-  <iframe src="//earfulofcocktail.com/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  <p>Same level of analysis, but  about the 1988 film Cocktail. Recorded over the course of 2017-2019</p>
+  <iframe src="//earfulofcocktail.com/playlist.html" id="cocktailiframe" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
   </div>
+
+  <div style="color:#db4f58;background:#fffedc;">
+  <h3 id="radiosection_earfulygm">
+  <center><a href="//earfulofyouvegotmail.com"><img src="http://www.earfulofyouvegotmail.com/static/ygm.png" alt="An Earful of You've Got Mail" style="width:40%"/></a></center>
+  </h3>
+  <p>Same level of analysis, but  about the 1998 film You've Got Mail. Recorded over the course of 2020-</p>
+  <iframe src="//earfulofyouvegotmail.com/playlist.html" id="ygmiframe" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  </div>
+
   <hr/>
   <h2 id="radiosection_henrygeorge">The Henry George Program&hellip;</h2>
   <center>
@@ -375,10 +401,13 @@
   </a>
   </center>
   <p>A show about economics, housing, inequality, and reform. Currently airing 9:00am Thursdays on KZSU.</p>
-  <iframe src="//seethecat.org/playlist.html" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
+  <iframe src="//seethecat.org/playlist.html" id="hgpiframe" name="frame1" width="100%" height="600px" frameborder="no" scrolling="auto" align="center"><br /> </iframe>
   <hr/>
   <h2 id="radiosection_specials">assorted content&hellip;</h2>
-    <button onclick="load_extra_specials()">Click for secret content</button>
+    <div style="display: flex; justify-content: center; margin-top: 2em;">
+      <button class="bluebutton" onclick="load_extra_specials()">Click for secret content</button>
+    </div>
+
     {{ insert_playlist(name='specials') }}
     <br/>
     <ul>

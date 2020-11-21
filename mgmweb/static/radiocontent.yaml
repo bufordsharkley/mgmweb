@@ -76,18 +76,18 @@ loon:
     datetime: 2016-01-09T00:37:00
   - url: http://media.mgm.ink/radio/loon/2016-11-05.mp3
     datetime: 2016-11-05T18:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-04-23.mp3
-    datetime: 2020-04-23T17:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-05-07.mp3
-    datetime: 2020-05-07T17:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-05-20.mp3
-    datetime: 2020-05-20T17:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-06-04.mp3
-    datetime: 2020-06-04T17:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-06-18.mp3
-    datetime: 2020-06-18T17:00:00
-  - url: http://media.mgm.ink/radio/loon/2020-07-03.mp3
-    datetime: 2020-07-03T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-04-25.mp3
+    datetime: 2020-04-25T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-05-09.mp3
+    datetime: 2020-05-09T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-05-23.mp3
+    datetime: 2020-05-23T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-06-06.mp3
+    datetime: 2020-06-06T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-06-20.mp3
+    datetime: 2020-06-20T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-07-04.mp3
+    datetime: 2020-07-04T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-07-18.mp3
     datetime: 2020-07-18T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-08-01.mp3
@@ -104,6 +104,10 @@ loon:
     datetime: 2020-10-10T17:00:00
   - url: http://media.mgm.ink/radio/loon/2020-10-24.mp3
     datetime: 2020-10-24T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-11-07.mp3
+    datetime: 2020-11-07T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2020-11-21.mp3
+    datetime: 2020-11-21T17:00:00
 bjs:
   - url: http://media.mgm.ink/radio/bjs/2010-02-26.mp3
     title: "2010-02-26: Buford J. Sharkley's Presentation of Scorsese-centric Sound Stylings"
@@ -123,6 +127,24 @@ bjs:
     title: "2010-05-07: Buford J. Sharkley's Podiatric Coverings"
   - url: http://media.mgm.ink/radio/bjs/2010-05-14.mp3
     title: "2010-05-14: Buford J. Sharkley's Carmina Felidae"
+  - url: http://media.mgm.ink/radio/bjs/2011-10-05.mp3
+    datetime: 2011-10-05T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-10-12.mp3
+    datetime: 2011-10-12T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-10-19.mp3
+    datetime: 2011-10-19T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-10-26.mp3
+    datetime: 2011-10-26T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-11-02.mp3
+    datetime: 2011-11-02T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-11-16.mp3
+    datetime: 2011-11-16T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-11-23.mp3
+    datetime: 2011-11-23T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-12-07.mp3
+    datetime: 2011-12-07T15:00:00
+  - url: http://media.mgm.ink/radio/bjs/2011-12-14.mp3
+    datetime: 2011-12-14T15:00:00
   - url: http://media.mgm.ink/radio/bjs/2012-09-11.mp3
     datetime: 2012-09-11T10:30:00
   - url: http://media.mgm.ink/radio/bjs/2012-09-18.mp3
@@ -158,10 +180,10 @@ bjs:
     datetime: 2017-06-17T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2017-08-12.mp3
     datetime: 2017-08-12T00:37:00
-  - url: http://media.mgm.ink/radio/bjs/2018-08-04.mp3
-    datetime: 2018-08-04T00:37:00
   - url: http://media.mgm.ink/radio/bjs/2018-06-09.mp3
     id: ma2018
     title: "Mother Okkles visit: June 2018"
     is_special: true
     datetime: 2018-06-09T17:00:00
+  - url: http://media.mgm.ink/radio/bjs/2018-08-04.mp3
+    datetime: 2018-08-04T00:37:00
