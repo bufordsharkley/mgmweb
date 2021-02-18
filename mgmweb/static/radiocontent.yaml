@@ -118,6 +118,8 @@ loon:
     datetime: 2021-01-16T17:00:00
   - url: http://media.mgm.ink/radio/loon/2021-01-30.mp3
     datetime: 2021-01-30T17:00:00
+  - url: http://media.mgm.ink/radio/loon/2021-02-13.mp3
+    datetime: 2021-02-13T17:00:00
 bjs:
   - url: http://media.mgm.ink/radio/bjs/2010-02-26.mp3
     title: "2010-02-26: Buford J. Sharkley's Presentation of Scorsese-centric Sound Stylings"
