@@ -187,6 +187,13 @@ def film100():
     return flask.render_template('film100.html', films=top100films)
 
 
+@app.route('/film/')
+def film():
+    films = yaml.load(app.open_resource('static/master.yaml'),
+                      Loader=yaml.FullLoader)
+    return flask.render_template('film.html', films=films)
+
+
 @app.route('/garfield/')
 def garfield_mirror():
     return flask.render_template('garfield.html')

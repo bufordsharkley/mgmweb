@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block head %}
+  {{ super() }}
+
+<script type="module" src="/static/summbit-discrete-slider.min.js"></script>
+<style type="text/css">
+  span.film-I {
+    background-color:#baa;
+  }
+
+  span.film-II-Aa {
+    background-color:#baa;
+  }
+
+  span.film-II-A {
+    background-color:#fff;
+  }
+
+  span.film-II-B {
+    background-color:#fff;
+  }
+
+  span.film-II-C {
+    background-color:#fff;
+  }
+
+  span.film- {
+    background-color:#ddd;
+
+
+  }
+
+</style>
+
+<script>
+  function changeEventListener(event) {
+    const stylesheet = document.styleSheets[1];
+  
+    var cssSliderRules = {
+      0: {"I": "#fff", "II-Aa": "#fff", "II-A": "#fff", "II-B": "#fff", "": "#fff"},
+      1: {"I": "#baa", "II-Aa": "#fff", "II-A": "#fff", "II-B": "#fff", "": "#ddd"},
+      2: {"I": "#baa", "II-Aa": "#baa", "II-A": "#fff", "II-B": "#fff", "": "#ddd"},
+      3: {"I": "#baa", "II-Aa": "#baa", "II-A": "#baa", "II-B": "#fff", "": "#ddd"},
+      4: {"I": "#baa", "II-Aa": "#baa", "II-A": "#baa", "II-B": "#baa", "": "#ddd"},
+    }
+
+
+    currRules = cssSliderRules[event.detail.value];
+    // looping through all its rules and getting your rule
+
+    for (var key in currRules) {
+      var bgColor = currRules[key];
+      for(let i = 0; i < stylesheet.cssRules.length; i++) {
+        if(stylesheet.cssRules[i].selectorText === 'span.film-' + key) {
+          stylesheet.cssRules[i].style.setProperty('background', bgColor);
+        }
+
+      }
+    }
+  }
+</script>
+
+{% endblock %}
+{% block content %}
+<div class="page" style="text-align:justify">
+      <summbit-discrete-slider id="summbit-discrete-slider-3" min="0" max="4" value="2" orientation="left-to-right"  style="width:   90%; height: 60px;" onchange="changeEventListener(event);" class="slider"></summbit-discrete-slider>
+  <h3 style="text-align:center;font-size:3em">Film Recommendations</h3>
+  {% for month in films %}
+    <span class="{{"film-" if month.status == "unranked"}}">
+    <span class="film-month" style="font-family:italic_oblique, serif;font-size:1em;font-weight:bold;color:#147ca8">{{month.month}}</span>
+    {% for film in month.films if "rewatch" not in film and not film.filter %}
+    <span class="film-{{film.tier}}" >{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
+      {%- if not loop.last %}
+      <span>•</span>
+      {% endif %}
+    {% endfor %}
+    </span>
+  {% endfor %}
+</div>
+
+{% endblock %}
