@@ -65,6 +65,8 @@
 <div class="page" style="text-align:justify">
   <details>
     <summary>Notes</summary>
+      Use slider to get less recommendations (left) or more recommendations (right).
+      <br/><br/>
       Recommendations are compiled from my history of film watching (which is made as
       complete as possible below).
       Information ranges on a monthly basis from being very well-organized (via
@@ -74,9 +76,13 @@
       <br/><br/>
       Various gaps in memory or lapses in taste may explain other discrepancies.
   </details>
-      <summbit-discrete-slider id="summbit-discrete-slider-3" min="0" max="4" value="2" orientation="left-to-right"  style="width:   90%; height: 60px;" onchange="changeEventListener(event);" class="slider"></summbit-discrete-slider>
+    <summbit-discrete-slider id="summbit-discrete-slider-3" min="0" max="4" value="2" orientation="left-to-right"  style="width:   90%; height: 60px;" onchange="changeEventListener(event);" class="slider"></summbit-discrete-slider>
+  <div style="display:inline-block;width:90%">
+  <div style="float:left;font-family:italic_oblique, serif;font-size:1em;font-weight:bold;color:#147ca8">Slide left for fewer reccs:</div>
+  <div style="float:right;font-family:italic_oblique, serif;font-size:1em;font-weight:bold;color:#147ca8">Or right for more:</div>
+  </div>
   <h3 style="text-align:center;font-size:3em">Film Recommendations</h3>
-  {% for month in films %}
+  {% for month in films if month.status != "in-progress" %}
     <span class="{{"film-" if month.status == "unranked"}}">
     <span class="film-month" style="font-family:italic_oblique, serif;font-size:1em;font-weight:bold;color:#147ca8">{{month.month}}</span>
     {% for film in month.films if "rewatch" not in film and not film.filter %}

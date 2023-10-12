@@ -173,7 +173,7 @@ def frontpagedescriptions():
 
 @app.route('/404.html')
 def intentional_404():
-    return flask.render_template('404.html')
+    return flask.render_template('error.html')
 
 
 @app.errorhandler(404)
