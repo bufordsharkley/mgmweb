@@ -13,7 +13,7 @@
   }
 
   span.film-II-A {
-    background-color:#fff;
+    background-color:#f1eeee;
   }
 
   span.film-II-B {
@@ -38,9 +38,9 @@
   
     var cssSliderRules = {
       0: {"I": "#fff", "II-Aa": "#fff", "II-A": "#fff", "II-B": "#fff", "": "#fff"},
-      1: {"I": "#baa", "II-Aa": "#fff", "II-A": "#fff", "II-B": "#fff", "": "#ddd"},
-      2: {"I": "#baa", "II-Aa": "#baa", "II-A": "#fff", "II-B": "#fff", "": "#ddd"},
-      3: {"I": "#baa", "II-Aa": "#baa", "II-A": "#baa", "II-B": "#fff", "": "#ddd"},
+      1: {"I": "#baa", "II-Aa": "#f1eeee", "II-A": "#fff", "II-B": "#fff", "": "#ddd"},
+      2: {"I": "#baa", "II-Aa": "#baa", "II-A": "#f1eeee", "II-B": "#fff", "": "#ddd"},
+      3: {"I": "#baa", "II-Aa": "#baa", "II-A": "#baa", "II-B": "#f1eeee", "": "#ddd"},
       4: {"I": "#baa", "II-Aa": "#baa", "II-A": "#baa", "II-B": "#baa", "": "#ddd"},
     }
 
@@ -63,6 +63,17 @@
 {% endblock %}
 {% block content %}
 <div class="page" style="text-align:justify">
+  <details>
+    <summary>Notes</summary>
+      Recommendations are compiled from my history of film watching (which is made as
+      complete as possible below).
+      Information ranges on a monthly basis from being very well-organized (via
+      comprehensive index cards tracking films I've seen from February 2005–February 2011, including compiled end-of-month rankings from February 2005–February 2010),
+      and from Nov 2022-present, but only intermittently (with different ad hoc tracking
+      measures) otherwise.
+      <br/><br/>
+      Various gaps in memory or lapses in taste may explain other discrepancies.
+  </details>
       <summbit-discrete-slider id="summbit-discrete-slider-3" min="0" max="4" value="2" orientation="left-to-right"  style="width:   90%; height: 60px;" onchange="changeEventListener(event);" class="slider"></summbit-discrete-slider>
   <h3 style="text-align:center;font-size:3em">Film Recommendations</h3>
   {% for month in films %}

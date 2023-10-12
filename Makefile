@@ -5,4 +5,4 @@ freeze:
 	env/bin/python2 freeze.py
 
 server: freeze
-	cd mgmweb/build && python -m SimpleHTTPServer
+	cd mgmweb/build && python -m http.server

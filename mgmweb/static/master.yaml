@@ -21,6 +21,10 @@
     year: 1987
     director:
     - Maurice Pialat
+  - title: Pickpocket
+    year: 1997
+    director:
+    - Jia Zhangke
   status: unranked
 - month: September 2023
   films:
@@ -2469,6 +2473,11 @@
     director:
     - Masaki Kobayashi
     tier: G
+  - title: The Pleasure of Being Robbed
+    year: 2008
+    director:
+    - Josh Safdie
+    tier: II-Aa
   status: tier norank
 - month: September 2018
   films:
@@ -2656,6 +2665,11 @@
     year: 2016
     director:
     - Bill Morrison
+    tier: II-B
+  - title: Wormwood
+    year: 2017
+    director:
+    - Errol Morris
     tier: II-B
   - title: Antichrist
     year: 2009
@@ -2994,7 +3008,7 @@
     year: 1978
     director:
     - Richard Donner
-    tier: II-Aa
+    tier: II-A
   - title: The Gunfighter
     year: 1950
     director:
@@ -3072,7 +3086,7 @@
     year: 1956
     director:
     - John Farrow
-    tier: G
+    tier: II-B
   - title: The Hateful Eight
     year: 2015
     director:
@@ -3273,6 +3287,11 @@
     director:
     - Peter Brook
     tier: G
+  - title: City Streets
+    year: 1931
+    director:
+    - Rouben Mamoulian
+    tier: II-A
   status: tier norank
 - month: February 2015
   films:
@@ -3299,6 +3318,16 @@
     director:
     - Paul Thomas Anderson
     tier: I
+  - title: Life Is Sweet
+    year: 1990
+    director:
+    - Mike Leigh
+    tier: G
+  - title: Only Lovers Left Alive
+    year: 2013
+    director:
+    - Jim Jarmusch
+    tier: G
   status: tier norank
 - month: November 2014
   films:
@@ -4642,7 +4671,6 @@
     year: 2002
     director:
     - Lynne Ramsay
-    notes: 'Rewatch: January 2023'
     tier: I
   - title: The Sound of Music
     year: 1965
@@ -4865,7 +4893,6 @@
     year: 1982
     director:
     - Les Blank
-    notes: rewatch June 2023
     tier: II-B
   - title: Bullets Over Broadway
     year: 1994
@@ -6160,9 +6187,9 @@
     year: 1993
     director:
     - Tsai Ming-liang
-    notes: '[revised from II-C (!!!)]'
-    ranking: 4
-    tier: II-C
+    notes: 'revised from 4 (top of II-C (!!!)) -> 1'
+    ranking: 0.5
+    tier: I
   - title: Altered States
     year: 1980
     director:
@@ -6201,10 +6228,10 @@
     tier: II-B
   status: ranked
   tiers:
-    I: 1
+    I: 2
     II-A: 1
     II-B: 1
-    II-C: 3
+    II-C: 2
     III-A: 3
     III-B: 2
     III-C: 0
@@ -6251,9 +6278,9 @@
     year: 1975
     director:
     - Chantal Akerman
-    notes: Revised from III-A (Rewatch January 2023)
-    ranking: 10
-    tier: III-A
+    notes: "Revised from 10 (iii-a) -> 5 on theatrical rewatch January 2023"
+    ranking: 4.5
+    tier: II-B
   - title: Horror of Dracula
     year: 1958
     director:
@@ -6288,9 +6315,9 @@
   tiers:
     I: 1
     II-A: 3
-    II-B: 2
+    II-B: 3
     II-C: 3
-    III-A: 1
+    III-A: 0
     III-B: 2
     III-C: 0
     IV: 0
@@ -6324,9 +6351,9 @@
     year: 1973
     director:
     - Peter Yates
-    notes: '[revised from II-C???]'
-    ranking: 6
-    tier: II-C
+    notes: 'revised from 6 (ii-c!!) -> 3 after rewatches, late 2021/early 2022'
+    ranking: 2.5
+    tier: II-A
   - title: 'Hearts of Darkness: a Filmmaker''s Apocalypse'
     year: 1991
     director:
@@ -6385,9 +6412,9 @@
   status: ranked
   tiers:
     I: 0
-    II-A: 3
+    II-A: 4
     II-B: 2
-    II-C: 4
+    II-C: 3
     III-A: 4
     III-B: 0
     III-C: 1
@@ -6863,8 +6890,9 @@
     year: 1980
     director:
     - Peter Greenaway
-    ranking: 4
-    tier: II-Aa
+    ranking: 0.5
+    notes: "revised 4-> 1 after rewatch 2014/15??"
+    tier: I
   - title: Gran Torino
     year: 2008
     director:
@@ -6873,8 +6901,8 @@
     tier: III-A
   status: ranked
   tiers:
-    I: 3
-    II-A: 3
+    I: 4
+    II-A: 2
     II-B: 0
     II-C: 3
     III-A: 1
@@ -7221,13 +7249,15 @@
     year: 1930
     director:
     - Raoul Walsh
-    notes: '[somehow omitted from monthly list]'
+    tier: II-C
+    ranking: 9.5
+    notes: 'somehow omitted from monthly list, given ranking in oct 2023'
   status: ranked
   tiers:
     I: 1
     II-A: 2
     II-B: 5
-    II-C: 4
+    II-C: 5
     III-A: 4
     III-B: 1
     III-C: 0
@@ -8099,9 +8129,9 @@
     year: 2006
     director:
     - David Lynch
-    notes: Revised from II-C
-    ranking: 13
-    tier: II-C
+    notes: "revised from 13 (II-C!) -> 4 after 4k rewatch, 2022"
+    ranking: 3.5
+    tier: II-Aa
   - title: Wings
     year: 1927
     director:
@@ -8225,9 +8255,9 @@
   status: ranked
   tiers:
     I: 1
-    II-A: 4
+    II-A: 5
     II-B: 4
-    II-C: 5
+    II-C: 4
     III-A: 6
     III-B: 3
     III-C: 0
@@ -8653,11 +8683,11 @@
     - Sidney Smith
     ranking: 13
     tier: II-C
-  - title: Killer Bait
+    filter: true
+  - title: Too Late for Tears
     year: 1949
     director:
     - Byron Haskin
-    notes: Fix title
     ranking: 9
     tier: II-B
   - title: Go
@@ -8750,7 +8780,7 @@
     I: 1
     II-A: 3
     II-B: 5
-    II-C: 6
+    II-C: 5
     III-A: 5
     III-B: 4
     III-C: 0
@@ -9130,9 +9160,9 @@
     year: 1972
     director:
     - John Huston
-    notes: '[revised from II-A]'
-    ranking: 4
-    tier: II-Aa
+    notes: '[revised from from 4 (ii-Aa) to 2 on rewatch, 2022??]'
+    ranking: 1.5
+    tier: I
   - title: Somebody Up There Likes Me
     year: 1956
     director:
@@ -9190,8 +9220,8 @@
     tier: IV
   status: ranked
   tiers:
-    I: 2
-    II-A: 5
+    I: 3
+    II-A: 4
     II-B: 1
     II-C: 4
     III-A: 4
@@ -9278,8 +9308,9 @@
     year: 1953
     director:
     - Vincente Minnelli
-    ranking: 5
-    tier: II-A
+    ranking: 1.5
+    tier: II-Aa
+    notes: "revised 5-> 2 after rewatch 2013"
   - title: The Virgin Spring
     year: 1960
     director:
@@ -10112,8 +10143,9 @@
     year: 2006
     director:
     - Dominik Sedlar
-    filter: true
+    notes: Was ranked 22, but filtered instead
     ranking: 22
+    filter: true
     tier: IV
   - title: Somewhere in the Night
     year: 1946
@@ -10169,7 +10201,7 @@
     III-A: 6
     III-B: 0
     III-C: 1
-    IV: 1
+    IV: 0
 - month: March 2007
   films:
   - title: Kansas City Confidential
@@ -10766,8 +10798,9 @@
     year: 2006
     director:
     - Christopher Nolan
-    ranking: 8
-    tier: II-A
+    ranking: 18.5
+    notes: revised 8->19 after rewatch 2008
+    tier: II-B
   - title: Flags of Our Fathers
     year: 2006
     director:
@@ -10813,8 +10846,8 @@
   status: ranked
   tiers:
     I: 5
-    II-A: 6
-    II-B: 8
+    II-A: 5
+    II-B: 9
     II-C: 7
     III-A: 4
     III-B: 1
@@ -11570,9 +11603,9 @@
     year: 1966
     director:
     - Seijun Suzuki
-    notes: (upgraded at one point?)
-    ranking: 8
-    tier: II-Aa
+    notes: "upgraded from 8th -> 7th (II-Aa to I) on rewatch"
+    ranking: 6.5
+    tier: I
   - title: Ball of Fire
     year: 1941
     director:
@@ -11715,8 +11748,8 @@
     tier: III-A
   status: ranked
   tiers:
-    I: 6
-    II-A: 11
+    I: 7
+    II-A: 10
     II-B: 2
     II-C: 8
     III-A: 9
@@ -11735,8 +11768,9 @@
     year: 1942
     director:
     - Jules Dassin
-    ranking: 12
-    tier: II-A
+    ranking: 7.5
+    notes: "revised 12->9 after rewatch feb 2023"
+    tier: II-Aa
   - title: Clash by Night
     year: 1952
     director:
@@ -11813,8 +11847,9 @@
     year: 1977
     director:
     - Robert Altman
-    ranking: 10
-    tier: II-A
+    ranking: 1.5
+    notes: "moved from 10->2 after rewatch 2013"
+    tier: I
   - title: Speedy
     year: 1928
     director:
@@ -11914,8 +11949,8 @@
     tier: III-A
   status: ranked
   tiers:
-    I: 3
-    II-A: 13
+    I: 4
+    II-A: 12
     II-B: 4
     II-C: 4
     III-A: 5
@@ -12489,8 +12524,8 @@
     year: 1991
     director:
     - Wong Kar-Wai
-    notes: Revised from III-A (!!) on rewatch September 2022
-    ranking: 14
+    notes: "rewatch september 2022, revised from 14 (iii-a!!!)-> 6th"
+    ranking: 5.5
     tier: III-A
   - title: Brother's Keeper
     year: 1992
@@ -12503,7 +12538,7 @@
     year: 1963
     director:
     - Alfred Hitchcock
-    notes: Revised from II-C (rewatch August 2022)
+    notes: "Revised from II-C, but same rank, on rewatch August 2022"
     ranking: 10
     tier: II-B
   - title: Spite Marriage
@@ -13441,9 +13476,9 @@
     year: 1995
     director:
     - Michael Mann
-    notes: Revised from III-B (!)
-    ranking: 22
-    tier: III-B
+    notes: "Revised from III-B (!) (22) -> 16, rewatch November 2022"
+    ranking: 15.5
+    tier: II-B
   - title: Trouble in Paradise
     year: 1932
     director:
@@ -13538,10 +13573,10 @@
   tiers:
     I: 6
     II-A: 6
-    II-B: 4
+    II-B: 5
     II-C: 1
     III-A: 2
-    III-B: 5
+    III-B: 4
     III-C: 2
     IV: 0
 - month: July 2005
@@ -13622,9 +13657,9 @@
     year: 1975
     director:
     - Peter Weir
-    notes: Revised from II-A (rewatch May 2022)
-    ranking: 10
-    tier: II-Aa
+    notes: "Revised from II-A (10->5) (rewatch May 2022)"
+    ranking: 4.5
+    tier: I
   - title: Sideways
     year: 2004
     director:
@@ -13726,8 +13761,9 @@
     year: 1994
     director:
     - Wong Kar-Wai
-    ranking: 19
-    tier: II-B
+    ranking: 14.5
+    note: "revised from 19->15 on rewatch (2016)"
+    tier: II-A
   - title: Stardust Memories
     year: 1980
     director:
@@ -13748,9 +13784,9 @@
     tier: I
   status: ranked
   tiers:
-    I: 8
+    I: 9
     II-A: 6
-    II-B: 5
+    II-B: 4
     II-C: 4
     III-A: 5
     III-B: 2
@@ -14187,16 +14223,16 @@
     year: 1993
     director:
     - Krzysztof Kieslowski
-    notes: Revised from III-A, rewatch September 2022
-    ranking: 16
-    tier: III-A
+    notes: "Revised from III-A (16->15), rewatch September 2022"
+    ranking: 13.5
+    tier: II-C
   - title: 'Three Colors: White'
     year: 1994
     director:
     - Krzysztof Kieslowski
-    notes: Revised from III-A, rewatch September 2022
-    ranking: 17
-    tier: III-A
+    notes: "Revised from III-A, (17->12) rewatch September 2022"
+    ranking: 11.5
+    tier: II-B
   - title: 'Aguirre: The Wrath of God'
     year: 1972
     director:
@@ -14303,9 +14339,9 @@
   tiers:
     I: 7
     II-A: 2
-    II-B: 2
-    II-C: 2
-    III-A: 4
+    II-B: 3
+    II-C: 3
+    III-A: 2
     III-B: 2
     III-C: 0
     IV: 2
@@ -14519,9 +14555,9 @@
     year: 1951
     director:
     - John Huston
-    notes: Revised to I, screening September 2023
-    ranking: 8
-    tier: II-Aa
+    notes: Revised to I (8-7), screening September 2023
+    ranking: 6.5
+    tier: I
   - title: I Am a Fugitive from a Chain Gang
     year: 1932
     director:
@@ -14585,8 +14621,8 @@
     tier: I
   status: ranked
   tiers:
-    I: 6
-    II-A: 2
+    I: 7
+    II-A: 1
     II-B: 3
     II-C: 1
     III-A: 1

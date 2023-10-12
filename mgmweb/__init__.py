@@ -171,6 +171,11 @@ def frontpagedescriptions():
     return flask.jsonify(splash_descriptions)
 
 
+@app.route('/404.html')
+def intentional_404():
+    return flask.abort(404)
+
+
 @app.errorhandler(404)
 def page_not_found(e):
     return flask.render_template('error.html'), 404
