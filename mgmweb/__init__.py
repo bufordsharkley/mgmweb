@@ -191,8 +191,8 @@ def film100():
 def film():
     films = yaml.load(app.open_resource('static/master.yaml'),
                       Loader=yaml.FullLoader)
+    random.shuffle(films[-1]['films'])
     return flask.render_template('film.html', films=films)
-
 
 @app.route('/garfield/')
 def garfield_mirror():

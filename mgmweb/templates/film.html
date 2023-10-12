@@ -71,7 +71,7 @@
     {% for film in month.films if "rewatch" not in film and not film.filter %}
     <span class="film-{{film.tier}}" >{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
       {%- if not loop.last %}
-      <span>•</span>
+      <span style="color:#147ca8">•</span>
       {% endif %}
     {% endfor %}
     </span>
