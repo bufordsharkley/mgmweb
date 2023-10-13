@@ -51,7 +51,7 @@ def etc():
 @app.route('/radio/')
 def radio_landing():
     content = get_content(app)
-    plays = yaml.load(app.open_resource('static/radioplays.yaml'))
+    plays = yaml.load(app.open_resource('static/radioplays.yaml'), Loader=yaml.FullLoader)
     return flask.render_template('radio.html', content=content, plays=plays)
 
 
