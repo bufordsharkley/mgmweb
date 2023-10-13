@@ -102,12 +102,17 @@ nav{
   margin: 0 auto;
 }
 
+div.frontpageleft {
+    float:left;
+    width:35%;
+    margin-right: 3%;
+    margin-top: 6em;
+}
 
 @media screen and (max-width: 550px) {
 
   .name_part {
     font-size: .01em;
-
   }
 
   .name_part::first-letter {
@@ -122,6 +127,7 @@ nav{
   body div.frontpageleft {
     float: none;
     width: 100%;
+    margin-top: 0em;
     !important;
   }
 
@@ -401,6 +407,8 @@ li {
     margin-bottom: 3em;
 }
 
+
+
 .short_story   {
     width: 70%;
     margin: 0 auto;
@@ -459,11 +467,6 @@ div.drawingnumdate {
     margin-right:.1em;
 }
 
-div.frontpageleft {
-    float:left;
-    width:35%;
-    margin-right: 3%;
-}
 
 div.frontpageright {
     float:right;
@@ -472,7 +475,7 @@ div.frontpageright {
 }
 
 #splash   {
-    height: 45em;
+    height: 35em;
     width: 100%;
     margin-top:1em;
     border: 5px solid #dcc;
