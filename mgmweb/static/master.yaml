@@ -25,6 +25,27 @@
     year: 1997
     director:
     - Jia Zhangke
+  - title: Mandalay
+    year: 1934
+    director:
+    - Michael Curtiz
+  - title: Nowhere
+    year: 1997
+    director:
+    - Gregg Araki
+  - title: Gomorrah
+    year: 2008
+    director:
+    - Matteo Garrone
+  - title: The Northman
+    year: 2022
+    director:
+    - Robert Eggers
+  - title: Killers of the Flower Moon
+    year: 2023
+    director:
+    - Martin Scorsese
+  - rewatch: La Notte (1961)
   status: in-progress
 - month: September 2023
   films:
@@ -3327,6 +3348,11 @@
     year: 2013
     director:
     - Jim Jarmusch
+    tier: G
+  - title: The Uninvited
+    year: 1944
+    director:
+    - Lewis Allen
     tier: G
   status: tier norank
 - month: November 2014
