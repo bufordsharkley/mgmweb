@@ -4,28 +4,108 @@
     year: 1994
     director:
     - John Carpenter
+    ranking: 11
+    tier: II-C
   - title: Hello Dankness
     year: 2022
     director:
     - Soda Jerk
+    ranking: 17
+    tier: III-B
   - title: Footprints on the Moon
     year: 1975
     director:
     - Luigi Bazzoni
+    ranking: 5
+    tier: II-A
   - rewatch: The Earrings of Madame de... (1953)
+    ranking: 2
+    tier: II-Aa
   - title: The Royal Hotel
     year: 2023
     director:
     - Kitty Green
+    ranking: 10
+    tier: II-C
   - title: Under the Sun of Satan
     year: 1987
     director:
     - Maurice Pialat
+    ranking: 12
+    tier: II-C
   - title: Pickpocket
     year: 1997
     director:
     - Jia Zhangke
-  status: in-progress
+    ranking: 4
+    tier: II-A
+  - title: Mandalay
+    year: 1934
+    director:
+    - Michael Curtiz
+    ranking: 6
+    tier: II-A
+  - title: Nowhere
+    year: 1997
+    director:
+    - Gregg Araki
+    ranking: 7
+    tier: II-B
+  - title: Gomorrah
+    year: 2008
+    director:
+    - Matteo Garrone
+    ranking: 15
+    tier: II-C
+  - title: The Northman
+    year: 2022
+    director:
+    - Robert Eggers
+    ranking: 14
+    tier: II-C
+  - title: Killers of the Flower Moon
+    year: 2023
+    director:
+    - Martin Scorsese
+    ranking: 9
+    tier: II-C
+  - rewatch: La Notte (1961)
+    ranking: 3
+    tier: II-A
+  - title: Starman
+    year: 1984
+    director:
+    - John Carpenter
+    ranking: 13
+    tier: II-C
+  - title: One Way Passage
+    year: 1932
+    director:
+    - Tay Garnett
+    ranking: 1
+    tier: I
+  - title: The Last of Sheila
+    year: 1973
+    director:
+    - Herbert Ross
+    ranking: 16
+    tier: III-A
+  - title: Dark City
+    year: 1998
+    director:
+    - Alex Proyas
+    ranking: 8
+    tier: II-B
+  status: ranked
+  tiers:
+    I: 1
+    II-A: 5
+    II-B: 2
+    II-C: 7
+    III-A: 1
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: September 2023
   films:
   - title: Thunderbolt and Lightfoot
@@ -3328,6 +3408,11 @@
     director:
     - Jim Jarmusch
     tier: G
+  - title: The Uninvited
+    year: 1944
+    director:
+    - Lewis Allen
+    tier: G
   status: tier norank
 - month: November 2014
   films:
@@ -6187,7 +6272,7 @@
     year: 1993
     director:
     - Tsai Ming-liang
-    notes: 'revised from 4 (top of II-C (!!!)) -> 1'
+    notes: revised from 4 (top of II-C (!!!)) -> 1
     ranking: 0.5
     tier: I
   - title: Altered States
@@ -6278,7 +6363,7 @@
     year: 1975
     director:
     - Chantal Akerman
-    notes: "Revised from 10 (iii-a) -> 5 on theatrical rewatch January 2023"
+    notes: Revised from 10 (iii-a) -> 5 on theatrical rewatch January 2023
     ranking: 4.5
     tier: II-B
   - title: Horror of Dracula
@@ -6351,7 +6436,7 @@
     year: 1973
     director:
     - Peter Yates
-    notes: 'revised from 6 (ii-c!!) -> 3 after rewatches, late 2021/early 2022'
+    notes: revised from 6 (ii-c!!) -> 3 after rewatches, late 2021/early 2022
     ranking: 2.5
     tier: II-A
   - title: 'Hearts of Darkness: a Filmmaker''s Apocalypse'
@@ -6891,7 +6976,7 @@
     director:
     - Peter Greenaway
     ranking: 0.5
-    notes: "revised 4-> 1 after rewatch 2014/15??"
+    notes: revised 4-> 1 after rewatch 2014/15??
     tier: I
   - title: Gran Torino
     year: 2008
@@ -7251,7 +7336,7 @@
     - Raoul Walsh
     tier: II-C
     ranking: 9.5
-    notes: 'somehow omitted from monthly list, given ranking in oct 2023'
+    notes: somehow omitted from monthly list, given ranking in oct 2023
   status: ranked
   tiers:
     I: 1
@@ -8129,7 +8214,7 @@
     year: 2006
     director:
     - David Lynch
-    notes: "revised from 13 (II-C!) -> 4 after 4k rewatch, 2022"
+    notes: revised from 13 (II-C!) -> 4 after 4k rewatch, 2022
     ranking: 3.5
     tier: II-Aa
   - title: Wings
@@ -9310,7 +9395,7 @@
     - Vincente Minnelli
     ranking: 1.5
     tier: II-Aa
-    notes: "revised 5-> 2 after rewatch 2013"
+    notes: revised 5-> 2 after rewatch 2013
   - title: The Virgin Spring
     year: 1960
     director:
@@ -10909,7 +10994,7 @@
     - Leni Riefenstahl
     ranking: 23
     tier: III-A
-  - title: "Boccaccio '70"
+  - title: Boccaccio '70
     year: 1962
     director:
     - Vittorio De Sica
@@ -11603,7 +11688,7 @@
     year: 1966
     director:
     - Seijun Suzuki
-    notes: "upgraded from 8th -> 7th (II-Aa to I) on rewatch"
+    notes: upgraded from 8th -> 7th (II-Aa to I) on rewatch
     ranking: 6.5
     tier: I
   - title: Ball of Fire
@@ -11769,7 +11854,7 @@
     director:
     - Jules Dassin
     ranking: 7.5
-    notes: "revised 12->9 after rewatch feb 2023"
+    notes: revised 12->9 after rewatch feb 2023
     tier: II-Aa
   - title: Clash by Night
     year: 1952
@@ -11848,7 +11933,7 @@
     director:
     - Robert Altman
     ranking: 1.5
-    notes: "moved from 10->2 after rewatch 2013"
+    notes: moved from 10->2 after rewatch 2013
     tier: I
   - title: Speedy
     year: 1928
@@ -12524,7 +12609,7 @@
     year: 1991
     director:
     - Wong Kar-Wai
-    notes: "rewatch september 2022, revised from 14 (iii-a!!!)-> 6th"
+    notes: rewatch september 2022, revised from 14 (iii-a!!!)-> 6th
     ranking: 5.5
     tier: III-A
   - title: Brother's Keeper
@@ -12538,7 +12623,7 @@
     year: 1963
     director:
     - Alfred Hitchcock
-    notes: "Revised from II-C, but same rank, on rewatch August 2022"
+    notes: Revised from II-C, but same rank, on rewatch August 2022
     ranking: 10
     tier: II-B
   - title: Spite Marriage
@@ -12656,7 +12741,7 @@
     - Fritz Lang
     ranking: 6
     tier: II-Aa
-  - title: "Winchester '73"
+  - title: Winchester '73
     year: 1950
     director:
     - Anthony Mann
@@ -13476,7 +13561,7 @@
     year: 1995
     director:
     - Michael Mann
-    notes: "Revised from III-B (!) (22) -> 16, rewatch November 2022"
+    notes: Revised from III-B (!) (22) -> 16, rewatch November 2022
     ranking: 15.5
     tier: II-B
   - title: Trouble in Paradise
@@ -13657,7 +13742,7 @@
     year: 1975
     director:
     - Peter Weir
-    notes: "Revised from II-A (10->5) (rewatch May 2022)"
+    notes: Revised from II-A (10->5) (rewatch May 2022)
     ranking: 4.5
     tier: I
   - title: Sideways
@@ -13762,7 +13847,7 @@
     director:
     - Wong Kar-Wai
     ranking: 14.5
-    note: "revised from 19->15 on rewatch (2016)"
+    note: revised from 19->15 on rewatch (2016)
     tier: II-A
   - title: Stardust Memories
     year: 1980
@@ -14223,14 +14308,14 @@
     year: 1993
     director:
     - Krzysztof Kieslowski
-    notes: "Revised from III-A (16->15), rewatch September 2022"
+    notes: Revised from III-A (16->15), rewatch September 2022
     ranking: 13.5
     tier: II-C
   - title: 'Three Colors: White'
     year: 1994
     director:
     - Krzysztof Kieslowski
-    notes: "Revised from III-A, (17->12) rewatch September 2022"
+    notes: Revised from III-A, (17->12) rewatch September 2022
     ranking: 11.5
     tier: II-B
   - title: 'Aguirre: The Wrath of God'
