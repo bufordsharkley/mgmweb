@@ -46,6 +46,22 @@
     director:
     - Martin Scorsese
   - rewatch: La Notte (1961)
+  - title: Starman
+    year: 1984
+    director:
+    - John Carpenter
+  - title: One Way Passage
+    year: 1932
+    director:
+    - Tay Garnett
+  - title: The Last of Sheila
+    year: 1973
+    director:
+    - Herbert Ross
+  - title: Dark City
+    year: 1998
+    director:
+    - Alex Proyas
   status: in-progress
 - month: September 2023
   films:
