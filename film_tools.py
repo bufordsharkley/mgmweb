@@ -81,6 +81,8 @@ def get_lists(filename):
                 film = film[1:].strip()
             resp[curr_month][curr_tier].append((num, film))
         elif line in TIERS:
+            if curr_month is None:
+                raise RuntimeError("Need to specify #MONTH YEAR at top of list")
             curr_tier = line
             if curr_tier in resp[curr_month]:
                 raise Exception(curr_tier, resp[curr_month])
