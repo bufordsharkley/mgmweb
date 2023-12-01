@@ -4,95 +4,152 @@
     year: 1920
     director:
     - John S. Robertson
+    ranking: 16
+    tier: II-C
   - title: The Meyerowitz Stories (New and Selected)
     year: 2017
     director:
     - Noah Baumbach
+    ranking: 4
+    tier: II-A
   - title: Abandoned
     year: 1949
     director:
     - Joseph M. Newman
+    ranking: 14
+    tier: II-C
   - rewatch: Blood on the Moon (1948)
+    ranking: 15
+    tier: II-C
   - title: Priscilla
     year: 2023
     director:
     - Sofia Coppola
+    ranking: 20
+    tier: III-A
   - title: The Killer
     year: 2023
     director:
     - David Fincher
+    ranking: 6
+    tier: II-B
   - title: To Live and Die in L.A.
     year: 1985
     director:
     - William Friedkin
+    ranking: 2
+    tier: II-A
   - title: Fata Morgana
     year: 1971
     director:
     - Werner Herzog
+    ranking: 3
+    tier: II-A
   - title: Anatomy of a Fall
     year: 2023
     director:
     - Justine Triet
+    ranking: 21
+    tier: III-A
   - title: The Holdovers
     year: 2023
     director:
     - Alexander Payne
+    ranking: 1
+    tier: II-A
   - title: Sympathy for Mr. Vengeance
     year: 2002
     director:
     - Chan-wook Park
+    ranking: 24
+    tier: III-B
   - title: Duel
     year: 1971
     director:
     - Steven Spielberg
+    ranking: 22
+    tier: III-A
   - rewatch: Dog Day Afternoon (1975)
+    ranking: 5
+    tier: II-B
   - title: Epidemic
     year: 1987
     director:
     - Lars von Trier
+    ranking: 19
+    tier: III-A
   - title: The Last Run
     year: 1971
     director:
     - Richard Fleischer
+    ranking: 13
+    tier: II-C
   - title: Switchblade Sisters
     year: 1975
     director:
     - Jack Hill
+    ranking: 11
+    tier: II-B
   - title: Totally F***ed Up
     year: 1993
     director:
     - Gregg Araki
+    ranking: 12
+    tier: II-C
   - title: Kinetta
     year: 2005
     director:
     - Yorgos Lanthimos
+    ranking: 23
+    tier: III-A
   - title: Ivy
     year: 1947
     director:
     - Sam Wood
+    ranking: 10
+    tier: II-B
   - title: 'A Castle Christmas: A Victorian Christmas in Wales'
     year: 1989
     director:
     - Stephen Weeks
     filter: true
   - rewatch: Kingpin (1996)
+    ranking: 7
+    tier: II-B
   - title: Never Fear
     year: 1950
     director:
     - Ida Lupino
+    ranking: 8
+    tier: II-B
   - title: Dream Scenario
     year: 2023
     director:
     - Kristoffer Borgli
+    ranking: 18
+    tier: III-A
   - title: May December
     year: 2023
     director:
     - Todd Haynes
+    ranking: 9
+    tier: II-B
   - title: Dragonwyck
     year: 1946
     director:
     - Joseph L. Mankiewicz
+    ranking: 17
+    tier: II-C
   status: ranked
+  tiers:
+    I: 0
+    II-A: 4
+    II-B: 7
+    II-C: 6
+    III-A: 6
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: October 2023
   films:
   - title: In the Mouth of Madness
