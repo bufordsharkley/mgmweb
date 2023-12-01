@@ -1,3 +1,98 @@
+- month: November 2023
+  films:
+  - title: Dr. Jekyll and Mr. Hyde
+    year: 1920
+    director:
+    - John S. Robertson
+  - title: The Meyerowitz Stories (New and Selected)
+    year: 2017
+    director:
+    - Noah Baumbach
+  - title: Abandoned
+    year: 1949
+    director:
+    - Joseph M. Newman
+  - rewatch: Blood on the Moon (1948)
+  - title: Priscilla
+    year: 2023
+    director:
+    - Sofia Coppola
+  - title: The Killer
+    year: 2023
+    director:
+    - David Fincher
+  - title: To Live and Die in L.A.
+    year: 1985
+    director:
+    - William Friedkin
+  - title: Fata Morgana
+    year: 1971
+    director:
+    - Werner Herzog
+  - title: Anatomy of a Fall
+    year: 2023
+    director:
+    - Justine Triet
+  - title: The Holdovers
+    year: 2023
+    director:
+    - Alexander Payne
+  - title: Sympathy for Mr. Vengeance
+    year: 2002
+    director:
+    - Chan-wook Park
+  - title: Duel
+    year: 1971
+    director:
+    - Steven Spielberg
+  - rewatch: Dog Day Afternoon (1975)
+  - title: Epidemic
+    year: 1987
+    director:
+    - Lars von Trier
+  - title: The Last Run
+    year: 1971
+    director:
+    - Richard Fleischer
+  - title: Switchblade Sisters
+    year: 1975
+    director:
+    - Jack Hill
+  - title: Totally F***ed Up
+    year: 1993
+    director:
+    - Gregg Araki
+  - title: Kinetta
+    year: 2005
+    director:
+    - Yorgos Lanthimos
+  - title: Ivy
+    year: 1947
+    director:
+    - Sam Wood
+  - title: 'A Castle Christmas: A Victorian Christmas in Wales'
+    year: 1989
+    director:
+    - Stephen Weeks
+    filter: true
+  - rewatch: Kingpin (1996)
+  - title: Never Fear
+    year: 1950
+    director:
+    - Ida Lupino
+  - title: Dream Scenario
+    year: 2023
+    director:
+    - Kristoffer Borgli
+  - title: May December
+    year: 2023
+    director:
+    - Todd Haynes
+  - title: Dragonwyck
+    year: 1946
+    director:
+    - Joseph L. Mankiewicz
+  status: in-progress
 - month: October 2023
   films:
   - title: In the Mouth of Madness
@@ -50,7 +145,7 @@
     director:
     - Gregg Araki
     ranking: 7
-    tier: II-B
+    tier: II-A
   - title: Gomorrah
     year: 2008
     director:
@@ -1016,7 +1111,7 @@
     - James Cameron
     ranking: 3
     tier: II-Aa
-  - title: Bardo, a False Chronicle of  Handful of Truths
+  - title: Bardo, a False Chronicle of a Handful of Truths
     year: 2022
     director:
     - Alejandro González Iñárritu
