@@ -1,3 +1,183 @@
+- month: December 2023
+  films:
+  - rewatch: Fallen Angels (1995)
+    stubz:
+      date: 2023-12-01
+      venue: ROXIE
+    ranking: 2
+    tier: II-Aa
+  - title: Witness in the City
+    year: 1959
+    director:
+    - Édouard Molinaro
+    stubz:
+      date: 2023-12-04
+      venue: ROXIE
+    ranking: 7
+    tier: II-A
+  - title: The Seventh Juror
+    year: 1962
+    director:
+    - Georges Lautner
+    stubz:
+      date: 2023-12-04
+      venue: ROXIE
+    ranking: 15
+    tier: II-C
+  - title: Silent Night
+    year: 2023
+    director:
+    - John Woo
+    stubz:
+      date: 2023-12-05
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: III-A
+  - title: The Abyss
+    year: 1989
+    director:
+    - James Cameron
+    stubz:
+      date: 2023-12-06
+      venue: Cinemark Century at Tanforan 20 & XD
+    ranking: 11
+    tier: II-B
+  - rewatch: Remember the Night (1940)
+    stubz:
+      date: 2023-12-07
+      venue: Stanford Theatre
+    ranking: 4
+    tier: II-A
+  - title: His Butler's Sister
+    year: 1943
+    director:
+    - Frank Borzage
+    stubz:
+      date: 2023-12-07
+      venue: Stanford Theatre
+    ranking: 14
+    tier: II-C
+  - title: Godzilla Minus One
+    year: 2023
+    director:
+    - Takashi Yamazaki
+    stubz:
+      date: 2023-12-11
+      venue: Grand Lake Theatre
+    ranking: 12
+    tier: II-B
+  - title: All Dirt Roads Taste of Salt
+    year: 2023
+    director:
+    - Raven Jackson
+    stubz:
+      date: 2023-12-12
+      venue: ROXIE
+    ranking: 17
+    tier: II-C
+  - title: The Andromeda Strain
+    year: 1971
+    director:
+    - Robert Wise
+    ranking: 20
+    tier: III-A
+  - title: 35 Shots of Rum
+    year: 2008
+    director:
+    - Claire Denis
+    ranking: 9
+    tier: II-B
+  - title: Poor Things
+    year: 2023
+    director:
+    - Yorgos Lanthimos
+    stubz:
+      date: 2023-12-16
+      venue: Landmark Aquarius
+    ranking: 8
+    tier: II-A
+  - title: Madeline's Madeline
+    year: 2018
+    director:
+    - Josephine Decker
+    ranking: 1
+    tier: II-Aa
+  - title: Eileen
+    year: 2023
+    director:
+    - William Oldroyd
+    stubz:
+      date: 2023-12-19
+      venue: Cinemark Century 20 Daly City
+    ranking: 10
+    tier: II-B
+  - title: Fallen Leaves
+    year: 2023
+    director:
+    - Aki Kaurismäki
+    stubz:
+      date: 2023-12-20
+      venue: ROXIE
+    ranking: 13
+    tier: II-B
+  - title: Event Horizon
+    year: 1997
+    director:
+    - Paul W. S. Anderson
+    ranking: 18
+    tier: III-A
+  - title: The Boy and the Heron
+    year: 2023
+    director:
+    - Hayao Miyazaki
+    stubz:
+      date: 2023-12-25
+      venue: ROXIE
+    ranking: 19
+    tier: III-A
+  - rewatch: There Will Be Blood (2007)
+    stubz:
+      date: 2023-12-25
+      venue: ROXIE
+    ranking: 5
+    tier: II-A
+  - title: Menus-Plaisirs — Les Troisgros
+    year: 2023
+    director:
+    - Frederick Wiseman
+    stubz:
+      date: 2023-12-27
+      venue: ROXIE
+    ranking: 16
+    tier: II-C
+  - title: The Wanderers
+    year: 1979
+    director:
+    - Philip Kaufman
+    ranking: 3
+    tier: II-Aa
+  - title: 'Albert Brooks: Defending My Life'
+    year: 2023
+    director:
+    - Rob Reiner
+    ranking: 21
+    tier: III-A
+  - title: Forever Amber
+    year: 1947
+    director:
+    - Otto Preminger
+    ranking: 6
+    tier: II-A
+  status: ranked
+  tiers:
+    I: 0
+    II-A: 8
+    II-B: 5
+    II-C: 4
+    III-A: 5
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: November 2023
   films:
   - title: Dr. Jekyll and Mr. Hyde
@@ -27,36 +207,54 @@
     - Sofia Coppola
     ranking: 20
     tier: III-A
+    stubz:
+      date: 2023-11-07
+      venue: Cinemark Century 20 Daly City
   - title: The Killer
     year: 2023
     director:
     - David Fincher
     ranking: 6
     tier: II-B
+    stubz:
+      date: 2023-11-08
+      venue: Landmark Opera Plaza
   - title: To Live and Die in L.A.
     year: 1985
     director:
     - William Friedkin
     ranking: 2
     tier: II-A
+    stubz:
+      date: 2023-11-08
+      venue: ROXIE
   - title: Fata Morgana
     year: 1971
     director:
     - Werner Herzog
     ranking: 3
     tier: II-A
+    stubz:
+      date: 2023-11-10
+      venue: BAMPFA
   - title: Anatomy of a Fall
     year: 2023
     director:
     - Justine Triet
     ranking: 21
     tier: III-A
+    stubz:
+      date: 2023-11-13
+      venue: ROXIE
   - title: The Holdovers
     year: 2023
     director:
     - Alexander Payne
     ranking: 1
     tier: II-Aa
+    stubz:
+      date: 2023-11-14
+      venue: Cinemark Century 20 Daly City
   - title: Sympathy for Mr. Vengeance
     year: 2002
     director:
@@ -72,6 +270,9 @@
   - rewatch: Dog Day Afternoon (1975)
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2023-11-18
+      venue: ROXIE
   - title: Epidemic
     year: 1987
     director:
@@ -128,12 +329,18 @@
     - Kristoffer Borgli
     ranking: 18
     tier: III-A
+    stubz:
+      date: 2023-11-28
+      venue: Cinemark Century 20 Daly City
   - title: May December
     year: 2023
     director:
     - Todd Haynes
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-11-29
+      venue: Landmark Opera Plaza
   - title: Dragonwyck
     year: 1946
     director:
@@ -164,12 +371,18 @@
     - Soda Jerk
     ranking: 17
     tier: III-B
+    stubz:
+      date: 2023-10-05
+      venue: ROXIE
   - title: Footprints on the Moon
     year: 1975
     director:
     - Luigi Bazzoni
     ranking: 5
     tier: II-A
+    stubz:
+      date: 2023-10-05
+      venue: ROXIE
   - rewatch: The Earrings of Madame de... (1953)
     ranking: 2
     tier: II-Aa
@@ -179,6 +392,9 @@
     - Kitty Green
     ranking: 10
     tier: II-C
+    stubz:
+      date: 2023-10-10
+      venue: Cinemark Century 20 Daly City
   - title: Under the Sun of Satan
     year: 1987
     director:
@@ -191,6 +407,9 @@
     - Jia Zhangke
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2023-10-11
+      venue: ROXIE
   - title: Mandalay
     year: 1934
     director:
@@ -203,6 +422,9 @@
     - Gregg Araki
     ranking: 7
     tier: II-A
+    stubz:
+      date: 2023-10-17
+      venue: ROXIE
   - title: Gomorrah
     year: 2008
     director:
@@ -221,6 +443,9 @@
     - Martin Scorsese
     ranking: 9
     tier: II-C
+    stubz:
+      date: 2023-10-20
+      venue: Cinemark Century 20 Daly City
   - rewatch: La Notte (1961)
     ranking: 3
     tier: II-A
@@ -272,12 +497,18 @@
     - Emma Seligman
     ranking: 8
     tier: II-B
+    stubz:
+      date: 2023-09-05
+      venue: Cinemark Century 20 Daly City
   - title: The Elephant 6 Recording Co.
     year: 2022
     director:
     - Chad Stockfleth
     ranking: 10
     tier: II-B
+    stubz:
+      date: 2023-09-05
+      venue: ROXIE
   - title: It Always Rains on Sunday
     year: 1947
     director:
@@ -290,27 +521,42 @@
     - Patricio Guzmán
     ranking: 24
     tier: III-B
+    stubz:
+      date: 2023-09-08
+      venue: ROXIE
   - title: 'The Battle of Chile: Part 2 - The Coup'
     year: 1976
     director:
     - Patricio Guzmán
     ranking: 23
     tier: III-B
+    stubz:
+      date: 2023-09-08
+      venue: ROXIE
   - rewatch: The Trial (1962)
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2023-09-11
+      venue: ROXIE
   - title: Jawan
     year: 2023
     director:
     - Atlee
     ranking: 19
     tier: II-C
+    stubz:
+      date: 2023-09-12
+      venue: Cinemark Century 20 Daly City
   - title: Death Race 2000
     year: 1975
     director:
     - Paul Bartel
     ranking: 21
     tier: III-A
+    stubz:
+      date: 2023-09-13
+      venue: ROXIE
   - title: Hyenas
     year: 1992
     director:
@@ -320,12 +566,23 @@
   - rewatch: Oldboy (2003)
     ranking: 22
     tier: III-A
+    stubz:
+      date: 2023-09-15
+      venue: ROXIE
+  - title: 'Other Cinema: PEOPLE LIKE US + MUTANTS + KRAFTWERK +'
+    filter: true
+    stubz:
+      date: 2023-09-16
+      venue: ATA Gallery
   - title: 'The Battle of Chile: Part 3 - Popular Power'
     year: 1979
     director:
     - Patricio Guzmán
     ranking: 25
     tier: III-C
+    stubz:
+      date: 2023-09-18
+      venue: ROXIE
   - title: Boyz n the Hood
     year: 1991
     director:
@@ -347,9 +604,15 @@
   - rewatch: Funny Face (1957)
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2023-09-24
+      venue: Stanford Theatre
   - rewatch: The African Queen (1951)
     ranking: 3
     tier: I
+    stubz:
+      date: 2023-09-24
+      venue: Stanford Theatre
   - title: Dangerous Game
     year: 1993
     director:
@@ -368,6 +631,9 @@
     - William Friedkin
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-09-28
+      venue: ROXIE
   - title: The Pit and the Pendulum
     year: 1961
     director:
@@ -383,6 +649,9 @@
     - Hayao Miyazaki
     ranking: 15
     tier: II-B
+    stubz:
+      date: 2023-09-30
+      venue: Alamo Drafthouse New Mission
   - title: Cutter's Way
     year: 1981
     director:
@@ -485,9 +754,15 @@
     - Babak Jalali
     ranking: 18
     tier: III-A
+    stubz:
+      date: 2023-08-27
+      venue: Ciné Lounge Fremont 7
   - rewatch: American Graffiti (1973)
     ranking: 1
     tier: I
+    stubz:
+      date: 2023-08-27
+      venue: Cinemark Century 20 Redwood City Downtown
   - title: Talk to Me
     year: 2022
     director:
@@ -495,6 +770,9 @@
     - Michael Philippou
     ranking: 10
     tier: II-B
+    stubz:
+      date: 2023-08-27
+      venue: Cinemark Century 20 Daly City
   - title: The Intruder
     year: 2004
     director:
