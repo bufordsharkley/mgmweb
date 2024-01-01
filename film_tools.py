@@ -25,11 +25,11 @@ def current():
     for month in master:
         if month['status'] != ('in-progress'):
             continue
-        print(month['month'])
+        print(f"#{month['month']}")
         films = month['films']
         for film in films:
             if 'rewatch' in film:
-                print(film['rewatch'])
+                print(f"*{film['rewatch']}")
             else:
                 directors = ', '.join(film['director'])
                 print(f"{film['title']} ({directors}, {film['year']})")
@@ -109,9 +109,6 @@ def find_master_film(film_to_find, master_data):
         raise Exception(f'cannot find {film_to_find}')
     assert len(title_find) == 1
     return title_find[0]
-
-
-
 
 
 @main.command()
