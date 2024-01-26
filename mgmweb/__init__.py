@@ -40,10 +40,11 @@ def etc():
     poem_dir = os.path.join(app.root_path, 'static/markdown/poems')
     poems = []
     for poem in os.listdir(poem_dir):
-        src = app.open_resource(os.path.join(poem_dir, poem)).read()
+        src = app.open_resource(os.path.join(poem_dir, poem), 'r').read()
         link = poem.rsplit('.md', 1)[0]
-        title = _extract_title(src)
-        year = _extract_year(src)
+        yaml_data, src = _extract_md_yaml(src)
+        year = yaml_data['year']
+        title = yaml_data['title']
         poems.append((title, year, link))
     poems.sort(key=lambda x: x[1], reverse=True)
     return flask.render_template('etc.html', poems=poems)
@@ -58,7 +59,7 @@ def radio_landing():
 
 @app.route('/drawing/<int:num>/')
 def drawing(num):
-    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'), Loader=yaml.FullLoader)
     try:
         firstorlast = None
         if num == len(metadata):
@@ -81,14 +82,14 @@ def drawing(num):
 @app.route('/drawing/')
 @app.route('/drawing/random/')
 def random_drawing():
-    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'), Loader=yaml.FullLoader)
     return flask.render_template('randomdrawing.html',
                                  drawcount = len(metadata))
 
 
 @app.route('/drawing/last/')
 def last_drawing():
-    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'))
+    metadata = yaml.load(app.open_resource('static/drawing_metadata.yaml'), Loader=yaml.FullLoader)
     return flask.redirect(flask.url_for('drawing', num=len(metadata)))
 
 
@@ -120,32 +121,25 @@ def writings(opus):
 @app.route('/poems/<opus>/')
 def poems(opus):
     try:
-        src = app.open_resource('static/markdown/poems/{}.md'.format(opus))
+        src = app.open_resource('static/markdown/poems/{}.md'.format(opus), 'r')
     except IOError:
         flask.abort(404)
     src = src.read()
-    year = _extract_year(src)
+    yaml_data, src = _extract_md_yaml(src)
+    year = yaml_data['year']
     # replace regular line breaks with two spaces so markdown sees line breaks:
     src = re.sub(r'([^\n])\n', r'\1  \n', src)
-    src = unicode(src, 'utf-8')
-    content = flask.Markup(markdown.markdown(src))
+    content = markdown.markdown(src)
     title = opus.replace('_', ' ')
     return flask.render_template('poem.html', **locals())
 
 
-# some markdown stuff TODO: move to separate module
-def _extract_year(text):
-    try:
-        meta = text.split('(META')[1].split(')',1)[0]
-        meta = [x.split(':') for x in meta.split(';')]
-        meta = {k: v for k, v in meta}
-        return meta['year']
-    except (IndexError, KeyError):
-        return ''
-
-
-def _extract_title(text):
-    return text.split('##')[1].split('\n')[0]
+def _extract_md_yaml(text):
+    if text.startswith('---'):
+        _, yaml_txt, main_md = text.split('---', 2)
+        yaml_data = yaml.safe_load(yaml_txt)
+        return yaml_data, main_md
+    return {}, main_md
 
 
 @app.route('/bridge.pdf')

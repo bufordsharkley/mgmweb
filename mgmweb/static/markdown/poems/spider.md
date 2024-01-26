@@ -1,3 +1,7 @@
+---
+year: 2008
+title: You need not bite a spider
+---
 ##You need not bite a spider
 
 You need not bite a spider,
@@ -18,5 +22,3 @@ Jam ’twixt teeth; and not ’twixt jaws
 If there is but one thing for these lines to didact,
 It’s that one must not and should not bite an arach
 nid
-
-[//]: # (METAyear:2008)
