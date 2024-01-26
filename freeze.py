@@ -58,6 +58,10 @@ def cv_why_not():
 
 
 @freezer.register_generator
+def film_ranked():
+   yield "/film/ranked.html"
+
+@freezer.register_generator
 def robots_and_humans_and_friends_and_hackers():
     for cool_page in ('robots', 'humans', 'friends', 'hackers'):
         yield "/{}.txt".format(cool_page)

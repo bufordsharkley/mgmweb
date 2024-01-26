@@ -196,13 +196,12 @@ def film():
     return flask.render_template('film.html', films=films)
 
 
-@app.route('/film/ranked')
-@app.route('/films/ranked')
+@app.route('/film/ranked.html')
 def film_ranked():
     films = yaml.load(app.open_resource('static/master.yaml'),
                       Loader=yaml.FullLoader)
     films = flesh_out_rewatches(films)
-    months = [(x['month'], organize_month_data_into_tiers(x))for x in films
+    months = [(x['month'], organize_month_data_into_tiers(x)) for x in films
               if x['status'] == 'ranked']
     return flask.render_template('film_ranked.html', months=months)
 
