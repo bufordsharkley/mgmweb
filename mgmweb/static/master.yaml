@@ -476,8 +476,8 @@
   status: ranked
   tiers:
     I: 1
-    II-A: 5
-    II-B: 2
+    II-A: 6
+    II-B: 1
     II-C: 7
     III-A: 1
     III-B: 1
@@ -1204,7 +1204,7 @@
     - Dorothy Arzner
     ranking: 12
     tier: II-C
-  - rewatch: Affairs of Martha (1942)
+  - rewatch: The Affairs of Martha (1942)
     ranking: 2
     tier: II-A
   - title: The Other Side of the Wind
@@ -1437,7 +1437,7 @@
   status: ranked
 - month: January 2023
   films:
-  - rewatch: Movern Callar (2002)
+  - rewatch: Morvern Callar (2002)
     ranking: 1
     tier: I
   - title: 'Avatar: The Way of Water'
@@ -1619,7 +1619,7 @@
   status: ranked
 - month: November 2022
   films:
-  - rewatch: Masculin Féminin (1966)
+  - rewatch: Masculin féminin (1966)
     ranking: 5
     tier: II-B
   - title: Vampire's Kiss

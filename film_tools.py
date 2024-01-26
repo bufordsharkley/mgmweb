@@ -3,6 +3,9 @@
 import click
 import yaml
 
+from mgmweb import film_ranker
+from mgmweb import film_logic
+
 TIERS = ['I', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV']
 
 
@@ -13,7 +16,34 @@ def main():
 
 @main.command()
 def check():
-    raise NotImplementedError
+    """Basic vetting for master yaml."""
+    master = get_master()
+    for month in master:
+        print(month['month'])
+        assert month['status'] in ('unranked', 'ranked', 'tier norank')
+        rankings = False
+        films = month['films']
+        for film in films:
+            if 'filter' in film:
+                continue
+            if 'title' in film:
+                assert 'year' in film
+                assert 'director' in film
+                assert type(film['director']) == list
+            elif 'rewatch' in film:
+                assert '(' in film['rewatch']
+            else:
+                raise Exception(film)
+            if 'ranking' in film:
+                rankings = True
+        if rankings and not month['status'] == 'unranked':
+            assert all('ranking' in film for film in films if not 'filter' in film)
+            print('-------------RANKED-------------')
+        else:
+            print('************ UNRANKED***********')
+        print(len(films))
+        print()
+
 
 def get_master():
     return yaml.load(open('mgmweb/static/master.yaml'), Loader=yaml.FullLoader)
@@ -21,6 +51,7 @@ def get_master():
 
 @main.command()
 def current():
+    """Print current, in-progress month, so to create new list."""
     master = get_master()
     for month in master:
         if month['status'] != ('in-progress'):
@@ -53,6 +84,18 @@ def pre_process(lines):
             yield chunks[-1]
         else:
             yield line
+
+
+def check_lists(lists):
+    raise Exception("I haven't tried this yet, be gentle.")
+    for month, tiers in lists.items():
+        keys = tiers.keys()
+        extra = set(keys) - set(TIERS)
+        if extra:
+            raise Exception(f"extra tiers: {extra}")
+        missing = set(TIERS) - set(keys)
+        if missing:
+            raise Exception(f"missing in {month}: {missing}")
 
 
 def get_lists(filename):
@@ -113,8 +156,10 @@ def find_master_film(film_to_find, master_data):
 
 @main.command()
 @click.argument('filename', type=click.Path(exists=True))
-def ranklist(filename):
+def newlist(filename):
+    """Feed new monthly list(s) and create new yaml master in /tmp"""
     lists = get_lists(filename)
+    check_lists(lists)
     out_master = []
     master = get_master()
     for master_data in master:
@@ -142,6 +187,32 @@ def ranklist(filename):
     with open('/tmp/master_updated.yaml', 'w') as f:
         f.write(output_text)
 
+
+@main.command()
+@click.argument('month', nargs=-1, required=True)
+def ranking(month):
+    """Print ranking for certain month."""
+    master = get_master()
+    # Important here to get info on director for rewatches:
+    master = film_logic.flesh_out_rewatches(master)
+    if month[0] == 'ALL':
+        for month_data in master:
+            if month_data['status'] != 'ranked':
+                continue
+            print(month_data['month'])
+            print_month(month_data)
+    else:
+        month = " ".join(month)
+        month_data = [x for x in master if x['month'] == month][0]
+        print_month(month_data)
+
+
+def print_month(month_data):
+    tiers = film_logic.organize_month_data_into_tiers(month_data)
+    for tier, payload in tiers:
+        print(tier)
+        print("\n".join(payload))
+        print()
 
 if __name__ == "__main__":
     main()

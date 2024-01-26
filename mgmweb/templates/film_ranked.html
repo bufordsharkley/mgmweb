@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>ranked film page</title>
+  <style type="text/css">
+
+
+    div.month-list {
+      margin-bottom:400em;
+    }
+
+    div.tier-spacer {
+      margin-bottom:1em;
+    }
+
+    div.movie {
+      text-indent: 1.0em;
+    }
+
+  </style>
+ 
+  </head>
+  <body>
+{% for month, tiers in months %}
+<h2 id="{{month}}">{{month}}</h2>
+<div class="month-list">
+  {% for tier, data in tiers %}
+<div class="tier">{{tier}}</div>
+    {% for line in data %}
+<div class="movie">{{line}}</div>
+    {% endfor %}
+<div class="tier-spacer"></div>
+  {% endfor %}
+</div>
+{% endfor %}
+
+  </body>
+</html>

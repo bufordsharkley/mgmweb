@@ -33,6 +33,15 @@
     margin-bottom:0;
     font-size: 1.75em;
   }
+
+  span.film-month,
+  span.film-month a {
+   font-family:italic_oblique, serif;
+   font-size:1em;
+   font-weight:bold;
+   color:#147ca8;
+  }
+
   @media (min-width: 550px) {
   .filmrecctitle {
     text-align:center;
@@ -97,7 +106,13 @@
   <h3 class="filmrecctitle">Film Recommendations</h3>
   {% for month in films if month.status != "in-progress" %}
     <span class="{{"film-" if month.status == "unranked"}}">
-    <span class="film-month" style="font-family:italic_oblique, serif;font-size:1em;font-weight:bold;color:#147ca8">{{month.month}}</span>
+    <span class="film-month">
+      {% if month.status == "ranked" %}
+      <a href="javascript:window.open('/film/ranked#{{month.month}}', 'rankedList', 'width=600,height=800');">{{month.month}}</a>
+      {% else %}
+      {{month.month}}
+      {% endif %}
+    </span>
     {% for film in month.films if "rewatch" not in film and not film.filter %}
     <span class="film-{{film.tier}}" >{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
       {%- if not loop.last %}
