@@ -1,3 +1,7 @@
+---
+year: 2004
+title: The Cry of One, Just Stepped into Shoe, Full of Egg Yolk
+---
 ##The Cry of One, Just Stepped into Shoe, Full of Egg Yolk
 
 O why?
@@ -31,5 +35,3 @@ And pain!
 It’s the cry and the why and the pain of the joke,
 Stepping into the shoe,
 Full of the yolk of an egg.
-
-[//]: # (METAyear:2004)
