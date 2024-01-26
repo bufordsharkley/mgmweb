@@ -108,7 +108,7 @@
     <span class="{{"film-" if month.status == "unranked"}}">
     <span class="film-month">
       {% if month.status == "ranked" %}
-      <a href="javascript:window.open('/film/ranked#{{month.month}}', 'rankedList', 'width=600,height=800');">{{month.month}}</a>
+      <a href="javascript:window.open('/film/ranked.html#{{month.month}}', 'rankedList', 'width=600,height=800');">{{month.month}}</a>
       {% else %}
       {{month.month}}
       {% endif %}

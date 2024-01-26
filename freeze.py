@@ -58,8 +58,8 @@ def cv_why_not():
 
 
 @freezer.register_generator
-def rankings():
-   yield "/film/ranked"
+def film_ranked():
+   yield "/film/ranked.html"
 
 
 @freezer.register_generator
