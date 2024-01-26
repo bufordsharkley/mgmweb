@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-import itertools
-
 import click
 import yaml
+
+from mgmweb import film_ranker
+from mgmweb import film_logic
 
 TIERS = ['I', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV']
 
@@ -23,7 +24,7 @@ def check():
         rankings = False
         films = month['films']
         for film in films:
-            if film.get('filter', False):
+            if 'filter' in film:
                 continue
             if 'title' in film:
                 assert 'year' in film
@@ -187,47 +188,13 @@ def newlist(filename):
         f.write(output_text)
 
 
-
-def flesh_out_rewatches(master):
-    # First, list of all rewatches
-    rewatches = set()
-    for month in master:
-        for film in month['films']:
-            if film.get('filter', False):
-                continue
-            if 'rewatch' in film:
-                rewatch, year = film['rewatch'].rsplit(' (', 1)
-                year = int(year[:-1])
-                rewatches.add((rewatch, year))
-    fixes = {k: None for k in rewatches}
-    for month in master:
-        for film in month['films']:
-            if film.get('filter', False) or not 'title' in film:
-                continue
-            title, year = film['title'], film['year']
-            if (title, year) in rewatches:
-                fixes[(title, year)] = {'director': film['director']}
-    for month in master:
-        for film in month['films']:
-            if film.get('filter', False):
-                continue
-            if 'rewatch' in film:
-                rewatch, year = film['rewatch'].rsplit(' (', 1)
-                year = int(year[:-1])
-                film['rewatch'] = rewatch
-                film['year'] = year
-                film['director'] = fixes[(rewatch, year)]['director']
-    return master
-
-
-
 @main.command()
 @click.argument('month', nargs=-1, required=True)
 def ranking(month):
     """Print ranking for certain month."""
     master = get_master()
     # Important here to get info on director for rewatches:
-    master = flesh_out_rewatches(master)
+    master = film_logic.flesh_out_rewatches(master)
     if month[0] == 'ALL':
         for month_data in master:
             if month_data['status'] != 'ranked':
@@ -241,76 +208,11 @@ def ranking(month):
 
 
 def print_month(month_data):
-    if 'status' not in month_data:
-        print("NOT RANKED")
-        return
-    tiers = month_data['tiers']
-    check_tiers(tiers, month_data)
-    raw_rankings = {}
-    for film in month_data['films']:
-        if 'filter' in film:
-            continue
-        raw_rankings[film['ranking']] = film
-    num_real_films = sum(1 for x in month_data['films'] if 'filter' not in x)
-    assert num_real_films == sum(tiers.values())
-    assert len(raw_rankings.keys()) == num_real_films
-    if set(raw_rankings.keys()) == {ii + 1 for ii in range(num_real_films)}:
-        rankings = raw_rankings
-        pass
-    else:
-        rankings = {}
-        real_rank_set = {ii + 1 for ii in range(num_real_films)}
-        for old, new in zip(sorted(raw_rankings.keys()), sorted(real_rank_set)):
-            rankings[new] = raw_rankings[old]
-    curr = 1
-    for is_empty, group in itertools.groupby(tiers.items(),
-                                             key=lambda x: x[1]==0):
-        group_list = list(group)
-        if is_empty:
-            if len(group_list) == 1:
-                print(group_list[0][0] + ":")
-                print("(none)")
-            else:
-                print(", ".join(x[0] for x in group_list) + ":")
-                print("(none)")
-
-            print()
-        else:
-            for tier, count in group_list:
-                print(tier + ":")
-                for ii in range(count):
-                    rank = curr + ii
-                    film = rankings[rank]
-                    print(f"{rank}. ", end="")
-                    if 'title' in film:
-                        title = film['title']
-                        director = ", ".join(film['director'])
-                        year = film['year']
-                        print(f"{title} ({director}, {year})")
-                    elif 'ranking' in film:
-                        director = ", ".join(film['director'])
-                        year = film['year']
-                        print(f"* {film['rewatch']} ({director}, {year})")
-                    else:
-                        raise Exception(film)
-                curr += count
-                print()
-
-
-def check_tiers(tiers, month_data):
-    """putting in tiers was a mistake, whoops"""
-    new_tiers = {x: 0 for x in ('I', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV')}
-    for film in month_data['films']:
-        if 'filter' in film:
-            continue
-        tier = film['tier']
-        if tier == 'II-Aa':
-            tier = 'II-A'
-        new_tiers[tier] += 1
-    if new_tiers != tiers:
-        print(new_tiers)
-        print(tiers)
-        raise Exception("The tiered component doesn't match. Is this important?")
+    tiers = film_logic.organize_month_data_into_tiers(month_data)
+    for tier, payload in tiers:
+        print(tier)
+        print("\n".join(payload))
+        print()
 
 if __name__ == "__main__":
     main()

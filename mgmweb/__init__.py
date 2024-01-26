@@ -9,6 +9,7 @@ import markdown
 import yaml
 
 #from .drawing_metadata import metadata
+from .film_logic import organize_month_data_into_tiers, flesh_out_rewatches
 from .frontpage_descriptions import splash_descriptions
 from .film_100 import top100films
 
@@ -193,11 +194,24 @@ def film100():
 
 
 @app.route('/film/')
+@app.route('/films/')
 def film():
     films = yaml.load(app.open_resource('static/master.yaml'),
                       Loader=yaml.FullLoader)
     random.shuffle(films[-1]['films'])
     return flask.render_template('film.html', films=films)
+
+
+@app.route('/film/ranked')
+@app.route('/films/ranked')
+def film_ranked():
+    films = yaml.load(app.open_resource('static/master.yaml'),
+                      Loader=yaml.FullLoader)
+    films = flesh_out_rewatches(films)
+    months = [(x['month'], organize_month_data_into_tiers(x))for x in films
+              if x['status'] == 'ranked']
+    return flask.render_template('film_ranked.html', months=months)
+
 
 @app.route('/garfield/')
 def garfield_mirror():
