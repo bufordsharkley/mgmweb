@@ -1,3 +1,7 @@
+---
+year: 2004
+title: A Message for a Vagrant
+---
 ##A Message for a Vagrant
 
 I’m sorry, sir, vagrant,
@@ -31,5 +35,3 @@ I, my wife, and the kids
 Chance o’ pickling death, big threat already is,
 Would worsen
 With one vagrant in
-
-[//]: # (METAyear:2004)

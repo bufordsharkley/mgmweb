@@ -1,3 +1,7 @@
+---
+year: 2004
+title: Anti-Murder Poem
+---
 ##Anti-Murder Poem
 
 It says quite clearly: "Thou Shalt Not Kill"
@@ -21,5 +25,3 @@ I say "What the hey!" Know what I mean?
 Keep up this killing,
 You know what'll happen:
 The dinosaur's gonna get you.
-
-[//]: # (METAyear:2004)
