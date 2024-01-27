@@ -1,3 +1,118 @@
+- month: January 2024
+  films:
+  - title: Everlasting Moments
+    year: 2008
+    director:
+    - Jan Troell
+  - title: Wish
+    year: 2023
+    director:
+    - Chris Buck
+    - Fawn Veerasunthorn
+    stubz:
+      date: 2024-01-02
+      venue: Cinemark Oakley Station and XD
+  - title: Good Time
+    year: 2017
+    director:
+    - Josh Safdie
+    - Benny Safdie
+  - title: Shiva Baby
+    year: 2020
+    director:
+    - Emma Seligman
+  - rewatch: Moonstruck (1987)
+  - title: Crossing Delancey
+    year: 1988
+    director:
+    - Joan Micklin Silver
+  - title: The Batman
+    year: 2022
+    director:
+    - Matt Reeves
+  - rewatch: The Locket (1946)
+  - title: The Beguiled
+    year: 1971
+    director:
+    - Don Siegel
+  - title: A Star Is Born
+    year: 1937
+    director:
+    - William Wellman
+  - rewatch: The Holdovers (2023)
+    stubz:
+      date: 2024-01-09
+      venue: Mariemont Theatre
+  - title: Soul
+    year: 2020
+    director:
+    - Pete Docter
+    stubz:
+      date: 2024-01-16
+      venue: Cinemark Century 20 Daly City
+  - title: The Zone of Interest
+    year: 2023
+    director:
+    - Jonathan Glazer
+    stubz:
+      date: 2024-01-16
+      venue: AMC Kabuki 8
+  - title: Monster
+    year: 2023
+    director:
+    - Hirokazu Kore-eda
+    stubz:
+      date: 2024-01-18
+      venue: ROXIE
+  - title: Zigeunerweisen
+    year: 1980
+    director:
+    - Seijun Suzuki
+  - title: Anselm
+    year: 2023
+    director:
+    - Wim Wenders
+    stubz:
+      date: 2024-01-19
+      venue: ROXIE
+  - title: Long Day's Journey Into Night
+    year: 2018
+    director:
+    - Bi Gan
+    stubz:
+      date: 2024-01-19
+      venue: ROXIE
+  - title: Batman & Robin
+    year: 1997
+    director:
+    - Joel Schumacher
+  - title: I'm No Angel
+    year: 1933
+    director:
+    - Wesley Ruggles
+  - title: Ferrari
+    year: 2023
+    director:
+    - Michael Mann
+    stubz:
+      date: 2024-01-26
+      venue: Cinemark Century 20 Redwood City Downtown
+  - title: Safe in Hell
+    year: 1931
+    director:
+    - William Wellman
+  - title: Kagero-za
+    year: 1981
+    director:
+    - Seijun Suzuki
+  - title: Inside the Yellow Cocoon Shell
+    year: 2023
+    director:
+    - Phạm Thiên Ân
+    stubz:
+      date: 2024-01-26
+      venue: ROXIE
+  status: in-progress
 - month: December 2023
   films:
   - rewatch: Fallen Angels (1995)
