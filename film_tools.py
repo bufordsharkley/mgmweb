@@ -88,7 +88,6 @@ def pre_process(lines):
 
 
 def check_lists(lists):
-    raise Exception("I haven't tried this yet, be gentle.")
     for month, tiers in lists.items():
         keys = tiers.keys()
         extra = set(keys) - set(TIERS)

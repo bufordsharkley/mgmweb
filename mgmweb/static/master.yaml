@@ -4,6 +4,8 @@
     year: 2008
     director:
     - Jan Troell
+    ranking: 13
+    tier: II-B
   - title: Wish
     year: 2023
     director:
@@ -12,37 +14,57 @@
     stubz:
       date: 2024-01-02
       venue: Cinemark Oakley Station and XD
+    ranking: 29
+    tier: III-A
   - title: Good Time
     year: 2017
     director:
     - Josh Safdie
     - Benny Safdie
+    ranking: 11
+    tier: II-B
   - title: Shiva Baby
     year: 2020
     director:
     - Emma Seligman
+    ranking: 15
+    tier: II-B
   - rewatch: Moonstruck (1987)
+    ranking: 7
+    tier: II-B
   - title: Crossing Delancey
     year: 1988
     director:
     - Joan Micklin Silver
+    ranking: 3
+    tier: II-A
   - title: The Batman
     year: 2022
     director:
     - Matt Reeves
+    ranking: 28
+    tier: III-A
   - rewatch: The Locket (1946)
+    ranking: 4
+    tier: II-A
   - title: The Beguiled
     year: 1971
     director:
     - Don Siegel
+    ranking: 17
+    tier: II-C
   - title: A Star Is Born
     year: 1937
     director:
     - William Wellman
+    ranking: 27
+    tier: III-A
   - rewatch: The Holdovers (2023)
     stubz:
       date: 2024-01-09
       venue: Mariemont Theatre
+    ranking: 1
+    tier: II-Aa
   - title: Soul
     year: 2020
     director:
@@ -50,6 +72,8 @@
     stubz:
       date: 2024-01-16
       venue: Cinemark Century 20 Daly City
+    ranking: 12
+    tier: II-B
   - title: The Zone of Interest
     year: 2023
     director:
@@ -57,6 +81,8 @@
     stubz:
       date: 2024-01-16
       venue: AMC Kabuki 8
+    ranking: 2
+    tier: II-A
   - title: Monster
     year: 2023
     director:
@@ -64,10 +90,14 @@
     stubz:
       date: 2024-01-18
       venue: ROXIE
+    ranking: 26
+    tier: III-A
   - title: Zigeunerweisen
     year: 1980
     director:
     - Seijun Suzuki
+    ranking: 8
+    tier: II-B
   - title: Anselm
     year: 2023
     director:
@@ -75,6 +105,8 @@
     stubz:
       date: 2024-01-19
       venue: ROXIE
+    ranking: 20
+    tier: II-C
   - title: Long Day's Journey Into Night
     year: 2018
     director:
@@ -82,14 +114,20 @@
     stubz:
       date: 2024-01-19
       venue: ROXIE
+    ranking: 25
+    tier: II-C
   - title: Batman & Robin
     year: 1997
     director:
     - Joel Schumacher
+    ranking: 21
+    tier: II-C
   - title: I'm No Angel
     year: 1933
     director:
     - Wesley Ruggles
+    ranking: 24
+    tier: II-C
   - title: Ferrari
     year: 2023
     director:
@@ -97,14 +135,20 @@
     stubz:
       date: 2024-01-26
       venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 19
+    tier: II-C
   - title: Safe in Hell
     year: 1931
     director:
     - William Wellman
+    ranking: 14
+    tier: II-B
   - title: Kagero-za
     year: 1981
     director:
     - Seijun Suzuki
+    ranking: 18
+    tier: II-C
   - title: Inside the Yellow Cocoon Shell
     year: 2023
     director:
@@ -112,7 +156,60 @@
     stubz:
       date: 2024-01-26
       venue: ROXIE
-  status: in-progress
+    ranking: 23
+    tier: II-C
+  - title: Dishonored
+    year: 1931
+    director:
+    - Josef von Sternberg
+    ranking: 5
+    tier: II-A
+  - title: Hard Target
+    year: 1993
+    director:
+    - John Woo
+    ranking: 6
+    tier: II-A
+  - title: Last Things
+    year: 2023
+    director:
+    - Deborah Stratman
+    stubz:
+      date: 2024-01-30
+      venue: ROXIE
+    ranking: 10
+    tier: II-B
+  - title: American Fiction
+    year: 2023
+    director:
+    - Cord Jefferson
+    stubz:
+      date: 2024-01-30
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
+  - title: The Wonders
+    year: 2014
+    director:
+    - Alice Rohrwacher
+    ranking: 9
+    tier: II-B
+  - title: Back Street
+    year: 1932
+    director:
+    - John M. Stahl
+    ranking: 16
+    tier: II-B
+  status: ranked
+  tiers:
+    I: 0
+    II-A: 6
+    II-B: 10
+    II-C: 9
+    III-A: 4
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: December 2023
   films:
   - rewatch: Fallen Angels (1995)
@@ -4985,7 +5082,7 @@
     year: 1946
     director:
     - John Brahm
-    tier: II-Aa
+    tier: II-A
   - title: King & Country
     year: 1964
     director:
@@ -8045,8 +8142,8 @@
     year: 2007
     director:
     - Paul Thomas Anderson
-    ranking: 1
-    tier: II-Aa
+    ranking: 2.1
+    tier: II-A
   - title: Variety Lights
     year: 1950
     director:
@@ -8222,7 +8319,7 @@
     director:
     - Michelangelo Antonioni
     ranking: 5
-    tier: II-B
+    tier: II-A
   - title: It's a Mad, Mad, Mad, Mad World
     year: 1963
     director:
@@ -8316,8 +8413,8 @@
   status: ranked
   tiers:
     I: 2
-    II-A: 2
-    II-B: 3
+    II-A: 3
+    II-B: 2
     II-C: 5
     III-A: 3
     III-B: 2
@@ -8880,15 +8977,16 @@
     year: 1987
     director:
     - Norman Jewison
-    ranking: 15
-    tier: III-A
+    ranking: 6.5
+    tier: II-B
+    notes: 'Bizarre initial ranking'
   status: ranked
   tiers:
     I: 1
     II-A: 5
-    II-B: 4
+    II-B: 5
     II-C: 4
-    III-A: 6
+    III-A: 5
     III-B: 3
     III-C: 0
     IV: 0
@@ -11140,8 +11238,8 @@
     year: 2004
     director:
     - Wong Kar-Wai
-    ranking: 23
-    tier: III-A
+    ranking: 15.2
+    tier: II-B
   - title: Broken Flowers
     year: 2005
     director:
@@ -11189,8 +11287,8 @@
     year: 1953
     director:
     - Max Ophüls
-    ranking: 12
-    tier: II-B
+    ranking: 5.2
+    tier: II-Aa
   - title: Family Plot
     year: 1976
     director:
@@ -11267,10 +11365,10 @@
   status: ranked
   tiers:
     I: 4
-    II-A: 4
+    II-A: 5
     II-B: 7
     II-C: 4
-    III-A: 7
+    III-A: 6
     III-B: 4
     III-C: 0
     IV: 0
@@ -11471,13 +11569,13 @@
     year: 1940
     director:
     - Mitchell Leisen
-    ranking: 18
-    tier: II-B
+    ranking: 9.5
+    tier: II-A
   status: ranked
   tiers:
     I: 5
-    II-A: 5
-    II-B: 9
+    II-A: 6
+    II-B: 8
     II-C: 7
     III-A: 4
     III-B: 1
