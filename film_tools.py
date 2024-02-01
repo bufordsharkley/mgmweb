@@ -3,7 +3,6 @@
 import click
 import yaml
 
-from mgmweb import film_ranker
 from mgmweb import film_logic
 
 TIERS = ['I', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV']
@@ -53,6 +52,7 @@ def get_master():
 def current():
     """Print current, in-progress month, so to create new list."""
     master = get_master()
+    master = film_logic.flesh_out_rewatches(master)
     for month in master:
         if month['status'] != ('in-progress'):
             continue
@@ -60,7 +60,8 @@ def current():
         films = month['films']
         for film in films:
             if 'rewatch' in film:
-                print(f"*{film['rewatch']}")
+                directors = ', '.join(film['director'])
+                print(f"*{film['rewatch']} ({directors}, {film['year']})")
             else:
                 directors = ', '.join(film['director'])
                 print(f"{film['title']} ({directors}, {film['year']})")
@@ -87,7 +88,6 @@ def pre_process(lines):
 
 
 def check_lists(lists):
-    raise Exception("I haven't tried this yet, be gentle.")
     for month, tiers in lists.items():
         keys = tiers.keys()
         extra = set(keys) - set(TIERS)
