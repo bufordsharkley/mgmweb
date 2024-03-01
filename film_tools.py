@@ -59,6 +59,8 @@ def current():
         print(f"#{month['month']}")
         films = month['films']
         for film in films:
+            if 'filter' in film:
+                continue
             if 'rewatch' in film:
                 directors = ', '.join(film['director'])
                 print(f"*{film['rewatch']} ({directors}, {film['year']})")
