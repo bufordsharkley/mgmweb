@@ -1,3 +1,146 @@
+- month: February 2024
+  films:
+  - title: A Married Woman
+    year: 1964
+    director:
+    - Jean-Luc Godard
+    ranking: 9
+    tier: II-B
+  - title: Drugstore Cowboy
+    year: 1989
+    director:
+    - Gus Van Sant
+    ranking: 3
+    tier: II-A
+  - title: The Promised Land
+    year: 2023
+    director:
+    - Nikolaj Arcel
+    stubz:
+      date: 2024-02-06
+      venue: Cinemark Century 20 Daly City
+    ranking: 15
+    tier: II-C
+  - title: The Terrorizers
+    year: 1986
+    director:
+    - Edward Yang
+    ranking: 4
+    tier: II-A
+  - rewatch: Mirror (1975)
+    stubz:
+      date: 2024-02-08
+      venue: ROXIE
+    ranking: 1
+    tier: I
+  - title: Simple Men
+    year: 1992
+    director:
+    - Hal Hartley
+    ranking: 7
+    tier: II-B
+  - title: Close Encounters of the Third Kind
+    year: 1977
+    director:
+    - Steven Spielberg
+    ranking: 11
+    tier: II-B
+  - title: Solaris
+    year: 2002
+    director:
+    - Steven Soderbergh
+    ranking: 8
+    tier: II-B
+  - title: Turning Red
+    year: 2022
+    director:
+    - Domee Shi
+    stubz:
+      date: 2024-02-20
+      venue: Cinemark Century 20 Daly City
+    ranking: 14
+    tier: II-C
+  - title: The Beekeeper
+    year: 2024
+    director:
+    - David Ayer
+    stubz:
+      date: 2024-02-20
+      venue: Cinemark Century 20 Daly City
+    ranking: 10
+    tier: II-B
+  - title: Portrait of a Lady on Fire
+    year: 2019
+    director:
+    - Céline Sciamma
+    stubz:
+      date: 2024-02-21
+      venue: ROXIE
+    ranking: 2
+    tier: II-A
+  - title: Arrebato
+    year: 1979
+    director:
+    - Iván Zulueta
+    ranking: 18
+    tier: III-A
+  - title: Brigadoon
+    year: 1954
+    director:
+    - Vincente Minnelli
+    ranking: 17
+    tier: II-C
+  - title: Sandra
+    year: 1965
+    director:
+    - Luchino Visconti
+    ranking: 16
+    tier: II-C
+  - title: 2024 Oscar Nominated Short Films
+    filter: true
+    stubz:
+      date: 2024-02-27
+      venue: AMC Metreon 16
+  - title: Tenet
+    year: 2020
+    director:
+    - Christopher Nolan
+    stubz:
+      date: 2024-02-27
+      venue: AMC Metreon 16
+    ranking: 13
+    tier: II-C
+  - title: Drive-Away Dolls
+    year: 2024
+    director:
+    - Ethan Coen
+    stubz:
+      date: 2024-02-27
+      venue: Cinemark Century 20 Daly City
+    ranking: 12
+    tier: II-B
+  - title: The Pirate
+    year: 1948
+    director:
+    - Vincente Minnelli
+    ranking: 6
+    tier: II-B
+  - title: The Unbelievable Truth
+    year: 1989
+    director:
+    - Hal Hartley
+    ranking: 5
+    tier: II-A
+  status: ranked
+  tiers:
+    I: 1
+    II-A: 4
+    II-B: 7
+    II-C: 5
+    III-A: 1
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: January 2024
   films:
   - title: Everlasting Moments
@@ -900,12 +1043,18 @@
     - Christopher McQuarrie
     ranking: 17
     tier: II-C
+    stubz:
+      date: 2023-08-08
+      venue: Cinemark Century 20 Daly City
   - title: Oppenheimer
     year: 2023
     director:
     - Christopher Nolan
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-08-09
+      venue: AMC Metreon 16
   - title: 'Tetsuo: The Iron Man'
     year: 1989
     director:
@@ -921,12 +1070,18 @@
     - Vincent Woo
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2023-08-15
+      venue: ROXIE
   - title: Coraline
     year: 2009
     director:
     - Henry Selick
     ranking: 4
     tier: I
+    stubz:
+      date: 2023-08-15
+      venue: Cinemark Century 20 Daly City
   - title: The Goddess
     year: 1958
     director:
@@ -936,6 +1091,9 @@
   - rewatch: Pee-wee's Big Adventure (1985)
     ranking: 2
     tier: I
+    stubz:
+      date: 2023-08-18
+      venue: ROXIE
   - title: 'Nymphomaniac: Vol. I'
     year: 2013
     director:
@@ -1018,6 +1176,9 @@
   - rewatch: Asteroid City (2023)
     ranking: 1
     tier: I
+    stubz:
+      date: 2023-07-04
+      venue: Mountain View ShowPlace ICON
   - title: Werckmeister Harmonies
     year: 2000
     director:
@@ -1025,6 +1186,9 @@
     - Ágnes Hranitzky
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2023-07-07
+      venue: ROXIE
   - title: Caravaggio
     year: 1986
     director:
@@ -1034,12 +1198,18 @@
   - rewatch: Contempt (1963)
     ranking: 15
     tier: III-B
+    stubz:
+      date: 2023-07-13
+      venue: Film Forum
   - title: Barbie
     year: 2023
     director:
     - Greta Gerwig
     ranking: 9
     tier: II-C
+    stubz:
+      date: 2023-07-23
+      venue: Esquire Theatre
   - title: Flesh+Blood
     year: 1985
     director:
@@ -1070,6 +1240,9 @@
     - Edward Berger
     ranking: 11
     tier: II-C
+    stubz:
+      date: 2023-07-26
+      venue: Chautauqua Cinema
   - title: Mommy
     year: 2014
     director:
@@ -4044,16 +4217,25 @@
     year: 1990
     director:
     - Mike Leigh
+    notes: very unclear watchtime, best estimate
+    tier: G
+  - title: The White Ribbon
+    year: 2009
+    director:
+    - Michael Haneke
+    notes: very unclear watchtime, best estimate
     tier: G
   - title: Only Lovers Left Alive
     year: 2013
     director:
     - Jim Jarmusch
+    notes: very unclear watchtime, best estimate
     tier: G
   - title: The Uninvited
     year: 1944
     director:
     - Lewis Allen
+    notes: very unclear watchtime, best estimate
     tier: G
   status: tier norank
 - month: November 2014
@@ -5694,7 +5876,7 @@
     director:
     - Jeff Kanew
     tier: G
-  - title: Tree of Life
+  - title: The Tree of Life
     year: 2011
     director:
     - Terrence Malick
@@ -6330,7 +6512,7 @@
     - Iosif Kheifits
     tier: G
   - title: The Color of Pomegranates
-    year: 1968
+    year: 1969
     director:
     - Sergei Parajanov
     tier: G
@@ -7257,7 +7439,7 @@
     - John Ford
     ranking: 15
     tier: III-A
-  - title: Last Year in Marienbad
+  - title: Last Year at Marienbad
     year: 1961
     director:
     - Alain Resnais
@@ -7833,7 +8015,7 @@
     - Robert Siodmak
     ranking: 10
     tier: IV
-  - title: Life of Oharu
+  - title: The Life of Oharu
     year: 1952
     director:
     - Kenji Mizoguchi
@@ -7906,7 +8088,7 @@
     - Andrei Tarkovsky
     ranking: 16
     tier: III-A
-  - title: The Story of the Last Chrysanthemum
+  - title: The Story of the Last Chrysanthemums
     year: 1939
     director:
     - Kenji Mizoguchi
@@ -8272,7 +8454,7 @@
     - Agnès Varda
     ranking: 9
     tier: II-C
-  - title: Voyage to Italy
+  - title: Journey to Italy
     year: 1954
     director:
     - Roberto Rossellini
@@ -8430,7 +8612,7 @@
     - Martin Scorsese
     ranking: 10
     tier: II-C
-  - title: Le Cercle rouge
+  - title: Le Cercle Rouge
     year: 1970
     director:
     - Jean-Pierre Melville
@@ -8515,7 +8697,7 @@
     ranking: 3
     tier: II-A
   - title: French Cancan
-    year: 1954
+    year: 1955
     director:
     - Jean Renoir
     ranking: 20
@@ -8628,7 +8810,7 @@
     - Sergei Eisenstein
     ranking: 5
     tier: II-Aa
-  - title: Dream of Light
+  - title: The Quince Tree Sun
     year: 1992
     director:
     - Víctor Erice
@@ -8979,7 +9161,7 @@
     - Norman Jewison
     ranking: 6.5
     tier: II-B
-    notes: 'Bizarre initial ranking'
+    notes: Bizarre initial ranking
   status: ranked
   tiers:
     I: 1
@@ -9272,7 +9454,7 @@
     - Henry Hathaway
     ranking: 8
     tier: II-C
-  - title: Life of Brian
+  - title: Monty Python's Life of Brian
     year: 1979
     director:
     - Terry Jones
@@ -10615,7 +10797,7 @@
     - Josef von Sternberg
     ranking: 13
     tier: II-B
-  - title: Hable con ella
+  - title: Talk to Her
     year: 2002
     director:
     - Pedro Almodóvar
@@ -11112,7 +11294,7 @@
     - Elaine May
     ranking: 13
     tier: II-C
-  - title: Week End
+  - title: Weekend
     year: 1967
     director:
     - Jean-Luc Godard
@@ -11131,7 +11313,7 @@
     - Jacques Demy
     ranking: 6
     tier: II-A
-  - title: Harlan County, USA
+  - title: Harlan County, U.S.A.
     year: 1976
     director:
     - Barbara Kopple
@@ -11664,7 +11846,7 @@
     - Edward Dmytryk
     ranking: 18
     tier: II-C
-  - title: Orphéus
+  - title: Orpheus
     year: 1950
     director:
     - Jean Cocteau
@@ -11812,7 +11994,7 @@
     ranking: 19
     tier: III-B
   - title: The Tarnished Angels
-    year: 1958
+    year: 1957
     director:
     - Douglas Sirk
     ranking: 6
@@ -12048,7 +12230,7 @@
     - David Lean
     ranking: 19
     tier: II-C
-  - title: Satyricon
+  - title: Fellini Satyricon
     year: 1969
     director:
     - Federico Fellini
@@ -12127,7 +12309,7 @@
     - John Frankenheimer
     ranking: 10
     tier: II-B
-  - title: Paisàn
+  - title: Paisan
     year: 1946
     director:
     - Roberto Rossellini
@@ -12230,7 +12412,7 @@
     IV: 0
 - month: July 2006
   films:
-  - title: The Decalogue
+  - title: Dekalog
     year: 1989
     director:
     - Krzysztof Kieslowski
@@ -12255,7 +12437,7 @@
     ranking: 1
     tier: I
   - title: Cléo from 5 to 7
-    year: 1961
+    year: 1962
     director:
     - Agnès Varda
     ranking: 16
@@ -12414,7 +12596,7 @@
     - John Frankenheimer
     ranking: 17
     tier: II-A
-  - title: My Life to Live
+  - title: Vivre sa vie
     year: 1962
     director:
     - Jean-Luc Godard
@@ -12693,7 +12875,7 @@
     - Sam Peckinpah
     ranking: 10
     tier: II-Aa
-  - title: Berlin, Symphony of a Great City
+  - title: 'Berlin: Symphony of a Great City'
     year: 1927
     director:
     - Walter Ruttmann
@@ -13249,7 +13431,7 @@
     ranking: 3
     tier: II-Aa
   - title: Days of Being Wild
-    year: 1991
+    year: 1990
     director:
     - Wong Kar-Wai
     notes: rewatch september 2022, revised from 14 (iii-a!!!)-> 6th
@@ -13451,12 +13633,13 @@
     - Yasujirô Ozu
     ranking: 20
     tier: II-C
-  - title: 'Intolerance: Love''s Struggle Throughout the Ages'
+  - title: Intolerance
     year: 1916
     director:
     - D.W. Griffith
     ranking: 2
     tier: I
+    notes: would like to restore "Love's Struggle Throughout the Ages" subtitle
   - title: Kung Fu Hustle
     year: 2004
     director:
@@ -13512,7 +13695,7 @@
     ranking: 13
     tier: II-A
   - title: Salesman
-    year: 1968
+    year: 1969
     director:
     - Albert and David Maysles
     ranking: 12
@@ -13619,7 +13802,7 @@
     - Jean-Luc Godard
     ranking: 6
     tier: I
-  - title: Sanshô the Bailiff
+  - title: Sansho the Bailiff
     year: 1954
     director:
     - Kenji Mizoguchi
@@ -13903,13 +14086,13 @@
     - Robert Altman
     ranking: 14
     tier: II-C
-  - title: Ivan the Terrible, Part One
+  - title: Ivan the Terrible, Part 1
     year: 1944
     director:
     - Sergei Eisenstein
     ranking: 3
     tier: I
-  - title: Ivan the Terrible, Part Two
+  - title: Ivan the Terrible, Part 2
     year: 1958
     director:
     - Sergei Eisenstein
@@ -14256,7 +14439,7 @@
     ranking: 24
     tier: III-B
   - title: Aparajito
-    year: 1957
+    year: 1956
     director:
     - Satyajit Ray
     ranking: 13
@@ -14490,7 +14673,7 @@
     director:
     - Wong Kar-Wai
     ranking: 14.5
-    note: revised from 19->15 on rewatch (2016)
+    notes: revised from 19->15 on rewatch (2016)
     tier: II-A
   - title: Stardust Memories
     year: 1980
@@ -14845,7 +15028,7 @@
     ranking: 29
     tier: IV
   - title: F for Fake
-    year: 1974
+    year: 1973
     director:
     - Orson Welles
     ranking: 6
@@ -14863,12 +15046,12 @@
     ranking: 28
     tier: IV
   - title: The Battle of Algiers
-    year: 1965
+    year: 1966
     director:
     - Gillo Pontecorvo
     ranking: 7
     tier: I
-  - title: Blow Up
+  - title: Blow-Up
     year: 1966
     director:
     - Michelangelo Antonioni
@@ -14961,7 +15144,7 @@
     notes: Revised from III-A, (17->12) rewatch September 2022
     ranking: 11.5
     tier: II-B
-  - title: 'Aguirre: The Wrath of God'
+  - title: Aguirre, the Wrath of God
     year: 1972
     director:
     - Werner Herzog
@@ -15099,7 +15282,7 @@
     - Blake Edwards
     ranking: 17
     tier: III-A
-  - title: M. Hulot's Holiday
+  - title: Monsieur Hulot's Holiday
     year: 1953
     director:
     - Jacques Tati
@@ -15391,7 +15574,7 @@
     year: 1963
     director:
     - Federico Fellini
-  - title: À bout de souffle
+  - title: Breathless
     year: 1960
     director:
     - Jean-Luc Godard
@@ -15452,6 +15635,10 @@
     director:
     - Michael Curtiz
     - William Keighley
+  - title: A.I. Artificial Intelligence
+    year: 2001
+    director:
+    - Steven Spielberg
   - title: Air Force One
     year: 1997
     director:
@@ -15568,7 +15755,7 @@
     director:
     - René Clair
   - title: Andrei Rublev
-    year: 1969
+    year: 1966
     director:
     - Andrei Tarkovsky
   - title: Angels in the Outfield
@@ -15628,7 +15815,7 @@
     year: 1950
     director:
     - John Huston
-  - title: L' Atalante
+  - title: L'Atalante
     year: 1934
     director:
     - Jean Vigo
@@ -15841,7 +16028,7 @@
     year: 1958
     director:
     - Irvin S. Yeaworth Jr.
-  - title: Blood Simple.
+  - title: Blood Simple
     year: 1984
     director:
     - Joel Coen & Ethan Coen
@@ -16524,7 +16711,7 @@
     director:
     - Zach Braff
   - title: The General
-    year: 1927
+    year: 1926
     director:
     - Clyde Bruckman
     - Buster Keaton
@@ -16576,7 +16763,7 @@
     year: 1972
     director:
     - Francis Ford Coppola
-  - title: 'The Godfather: Part II'
+  - title: The Godfather Part II
     year: 1974
     director:
     - Francis Ford Coppola
@@ -16604,7 +16791,7 @@
     year: 1997
     director:
     - Gus Van Sant
-  - title: The Good, the Bad, and the Ugly
+  - title: The Good, the Bad and the Ugly
     year: 1966
     director:
     - Sergio Leone
@@ -17222,7 +17409,7 @@
     year: 1994
     director:
     - Les Mayfield
-  - title: The Mirror
+  - title: Mirror
     year: 1975
     director:
     - Andrei Tarkovsky
@@ -17428,8 +17615,8 @@
     year: 2000
     director:
     - Fabián Bielinsky
-  - title: Nuovo cinema Paradiso
-    year: 1989
+  - title: Cinema Paradiso
+    year: 1988
     director:
     - Giuseppe Tornatore
   - title: 'Nutty Professor II: The Klumps'
@@ -17738,7 +17925,7 @@
     year: 1996
     director:
     - Ron Howard
-  - title: Rashômon
+  - title: Rashomon
     year: 1950
     director:
     - Akira Kurosawa
@@ -17945,11 +18132,11 @@
     year: 1994
     director:
     - Frank Darabont
-  - title: Sherlock, Jr.
+  - title: Sherlock Jr.
     year: 1924
     director:
     - Buster Keaton
-  - title: The Seven Samurai
+  - title: Seven Samurai
     year: 1954
     director:
     - Akira Kurosawa
@@ -18100,7 +18287,7 @@
     year: 1999
     director:
     - George Lucas
-  - title: 'Star Wars: Episode V Empire Strikes Back'
+  - title: The Empire Strikes Back
     year: 1980
     director:
     - Irvin Kershner
