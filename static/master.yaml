@@ -1,3 +1,146 @@
+- month: February 2024
+  films:
+  - title: A Married Woman
+    year: 1964
+    director:
+    - Jean-Luc Godard
+    ranking: 9
+    tier: II-B
+  - title: Drugstore Cowboy
+    year: 1989
+    director:
+    - Gus Van Sant
+    ranking: 3
+    tier: II-Aa
+  - title: The Promised Land
+    year: 2023
+    director:
+    - Nikolaj Arcel
+    stubz:
+      date: 2024-02-06
+      venue: Cinemark Century 20 Daly City
+    ranking: 15
+    tier: II-C
+  - title: The Terrorizers
+    year: 1986
+    director:
+    - Edward Yang
+    ranking: 4
+    tier: II-A
+  - rewatch: Mirror (1975)
+    stubz:
+      date: 2024-02-08
+      venue: ROXIE
+    ranking: 1
+    tier: I
+  - title: Simple Men
+    year: 1992
+    director:
+    - Hal Hartley
+    ranking: 7
+    tier: II-B
+  - title: Close Encounters of the Third Kind
+    year: 1977
+    director:
+    - Steven Spielberg
+    ranking: 11
+    tier: II-B
+  - title: Solaris
+    year: 2002
+    director:
+    - Steven Soderbergh
+    ranking: 8
+    tier: II-B
+  - title: Turning Red
+    year: 2022
+    director:
+    - Domee Shi
+    stubz:
+      date: 2024-02-20
+      venue: Cinemark Century 20 Daly City
+    ranking: 14
+    tier: II-C
+  - title: The Beekeeper
+    year: 2024
+    director:
+    - David Ayer
+    stubz:
+      date: 2024-02-20
+      venue: Cinemark Century 20 Daly City
+    ranking: 10
+    tier: II-B
+  - title: Portrait of a Lady on Fire
+    year: 2019
+    director:
+    - Céline Sciamma
+    stubz:
+      date: 2024-02-21
+      venue: ROXIE
+    ranking: 2
+    tier: II-Aa
+  - title: Arrebato
+    year: 1979
+    director:
+    - Iván Zulueta
+    ranking: 18
+    tier: III-A
+  - title: Brigadoon
+    year: 1954
+    director:
+    - Vincente Minnelli
+    ranking: 17
+    tier: II-C
+  - title: Sandra
+    year: 1965
+    director:
+    - Luchino Visconti
+    ranking: 16
+    tier: II-C
+  - title: 2024 Oscar Nominated Short Films
+    filter: true
+    stubz:
+      date: 2024-02-27
+      venue: AMC Metreon 16
+  - title: Tenet
+    year: 2020
+    director:
+    - Christopher Nolan
+    stubz:
+      date: 2024-02-27
+      venue: AMC Metreon 16
+    ranking: 13
+    tier: II-C
+  - title: Drive-Away Dolls
+    year: 2024
+    director:
+    - Ethan Coen
+    stubz:
+      date: 2024-02-27
+      venue: Cinemark Century 20 Daly City
+    ranking: 12
+    tier: II-B
+  - title: The Pirate
+    year: 1948
+    director:
+    - Vincente Minnelli
+    ranking: 6
+    tier: II-B
+  - title: The Unbelievable Truth
+    year: 1989
+    director:
+    - Hal Hartley
+    ranking: 5
+    tier: II-A
+  status: ranked
+  tiers:
+    I: 1
+    II-A: 4
+    II-B: 7
+    II-C: 5
+    III-A: 1
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: January 2024
   films:
   - title: Everlasting Moments
@@ -900,12 +1043,18 @@
     - Christopher McQuarrie
     ranking: 17
     tier: II-C
+    stubz:
+      date: 2023-08-08
+      venue: Cinemark Century 20 Daly City
   - title: Oppenheimer
     year: 2023
     director:
     - Christopher Nolan
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-08-09
+      venue: AMC Metreon 16
   - title: 'Tetsuo: The Iron Man'
     year: 1989
     director:
@@ -921,12 +1070,18 @@
     - Vincent Woo
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2023-08-15
+      venue: ROXIE
   - title: Coraline
     year: 2009
     director:
     - Henry Selick
     ranking: 4
     tier: I
+    stubz:
+      date: 2023-08-15
+      venue: Cinemark Century 20 Daly City
   - title: The Goddess
     year: 1958
     director:
@@ -936,6 +1091,9 @@
   - rewatch: Pee-wee's Big Adventure (1985)
     ranking: 2
     tier: I
+    stubz:
+      date: 2023-08-18
+      venue: ROXIE
   - title: 'Nymphomaniac: Vol. I'
     year: 2013
     director:
@@ -1018,6 +1176,9 @@
   - rewatch: Asteroid City (2023)
     ranking: 1
     tier: I
+    stubz:
+      date: 2023-07-04
+      venue: Mountain View ShowPlace ICON
   - title: Werckmeister Harmonies
     year: 2000
     director:
@@ -1025,6 +1186,9 @@
     - Ágnes Hranitzky
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2023-07-07
+      venue: ROXIE
   - title: Caravaggio
     year: 1986
     director:
@@ -1034,12 +1198,18 @@
   - rewatch: Contempt (1963)
     ranking: 15
     tier: III-B
+    stubz:
+      date: 2023-07-13
+      venue: Film Forum
   - title: Barbie
     year: 2023
     director:
     - Greta Gerwig
     ranking: 9
     tier: II-C
+    stubz:
+      date: 2023-07-23
+      venue: Esquire Theatre
   - title: Flesh+Blood
     year: 1985
     director:
@@ -1070,6 +1240,9 @@
     - Edward Berger
     ranking: 11
     tier: II-C
+    stubz:
+      date: 2023-07-26
+      venue: Chautauqua Cinema
   - title: Mommy
     year: 2014
     director:
@@ -8988,7 +9161,7 @@
     - Norman Jewison
     ranking: 6.5
     tier: II-B
-    notes: 'Bizarre initial ranking'
+    notes: Bizarre initial ranking
   status: ranked
   tiers:
     I: 1
@@ -12702,7 +12875,7 @@
     - Sam Peckinpah
     ranking: 10
     tier: II-Aa
-  - title: "Berlin: Symphony of a Great City"
+  - title: 'Berlin: Symphony of a Great City'
     year: 1927
     director:
     - Walter Ruttmann
@@ -16590,7 +16763,7 @@
     year: 1972
     director:
     - Francis Ford Coppola
-  - title: 'The Godfather Part II'
+  - title: The Godfather Part II
     year: 1974
     director:
     - Francis Ford Coppola
