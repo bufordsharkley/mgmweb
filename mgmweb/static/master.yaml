@@ -1,3 +1,204 @@
+- month: May 2024
+  films:
+  - rewatch: Notorious (1946)
+    stubz:
+      date: 2024-05-05
+      venue: Stanford Theatre
+    ranking: 5
+    tier: II-Aa
+  - rewatch: Shadow of a Doubt (1943)
+    stubz:
+      date: 2024-05-05
+      venue: Stanford Theatre
+    ranking: 9
+    tier: II-B
+  - rewatch: Le Samouraï (1967)
+    stubz:
+      date: 2024-05-06
+      venue: ROXIE
+    ranking: 3
+    tier: I
+  - title: The Beast
+    year: 2023
+    director:
+    - Bertrand Bonello
+    stubz:
+      date: 2024-05-07
+      venue: The New Parkway
+    ranking: 2
+    tier: I
+  - title: American Movie
+    year: 1999
+    director:
+    - Chris Smith
+    ranking: 12
+    tier: II-B
+  - title: Je t'aime, je t'aime
+    year: 1968
+    director:
+    - Alain Resnais
+    ranking: 22
+    tier: II-C
+  - title: Kid-Thing
+    year: 2012
+    director:
+    - David Zellner
+    ranking: 20
+    tier: II-C
+  - title: The Brood
+    year: 1979
+    director:
+    - David Cronenberg
+    ranking: 14
+    tier: II-B
+  - title: Aggro Dr1ft
+    year: 2023
+    director:
+    - Harmony Korine
+    stubz:
+      date: 2024-05-13
+      venue: Alamo Drafthouse New Mission
+    ranking: 8
+    tier: II-B
+  - title: Rich and Strange
+    year: 1931
+    director:
+    - Alfred Hitchcock
+    ranking: 17
+    tier: II-C
+  - title: 'Met Live in HD: Puccini: Madama Butterfly'
+    year: 2024
+    director:
+    - Gary Halvorson
+    filter: true
+    stubz:
+      date: 2024-05-15
+      venue: Cinemark Century 20 Daly City
+  - title: Still Walking
+    year: 2008
+    director:
+    - Hirokazu Kore-eda
+    ranking: 15
+    tier: II-C
+  - title: Gasoline Rainbow
+    year: 2023
+    director:
+    - Bill Ross IV
+    - Turner Ross
+    stubz:
+      date: 2024-05-19
+      venue: ROXIE
+    ranking: 11
+    tier: II-B
+  - title: The Insider
+    year: 1999
+    director:
+    - Michael Mann
+    ranking: 19
+    tier: II-C
+  - title: I Saw the TV Glow
+    year: 2024
+    director:
+    - Jane Schoenbrun
+    stubz:
+      date: 2024-05-21
+      venue: Cinemark Century 20 Daly City
+    ranking: 13
+    tier: II-B
+  - title: Civil War
+    year: 2024
+    director:
+    - Alex Garland
+    stubz:
+      date: 2024-05-21
+      venue: Cinemark Century 20 Daly City
+    ranking: 21
+    tier: II-C
+  - rewatch: The Black Cat (1934)
+    stubz:
+      date: 2024-05-22
+      venue: ROXIE
+    ranking: 7
+    tier: II-A
+  - title: Detective
+    year: 1985
+    director:
+    - Jean-Luc Godard
+    ranking: 4
+    tier: II-Aa
+  - rewatch: Rebels of the Neon God (1992)
+    stubz:
+      date: 2024-05-23
+      venue: ROXIE
+    ranking: 1
+    tier: I
+  - title: Flesh for Frankenstein
+    year: 1973
+    director:
+    - Paul Morrissey
+    ranking: 27
+    tier: III-C
+  - rewatch: To Catch a Thief (1955)
+    stubz:
+      date: 2024-05-26
+      venue: Stanford Theatre
+    ranking: 23
+    tier: II-C
+  - title: Evil Does Not Exist
+    year: 2023
+    director:
+    - Ryusuke Hamaguchi
+    stubz:
+      date: 2024-05-27
+      venue: ROXIE
+    ranking: 24
+    tier: III-A
+  - title: 'Furiosa: A Mad Max Saga'
+    year: 2024
+    director:
+    - George Miller
+    stubz:
+      date: 2024-05-28
+      venue: Cinemark Century 20 Daly City
+    ranking: 6
+    tier: II-A
+  - title: Brother
+    year: 2000
+    director:
+    - Takeshi Kitano
+    ranking: 25
+    tier: III-A
+  - title: The Revolt of Mamie Stover
+    year: 1956
+    director:
+    - Raoul Walsh
+    ranking: 16
+    tier: II-C
+  - rewatch: Incendies (2010)
+    ranking: 26
+    tier: III-B
+  - title: Bullet Ballet
+    year: 1998
+    director:
+    - Shinya Tsukamoto
+    ranking: 18
+    tier: II-C
+  - title: Summer of Sam
+    year: 1999
+    director:
+    - Spike Lee
+    ranking: 10
+    tier: II-B
+  status: ranked
+  tiers:
+    I: 3
+    II-A: 4
+    II-B: 7
+    II-C: 9
+    III-A: 2
+    III-B: 1
+    III-C: 1
+    IV: 0
 - month: April 2024
   films:
   - title: Freddy Got Fingered
@@ -39,6 +240,9 @@
   - rewatch: 'Dune: Part Two (2024)'
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2024-04-09
+      venue: AMC Newport 20
   - title: 'Symbiopsychotaxiplasm: Take One'
     year: 1968
     director:
@@ -63,18 +267,27 @@
     - Julio Torres
     ranking: 12
     tier: II-B
+    stubz:
+      date: 2024-04-16
+      venue: Esquire Theatre
   - title: La Chimera
     year: 2023
     director:
     - Alice Rohrwacher
     ranking: 3
     tier: II-A
+    stubz:
+      date: 2024-04-16
+      venue: Esquire Theatre
   - title: Coup de Chance
     year: 2023
     director:
     - Woody Allen
     ranking: 17
     tier: II-C
+    stubz:
+      date: 2024-04-16
+      venue: Esquire Theatre
   - title: Stray Dogs
     year: 2013
     director:
@@ -93,6 +306,9 @@
     - Vera Drew
     ranking: 18
     tier: II-C
+    stubz:
+      date: 2024-04-22
+      venue: ROXIE
   - title: Sasquatch Sunset
     year: 2024
     director:
@@ -100,12 +316,18 @@
     - David Zellner
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2024-04-23
+      venue: Cinemark Century 20 Daly City
   - title: Mahjong
     year: 1996
     director:
     - Edward Yang
     ranking: 13
     tier: II-C
+    stubz:
+      date: 2024-04-23
+      venue: ROXIE
   - title: Mélo
     year: 1986
     director:
@@ -115,6 +337,9 @@
   - rewatch: Love Lies Bleeding (2024)
     ranking: 1
     tier: I
+    stubz:
+      date: 2024-04-25
+      venue: Cinemark Century at Hayward 12
   - title: Smooth Talk
     year: 1985
     director:
@@ -124,9 +349,15 @@
   - rewatch: Alien (1979)
     ranking: 8
     tier: II-B
+    stubz:
+      date: 2024-04-30
+      venue: Cinemark Century 20 Daly City
   - rewatch: The Mummy (1999)
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2024-04-30
+      venue: Cinemark Century 20 Daly City
   - title: When Strangers Marry
     year: 1944
     director:
@@ -3829,6 +4060,9 @@
     year: 2018
     director:
     - Boots Riley
+    stubz:
+      date: 2018-07-29
+      venue: AMC Mercado 20
     tier: II-B
   - title: The Exiles
     year: 1961
@@ -7476,7 +7710,7 @@
     ranking: 7
     tier: III-A
   - title: Rebels of the Neon God
-    year: 1993
+    year: 1992
     director:
     - Tsai Ming-liang
     notes: revised from 4 (top of II-C (!!!)) -> 1
