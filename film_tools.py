@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import datetime
+
 import click
 import yaml
 
@@ -49,13 +51,11 @@ def get_master():
 
 
 @main.command()
-def current():
+@click.option('--month', default='LAST', help="month to list, format='yyyy-mm'")
+def current(month):
     """Print current, in-progress month, so to create new list."""
-    master = get_master()
-    master = film_logic.flesh_out_rewatches(master)
-    for month in master:
-        if month['status'] != ('in-progress'):
-            continue
+
+    def print_month_contents(month):
         print(f"#{month['month']}")
         films = month['films']
         for film in films:
@@ -68,6 +68,22 @@ def current():
                 directors = ', '.join(film['director'])
                 print(f"{film['title']} ({directors}, {film['year']})")
         print(len(films))
+
+    master = get_master()
+    master = film_logic.flesh_out_rewatches(master)
+    if month == 'LAST':
+        for month in master:
+            if month['status'] != ('in-progress'):
+                continue
+            print_month_contents(month)
+    else:
+        target = datetime.datetime.strptime(month, "%Y-%m").strftime("%B %Y")
+        for month in master:
+            if month['month'] != target:
+                continue
+            print_month_contents(month)
+
+
 
 
 def pre_process(lines):
@@ -169,9 +185,9 @@ def newlist(filename):
         if month_txt not in lists:
             out_master.append(master_data)
             continue
-        ranking = lists[month_txt]
-        assert master_data['status'] in ('unranked', 'in-progress')
         print(month_txt)
+        ranking = lists[month_txt]
+        month_status = master_data['status']
         master_films = master_data['films']
         count = {tier: 0 for tier in TIERS}
         for tier, num_films in ranking.items():
@@ -182,7 +198,12 @@ def newlist(filename):
                 master_film['tier'] = tier
                 count[tier] += 1
         master_data['tiers'] = count
-        master_data['status'] = 'ranked'
+        if month_status == 'in-progress':
+            master_data['status'] = 'ranked'
+        elif month_status == 'tier norank':
+            master_data['status'] = 'ranked approx'
+        else:
+            raise NotImplementedError
         out_master.append(master_data)
     output_text = yaml.dump(out_master, sort_keys=False, allow_unicode=True)
     print("Updated yaml document: /tmp/master_updated.yaml")
