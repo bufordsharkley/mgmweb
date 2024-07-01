@@ -1,3 +1,164 @@
+- month: June 2024
+  films:
+  - title: Two Lovers
+    year: 2008
+    director:
+    - James Gray
+    ranking: 6
+    tier: II-B
+  - title: Challengers
+    year: 2024
+    director:
+    - Luca Guadagnino
+    ranking: 1
+    tier: II-Aa
+  - title: 'Comrades: Almost a Love Story'
+    year: 1996
+    director:
+    - Peter Chan
+    ranking: 9
+    tier: II-C
+  - title: Stavisky...
+    year: 1974
+    director:
+    - Alain Resnais
+    ranking: 21
+    tier: III-A
+  - title: Zombi Child
+    year: 2019
+    director:
+    - Bertrand Bonello
+    ranking: 3
+    tier: II-A
+  - title: New Rose Hotel
+    year: 1998
+    director:
+    - Abel Ferrara
+    ranking: 16
+    tier: II-C
+  - title: In a Violent Nature
+    year: 2024
+    director:
+    - Chris Nash
+    ranking: 23
+    tier: III-B
+  - title: Hit Man
+    year: 2023
+    effective_year: 2024
+    director:
+    - Richard Linklater
+    ranking: 22
+    tier: III-A
+  - title: Breakfast at Tiffany's
+    year: 1961
+    director:
+    - Blake Edwards
+    ranking: 7
+    tier: II-B
+  - title: 'Return to Reason: Short Films by Man Ray'
+    filter: true
+  - title: One Way Street
+    year: 1950
+    director:
+    - Hugo Fregonese
+    ranking: 12
+    tier: II-C
+  - title: Executioners
+    year: 1993
+    director:
+    - Johnny To
+    - Ching Siu-tung
+    ranking: 15
+    tier: II-C
+  - title: Kuchar-esque
+    year: 2023
+    filter: true
+  - title: Padre Padrone
+    year: 1977
+    director:
+    - Paolo Taviani
+    - Vittorio Taviani
+    ranking: 18
+    tier: II-C
+  - title: World of Tomorrow + Me
+    year: 2023
+    filter: true
+  - title: Sorcerer
+    year: 1977
+    director:
+    - William Friedkin
+    ranking: 11
+    tier: II-C
+  - title: The Fifth Cord
+    year: 1971
+    director:
+    - Luigi Bazzoni
+    ranking: 2
+    tier: II-A
+  - rewatch: Hiroshima mon amour (1959)
+    ranking: 4
+    tier: II-B
+  - title: Near Dark
+    year: 1987
+    director:
+    - Kathryn Bigelow
+    ranking: 13
+    tier: II-C
+  - title: The Kingdom Exodus
+    year: 2022
+    director:
+    - Lars von Trier
+    ranking: 17
+    tier: II-C
+  - title: The Bikeriders
+    year: 2023
+    effective_year: 2024
+    director:
+    - Jeff Nichols
+    ranking: 14
+    tier: II-C
+  - title: Try and Get Me!
+    year: 1950
+    director:
+    - Cy Endfield
+    ranking: 5
+    tier: II-B
+  - title: Collateral
+    year: 2004
+    director:
+    - Michael Mann
+    ranking: 20
+    tier: III-A
+  - title: Them!
+    year: 1954
+    director:
+    - Gordon Douglas
+    ranking: 10
+    tier: II-C
+  - title: Tuesday
+    year: 2023
+    effective_year: 2024
+    director:
+    - Daina O. Pusić
+    ranking: 19
+    tier: II-C
+  - title: Heaven Knows What
+    year: 2014
+    director:
+    - Josh Safdie
+    - Benny Safdie
+    ranking: 8
+    tier: II-B
+  status: ranked
+  tiers:
+    I: 0
+    II-A: 3
+    II-B: 5
+    II-C: 11
+    III-A: 3
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: May 2024
   films:
   - rewatch: Notorious (1946)
@@ -16850,7 +17011,7 @@
     year: 1994
     director:
     - Mick Jackson
-  - title: Clerks.
+  - title: Clerks
     year: 1994
     director:
     - Kevin Smith
@@ -17109,7 +17270,7 @@
     year: 1992
     director:
     - Les Mayfield
-  - title: Les Enfants du paradis
+  - title: Children of Paradise
     year: 1945
     director:
     - Marcel Carné
@@ -17572,6 +17733,10 @@
     year: 1981
     director:
     - Joel Schumacher
+  - title: Independence Day
+    year: 1996
+    director:
+    - Roland Emmerich
   - title: The Indian in the Cupboard
     year: 1995
     director:
@@ -18144,7 +18309,7 @@
     year: 1994
     director:
     - Peter Segal
-  - title: 'Naked Gun: From Files of Police Squad!'
+  - title: 'The Naked Gun: From Files of Police Squad!'
     year: 1988
     director:
     - David Zucker
