@@ -1,9 +1,11 @@
 import itertools
 
 
-def flesh_out_rewatches(master):
+def flesh_out_rewatches(master, log_errors=False):
     # First, list of all rewatches
     rewatches = set()
+    tier_tracker = {}
+    error_log = []
     for month in master:
         for film in month['films']:
             if film.get('filter', False):
@@ -11,7 +13,15 @@ def flesh_out_rewatches(master):
             if 'rewatch' in film:
                 rewatch, year = film['rewatch'].rsplit(' (', 1)
                 year = int(year[:-1])
+                if (rewatch, year) in rewatches:
+                    # Things are actually okay, just want to check:
+                    raise Exception((rewatch, year))
                 rewatches.add((rewatch, year))
+                try:
+                    tier_tracker[(rewatch, year)] = film['tier']
+                except KeyError:
+                    pass  # Oh, it's for diffs, right.. for error checking
+    print(tier_tracker)
     fixes = {k: None for k in rewatches}
     for month in master:
         for film in month['films']:
@@ -20,6 +30,18 @@ def flesh_out_rewatches(master):
             title, year = film['title'], film['year']
             if (title, year) in rewatches:
                 fixes[(title, year)] = {'director': film['director']}
+                try:
+                    orig_tier = film['tier']
+                except KeyError:
+                    print(film)
+                try:
+                    new_tier = tier_tracker[(title, year)]
+                except KeyError:
+                    orig_tier = 'OOP'
+                    new_tier = 'WHOOP'
+                if orig_tier != new_tier:
+                    print(title, year)
+                    print(new_tier, orig_tier)
     for month in master:
         for film in month['films']:
             if film.get('filter', False):
@@ -30,7 +52,10 @@ def flesh_out_rewatches(master):
                 film['rewatch'] = rewatch
                 film['year'] = year
                 film['director'] = fixes[(rewatch, year)]['director']
-    return master
+    if log_errors:
+        return master, error_log
+    else:
+        return master
 
 
 def _check_tiers(tiers, month_data):
