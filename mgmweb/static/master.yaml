@@ -1,3 +1,237 @@
+- month: July 2024
+  films:
+  - title: 'Horizon: An American Saga - Chapter 1'
+    year: 2024
+    director:
+    - Kevin Costner
+    stubz:
+      date: 2024-07-02
+      venue: Cinemark Century 20 Daly City
+    ranking: 21
+    tier: II-C
+  - title: Janet Planet
+    year: 2023
+    effective_year: 2024
+    director:
+    - Annie Baker
+    stubz:
+      date: 2024-07-02
+      venue: Cinemark Century 20 Daly City
+    ranking: 4
+    tier: II-A
+  - title: William Shakespeare's Romeo + Juliet
+    year: 1996
+    director:
+    - Baz Luhrmann
+    stubz:
+      date: 2024-07-02
+      venue: ROXIE
+    ranking: 20
+    tier: II-C
+  - rewatch: Teenage Mutant Ninja Turtles (1990)
+    stubz:
+      date: 2024-07-03
+      venue: ROXIE
+    ranking: 19
+    tier: II-C
+  - title: Fancy Dance
+    year: 2023
+    effective_year: 2024
+    director:
+    - Erica Tremblay
+    stubz:
+      date: 2024-07-04
+      venue: Presidio Theatre
+    ranking: 16
+    tier: II-C
+  - title: The Ties that Bind
+    year: 1984
+    director:
+    - Su Friedrich
+    ranking: 13
+    tier: II-B
+  - title: The Limey
+    year: 1999
+    director:
+    - Steven Soderbergh
+    ranking: 10
+    tier: II-B
+  - title: Cabin in the Sky
+    year: 1943
+    director:
+    - Vincente Minnelli
+    stubz:
+      date: 2024-07-07
+      venue: Stanford Theatre
+    ranking: 3
+    tier: II-Aa
+  - title: Last Summer
+    year: 2023
+    effective_year: 2024
+    director:
+    - Catherine Breillat
+    stubz:
+      date: 2024-07-08
+      venue: ROXIE
+    ranking: 18
+    tier: II-C
+  - title: Kinds of Kindness
+    year: 2024
+    director:
+    - Yorgos Lanthimos
+    stubz:
+      date: 2024-07-09
+      venue: Cinemark Century 20 Daly City
+    ranking: 11
+    tier: II-B
+  - title: Kill
+    year: 2023
+    effective_year: 2024
+    director:
+    - Nikhil Nagesh
+    stubz:
+      date: 2024-07-09
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
+  - rewatch: The Straight Story (1999)
+    stubz:
+      date: 2024-07-11
+      venue: ROXIE
+    ranking: 1
+    tier: I
+  - title: A New Leaf
+    year: 1971
+    director:
+    - Elaine May
+    stubz:
+      date: 2024-07-15
+      venue: ROXIE
+    ranking: 14
+    tier: II-B
+  - title: Longlegs
+    year: 2024
+    director:
+    - Oz Perkins
+    stubz:
+      date: 2024-07-16
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 24
+    tier: III-A
+  - title: The Honey Pot
+    year: 1967
+    director:
+    - Joseph L. Mankiewicz
+    ranking: 27
+    tier: III-C
+  - title: Undercurrent
+    year: 1946
+    director:
+    - Vincente Minnelli
+    stubz:
+      date: 2024-07-18
+      venue: Stanford Theatre
+    ranking: 7
+    tier: II-B
+  - title: Artists and Models
+    year: 1955
+    director:
+    - Frank Tashlin
+    ranking: 2
+    tier: I
+  - title: Two Weeks in Another Town
+    year: 1962
+    director:
+    - Vincente Minnelli
+    stubz:
+      date: 2024-07-21
+      venue: Stanford Theatre
+    ranking: 17
+    tier: II-C
+  - rewatch: The Bad and the Beautiful (1952)
+    stubz:
+      date: 2024-07-21
+      venue: Stanford Theatre
+    ranking: 6
+    tier: II-A
+  - title: The Adventures of Buckaroo Banzai Across the 8th Dimension
+    year: 1984
+    director:
+    - W. D. Richter
+    stubz:
+      date: 2024-07-23
+      venue: Alamo Drafthouse New Mission
+    ranking: 26
+    tier: III-C
+  - title: Robot Dreams
+    year: 2023
+    effective_year: 2024
+    director:
+    - Pablo Berger
+    stubz:
+      date: 2024-07-24
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - rewatch: An American in Paris (1951)
+    stubz:
+      date: 2024-07-26
+      venue: Stanford Theatre
+    ranking: 5
+    tier: II-A
+  - title: Madame Bovary
+    year: 1949
+    director:
+    - Vincente Minnelli
+    stubz:
+      date: 2024-07-26
+      venue: Stanford Theatre
+    ranking: 23
+    tier: III-A
+  - title: Chronicles of a Wandering Saint
+    year: 2023
+    effective_year: 2024
+    director:
+    - Tomás Gómez Bustillo
+    stubz:
+      date: 2024-07-28
+      venue: ROXIE
+    ranking: 15
+    tier: II-B
+  - title: Sweet Charity
+    year: 1969
+    director:
+    - Bob Fosse
+    ranking: 12
+    tier: II-B
+  - title: 'A Quiet Place: Day One'
+    year: 2024
+    director:
+    - Michael Sarnoski
+    stubz:
+      date: 2024-07-30
+      venue: Cinemark Century 20 Daly City
+    ranking: 25
+    tier: III-A
+  - title: Seven Brides for Seven Brothers
+    year: 1954
+    director:
+    - Stanley Donen
+    stubz:
+      date: 2024-07-31
+      venue: Presidio Theatre
+    ranking: 9
+    tier: II-B
+  status: ranked
+  tiers:
+    I: 2
+    II-A: 4
+    II-B: 9
+    II-C: 7
+    III-A: 3
+    III-B: 0
+    III-C: 2
+    IV: 0
 - month: June 2024
   films:
   - title: Two Lovers
@@ -12,6 +246,9 @@
     - Luca Guadagnino
     ranking: 1
     tier: II-Aa
+    stubz:
+      date: 2024-06-04
+      venue: Cinemark Century 20 Daly City
   - title: 'Comrades: Almost a Love Story'
     year: 1996
     director:
@@ -42,6 +279,9 @@
     - Chris Nash
     ranking: 23
     tier: III-B
+    stubz:
+      date: 2024-06-11
+      venue: Cinemark Century Mountain View 16
   - title: Hit Man
     year: 2023
     effective_year: 2024
@@ -49,6 +289,9 @@
     - Richard Linklater
     ranking: 22
     tier: III-A
+    stubz:
+      date: 2024-06-12
+      venue: Landmark Opera Plaza
   - title: Breakfast at Tiffany's
     year: 1961
     director:
@@ -57,6 +300,9 @@
     tier: II-B
   - title: 'Return to Reason: Short Films by Man Ray'
     filter: true
+    stubz:
+      date: 2024-06-13
+      venue: ROXIE
   - title: One Way Street
     year: 1950
     director:
@@ -73,6 +319,9 @@
   - title: Kuchar-esque
     year: 2023
     filter: true
+    stubz:
+      date: 2024-06-16
+      venue: ROXIE
   - title: Padre Padrone
     year: 1977
     director:
@@ -83,6 +332,9 @@
   - title: World of Tomorrow + Me
     year: 2023
     filter: true
+    stubz:
+      date: 2024-06-18
+      venue: ROXIE
   - title: Sorcerer
     year: 1977
     director:
@@ -117,6 +369,9 @@
     - Jeff Nichols
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2024-06-25
+      venue: Cinemark Century 20 Daly City
   - title: Try and Get Me!
     year: 1950
     director:
@@ -142,6 +397,9 @@
     - Daina O. Pusić
     ranking: 19
     tier: II-C
+    stubz:
+      date: 2024-06-30
+      venue: ROXIE
   - title: Heaven Knows What
     year: 2014
     director:
@@ -181,6 +439,7 @@
     tier: I
   - title: The Beast
     year: 2023
+    effective_year: 2024
     director:
     - Bertrand Bonello
     stubz:
@@ -214,6 +473,7 @@
     tier: II-B
   - title: Aggro Dr1ft
     year: 2023
+    effective_year: 2024
     director:
     - Harmony Korine
     stubz:
@@ -243,6 +503,7 @@
     tier: II-C
   - title: Gasoline Rainbow
     year: 2023
+    effective_year: 2024
     director:
     - Bill Ross IV
     - Turner Ross
@@ -307,6 +568,7 @@
     tier: II-C
   - title: Evil Does Not Exist
     year: 2023
+    effective_year: 2024
     director:
     - Ryusuke Hamaguchi
     stubz:
@@ -424,6 +686,7 @@
     tier: III-A
   - title: Problemista
     year: 2023
+    effective_year: 2024
     director:
     - Julio Torres
     ranking: 12
@@ -433,6 +696,7 @@
       venue: Esquire Theatre
   - title: La Chimera
     year: 2023
+    effective_year: 2024
     director:
     - Alice Rohrwacher
     ranking: 3
@@ -442,6 +706,7 @@
       venue: Esquire Theatre
   - title: Coup de Chance
     year: 2023
+    effective_year: 2024
     director:
     - Woody Allen
     ranking: 17
@@ -463,6 +728,7 @@
     tier: II-A
   - title: The People's Joker
     year: 2022
+    effective_year: 2024
     director:
     - Vera Drew
     ranking: 18
@@ -557,6 +823,7 @@
       venue: Stanford Theatre
   - title: The Sweet East
     year: 2023
+    effective_year: 2024
     director:
     - Sean Price Williams
     ranking: 22
@@ -789,6 +1056,7 @@
     tier: II-Aa
   - title: The Promised Land
     year: 2023
+    effective_year: 2024
     director:
     - Nikolaj Arcel
     stubz:
@@ -1068,7 +1336,7 @@
     ranking: 18
     tier: II-C
   - title: Inside the Yellow Cocoon Shell
-    year: 2023
+    year: 2024
     director:
     - Phạm Thiên Ân
     stubz:
@@ -1497,6 +1765,7 @@
     tier: II-C
   - title: Hello Dankness
     year: 2022
+    effective_year: 2023
     director:
     - Soda Jerk
     ranking: 17
@@ -1632,6 +1901,7 @@
       venue: Cinemark Century 20 Daly City
   - title: The Elephant 6 Recording Co.
     year: 2022
+    effective_year: 2023
     director:
     - Chad Stockfleth
     ranking: 10
@@ -1910,6 +2180,7 @@
       venue: Cinemark Century 20 Redwood City Downtown
   - title: Talk to Me
     year: 2022
+    effective_year: 2023
     director:
     - Danny Philippou
     - Michael Philippou
@@ -2078,6 +2349,9 @@
     - Toshio Matsumoto
     ranking: 2
     tier: II-Aa
+    stubz:
+      date: 2023-06-07
+      venue: ROXIE
   - title: Reds
     year: 1981
     director:
@@ -2087,6 +2361,9 @@
   - rewatch: Wild at Heart (1990)
     ranking: 3
     tier: II-A
+    stubz:
+      date: 2023-06-11
+      venue: ROXIE
   - title: Society
     year: 1989
     director:
@@ -2099,12 +2376,20 @@
     - Nicolas Winding Refn
     ranking: 6
     tier: II-A
+  - title: 'Maya Deren: Choreographed for Cinema'
+    filter: true
+    stubz:
+      date: 2023-06-18
+      venue: Gray Area
   - title: Past Lives
     year: 2023
     director:
     - Celine Song
     ranking: 15
     tier: II-C
+    stubz:
+      date: 2023-06-20
+      venue: Cinemark Century 20 Daly City
   - title: Basic Instinct
     year: 1992
     director:
@@ -2126,6 +2411,9 @@
     - Wes Anderson
     ranking: 1
     tier: I
+    stubz:
+      date: 2023-06-26
+      venue: Cinemark Century Mountain View 16
   - title: The Wicker Man
     year: 1973
     director:
@@ -2138,6 +2426,9 @@
     - Claire Denis
     ranking: 8
     tier: II-B
+    stubz:
+      date: 2023-06-28
+      venue: ROXIE
   - title: Orlando
     year: 1992
     director:
@@ -2186,6 +2477,9 @@
     - Rob Cohen
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2023-05-09
+      venue: Cinemark Century 20 Daly City
   - title: Broken Lullaby
     year: 1932
     director:
@@ -2204,6 +2498,9 @@
     - S. S. Rajamouli
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2023-05-17
+      venue: ROXIE
   - title: Damnation
     year: 1988
     director:
@@ -2215,18 +2512,29 @@
     director:
     - Gary Halvorson
     filter: true
+    stubz:
+      date: 2023-05-20
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: Showing Up
     year: 2022
+    effective_year: 2023
     director:
     - Kelly Reichardt
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2023-05-22
+      venue: ROXIE
   - title: Master Gardener
     year: 2022
+    effective_year: 2023
     director:
     - Paul Schrader
     ranking: 6
     tier: II-B
+    stubz:
+      date: 2023-05-23
+      venue: Cinemark Century 20 Daly City
   - title: Ludwig
     year: 1973
     director:
@@ -2276,6 +2584,9 @@
     - Chad Stahelski
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2023-04-04
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: Hester Street
     year: 1975
     director:
@@ -2333,12 +2644,19 @@
     - Ari Aster
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2023-04-25
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: How to Blow Up a Pipeline
     year: 2022
+    effective_year: 2023
     director:
     - Daniel Goldhaber
     ranking: 9
     tier: II-C
+    stubz:
+      date: 2023-04-25
+      venue: Cinemark Century at Tanforan 20 & XD
   tiers:
     I: 1
     II-A: 3
@@ -2366,7 +2684,7 @@
     tier: II-C
   - rewatch: The Affairs of Martha (1942)
     ranking: 2
-    tier: II-A
+    tier: II-Aa
   - title: The Other Side of the Wind
     year: 2018
     director:
@@ -2385,12 +2703,21 @@
     - Lou Ye
     ranking: 17
     tier: III-B
+    stubz:
+      date: 2023-03-10
+      venue: ROXIE
   - rewatch: Paris, Texas (1984)
     ranking: 4
     tier: II-B
+    stubz:
+      date: 2023-03-13
+      venue: ROXIE
   - rewatch: Wings of Desire (1987)
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2023-03-15
+      venue: ROXIE
   - title: Maelström
     year: 2000
     director:
@@ -2480,6 +2807,9 @@
     - Darren Aronofsky
     ranking: 19
     tier: III-A
+    stubz:
+      date: 2023-02-03
+      venue: ROXIE
   - title: Oslo, August 31st
     year: 2011
     director:
@@ -2492,6 +2822,9 @@
     - Laura Poitras
     ranking: 12
     tier: II-C
+    stubz:
+      date: 2023-02-07
+      venue: ROXIE
   - title: Murder, He Says
     year: 1945
     director:
@@ -2510,6 +2843,9 @@
     - Hou Hsiao-hsien
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2023-02-13
+      venue: ROXIE
   - title: Paranoid Park
     year: 2007
     director:
@@ -2518,10 +2854,14 @@
     tier: II-B
   - title: Godland
     year: 2022
+    effective_year: 2023
     director:
     - Hlynur Pálmason
     ranking: 1
     tier: II-Aa
+    stubz:
+      date: 2023-02-18
+      venue: ROXIE
   - title: Les choses de la vie
     year: 1970
     director:
@@ -2543,6 +2883,9 @@
     - Steven Spielberg
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-02-23
+      venue: Mariemont Theatre
   - title: 'That Most Important Thing: Love'
     year: 1975
     director:
@@ -2641,6 +2984,7 @@
     tier: II-C
   - title: Skinamarink
     year: 2022
+    effective_year: 2023
     director:
     - Kyle Edward Ball
     ranking: 9

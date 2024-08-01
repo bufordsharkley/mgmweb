@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 import datetime
+import itertools
+import random
 
 import click
 import yaml
@@ -8,6 +10,7 @@ import yaml
 from mgmweb import film_logic
 
 TIERS = ['I', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV']
+FULL_TIERS = ['I', 'II-Aa', 'II-A', 'II-B', 'II-C', 'III-A', 'III-B', 'III-C', 'IV']
 
 
 @click.group()
@@ -20,7 +23,6 @@ def check():
     """Basic vetting for master yaml."""
     master = get_master()
     for month in master:
-        print(month['month'])
         assert month['status'] in ('unranked', 'ranked', 'tier norank')
         rankings = False
         films = month['films']
@@ -37,6 +39,10 @@ def check():
                 raise Exception(film)
             if 'ranking' in film:
                 rankings = True
+    master, error_log = film_logic.flesh_out_rewatches(master, log_errors=True)
+    # TODO: check stubz against being sequential, and in the correct month
+    # and possibly sanity checks of repeated days?
+    if False:  # I don't use this anymore, should remove:
         if rankings and not month['status'] == 'unranked':
             assert all('ranking' in film for film in films if not 'filter' in film)
             print('-------------RANKED-------------')
@@ -84,7 +90,95 @@ def current(month):
             print_month_contents(month)
 
 
+@main.command()
+@click.argument('year', default=datetime.datetime.now().year)
+@click.option('--merge', is_flag=True, default=False, help="merge sort")
+def year(year, merge):
+    """Print all films for a year (corrected for effective year)"""
+    total_count = 0
+    goal_year = int(year)
+    master = get_master()
+    collected = {tier: [] for tier in FULL_TIERS}
+    for month in master:
+        for film in month['films']:
+            if 'filter' in film or 'title' not in film:
+                continue
+            try:
+                year = film['effective_year']
+            except KeyError:
+                year = film['year']
+            if year == goal_year:
+                total_count += 1
+                try:
+                    tier = film['tier']
+                    film['month'] = month['month']
+                    collected[tier].append(film)
+                except KeyError:
+                    print(f'No Tier for {film["title"]}')
+                    continue
+    final_merged = {}
+    for tier, films in collected.items():
+        # This is an absolute nightmare, it sorts and then uses groupby to 
+        # bunch the same movies per tier from the same month:
+        def _sort_ranking_key(film):
+            try:
+                return film['ranking']
+            except KeyError:
+                return 999
+        month_traunches = [
+            [film['title'] for film in sorted(group, key=_sort_ranking_key)]
+            for key, group in itertools.groupby(sorted(films,
+                key=lambda x: x['month']), lambda x: x['month'])]
+        if not month_traunches:
+            final_merged[tier] = []
+            continue
+        if not merge:
+            print(tier)
+            print('\n*\n'.join('\n'.join(x) for x in month_traunches))
+        else:
+            output = merge_sort(month_traunches)
+            print(output)
+            final_merged[tier] = output
+            """
+            output = []
+            while len(month_traunches) >= 2:
+                tops = {ii + 1: x[0] for ii, x in enumerate(month_traunches)}
+                prompt = '\n'.join(f'{ii}. {x}' for ii, x in tops.items())
+                print(prompt)
+                value = click.prompt('Pick top choice', type=int)
+                output.append(month_traunches[value - 1].pop(0))
+                month_traunches = [x for x in month_traunches if x]
+            output.append(month_traunches[0].pop(0))
+            final_merged[tier] = output
+            """
+    if merge:
+        for tier, films in final_merged.items():
+            print(tier)
+            print('\n'.join(films))
+    print(f"Total count: {total_count}")
 
+
+def merge_sort(traunches):
+    print(traunches)
+    if len(traunches) == 1:
+        return traunches[0]
+    elif len(traunches) == 2:
+        output = []
+        while len(traunches) >= 2:
+            tops = {ii + 1: x[0] for ii, x in enumerate(traunches)}
+            prompt = '\n'.join(f'{ii}. {x}' for ii, x in tops.items())
+            print(prompt)
+            value = click.prompt('Pick top choice', type=int)
+            output.append(traunches[value - 1].pop(0))
+            traunches = [x for x in traunches if x]
+        output.extend(traunches[0])
+        return output
+    else:
+        left, right = [], []
+        for traunch in traunches:
+            destination = random.choice([left, right])
+            destination.append(traunch)
+        return merge_sort((merge_sort(left), merge_sort(right)))
 
 def pre_process(lines):
     """Mostly unsplit multiple tiers corresponding to (none)"""
