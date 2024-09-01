@@ -1,3 +1,173 @@
+- month: August 2024
+  films:
+  - title: The Silent Partner
+    year: 1978
+    director:
+    - Daryl Duke
+    ranking: 13
+    tier: II-C
+  - title: The Beast of the City
+    year: 1932
+    director:
+    - Charles Brabin
+    ranking: 15
+    tier: II-C
+  - title: The Legend of Hell House
+    year: 1973
+    director:
+    - John Hough
+    ranking: 20
+    tier: III-A
+  - title: The Man I Love
+    year: 1947
+    director:
+    - Raoul Walsh
+    ranking: 4
+    tier: II-B
+  - title: Paddington 2
+    year: 2017
+    director:
+    - Paul King
+    stubz:
+      date: 2024-08-12
+      venue: Cinemark Oakley Station and XD
+    ranking: 1
+    tier: II-A
+  - title: Trap
+    year: 2024
+    director:
+    - M. Night Shyamalan
+    stubz:
+      date: 2024-08-13
+      venue: Esquire Theatre
+    ranking: 11
+    tier: II-C
+  - title: Brewster McCloud
+    year: 1970
+    director:
+    - Robert Altman
+    ranking: 12
+    tier: II-C
+  - title: The Trip to Greece
+    year: 2020
+    director:
+    - Michael Winterbottom
+    ranking: 16
+    tier: II-C
+  - title: Moana
+    year: 2016
+    director:
+    - John Musker
+    - Ron Clements
+    ranking: 23
+    tier: III-A
+  - title: Mississippi Mermaid
+    year: 1969
+    director:
+    - François Truffaut
+    ranking: 14
+    tier: II-C
+  - title: Kate Plays Christine
+    year: 2016
+    director:
+    - Robert Greene
+    ranking: 8
+    tier: II-C
+  - title: Bells Are Ringing
+    year: 1960
+    director:
+    - Vincente Minnelli
+    stubz:
+      date: 2024-08-22
+      venue: Stanford Theatre
+    ranking: 19
+    tier: III-A
+  - rewatch: Some Came Running (1958)
+    stubz:
+      date: 2024-08-22
+      venue: Stanford Theatre
+    ranking: 2
+    tier: II-A
+  - title: Cuckoo
+    year: 2024
+    director:
+    - Tilman Singer
+    stubz:
+      date: 2024-08-23
+      venue: ROXIE
+    ranking: 9
+    tier: II-C
+  - title: Spring Night Summer Night
+    year: 1967
+    director:
+    - J.L. Anderson
+    ranking: 5
+    tier: II-B
+  - title: Drive My Car
+    year: 2021
+    director:
+    - Ryusuke Hamaguchi
+    ranking: 6
+    tier: II-B
+  - title: Between the Temples
+    year: 2024
+    director:
+    - Nathan Silver
+    stubz:
+      date: 2024-08-27
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 3
+    tier: II-A
+  - rewatch: Medium Cool (1969)
+    stubz:
+      date: 2024-08-28
+      venue: ROXIE
+    ranking: 7
+    tier: II-B
+  - title: Only the River Flows
+    year: 2023
+    effective_year: 2024
+    director:
+    - Wei Shujun
+    stubz:
+      date: 2024-08-29
+      venue: ROXIE
+    ranking: 22
+    tier: III-A
+  - title: Bronco Bullfrog
+    year: 1969
+    director:
+    - Barney Platts-Mills
+    ranking: 21
+    tier: III-A
+  - title: Bodies Bodies Bodies
+    year: 2022
+    director:
+    - Halina Reijn
+    ranking: 18
+    tier: II-C
+  - title: School Daze
+    year: 1988
+    director:
+    - Spike Lee
+    ranking: 10
+    tier: II-C
+  - title: Forbidden Planet
+    year: 1956
+    director:
+    - Fred M. Wilcox
+    ranking: 17
+    tier: II-C
+  status: ranked
+  tiers:
+    I: 0
+    II-A: 3
+    II-B: 4
+    II-C: 11
+    III-A: 5
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: July 2024
   films:
   - title: 'Horizon: An American Saga - Chapter 1'
@@ -2801,6 +2971,9 @@
     - Bong Joon-ho
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2023-02-01
+      venue: ROXIE
   - title: The Whale
     year: 2022
     director:
@@ -2949,21 +3122,33 @@
     - James Cameron
     ranking: 3
     tier: II-Aa
+    stubz:
+      date: 2023-01-05
+      venue: AMC Metreon 16
   - title: Bardo, a False Chronicle of a Handful of Truths
     year: 2022
     director:
     - Alejandro González Iñárritu
     ranking: 10
     tier: II-C
+    stubz:
+      date: 2023-01-09
+      venue: ROXIE
   - rewatch: Jeanne Dielman, 23 Quai du Commerce, 1080 Bruxelles (1975)
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2023-01-11
+      venue: ROXIE
   - title: La Guerre est finie
     year: 1966
     director:
     - Alain Resnais
     ranking: 6
     tier: II-B
+    stubz:
+      date: 2023-01-12
+      venue: ROXIE
   - title: Upside Down
     year: 2012
     director:
@@ -2976,6 +3161,9 @@
     - Marie Kreutzer
     ranking: 13
     tier: II-C
+    stubz:
+      date: 2023-01-16
+      venue: Landmark Opera Plaza
   - title: Eadweard Muybridge, Zoopraxographer
     year: 1975
     director:
@@ -2989,6 +3177,9 @@
     - Kyle Edward Ball
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2023-01-18
+      venue: ROXIE
   - title: Blood and Sand
     year: 1941
     director:
@@ -3021,6 +3212,9 @@
     - Juzo Itami
     ranking: 12
     tier: II-C
+    stubz:
+      date: 2023-01-30
+      venue: ROXIE
   tiers:
     I: 2
     II-A: 3
@@ -3045,6 +3239,9 @@
     - Noah Baumbach
     ranking: 12
     tier: II-C
+    stubz:
+      date: 2022-12-07
+      venue: Landmark Opera Plaza
   - title: The Plumber
     year: 1979
     director:
@@ -3057,9 +3254,15 @@
     - Martin McDonagh
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2022-12-11
+      venue: ROXIE
   - rewatch: Aftersun (2022)
     ranking: 2
     tier: I
+    stubz:
+      date: 2022-12-12
+      venue: ROXIE
   - title: The Kingdom
     year: 1994
     director:
@@ -3078,12 +3281,18 @@
     - Tarsem Singh
     ranking: 8
     tier: II-B
+    stubz:
+      date: 2022-12-22
+      venue: ROXIE
   - title: EO
     year: 2022
     director:
     - Jerzy Skolimowski
     ranking: 14
     tier: III-C
+    stubz:
+      date: 2022-12-22
+      venue: ROXIE
   - rewatch: Inherent Vice (2014)
     ranking: 1
     tier: I
@@ -3105,6 +3314,9 @@
     - John Waters
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2022-12-30
+      venue: ROXIE
   - title: The Lair of the White Worm
     year: 1988
     director:
@@ -3126,24 +3338,36 @@
   - rewatch: Masculin féminin (1966)
     ranking: 5
     tier: II-B
+    stubz:
+      date: 2022-11-02
+      venue: ROXIE
   - title: Vampire's Kiss
     year: 1989
     director:
     - Robert Bierman
     ranking: 3
     tier: II-A
+    stubz:
+      date: 2022-11-02
+      venue: ROXIE
   - title: Triangle of Sadness
     year: 2022
     director:
     - Ruben Östlund
     ranking: 11
     tier: III-A
+    stubz:
+      date: 2022-11-03
+      venue: ROXIE
   - title: Decision to Leave
     year: 2022
     director:
     - Chan-wook Park
     ranking: 6
     tier: II-B
+    stubz:
+      date: 2022-11-09
+      venue: ROXIE
   - title: The Keep
     year: 1983
     director:
@@ -3153,15 +3377,24 @@
   - rewatch: Alphaville (1965)
     ranking: 12
     tier: III-A
+    stubz:
+      date: 2022-11-14
+      venue: ROXIE
   - title: Tár
     year: 2022
     director:
     - Todd Field
     ranking: 2
     tier: II-Aa
+    stubz:
+      date: 2022-11-21
+      venue: AMC Metreon 16
   - rewatch: Heat (1995)
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2022-11-21
+      venue: ROXIE
   - title: Manhattan Melodrama
     year: 1934
     director:
@@ -3180,12 +3413,18 @@
     - Charlotte Wells
     ranking: 1
     tier: I
+    stubz:
+      date: 2022-11-28
+      venue: ROXIE
   - title: 'Glass Onion: A Knives Out Mystery'
     year: 2022
     director:
     - Rian Johnson
     ranking: 8
     tier: II-C
+    stubz:
+      date: 2022-11-29
+      venue: AMC DINE-IN Sunnyvale 12
   - rewatch: Of Time and the City (2008)
     ranking: 10
     tier: II-C
@@ -3206,6 +3445,9 @@
     director:
     - Brett Morgen
     tier: G
+    stubz:
+      date: 2022-10-03
+      venue: ROXIE
   - title: I Love You Again
     year: 1940
     director:
@@ -3227,11 +3469,18 @@
     director:
     - Lucio Fulci
     tier: G
+    stubz:
+      date: 2022-10-27
+      venue: ROXIE
   - title: The Point!
     year: 1971
     director:
     - Fred Wolf
     tier: G
+  - rewatch: The Hunchback of Notre Dame (1923)
+    stubz:
+      date: 2022-10-31
+      venue: Grace Cathedral
   status: tier norank
 - month: September 2022
   films:
@@ -3240,21 +3489,47 @@
     director:
     - George Miller
     tier: II-B
+    stubz:
+      date: 2022-09-03
+      venue: Alamo Drafthouse New Mission
+  - rewatch: 'Three Colors: White (1994)'
+    stubz:
+      date: 2022-09-03
+      venue: ROXIE
+  - rewatch: 'Three Colors: Red (1994)'
+    stubz:
+      date: 2022-09-03
+      venue: ROXIE
   - title: Flash Gordon
     year: 1980
     director:
     - Mike Hodges
     tier: G
+    stubz:
+      date: 2022-09-03
+      venue: ROXIE
   - title: State Fair
     year: 1933
     director:
     - Henry King
     tier: I
+  - rewatch: Days of Being Wild (1990)
+    stubz:
+      date: 2022-09-10
+      venue: ROXIE
   - title: Blue Collar
     year: 1978
     director:
     - Paul Schrader
     tier: G
+  - rewatch: A Clockwork Orange (1971)
+    stubz:
+      date: 2022-09-10
+      venue: ROXIE
+  - rewatch: The Shining (1980)
+    stubz:
+      date: 2022-09-10
+      venue: ROXIE
   - title: Los Angeles Plays Itself
     year: 2003
     director:
@@ -3265,11 +3540,18 @@
     director:
     - Alex Cox
     tier: II-B
+  - rewatch: The Discreet Charm of the Bourgeoisie (1972)
+    stubz:
+      date: 2022-09-10
+      venue: ROXIE
   - title: Avatar
     year: 2009
     director:
     - James Cameron
     tier: I
+    stubz:
+      date: 2022-09-25
+      venue: AMC Metreon 16
   - title: Swamp Water
     year: 1941
     director:
@@ -5908,6 +6190,11 @@
     director:
     - Terrence Malick
     tier: II-A
+  - title: Medium Cool
+    year: 1969
+    director:
+    - Haskell Wexler
+    notes: This placement is almost certainly inaccurate; was kinda placed arbitrarily
   status: tier norank
 - month: March 2013
   films:
