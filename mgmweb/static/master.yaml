@@ -1,3 +1,156 @@
+- month: September 2024
+  films:
+  - title: Good One
+    year: 2024
+    director:
+    - India Donaldson
+    ranking: 17
+    tier: II-C
+  - title: Shaun of the Dead
+    year: 2004
+    director:
+    - Edgar Wright
+    ranking: 10
+    tier: II-B
+  - title: Fly
+    year: 2024
+    director:
+    - Christina Clusiau
+    - Shaul Schwarz
+    ranking: 20
+    tier: II-C
+  - title: Nocturama
+    year: 2016
+    effective_year: 2017
+    director:
+    - Bertrand Bonello
+    ranking: 5
+    tier: II-A
+  - title: Bad Lieutenant
+    year: 1992
+    director:
+    - Abel Ferrara
+    ranking: 8
+    tier: II-B
+  - title: River of Grass
+    year: 1994
+    effective_year: 1995
+    director:
+    - Kelly Reichardt
+    ranking: 4
+    tier: II-Aa
+  - title: Twisters
+    year: 2024
+    director:
+    - Lee Isaac Chung
+    ranking: 19
+    tier: II-C
+  - title: Strange Darling
+    year: 2023
+    effective_year: 2024
+    director:
+    - JT Mollner
+    ranking: 12
+    tier: II-B
+  - title: Hundreds of Beavers
+    year: 2022
+    effective_year: 2024
+    director:
+    - Mike Cheslik
+    ranking: 3
+    tier: I
+  - rewatch: Red Desert (1964)
+    ranking: 25
+    tier: III-A
+  - title: Close Your Eyes
+    year: 2023
+    effective_year: 2024
+    director:
+    - Víctor Erice
+    ranking: 16
+    tier: II-C
+  - title: Platinum Blonde
+    year: 1931
+    director:
+    - Frank Capra
+    ranking: 11
+    tier: II-B
+  - title: Beetlejuice Beetlejuice
+    year: 2024
+    director:
+    - Tim Burton
+    ranking: 18
+    tier: II-C
+  - title: House of Tolerance
+    year: 2011
+    director:
+    - Bertrand Bonello
+    ranking: 1
+    tier: I
+  - rewatch: The Leopard Man (1943)
+    ranking: 9
+    tier: II-B
+  - rewatch: The Red House (1947)
+    ranking: 15
+    tier: II-B
+  - title: Eyewitness
+    year: 1981
+    director:
+    - Peter Yates
+    ranking: 23
+    tier: III-A
+  - title: 'Francis Ford Coppola''s Megalopolis: A Fable'
+    year: 2024
+    director:
+    - Francis Ford Coppola
+    ranking: 13
+    tier: II-B
+  - title: The Substance
+    year: 2024
+    director:
+    - Coralie Fargeat
+    ranking: 24
+    tier: III-A
+  - title: 'Mishima: A Life in Four Chapters'
+    year: 1985
+    director:
+    - Paul Schrader
+    ranking: 6
+    tier: II-A
+  - title: Tempest
+    year: 1982
+    director:
+    - Paul Mazursky
+    ranking: 7
+    tier: II-A
+  - rewatch: The Body Snatcher (1945)
+    ranking: 2
+    tier: I
+  - rewatch: The Glass Key (1942)
+    ranking: 22
+    tier: II-C
+  - title: Phffft
+    year: 1954
+    director:
+    - Mark Robson
+    ranking: 14
+    tier: II-B
+  - title: It Should Happen to You
+    year: 1954
+    director:
+    - George Cukor
+    ranking: 21
+    tier: II-C
+  status: ranked
+  tiers:
+    I: 3
+    II-A: 4
+    II-B: 8
+    II-C: 7
+    III-A: 3
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: August 2024
   films:
   - title: The Silent Partner
@@ -32,7 +185,7 @@
       date: 2024-08-12
       venue: Cinemark Oakley Station and XD
     ranking: 1
-    tier: II-A
+    tier: II-Aa
   - title: Trap
     year: 2024
     director:

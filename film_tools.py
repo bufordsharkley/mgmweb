@@ -90,34 +90,40 @@ def current(month):
             print_month_contents(month)
 
 
-@main.command()
-@click.argument('year', default=datetime.datetime.now().year)
-@click.option('--merge', is_flag=True, default=False, help="merge sort")
-def year(year, merge):
-    """Print all films for a year (corrected for effective year)"""
-    total_count = 0
-    goal_year = int(year)
-    master = get_master()
-    collected = {tier: [] for tier in FULL_TIERS}
+def get_tiers_for_year(year, master):
+    tiers_for_year = {tier: [] for tier in FULL_TIERS}
     for month in master:
         for film in month['films']:
             if 'filter' in film or 'title' not in film:
                 continue
             try:
-                year = film['effective_year']
+                film_year = film['effective_year']
             except KeyError:
-                year = film['year']
-            if year == goal_year:
-                total_count += 1
+                film_year = film['year']
+            if film_year == year:
                 try:
                     tier = film['tier']
                     film['month'] = month['month']
-                    collected[tier].append(film)
+                    tiers_for_year[tier].append(film)
                 except KeyError:
                     print(f'No Tier for {film["title"]}')
                     continue
+    return tiers_for_year
+
+
+@main.command()
+@click.argument('year', default=datetime.datetime.now().year)
+@click.option('--merge', is_flag=True, default=False, help="merge sort")
+def year(year, merge):
+    """Print all films for a year (corrected for effective year)"""
+    goal_year = int(year)
+    master = get_master()
+
+    tiers_for_year = get_tiers_for_year(goal_year, master)
+    total_count = sum(len(x) for x in tiers_for_year.values())
+
     final_merged = {}
-    for tier, films in collected.items():
+    for tier, films in tiers_for_year.items():
         # This is an absolute nightmare, it sorts and then uses groupby to 
         # bunch the same movies per tier from the same month:
         def _sort_ranking_key(film):
@@ -125,18 +131,18 @@ def year(year, merge):
                 return film['ranking']
             except KeyError:
                 return 999
-        month_traunches = [
+        months_per_tier = [
             [film['title'] for film in sorted(group, key=_sort_ranking_key)]
-            for key, group in itertools.groupby(sorted(films,
+             for key, group in itertools.groupby(sorted(films,
                 key=lambda x: x['month']), lambda x: x['month'])]
-        if not month_traunches:
+        if not months_per_tier:
             final_merged[tier] = []
             continue
         if not merge:
             print(tier)
-            print('\n*\n'.join('\n'.join(x) for x in month_traunches))
+            print('\n*\n'.join('\n'.join(x) for x in months_per_tier))
         else:
-            output = merge_sort(month_traunches)
+            output = merge_sort(months_per_tier)
             print(output)
             final_merged[tier] = output
             """
@@ -158,27 +164,33 @@ def year(year, merge):
     print(f"Total count: {total_count}")
 
 
-def merge_sort(traunches):
-    print(traunches)
-    if len(traunches) == 1:
-        return traunches[0]
-    elif len(traunches) == 2:
-        output = []
-        while len(traunches) >= 2:
-            tops = {ii + 1: x[0] for ii, x in enumerate(traunches)}
+def merge_sort(months):
+    def merge_sort_two(months):
+        resp = []
+        while len(months) > 1:
+            tops = {ii + 1: x[0] for ii, x in enumerate(months)}
             prompt = '\n'.join(f'{ii}. {x}' for ii, x in tops.items())
             print(prompt)
             value = click.prompt('Pick top choice', type=int)
-            output.append(traunches[value - 1].pop(0))
-            traunches = [x for x in traunches if x]
-        output.extend(traunches[0])
-        return output
+            resp.append(months[value - 1].pop(0))
+            months = [x for x in months if x]
+        resp.extend(months[0])
+        return resp
+
+    random.shuffle(months)
+    print(months)
+    if len(months) == 1:
+        return months[0]
+    elif len(months) == 2:
+        return merge_sort_two(*months)
     else:
-        left, right = [], []
-        for traunch in traunches:
-            destination = random.choice([left, right])
-            destination.append(traunch)
-        return merge_sort((merge_sort(left), merge_sort(right)))
+        while len(months) > 2:
+            print(f"{len(months)} to merge")
+            merged = merge_sort_two(*months[:2])
+            months = [merged, *months[2:]]
+            random.shuffle(months)
+        return merge_sort_two(*months)
+
 
 def pre_process(lines):
     """Mostly unsplit multiple tiers corresponding to (none)"""
