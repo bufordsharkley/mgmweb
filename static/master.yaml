@@ -103,8 +103,8 @@
     year: 2024
     director:
     - Francis Ford Coppola
-    ranking: 13
-    tier: II-B
+    ranking: 4.5
+    tier: II-A
   - title: The Substance
     year: 2024
     director:
@@ -144,8 +144,8 @@
   status: ranked
   tiers:
     I: 3
-    II-A: 4
-    II-B: 8
+    II-A: 5
+    II-B: 7
     II-C: 7
     III-A: 3
     III-B: 0
