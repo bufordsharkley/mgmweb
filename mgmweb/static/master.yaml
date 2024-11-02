@@ -1,3 +1,120 @@
+- month: October 2024
+  status: ranked
+  films:
+  - rewatch: 'Francis Ford Coppola''s Megalopolis: A Fable (2024)'
+    ranking: 6
+    tier: II-A
+  - title: Cisco Pike
+    year: 1972
+    director:
+    - Bill L. Norton
+    ranking: 8
+    tier: II-B
+  - rewatch: Secret Beyond the Door... (1948)
+    ranking: 3
+    tier: II-A
+  - title: Equinox
+    year: 1970
+    director:
+    - Jack Woods
+    ranking: 19
+    tier: III-A
+  - title: A Friend Will Come Tonight
+    year: 1946
+    director:
+    - Raymond Bernard
+    ranking: 13
+    tier: II-C
+  - title: Not Guilty
+    year: 1947
+    director:
+    - Henri Decoin
+    ranking: 15
+    tier: II-C
+  - title: A Different Man
+    year: 2024
+    director:
+    - Aaron Schimberg
+    ranking: 14
+    tier: II-C
+  - title: Audition
+    year: 1999
+    director:
+    - Takashi Miike
+    ranking: 11
+    tier: II-B
+  - title: Eyes of Laura Mars
+    year: 1978
+    director:
+    - Irvin Kershner
+    ranking: 18
+    tier: III-A
+  - title: Cure
+    year: 1997
+    director:
+    - Kiyoshi Kurosawa
+    ranking: 5
+    tier: II-A
+  - title: Pulse
+    year: 2001
+    director:
+    - Kiyoshi Kurosawa
+    ranking: 17
+    tier: II-C
+  - title: Isle of the Dead
+    year: 1945
+    director:
+    - Mark Robson
+    ranking: 12
+    tier: II-C
+  - rewatch: The Spiral Staircase (1945)
+    ranking: 4
+    tier: II-A
+  - rewatch: THX 1138 (1971)
+    ranking: 1
+    tier: I
+  - title: Rumours
+    year: 2024
+    director:
+    - Guy Maddin
+    - Evan Johnson
+    - Galen Johnson
+    ranking: 7
+    tier: II-B
+  - title: White Zombie
+    year: 1932
+    director:
+    - Victor Halperin
+    ranking: 16
+    tier: II-C
+  - title: The VVitch
+    year: 2015
+    director:
+    - Robert Eggers
+    ranking: 2
+    tier: II-A
+  - title: 'The Other Half of the Sky: A China Memoir'
+    year: 1975
+    director:
+    - Shirley MacLaine
+    - Claudia Weill
+    ranking: 9
+    tier: II-B
+  - title: Fish Tank
+    year: 2009
+    director:
+    - Andrea Arnold
+    ranking: 10
+    tier: II-B
+  tiers:
+    I: 1
+    II-A: 5
+    II-B: 5
+    II-C: 6
+    III-A: 2
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: September 2024
   films:
   - title: Good One

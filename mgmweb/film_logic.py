@@ -51,7 +51,10 @@ def flesh_out_rewatches(master, log_errors=False):
                 year = int(year[:-1])
                 film['rewatch'] = rewatch
                 film['year'] = year
-                film['director'] = fixes[(rewatch, year)]['director']
+                try:
+                    film['director'] = fixes[(rewatch, year)]['director']
+                except TypeError:
+                    raise Exception(f"Can't find original for {rewatch} ({year})")
     if log_errors:
         return master, error_log
     else:
