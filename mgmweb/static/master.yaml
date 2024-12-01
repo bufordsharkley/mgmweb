@@ -1,3 +1,140 @@
+- month: November 2024
+  status: ranked
+  films:
+  - title: Sadie McKee
+    year: 1934
+    director:
+    - Clarence Brown
+    ranking: 4
+    tier: II-A
+  - title: Mystery of the Wax Museum
+    year: 1933
+    director:
+    - Michael Curtiz
+    ranking: 15
+    tier: II-C
+  - title: Conclave
+    year: 2024
+    director:
+    - Edward Berger
+    ranking: 10
+    tier: II-C
+  - title: What Price Hollywood?
+    year: 1932
+    director:
+    - George Cukor
+    ranking: 17
+    tier: III-A
+  - title: Light Sleeper
+    year: 1992
+    director:
+    - Paul Schrader
+    ranking: 3
+    tier: II-A
+  - title: Ratatoing
+    year: 2007
+    director:
+    - Michelle Gabriel
+    ranking: 21
+    tier: IV
+  - title: Lifeforce
+    year: 1985
+    director:
+    - Tobe Hooper
+    ranking: 19
+    tier: III-B
+  - title: Meanwhile on Earth
+    year: 2024
+    director:
+    - Jérémy Clapin
+    ranking: 12
+    tier: II-C
+  - title: Lady Sings the Blues
+    year: 1972
+    director:
+    - Sidney J. Furie
+    ranking: 18
+    tier: III-A
+  - title: Sweetie
+    year: 1989
+    director:
+    - Jane Campion
+    ranking: 2
+    tier: I
+  - title: Anora
+    year: 2024
+    director:
+    - Sean Baker
+    ranking: 6
+    tier: II-B
+  - title: Memoir of a Snail
+    year: 2024
+    director:
+    - Adam Elliot
+    ranking: 20
+    tier: III-C
+  - title: 'Juror #2'
+    year: 2024
+    director:
+    - Clint Eastwood
+    ranking: 14
+    tier: II-C
+  - title: Nights and Weekends
+    year: 2008
+    director:
+    - Joe Swanberg
+    - Greta Gerwig
+    ranking: 7
+    tier: II-B
+  - title: Separated
+    year: 2024
+    director:
+    - Errol Morris
+    ranking: 16
+    tier: II-C
+  - title: Tenebrae
+    year: 1982
+    director:
+    - Dario Argento
+    ranking: 9
+    tier: II-B
+  - rewatch: Being John Malkovich (1999)
+    ranking: 1
+    tier: I
+  - title: Falcon Lake
+    year: 2022
+    director:
+    - Charlotte Le Bon
+    ranking: 5
+    tier: II-B
+  - title: Red-Headed Woman
+    year: 1932
+    director:
+    - Jack Conway
+    ranking: 13
+    tier: II-C
+  - title: Messiah of Evil
+    year: 1973
+    director:
+    - Willard Huyck
+    - Gloria Katz
+    ranking: 8
+    tier: II-B
+  - title: Working Girls
+    year: 1931
+    director:
+    - Dorothy Arzner
+    ranking: 11
+    tier: II-C
+  tiers:
+    I: 2
+    II-A: 2
+    II-B: 5
+    II-C: 7
+    III-A: 2
+    III-B: 1
+    III-C: 1
+    IV: 1
 - month: October 2024
   status: ranked
   films:
@@ -7629,7 +7766,7 @@
   - title: The Milky Way
     year: 1969
     director:
-    - Leo McCarey
+    - Luis Buñuel
     tier: G
   - title: The Fighter
     year: 2010
