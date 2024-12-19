@@ -1,3 +1,42 @@
+- month: December 2024
+  status: in-progress
+  films:
+  - rewatch: The Wizard of Oz (1939)
+    stubz:
+      date: 2024-12-01
+      venue: Stanford Theatre
+  - title: A Real Pain
+    year: 2024
+    director:
+    - Jesse Eisenberg
+    stubz:
+      date: 2024-12-03
+      venue: Cinemark Century 20 Daly City
+  - title: Manon
+    year: 1949
+    director:
+    - Henri-Georges Clouzot
+    stubz:
+      date: 2024-12-03
+      venue: ROXIE
+  - title: La Vérité
+    year: 1960
+    director:
+    - Henri-Georges Clouzot
+    stubz:
+      date: 2024-12-03
+      venue: ROXIE
+  - title: Oedipus Rex
+    year: 1967
+    director:
+    - Pier Paolo Pasolini
+  - title: Soundtrack to a Coup d'Etat
+    year: 2024
+    director:
+    - Johan Grimonprez
+    stubz:
+      date: 2024-12-06
+      venue: ROXIE
 - month: November 2024
   status: ranked
   films:
@@ -19,6 +58,9 @@
     - Edward Berger
     ranking: 10
     tier: II-C
+    stubz:
+      date: 2024-11-05
+      venue: Showcase Cinema de Lux Springdale
   - title: What Price Hollywood?
     year: 1932
     director:
@@ -49,6 +91,9 @@
     - Jérémy Clapin
     ranking: 12
     tier: II-C
+    stubz:
+      date: 2024-11-12
+      venue: Esquire Theatre
   - title: Lady Sings the Blues
     year: 1972
     director:
@@ -67,18 +112,27 @@
     - Sean Baker
     ranking: 6
     tier: II-B
+    stubz:
+      date: 2024-11-16
+      venue: AMC Mercado 20
   - title: Memoir of a Snail
     year: 2024
     director:
     - Adam Elliot
     ranking: 20
     tier: III-C
+    stubz:
+      date: 2024-11-18
+      venue: ROXIE
   - title: 'Juror #2'
     year: 2024
     director:
     - Clint Eastwood
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2024-11-19
+      venue: AMC Metreon 16
   - title: Nights and Weekends
     year: 2008
     director:
@@ -92,6 +146,9 @@
     - Errol Morris
     ranking: 16
     tier: II-C
+    stubz:
+      date: 2024-11-22
+      venue: ROXIE
   - title: Tenebrae
     year: 1982
     director:
@@ -101,6 +158,9 @@
   - rewatch: Being John Malkovich (1999)
     ranking: 1
     tier: I
+    stubz:
+      date: 2024-11-25
+      venue: ROXIE
   - title: Falcon Lake
     year: 2022
     director:
@@ -141,6 +201,9 @@
   - rewatch: 'Francis Ford Coppola''s Megalopolis: A Fable (2024)'
     ranking: 6
     tier: II-A
+    stubz:
+      date: 2024-10-01
+      venue: Cinemark Century 20 Daly City
   - title: Cisco Pike
     year: 1972
     director:
@@ -150,6 +213,9 @@
   - rewatch: Secret Beyond the Door... (1948)
     ranking: 3
     tier: II-A
+    stubz:
+      date: 2024-10-03
+      venue: Stanford Theatre
   - title: Equinox
     year: 1970
     director:
@@ -162,24 +228,36 @@
     - Raymond Bernard
     ranking: 13
     tier: II-C
+    stubz:
+      date: 2024-10-07
+      venue: ROXIE
   - title: Not Guilty
     year: 1947
     director:
     - Henri Decoin
     ranking: 15
     tier: II-C
+    stubz:
+      date: 2024-10-07
+      venue: ROXIE
   - title: A Different Man
     year: 2024
     director:
     - Aaron Schimberg
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2024-10-08
+      venue: Cinemark Century 20 Daly City
   - title: Audition
     year: 1999
     director:
     - Takashi Miike
     ranking: 11
     tier: II-B
+    stubz:
+      date: 2024-10-10
+      venue: ROXIE
   - title: Eyes of Laura Mars
     year: 1978
     director:
@@ -192,21 +270,33 @@
     - Kiyoshi Kurosawa
     ranking: 5
     tier: II-A
+    stubz:
+      date: 2024-10-14
+      venue: ROXIE
   - title: Pulse
     year: 2001
     director:
     - Kiyoshi Kurosawa
     ranking: 17
     tier: II-C
+    stubz:
+      date: 2024-10-15
+      venue: ROXIE
   - title: Isle of the Dead
     year: 1945
     director:
     - Mark Robson
     ranking: 12
     tier: II-C
+    stubz:
+      date: 2024-10-18
+      venue: Stanford Theatre
   - rewatch: The Spiral Staircase (1945)
     ranking: 4
     tier: II-A
+    stubz:
+      date: 2024-10-18
+      venue: Stanford Theatre
   - rewatch: THX 1138 (1971)
     ranking: 1
     tier: I
@@ -218,18 +308,27 @@
     - Galen Johnson
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2024-10-22
+      venue: Cinemark Century 20 Daly City
   - title: White Zombie
     year: 1932
     director:
     - Victor Halperin
     ranking: 16
     tier: II-C
+    stubz:
+      date: 2024-10-22
+      venue: ROXIE
   - title: The VVitch
     year: 2015
     director:
     - Robert Eggers
     ranking: 2
     tier: II-Aa
+    stubz:
+      date: 2024-10-23
+      venue: AMC Bay Street 16
   - title: 'The Other Half of the Sky: A China Memoir'
     year: 1975
     director:
@@ -260,12 +359,18 @@
     - India Donaldson
     ranking: 17
     tier: II-C
+    stubz:
+      date: 2024-09-02
+      venue: Landmark Piedmont Theatre
   - title: Shaun of the Dead
     year: 2004
     director:
     - Edgar Wright
     ranking: 10
     tier: II-B
+    stubz:
+      date: 2024-09-03
+      venue: AMC Metreon 16
   - title: Fly
     year: 2024
     director:
@@ -273,6 +378,9 @@
     - Shaul Schwarz
     ranking: 20
     tier: II-C
+    stubz:
+      date: 2024-09-03
+      venue: AMC Metreon 16
   - title: Nocturama
     year: 2016
     effective_year: 2017
@@ -299,6 +407,9 @@
     - Lee Isaac Chung
     ranking: 19
     tier: II-C
+    stubz:
+      date: 2024-09-10
+      venue: Cinemark Century 20 Daly City
   - title: Strange Darling
     year: 2023
     effective_year: 2024
@@ -306,6 +417,9 @@
     - JT Mollner
     ranking: 12
     tier: II-B
+    stubz:
+      date: 2024-09-10
+      venue: ROXIE
   - title: Hundreds of Beavers
     year: 2022
     effective_year: 2024
@@ -313,6 +427,9 @@
     - Mike Cheslik
     ranking: 3
     tier: I
+    stubz:
+      date: 2024-09-12
+      venue: The New Parkway
   - rewatch: Red Desert (1964)
     ranking: 25
     tier: III-A
@@ -323,6 +440,9 @@
     - Víctor Erice
     ranking: 16
     tier: II-C
+    stubz:
+      date: 2024-09-15
+      venue: ROXIE
   - title: Platinum Blonde
     year: 1931
     director:
@@ -335,6 +455,9 @@
     - Tim Burton
     ranking: 18
     tier: II-C
+    stubz:
+      date: 2024-09-17
+      venue: Cinemark Century 20 Daly City
   - title: House of Tolerance
     year: 2011
     director:
@@ -344,9 +467,15 @@
   - rewatch: The Leopard Man (1943)
     ranking: 9
     tier: II-B
+    stubz:
+      date: 2024-09-19
+      venue: Stanford Theatre
   - rewatch: The Red House (1947)
     ranking: 15
     tier: II-B
+    stubz:
+      date: 2024-09-19
+      venue: Stanford Theatre
   - title: Eyewitness
     year: 1981
     director:
@@ -359,18 +488,27 @@
     - Francis Ford Coppola
     ranking: 4.5
     tier: II-A
+    stubz:
+      date: 2024-09-23
+      venue: AMC Metreon 16
   - title: The Substance
     year: 2024
     director:
     - Coralie Fargeat
     ranking: 24
     tier: III-A
+    stubz:
+      date: 2024-09-24
+      venue: Cinemark Century 20 Daly City
   - title: 'Mishima: A Life in Four Chapters'
     year: 1985
     director:
     - Paul Schrader
     ranking: 6
     tier: II-A
+    stubz:
+      date: 2024-09-24
+      venue: Balboa Theater
   - title: Tempest
     year: 1982
     director:
@@ -380,9 +518,15 @@
   - rewatch: The Body Snatcher (1945)
     ranking: 2
     tier: I
+    stubz:
+      date: 2024-09-27
+      venue: Stanford Theatre
   - rewatch: The Glass Key (1942)
     ranking: 22
     tier: II-C
+    stubz:
+      date: 2024-09-27
+      venue: Stanford Theatre
   - title: Phffft
     year: 1954
     director:
