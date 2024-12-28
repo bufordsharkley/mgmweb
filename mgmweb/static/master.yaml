@@ -37,6 +37,73 @@
     stubz:
       date: 2024-12-06
       venue: ROXIE
+  - title: Interstellar
+    year: 2014
+    director:
+    - Christopher Nolan
+  - title: Y2K
+    year: 2024
+    director:
+    - Kyle Mooney
+  - title: L'Innocente
+    year: 1976
+    director:
+    - Luchino Visconti
+  - title: Mermaids
+    year: 1990
+    director:
+    - Richard Benjamin
+  - title: The Fog
+    year: 1980
+    director:
+    - John Carpenter
+  - title: Red Rocket
+    year: 2021
+    director:
+    - Sean Baker
+  - title: De Humani Corporis Fabrica
+    year: 2022
+    director:
+    - Lucien Castaing-Taylor
+    - Véréna Paravel
+  - title: Queer
+    year: 2024
+    director:
+    - Luca Guadagnino
+  - title: All We Imagine as Light
+    year: 2024
+    director:
+    - Payal Kapadia
+  - title: Creature from the Black Lagoon
+    year: 1954
+    director:
+    - Jack Arnold
+  - title: Toute une nuit
+    year: 1982
+    director:
+    - Chantal Akerman
+  - title: The Tempest
+    year: 1979
+    director:
+    - Derek Jarman
+  - title: Flow
+    year: 2024
+    director:
+    - Gints Zilbalodis
+  - title: The Curse of the Werewolf
+    year: 1961
+    director:
+    - Terence Fisher
+  - title: The New York Ripper
+    year: 1982
+    director:
+    - Lucio Fulci
+  - title: Do Not Expect Too Much from the End of the World
+    year: 2023
+    effective_year: 2024
+    director:
+    - Radu Jude
+  - rewatch: Mulholland Dr. (2001)
 - month: November 2024
   status: ranked
   films:
