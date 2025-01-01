@@ -1,10 +1,12 @@
 - month: December 2024
-  status: in-progress
+  status: ranked
   films:
   - rewatch: The Wizard of Oz (1939)
     stubz:
       date: 2024-12-01
       venue: Stanford Theatre
+    ranking: 1
+    tier: I
   - title: A Real Pain
     year: 2024
     director:
@@ -12,6 +14,8 @@
     stubz:
       date: 2024-12-03
       venue: Cinemark Century 20 Daly City
+    ranking: 12
+    tier: II-C
   - title: Manon
     year: 1949
     director:
@@ -19,6 +23,8 @@
     stubz:
       date: 2024-12-03
       venue: ROXIE
+    ranking: 11
+    tier: II-C
   - title: La Vérité
     year: 1960
     director:
@@ -26,10 +32,14 @@
     stubz:
       date: 2024-12-03
       venue: ROXIE
+    ranking: 4
+    tier: II-A
   - title: Oedipus Rex
     year: 1967
     director:
     - Pier Paolo Pasolini
+    ranking: 15
+    tier: II-C
   - title: Soundtrack to a Coup d'Etat
     year: 2024
     director:
@@ -37,73 +47,134 @@
     stubz:
       date: 2024-12-06
       venue: ROXIE
+    ranking: 9
+    tier: II-B
   - title: Interstellar
     year: 2014
     director:
     - Christopher Nolan
+    ranking: 10
+    tier: II-B
   - title: Y2K
     year: 2024
     director:
     - Kyle Mooney
+    ranking: 25
+    tier: III-C
   - title: L'Innocente
     year: 1976
     director:
     - Luchino Visconti
+    ranking: 17
+    tier: II-C
   - title: Mermaids
     year: 1990
     director:
     - Richard Benjamin
+    ranking: 13
+    tier: II-C
   - title: The Fog
     year: 1980
     director:
     - John Carpenter
+    ranking: 8
+    tier: II-B
   - title: Red Rocket
     year: 2021
     director:
     - Sean Baker
+    ranking: 5
+    tier: II-B
   - title: De Humani Corporis Fabrica
     year: 2022
     director:
     - Lucien Castaing-Taylor
     - Véréna Paravel
+    ranking: 20
+    tier: II-C
   - title: Queer
     year: 2024
     director:
     - Luca Guadagnino
+    ranking: 16
+    tier: II-C
   - title: All We Imagine as Light
     year: 2024
     director:
     - Payal Kapadia
+    ranking: 14
+    tier: II-C
   - title: Creature from the Black Lagoon
     year: 1954
     director:
     - Jack Arnold
+    ranking: 24
+    tier: III-B
   - title: Toute une nuit
     year: 1982
     director:
     - Chantal Akerman
+    ranking: 19
+    tier: II-C
   - title: The Tempest
     year: 1979
     director:
     - Derek Jarman
+    ranking: 7
+    tier: II-B
   - title: Flow
     year: 2024
     director:
     - Gints Zilbalodis
+    ranking: 23
+    tier: III-B
   - title: The Curse of the Werewolf
     year: 1961
     director:
     - Terence Fisher
+    ranking: 18
+    tier: II-C
   - title: The New York Ripper
     year: 1982
     director:
     - Lucio Fulci
+    ranking: 22
+    tier: III-A
   - title: Do Not Expect Too Much from the End of the World
     year: 2023
     effective_year: 2024
     director:
     - Radu Jude
+    ranking: 6
+    tier: II-B
   - rewatch: Mulholland Dr. (2001)
+    ranking: 3
+    tier: I
+  - title: The Witches
+    year: 1967
+    director:
+    - Luchino Visconti
+    - Mauro Bolognini
+    - Pier Paolo Pasolini
+    - Franco Rossi
+    - Vittorio De Sica
+    ranking: 2
+    tier: I
+  - title: God Told Me To
+    year: 1976
+    director:
+    - Larry Cohen
+    ranking: 21
+    tier: III-A
+  tiers:
+    I: 3
+    II-A: 1
+    II-B: 6
+    II-C: 10
+    III-A: 2
+    III-B: 2
+    III-C: 1
+    IV: 0
 - month: November 2024
   status: ranked
   films:
