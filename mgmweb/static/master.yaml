@@ -1,20 +1,26 @@
 - month: January 2025
-  status: in-progress
+  status: ranked
   films:
   - title: My Night at Maud's
     year: 1969
     director:
     - Éric Rohmer
+    ranking: 7
+    tier: II-A
   - title: Coma
     year: 2022
     director:
     - Bertrand Bonello
+    ranking: 12
+    tier: II-B
   - title: Flaming Ears
     year: 2024
     director:
     - A. Hans Scheirl
     - Ursula Pürrer
     - Dietmar Schipek
+    ranking: 26
+    tier: II-C
   - title: Nickel Boys
     year: 2024
     director:
@@ -22,6 +28,8 @@
     stubz:
       date: 2025-01-07
       venue: AMC Kabuki 8
+    ranking: 9
+    tier: II-B
   - title: Nosferatu
     year: 2024
     director:
@@ -29,6 +37,8 @@
     stubz:
       date: 2025-01-07
       venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
   - title: The Beaches of Agnès
     year: 2008
     director:
@@ -36,14 +46,20 @@
     stubz:
       date: 2025-01-08
       venue: ROXIE
+    ranking: 5
+    tier: II-A
   - title: Brighton Rock
     year: 1948
     director:
     - John Boulting
+    ranking: 2
+    tier: II-Aa
   - title: Nope
     year: 2022
     director:
     - Jordan Peele
+    ranking: 10
+    tier: II-B
   - title: Coup 53
     year: 2019
     director:
@@ -51,6 +67,8 @@
     stubz:
       date: 2025-01-11
       venue: ROXIE
+    ranking: 11
+    tier: II-B
   - title: The Brutalist
     year: 2024
     director:
@@ -58,6 +76,8 @@
     stubz:
       date: 2025-01-13
       venue: Alamo Drafthouse New Mission
+    ranking: 17
+    tier: II-C
   - title: The Girl with the Needle
     year: 2024
     director:
@@ -65,6 +85,8 @@
     stubz:
       date: 2025-01-13
       venue: ROXIE
+    ranking: 24
+    tier: II-C
   - title: The Prosecutor
     year: 2024
     director:
@@ -72,7 +94,9 @@
     stubz:
       date: 2025-01-14
       venue: Cinemark Century 20 Daly City
-  - title: "Unbecoming Attractions V: A 35mm Trailer Show"
+    ranking: 15
+    tier: II-C
+  - title: 'Unbecoming Attractions V: A 35mm Trailer Show'
     filter: true
     stubz:
       date: 2025-01-15
@@ -81,6 +105,8 @@
     year: 1943
     director:
     - Vincent Sherman
+    ranking: 3
+    tier: II-A
   - title: Oh, Canada
     year: 2024
     director:
@@ -88,12 +114,16 @@
     stubz:
       date: 2025-01-16
       venue: ROXIE
-  - title: "David Lynch: The Art Life"
+    ranking: 28
+    tier: III-A
+  - title: 'David Lynch: The Art Life'
     year: 2016
     director:
     - Jon Nguyen
     - Rick Barnes
     - Olivia Neergaard-Holm
+    ranking: 13
+    tier: II-B
   - title: Ladies of Leisure
     year: 1930
     director:
@@ -101,6 +131,8 @@
     stubz:
       date: 2025-01-17
       venue: Stanford Theatre
+    ranking: 14
+    tier: II-B
   - title: The Miracle Woman
     year: 1931
     director:
@@ -108,10 +140,14 @@
     stubz:
       date: 2025-01-17
       venue: Stanford Theatre
+    ranking: 29
+    tier: III-A
   - title: Without Pity
     year: 1948
     director:
     - Alberto Lattuada
+    ranking: 21
+    tier: II-C
   - title: The Last Showgirl
     year: 2024
     director:
@@ -119,18 +155,26 @@
     stubz:
       date: 2025-01-21
       venue: Cinemark Century 20 Daly City
+    ranking: 6
+    tier: II-A
   - title: The Sea Wolf
     year: 1941
     director:
     - Michael Curtiz
+    ranking: 19
+    tier: II-C
   - title: Peter Ibbetson
     year: 1935
     director:
     - Henry Hathaway
+    ranking: 25
+    tier: II-C
   - rewatch: The Narrow Margin (1952)
     stubz:
       date: 2025-01-24
       venue: Grand Lake Theatre
+    ranking: 1
+    tier: I
   - title: Hell's Half Acre
     year: 1954
     director:
@@ -138,35 +182,60 @@
     stubz:
       date: 2025-01-24
       venue: Grand Lake Theatre
+    ranking: 8
+    tier: II-A
   - title: Soft Fiction
     year: 1979
     director:
     - Chick Strand
+    ranking: 4
+    tier: II-A
   - title: Hard Truths
     year: 2024
     director:
     - Mike Leigh
+    ranking: 20
+    tier: II-C
   - title: Presence
     year: 2024
     effective_year: 2025
     director:
     - Steven Soderbergh
+    ranking: 27
+    tier: III-A
   - title: Desert Fury
     year: 1947
     director:
     - Lewis Allen
+    ranking: 18
+    tier: II-C
   - title: Déjà Vu
     year: 2006
     director:
     - Tony Scott
+    ranking: 16
+    tier: II-C
   - title: Experiment in Terror
     year: 1962
     director:
     - Blake Edwards
+    ranking: 30
+    tier: III-B
   - title: The Face Behind the Mask
     year: 1941
     director:
     - Robert Florey
+    ranking: 23
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 7
+    II-B: 6
+    II-C: 12
+    III-A: 3
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: December 2024
   status: ranked
   films:
