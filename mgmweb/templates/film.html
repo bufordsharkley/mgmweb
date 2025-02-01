@@ -24,7 +24,7 @@
     background-color:#fff;
   }
 
-  span.film- {
+  span.film-prehistoric, span.film- {
     background-color:#ddd;
   }
 
@@ -114,7 +114,7 @@
       {% endif %}
     </span>
     {% for film in month.films if "rewatch" not in film and not film.filter %}
-    <span class="film-{{film.tier}}" >{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
+    <span class="film-{{film.tier}}{% if month.month == "Before Feb 2005:" %} film-prehistoric{% endif %}" >{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
       {%- if not loop.last %}
       <span style="color:#147ca8">•</span>
       {% endif %}

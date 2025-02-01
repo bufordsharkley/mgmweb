@@ -1,3 +1,172 @@
+- month: January 2025
+  status: in-progress
+  films:
+  - title: My Night at Maud's
+    year: 1969
+    director:
+    - Éric Rohmer
+  - title: Coma
+    year: 2022
+    director:
+    - Bertrand Bonello
+  - title: Flaming Ears
+    year: 2024
+    director:
+    - A. Hans Scheirl
+    - Ursula Pürrer
+    - Dietmar Schipek
+  - title: Nickel Boys
+    year: 2024
+    director:
+    - RaMell Ross
+    stubz:
+      date: 2025-01-07
+      venue: AMC Kabuki 8
+  - title: Nosferatu
+    year: 2024
+    director:
+    - Robert Eggers
+    stubz:
+      date: 2025-01-07
+      venue: Cinemark Century 20 Daly City
+  - title: The Beaches of Agnès
+    year: 2008
+    director:
+    - Agnès Varda
+    stubz:
+      date: 2025-01-08
+      venue: ROXIE
+  - title: Brighton Rock
+    year: 1948
+    director:
+    - John Boulting
+  - title: Nope
+    year: 2022
+    director:
+    - Jordan Peele
+  - title: Coup 53
+    year: 2019
+    director:
+    - Taghi Amirani
+    stubz:
+      date: 2025-01-11
+      venue: ROXIE
+  - title: The Brutalist
+    year: 2024
+    director:
+    - Brady Corbet
+    stubz:
+      date: 2025-01-13
+      venue: Alamo Drafthouse New Mission
+  - title: The Girl with the Needle
+    year: 2024
+    director:
+    - Magnus von Horn
+    stubz:
+      date: 2025-01-13
+      venue: ROXIE
+  - title: The Prosecutor
+    year: 2024
+    director:
+    - Donnie Yen
+    stubz:
+      date: 2025-01-14
+      venue: Cinemark Century 20 Daly City
+  - title: "Unbecoming Attractions V: A 35mm Trailer Show"
+    filter: true
+    stubz:
+      date: 2025-01-15
+      venue: ROXIE
+  - title: The Hard Way
+    year: 1943
+    director:
+    - Vincent Sherman
+  - title: Oh, Canada
+    year: 2024
+    director:
+    - Paul Schrader
+    stubz:
+      date: 2025-01-16
+      venue: ROXIE
+  - title: "David Lynch: The Art Life"
+    year: 2016
+    director:
+    - Jon Nguyen
+    - Rick Barnes
+    - Olivia Neergaard-Holm
+  - title: Ladies of Leisure
+    year: 1930
+    director:
+    - Frank Capra
+    stubz:
+      date: 2025-01-17
+      venue: Stanford Theatre
+  - title: The Miracle Woman
+    year: 1931
+    director:
+    - Frank Capra
+    stubz:
+      date: 2025-01-17
+      venue: Stanford Theatre
+  - title: Without Pity
+    year: 1948
+    director:
+    - Alberto Lattuada
+  - title: The Last Showgirl
+    year: 2024
+    director:
+    - Gia Coppola
+    stubz:
+      date: 2025-01-21
+      venue: Cinemark Century 20 Daly City
+  - title: The Sea Wolf
+    year: 1941
+    director:
+    - Michael Curtiz
+  - title: Peter Ibbetson
+    year: 1935
+    director:
+    - Henry Hathaway
+  - rewatch: The Narrow Margin (1952)
+    stubz:
+      date: 2025-01-24
+      venue: Grand Lake Theatre
+  - title: Hell's Half Acre
+    year: 1954
+    director:
+    - John H. Auer
+    stubz:
+      date: 2025-01-24
+      venue: Grand Lake Theatre
+  - title: Soft Fiction
+    year: 1979
+    director:
+    - Chick Strand
+  - title: Hard Truths
+    year: 2024
+    director:
+    - Mike Leigh
+  - title: Presence
+    year: 2024
+    effective_year: 2025
+    director:
+    - Steven Soderbergh
+  - title: Desert Fury
+    year: 1947
+    director:
+    - Lewis Allen
+  - title: Déjà Vu
+    year: 2006
+    director:
+    - Tony Scott
+  - title: Experiment in Terror
+    year: 1962
+    director:
+    - Blake Edwards
+  - title: The Face Behind the Mask
+    year: 1941
+    director:
+    - Robert Florey
 - month: December 2024
   status: ranked
   films:
@@ -55,12 +224,18 @@
     - Christopher Nolan
     ranking: 10
     tier: II-B
+    stubz:
+      date: 2024-12-09
+      venue: AMC Metreon 16
   - title: Y2K
     year: 2024
     director:
     - Kyle Mooney
     ranking: 25
     tier: III-C
+    stubz:
+      date: 2024-12-10
+      venue: Cinemark Century 20 Daly City
   - title: L'Innocente
     year: 1976
     director:
@@ -98,12 +273,18 @@
     - Luca Guadagnino
     ranking: 16
     tier: II-C
+    stubz:
+      date: 2024-12-17
+      venue: Cinemark Century Mountain View 16
   - title: All We Imagine as Light
     year: 2024
     director:
     - Payal Kapadia
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2024-12-18
+      venue: ROXIE
   - title: Creature from the Black Lagoon
     year: 1954
     director:
@@ -116,6 +297,9 @@
     - Chantal Akerman
     ranking: 19
     tier: II-C
+    stubz:
+      date: 2024-12-23
+      venue: ROXIE
   - title: The Tempest
     year: 1979
     director:
@@ -128,6 +312,9 @@
     - Gints Zilbalodis
     ranking: 23
     tier: III-B
+    stubz:
+      date: 2024-12-23
+      venue: ROXIE
   - title: The Curse of the Werewolf
     year: 1961
     director:
@@ -150,6 +337,9 @@
   - rewatch: Mulholland Dr. (2001)
     ranking: 3
     tier: I
+    stubz:
+      date: 2024-12-27
+      venue: ROXIE
   - title: The Witches
     year: 1967
     director:
@@ -350,7 +540,7 @@
     tier: II-B
   - rewatch: Secret Beyond the Door... (1948)
     ranking: 3
-    tier: II-A
+    tier: II-Aa
     stubz:
       date: 2024-10-03
       venue: Stanford Theatre
@@ -431,7 +621,7 @@
       venue: Stanford Theatre
   - rewatch: The Spiral Staircase (1945)
     ranking: 4
-    tier: II-A
+    tier: II-Aa
     stubz:
       date: 2024-10-18
       venue: Stanford Theatre
@@ -2794,7 +2984,7 @@
       venue: ROXIE
   - rewatch: The Trial (1962)
     ranking: 4
-    tier: II-A
+    tier: II-Aa
     stubz:
       date: 2023-09-11
       venue: ROXIE
@@ -5737,7 +5927,7 @@
     year: 1943
     director:
     - Jacques Tourneur
-    tier: G
+    tier: II-B
   - title: 'Met Live in HD: Mozart: Die Zauberflöte (2017)'
     year: 2017
     director:
@@ -6159,7 +6349,7 @@
     year: 1948
     director:
     - Robert Wise
-    tier: G
+    tier: II-C
   - title: God's Little Acre
     year: 1958
     director:
@@ -6884,6 +7074,7 @@
     director:
     - Haskell Wexler
     notes: This placement is almost certainly inaccurate; was kinda placed arbitrarily
+    tier: II-B
   status: tier norank
 - month: March 2013
   films:
@@ -7107,7 +7298,7 @@
     year: 2010
     director:
     - Denis Villeneuve
-    tier: G
+    tier: III-B
   status: tier norank
 - month: October 2012
   films:
@@ -7435,7 +7626,7 @@
     year: 1958
     director:
     - Vincente Minnelli
-    tier: G
+    tier: II-A
   status: tier norank
 - month: April 2012
   films:
@@ -7991,7 +8182,7 @@
     year: 1947
     director:
     - Delmer Daves
-    tier: G
+    tier: II-B
   - title: Murmur of the Heart
     year: 1971
     director:
@@ -8286,7 +8477,7 @@
     year: 1952
     director:
     - Vincente Minnelli
-    tier: II-B
+    tier: II-A
   - title: The Idiots
     year: 1998
     director:
@@ -8440,7 +8631,7 @@
     year: 1964
     director:
     - Michelangelo Antonioni
-    tier: G
+    tier: III-A
   - title: The Man in the Gray Flannel Suit
     year: 1956
     director:
@@ -8784,7 +8975,7 @@
     year: 1933
     director:
     - Thornton Freeland
-    tier: G
+    tier: II-C
   status: tier norank
 - month: March 2010
   films:
@@ -9692,7 +9883,6 @@
     year: 1967
     director:
     - Jacques Demy
-    - Agnès Varda
     ranking: 4
     tier: II-B
   - title: My Name Is Julia Ross
@@ -13068,8 +13258,8 @@
     director:
     - David Lynch
     notes: '[revised from II-C, June 2023]'
-    ranking: 11
-    tier: II-C
+    ranking: 6.5
+    tier: II-A
   - title: Grindhouse
     year: 2007
     director:
@@ -13203,9 +13393,9 @@
   status: ranked
   tiers:
     I: 3
-    II-A: 4
+    II-A: 5
     II-B: 3
-    II-C: 4
+    II-C: 3
     III-A: 6
     III-B: 0
     III-C: 1
@@ -13469,9 +13659,9 @@
     year: 1966
     director:
     - Jean-Luc Godard
-    notes: Revised from III-A (rewatch Nov 2022)
-    ranking: 25
-    tier: III-A
+    notes: Revised from III-A (ranking 25) (rewatch Nov 2022)
+    ranking: 14.5
+    tier: II-B
   - title: The Canterville Ghost
     year: 1944
     director:
@@ -13520,6 +13710,7 @@
     - Wong Kar-Wai
     ranking: 15.2
     tier: II-B
+    notes: revised from rank 23, III-A, after Sept 2023 rewatch
   - title: Broken Flowers
     year: 2005
     director:
@@ -13569,6 +13760,7 @@
     - Max Ophüls
     ranking: 5.2
     tier: II-Aa
+    notes: revised from rank 12, II-B, after Oct 2023 rewatch
   - title: Family Plot
     year: 1976
     director:
@@ -13646,9 +13838,9 @@
   tiers:
     I: 4
     II-A: 5
-    II-B: 7
+    II-B: 8
     II-C: 4
-    III-A: 6
+    III-A: 5
     III-B: 4
     III-C: 0
     IV: 0
@@ -14175,7 +14367,8 @@
     director:
     - Jean-Pierre Melville
     ranking: 5
-    tier: II-Aa
+    tier: I
+    notes: originally II-Aa, upgraded after May 2024 rewatch (same position)
   - title: Eraserhead
     year: 1977
     director:
@@ -14186,7 +14379,8 @@
   - title: 'The Beatles: The First U.S. Visit'
     year: 1994
     director:
-    - Albert and David Maysles
+    - Albert Maysles
+    - David Maysles
     ranking: 9
     tier: II-A
   - title: Mother
@@ -14294,8 +14488,8 @@
     tier: II-Aa
   status: ranked
   tiers:
-    I: 4
-    II-A: 5
+    I: 5
+    II-A: 4
     II-B: 3
     II-C: 2
     III-A: 3
@@ -14392,7 +14586,8 @@
   - title: Grey Gardens
     year: 1975
     director:
-    - Albert and David Maysles
+    - Albert Maysles
+    - David Maysles
     ranking: 23
     tier: II-C
   - title: Mildred Pierce
@@ -15242,7 +15437,9 @@
   - title: Gimme Shelter
     year: 1970
     director:
-    - Albert and David Maysles
+    - Albert Maysles
+    - David Maysles
+    - Charlotte Zwerin
     ranking: 12
     tier: II-C
   - title: A Dream of Passion
@@ -15255,8 +15452,9 @@
     year: 1955
     director:
     - Alfred Hitchcock
-    ranking: 18
-    tier: III-A
+    ranking: 14.5
+    tier: II-C
+    notes: originally III-A (18), moved to II-C after May 2024 rewatch
   - title: Harold and Maude
     year: 1971
     director:
@@ -15328,8 +15526,8 @@
     I: 3
     II-A: 3
     II-B: 4
-    II-C: 4
-    III-A: 5
+    II-C: 5
+    III-A: 4
     III-B: 1
     III-C: 0
     IV: 2
@@ -15795,7 +15993,9 @@
   - title: Salesman
     year: 1969
     director:
-    - Albert and David Maysles
+    - Albert Maysles
+    - David Maysles
+    - Charlotte Zwerin
     ranking: 12
     tier: II-A
   - title: The 40 Year Old Virgin
@@ -16158,8 +16358,9 @@
     year: 1959
     director:
     - Alain Resnais
-    ranking: 15
-    tier: III-A
+    ranking: 10.5
+    notes: originally 15, III-A, several rewatches, ~2007, June 2024 -> II-B
+    tier: II-B
   - title: The Exterminating Angel
     year: 1962
     director:
@@ -16273,9 +16474,9 @@
   tiers:
     I: 6
     II-A: 4
-    II-B: 2
+    II-B: 3
     II-C: 2
-    III-A: 3
+    III-A: 2
     III-B: 3
     III-C: 0
     IV: 0
@@ -16697,8 +16898,8 @@
     year: 1963
     director:
     - Jean-Luc Godard
-    ranking: 32
-    tier: IV
+    ranking: 30.5
+    tier: III-B
   - title: I Vitelloni
     year: 1953
     director:
@@ -16798,9 +16999,9 @@
     II-B: 4
     II-C: 4
     III-A: 5
-    III-B: 2
+    III-B: 3
     III-C: 1
-    IV: 2
+    IV: 1
 - month: June 2005
   films:
   - title: The Lavender Hill Mob
@@ -17007,17 +17208,17 @@
     year: 1987
     director:
     - Wim Wenders
-    notes: Revised from III-B (rewatch March 2023)
-    ranking: 31
-    tier: III-B
+    notes: Revised from III-B (rewatch March 2023) (orig ranking 31)
+    ranking: 21.5
+    tier: II-B
   status: ranked
   tiers:
     I: 10
     II-A: 7
-    II-B: 4
+    II-B: 5
     II-C: 3
     III-A: 5
-    III-B: 4
+    III-B: 3
     III-C: 0
     IV: 1
 - month: May 2005
@@ -17652,6 +17853,7 @@
     year: 1968
     director:
     - Stanley Kubrick
+    tier: I
   - title: The 39 Steps
     year: 1935
     director:
@@ -17672,6 +17874,7 @@
     year: 1963
     director:
     - Federico Fellini
+    tier: I
   - title: Breathless
     year: 1960
     director:
@@ -17774,6 +17977,7 @@
     year: 1979
     director:
     - Ridley Scott
+    tier: II-B
   - title: Aliens
     year: 1986
     director:
@@ -17872,6 +18076,7 @@
     year: 1977
     director:
     - Woody Allen
+    tier: I
   - title: Antz
     year: 1998
     director:
@@ -17885,6 +18090,7 @@
     year: 1960
     director:
     - Billy Wilder
+    tier: I
   - title: Apocalypse Now
     year: 1979
     director:
@@ -17981,10 +18187,12 @@
     year: 1975
     director:
     - Stanley Kubrick
+    tier: I
   - title: Barton Fink
     year: 1991
     director:
     - Joel Coen & Ethan Coen
+    tier: I
   - title: Batman
     year: 1966
     director:
@@ -18046,6 +18254,7 @@
     year: 1999
     director:
     - Spike Jonze
+    tier: I
   - title: Being There
     year: 1979
     director:
@@ -18247,6 +18456,7 @@
     year: 1942
     director:
     - Michael Curtiz
+    tier: I
   - title: Casper
     year: 1995
     director:
@@ -18306,6 +18516,7 @@
     year: 1931
     director:
     - Charles Chaplin
+    tier: I
   - title: City of Angels
     year: 1998
     director:
@@ -18401,6 +18612,7 @@
     year: 1974
     director:
     - Francis Ford Coppola
+    tier: I
   - title: Cool Hand Luke
     year: 1967
     director:
@@ -18489,6 +18701,7 @@
     year: 1975
     director:
     - Sidney Lumet
+    tier: II-B
   - title: Dogville
     year: 2003
     director:
@@ -18813,6 +19026,7 @@
     director:
     - Clyde Bruckman
     - Buster Keaton
+    tier: I
   - title: Ghost
     year: 1990
     director:
@@ -18845,6 +19059,7 @@
     year: 1942
     director:
     - Stuart Heisler
+    tier: II-C
   - title: Glen or Glenda
     year: 1953
     director:
@@ -18861,10 +19076,12 @@
     year: 1972
     director:
     - Francis Ford Coppola
+    tier: I
   - title: The Godfather Part II
     year: 1974
     director:
     - Francis Ford Coppola
+    tier: I
   - title: The Gold Rush
     year: 1925
     director:
@@ -19033,6 +19250,7 @@
     year: 1994
     director:
     - Joel Coen & Ethan Coen
+    tier: I
   - title: The Hustler
     year: 1961
     director:
@@ -19182,6 +19400,7 @@
     year: 1996
     director:
     - Peter and Bobby Farrelly
+    tier: II-B
   - title: L.A. Confidential
     year: 1997
     director:
@@ -19200,6 +19419,7 @@
     year: 1947
     director:
     - Orson Welles
+    tier: I
   - title: The Lady Vanishes
     year: 1938
     director:
@@ -19240,6 +19460,7 @@
     year: 1962
     director:
     - David Lean
+    tier: I
   - title: A League of Their Own
     year: 1992
     director:
@@ -19395,6 +19616,7 @@
     year: 2001
     director:
     - Joel Coen & Ethan Coen
+    tier: I
   - title: The Man Who Would Be King
     year: 1975
     director:
@@ -19411,6 +19633,7 @@
     year: 1962
     director:
     - John Frankenheimer
+    tier: I
   - title: Manhattan
     year: 1979
     director:
@@ -19499,6 +19722,7 @@
     year: 1990
     director:
     - Joel Coen & Ethan Coen
+    tier: I
   - title: Minority Report
     year: 2002
     director:
@@ -19515,6 +19739,7 @@
     year: 1975
     director:
     - Andrei Tarkovsky
+    tier: I
   - title: Mississippi Burning
     year: 1988
     director:
@@ -19577,6 +19802,7 @@
     year: 2001
     director:
     - David Lynch
+    tier: I
   - title: Multiplicity
     year: 1996
     director:
@@ -19585,6 +19811,7 @@
     year: 1999
     director:
     - Stephen Sommers
+    tier: II-A
   - title: The Muppet Christmas Carol
     year: 1992
     director:
@@ -19665,6 +19892,7 @@
     year: 1955
     director:
     - Charles Laughton
+    tier: I
   - title: Night Shift
     year: 1982
     director:
@@ -19705,6 +19933,7 @@
     year: 1946
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: Novocaine
     year: 2001
     director:
@@ -19859,6 +20088,7 @@
     year: 1985
     director:
     - Tim Burton
+    tier: I
   - title: Peggy Sue Got Married
     year: 1986
     director:
@@ -19987,10 +20217,12 @@
     year: 1994
     director:
     - Quentin Tarantino
+    tier: I
   - title: Punch-Drunk Love
     year: 2002
     director:
     - Paul Thomas Anderson
+    tier: I
   - title: Quiz Show
     year: 1994
     director:
@@ -20019,6 +20251,7 @@
     year: 1987
     director:
     - Joel Coen & Ethan Coen
+    tier: I
   - title: Rancho Notorious
     year: 1952
     director:
@@ -20043,6 +20276,7 @@
     year: 1954
     director:
     - Alfred Hitchcock
+    tier: I
   - title: Rear Window
     year: 1998
     director:
@@ -20153,6 +20387,7 @@
     year: 1998
     director:
     - Wes Anderson
+    tier: I
   - title: Sabrina the Teenage Witch
     year: 1996
     director:
@@ -20210,6 +20445,7 @@
     year: 1943
     director:
     - Alfred Hitchcock
+    tier: II-B
   - title: Shadow of the Vampire
     year: 2000
     director:
@@ -20377,6 +20613,7 @@
     year: 1939
     director:
     - John Ford
+    tier: I
   - title: Stalag 17
     year: 1953
     director:
@@ -20434,6 +20671,7 @@
     year: 1999
     director:
     - David Lynch
+    tier: I
   - title: The Stranger
     year: 1946
     director:
@@ -20466,6 +20704,7 @@
     year: 1927
     director:
     - F.W. Murnau
+    tier: I
   - title: Sunset Blvd.
     year: 1950
     director:
@@ -20512,6 +20751,7 @@
     year: 1990
     director:
     - Steve Barron
+    tier: II-C
   - title: 'Teenage Mutant Ninja Turtles II: The Secret of the Ooze'
     year: 1991
     director:
@@ -20552,6 +20792,7 @@
     year: 1949
     director:
     - Carol Reed
+    tier: I
   - title: Thirty-Six Crazy Fists
     year: 1977
     director:
@@ -20617,6 +20858,7 @@
     year: 1953
     director:
     - Yasujirô Ozu
+    tier: I
   - title: Tom and Huck
     year: 1995
     director:
@@ -20637,6 +20879,7 @@
     year: 1958
     director:
     - Orson Welles
+    tier: I
   - title: Toy Story
     year: 1995
     director:
@@ -20675,6 +20918,7 @@
     year: 1962
     director:
     - Orson Welles
+    tier: II-Aa
   - title: The Truman Show
     year: 1998
     director:
@@ -20855,6 +21099,7 @@
     year: 1939
     director:
     - Victor Fleming
+    tier: I
   - title: The World Is Not Enough
     year: 1999
     director:
