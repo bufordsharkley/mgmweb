@@ -33,6 +33,7 @@ def flesh_out_rewatches(master, log_errors=False):
                 try:
                     orig_tier = film['tier']
                 except KeyError:
+                    orig_tier = 'G'
                     print(film)
                 try:
                     new_tier = tier_tracker[(title, year)]
@@ -73,14 +74,16 @@ def _check_tiers(tiers, month_data):
             tier = 'II-A'
         new_tiers[tier] += 1
     if new_tiers != tiers:
+        print(month_data['month'])
         print(new_tiers)
         print(tiers)
         raise Exception("Tiered component doesn't match. Is this important?")
 
 
-def organize_month_data_into_tiers(month_data):
+def organize_month_data_into_tiers(month_data, raw=False):
     tiers = month_data['tiers']
-    _check_tiers(tiers, month_data)
+    if not raw:
+        _check_tiers(tiers, month_data)
     raw_rankings = {}
     for film in month_data['films']:
         if 'filter' in film:
@@ -117,9 +120,13 @@ def organize_month_data_into_tiers(month_data):
                     film = rankings[rank]
                     director = ", ".join(film['director'])
                     year = film['year']
+                    raw_ranking = film['ranking']
                     # Assume title or rewatch only keys
                     title = film['title'] if 'title' in film else f"* {film['rewatch']}"
-                    film_str = f"{rank}. {title} ({director}, {year})"
+                    if raw:
+                        film_str = f"{rank}. {title} ({director}, {year}) ({raw_ranking})"
+                    else:
+                        film_str = f"{rank}. {title} ({director}, {year})"
                     film_list.append(film_str)
                 curr += count
                 resp.append((tier_key, film_list))

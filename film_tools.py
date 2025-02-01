@@ -112,6 +112,30 @@ def get_tiers_for_year(year, master):
 
 
 @main.command()
+@click.argument('tiers', default="I")
+@click.option('--num', default=20, help="number of reccs")
+@click.option('--yearsort', is_flag=True, default=False, help="sort by year")
+def reccs(tiers, num, yearsort):
+    master = get_master()
+    tiers = tiers.split(',')
+    assert all(x in FULL_TIERS for x in tiers)
+    all_possible_reccs = []
+    for month in master:
+        for film in month['films']:
+            if 'tier' in film and film['tier'] in tiers and 'title' in film:
+                directors = ', '.join(film['director'])
+                film_str = (f"{film['title']} ({directors}, {film['year']})")
+                all_possible_reccs.append(film_str)
+    if not yearsort:
+        random.shuffle(all_possible_reccs)
+        print('\n'.join(x for x in all_possible_reccs[:num]))
+    else:
+        print('\n'.join(x for x in sorted(all_possible_reccs, key=lambda x: x.rsplit(',', 1)[1])))
+
+
+
+
+@main.command()
 @click.argument('year', default=datetime.datetime.now().year)
 @click.option('--merge', is_flag=True, default=False, help="merge sort")
 def year(year, merge):
@@ -182,14 +206,17 @@ def merge_sort(months):
     if len(months) == 1:
         return months[0]
     elif len(months) == 2:
-        return merge_sort_two(*months)
+        #return merge_sort_two(*months)
+        return merge_sort_two(months)
     else:
         while len(months) > 2:
             print(f"{len(months)} to merge")
-            merged = merge_sort_two(*months[:2])
+            #merged = merge_sort_two(*months[:2])
+            merged = merge_sort_two(months[:2])
             months = [merged, *months[2:]]
             random.shuffle(months)
-        return merge_sort_two(*months)
+        return merge_sort_two(months)
+        #return merge_sort_two(*months)
 
 
 def pre_process(lines):
@@ -319,7 +346,9 @@ def newlist(filename):
 
 @main.command()
 @click.argument('month', nargs=-1, required=True)
-def ranking(month):
+@click.option('--raw', is_flag=True, default=False,
+              help="show raw rankings, avoid rewatch merge")
+def ranking(month, raw):
     """Print ranking for certain month."""
     master = get_master()
     # Important here to get info on director for rewatches:
@@ -329,15 +358,15 @@ def ranking(month):
             if month_data['status'] != 'ranked':
                 continue
             print(month_data['month'])
-            print_month(month_data)
+            print_month(month_data, raw)
     else:
         month = " ".join(month)
         month_data = [x for x in master if x['month'] == month][0]
-        print_month(month_data)
+        print_month(month_data, raw)
 
 
-def print_month(month_data):
-    tiers = film_logic.organize_month_data_into_tiers(month_data)
+def print_month(month_data, raw=False):
+    tiers = film_logic.organize_month_data_into_tiers(month_data, raw)
     for tier, payload in tiers:
         print(tier)
         print("\n".join(payload))
