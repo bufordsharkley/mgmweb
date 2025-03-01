@@ -112,13 +112,13 @@ def get_tiers_for_year(year, master):
 
 
 @main.command()
-@click.argument('tiers', default="I")
-@click.option('--num', default=20, help="number of reccs")
+@click.option('--tier', default="II-B", help="tier or higher to recommend from")
+@click.option('--num', default=1, help="number of reccs")
 @click.option('--yearsort', is_flag=True, default=False, help="sort by year")
-def reccs(tiers, num, yearsort):
+def reccs(tier, num, yearsort):
     master = get_master()
-    tiers = tiers.split(',')
-    assert all(x in FULL_TIERS for x in tiers)
+    idx = FULL_TIERS.index(tier)
+    tiers = FULL_TIERS[:idx + 1]
     all_possible_reccs = []
     for month in master:
         for film in month['films']:

@@ -1,3 +1,150 @@
+- month: February 2025
+  status: ranked
+  films:
+  - title: Vermiglio
+    year: 2024
+    director:
+    - Maura Delpero
+    ranking: 7
+    tier: II-B
+  - title: The Seed of the Sacred Fig
+    year: 2024
+    director:
+    - Mohammad Rasoulof
+    ranking: 8
+    tier: II-B
+  - title: Pavements
+    year: 2024
+    director:
+    - Alex Ross Perry
+    ranking: 12
+    tier: II-B
+  - title: American Madness
+    year: 1932
+    director:
+    - Frank Capra
+    ranking: 5
+    tier: II-Aa
+  - title: State of the Union
+    year: 1948
+    director:
+    - Frank Capra
+    ranking: 22
+    tier: III-A
+  - rewatch: Meet John Doe (1941)
+    ranking: 3
+    tier: I
+  - title: Den of Thieves
+    year: 2018
+    director:
+    - Christian Gudegast
+    ranking: 19
+    tier: III-A
+  - title: 'Den of Thieves 2: Pantera'
+    year: 2025
+    director:
+    - Christian Gudegast
+    ranking: 21
+    tier: III-A
+  - title: I'm Still Here
+    year: 2024
+    director:
+    - Walter Salles
+    ranking: 15
+    tier: II-C
+  - title: Desperate Living
+    year: 1977
+    director:
+    - John Waters
+    ranking: 11
+    tier: II-B
+  - title: Blue Valentine
+    year: 2010
+    director:
+    - Derek Cianfrance
+    ranking: 6
+    tier: II-A
+  - title: The Bird with the Crystal Plumage
+    year: 1970
+    director:
+    - Dario Argento
+    ranking: 17
+    tier: II-C
+  - title: Isle of Dogs
+    year: 2018
+    director:
+    - Wes Anderson
+    ranking: 9
+    tier: II-B
+  - title: No Other Land
+    year: 2024
+    director:
+    - Basel Adra
+    - Hamdan Ballal
+    - Yuval Abraham
+    - Rachel Szor
+    ranking: 14
+    tier: II-C
+  - title: Duelle
+    year: 1976
+    director:
+    - Jacques Rivette
+    ranking: 20
+    tier: III-A
+  - rewatch: Love Me Tonight (1932)
+    ranking: 2
+    tier: I
+  - rewatch: The Scarlet Empress (1934)
+    ranking: 1
+    tier: I
+  - title: Shadows of Forgotten Ancestors
+    year: 1965
+    director:
+    - Sergei Parajanov
+    ranking: 4
+    tier: II-Aa
+  - title: Rap World
+    year: 2024
+    director:
+    - Conner O'Malley
+    - Danny Scharar
+    ranking: 10
+    tier: II-B
+  - title: Emilia Pérez
+    year: 2024
+    director:
+    - Jacques Audiard
+    ranking: 23
+    tier: IV
+  - title: A Complete Unknown
+    year: 2024
+    director:
+    - James Mangold
+    ranking: 16
+    tier: II-C
+  - title: Birth
+    year: 2004
+    director:
+    - Jonathan Glazer
+    ranking: 13
+    tier: II-C
+  - title: The Last Seduction
+    year: 1994
+    director:
+    - John Dahl
+    ranking: 18
+    tier: II-C
+  - title: '2025 Oscar Nominated Short Films: Animation'
+    filter: true
+  tiers:
+    I: 3
+    II-A: 3
+    II-B: 6
+    II-C: 6
+    III-A: 4
+    III-B: 0
+    III-C: 0
+    IV: 1
 - month: January 2025
   status: ranked
   films:
@@ -14,7 +161,7 @@
     ranking: 12
     tier: II-B
   - title: Flaming Ears
-    year: 2024
+    year: 1992
     director:
     - A. Hans Scheirl
     - Ursula Pürrer
@@ -183,7 +330,7 @@
       date: 2025-01-24
       venue: Grand Lake Theatre
     ranking: 8
-    tier: II-A
+    tier: II-B
   - title: Soft Fiction
     year: 1979
     director:
@@ -229,8 +376,8 @@
     tier: II-C
   tiers:
     I: 1
-    II-A: 7
-    II-B: 6
+    II-A: 6
+    II-B: 7
     II-C: 12
     III-A: 3
     III-B: 1
@@ -19223,6 +19370,10 @@
     year: 1996
     director:
     - Charles Sturridge
+  - title: Hairspray
+    year: 1988
+    director:
+    - John Waters
   - title: Hamlet
     year: 1996
     director:
