@@ -1,3 +1,179 @@
+# Den of Thieves -- 2/11 Daly City or Tanforan--check
+- month: March 2025
+  status: ranked
+  films:
+  - title: Day of the Dead
+    year: 1985
+    director:
+    - George Romero
+    ranking: 16
+    tier: II-C
+  - rewatch: Bluebeard's Eighth Wife (1938)
+    stubz:
+      date: 2025-03-07
+      venue: Stanford Theatre
+    ranking: 7
+    tier: II-B
+  - title: The Song of Songs
+    year: 1933
+    director:
+    - Rouben Mamoulian
+    stubz:
+      date: 2025-03-07
+      venue: Stanford Theatre
+    ranking: 17
+    tier: II-C
+  - rewatch: The Shanghai Gesture (1941)
+    stubz:
+      date: 2025-03-09
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: Mickey 17
+    year: 2025
+    director:
+    - Bong Joon-ho
+    stubz:
+      date: 2025-03-11
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: III-A
+  - title: Desire
+    year: 1936
+    director:
+    - Frank Borzage
+    ranking: 5
+    tier: II-B
+  - title: Grand Theft Hamlet
+    year: 2024
+    effective_year: 2025
+    director:
+    - Sam Crane
+    - Pinny Grylls
+    stubz:
+      date: 2025-03-14
+      venue: ROXIE
+    ranking: 14
+    tier: II-C
+  - title: Universal Language
+    year: 2024
+    effective_year: 2025
+    director:
+    - Matthew Rankin
+    stubz:
+      date: 2025-03-17
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - title: 'The Day the Earth Blew Up: A Looney Tunes Movie'
+    year: 2024
+    effective_year: 2025
+    director:
+    - Pete Browngardt
+    stubz:
+      date: 2025-03-18
+      venue: Cinemark Century 20 Daly City
+    ranking: 2
+    tier: II-A
+  - title: The Actor
+    year: 2025
+    director:
+    - Duke Johnson
+    stubz:
+      date: 2025-03-18
+      venue: AMC Metreon 16
+    ranking: 3
+    tier: II-A
+  - title: The Hours
+    year: 2002
+    director:
+    - Stephen Daldry
+    ranking: 18
+    tier: II-C
+  - title: Arthur
+    year: 1981
+    director:
+    - Steve Gordon
+    ranking: 19
+    tier: II-C
+  - title: Going Highbrow
+    year: 1935
+    director:
+    - Robert Florey
+    ranking: 12
+    tier: II-C
+  - title: Paddington in Peru
+    year: 2024
+    effective_year: 2025
+    director:
+    - Dougal Wilson
+    stubz:
+      date: 2025-03-25
+      venue: Cinemark Oakley Station and XD
+    ranking: 15
+    tier: II-C
+  - title: On Becoming a Guinea Fowl
+    year: 2024
+    effective_year: 2025
+    director:
+    - Rungano Nyoni
+    stubz:
+      date: 2025-03-25
+      venue: Esquire Theatre
+    ranking: 13
+    tier: II-C
+  - title: It's My Turn
+    year: 1980
+    director:
+    - Claudia Weill
+    ranking: 11
+    tier: II-C
+  - title: 'Turn Every Page: The Adventures of Robert Caro and Robert Gottlieb'
+    year: 2022
+    director:
+    - Lizzie Gottlieb
+    ranking: 10
+    tier: II-B
+  - title: In Name Only
+    year: 1939
+    director:
+    - John Cromwell
+    ranking: 20
+    tier: III-A
+  - title: The Babadook
+    year: 2014
+    director:
+    - Jennifer Kent
+    ranking: 9
+    tier: II-B
+  - title: The Flame of New Orleans
+    year: 1941
+    director:
+    - René Clair
+    ranking: 4
+    tier: II-A
+  - title: Viy
+    year: 1967
+    director:
+    - Konstantin Yershov
+    - Georgi Kropachyov
+    ranking: 6
+    tier: II-B
+  - title: Thirty-Day Princess
+    year: 1934
+    director:
+    - Marion Gering
+    ranking: 21
+    tier: III-A
+  tiers:
+    I: 1
+    II-A: 3
+    II-B: 6
+    II-C: 9
+    III-A: 3
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: February 2025
   status: ranked
   films:
@@ -7,24 +183,37 @@
     - Maura Delpero
     ranking: 7
     tier: II-B
+    stubz:
+      date: 2025-02-03
+      venue: ROXIE
   - title: The Seed of the Sacred Fig
     year: 2024
     director:
     - Mohammad Rasoulof
     ranking: 8
     tier: II-B
+    stubz:
+      date: 2025-02-04
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: Pavements
     year: 2024
+    effective_year: 2025
     director:
     - Alex Ross Perry
     ranking: 12
     tier: II-B
+    stubz:
+      date: 2025-02-06
+      venue: ROXIE
   - title: American Madness
     year: 1932
     director:
     - Frank Capra
     ranking: 5
     tier: II-Aa
+    stubz:
+      date: 2025-02-9999
+      venue: Stanford Theatre
   - title: State of the Union
     year: 1948
     director:
@@ -46,12 +235,18 @@
     - Christian Gudegast
     ranking: 21
     tier: III-A
+    stubz:
+      date: 2025-02-11
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: I'm Still Here
     year: 2024
     director:
     - Walter Salles
     ranking: 15
     tier: II-C
+    stubz:
+      date: 2025-02-11
+      venue: Cinemark Century 20 Daly City
   - title: Desperate Living
     year: 1977
     director:
@@ -64,6 +259,9 @@
     - Derek Cianfrance
     ranking: 6
     tier: II-A
+    stubz:
+      date: 2025-02-13
+      venue: ROXIE
   - title: The Bird with the Crystal Plumage
     year: 1970
     director:
@@ -78,6 +276,7 @@
     tier: II-B
   - title: No Other Land
     year: 2024
+    effective_year: 2025
     director:
     - Basel Adra
     - Hamdan Ballal
@@ -85,6 +284,9 @@
     - Rachel Szor
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2025-02-19
+      venue: ROXIE
   - title: Duelle
     year: 1976
     director:
@@ -103,6 +305,9 @@
     - Sergei Parajanov
     ranking: 4
     tier: II-Aa
+    stubz:
+      date: 2025-02-23
+      venue: ROXIE
   - title: Rap World
     year: 2024
     director:
@@ -116,12 +321,18 @@
     - Jacques Audiard
     ranking: 23
     tier: IV
+    stubz:
+      date: 2025-02-25
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: A Complete Unknown
     year: 2024
     director:
     - James Mangold
     ranking: 16
     tier: II-C
+    stubz:
+      date: 2025-02-25
+      venue: Cinemark Century 20 Daly City
   - title: Birth
     year: 2004
     director:
@@ -136,6 +347,9 @@
     tier: II-C
   - title: '2025 Oscar Nominated Short Films: Animation'
     filter: true
+    stubz:
+      date: 2025-02-28
+      venue: ROXIE
   tiers:
     I: 3
     II-A: 3
@@ -236,6 +450,7 @@
     tier: II-C
   - title: The Prosecutor
     year: 2024
+    effective_year: 2025
     director:
     - Donnie Yen
     stubz:
@@ -339,10 +554,14 @@
     tier: II-A
   - title: Hard Truths
     year: 2024
+    effective_year: 2025
     director:
     - Mike Leigh
     ranking: 20
     tier: II-C
+    stubz:
+      date: 2025-01-28
+      venue: Cinemark Century at Tanforan 20 & XD
   - title: Presence
     year: 2024
     effective_year: 2025
@@ -350,6 +569,9 @@
     - Steven Soderbergh
     ranking: 27
     tier: III-A
+    stubz:
+      date: 2025-01-28
+      venue: Cinemark Century 20 Daly City
   - title: Desert Fury
     year: 1947
     director:
@@ -20276,6 +20498,10 @@
     year: 1994
     director:
     - Ron Howard
+  - title: The Parent Trap
+    year: 1961
+    director:
+    - David Swift
   - title: The Parent Trap
     year: 1998
     director:
