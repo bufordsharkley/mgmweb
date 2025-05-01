@@ -90,8 +90,10 @@ def current(month):
             print_month_contents(month)
 
 
-def get_tiers_for_year(year, master):
+def get_tiers_for_year(year, master, no_tier=False):
     tiers_for_year = {tier: [] for tier in FULL_TIERS}
+    if no_tier:
+        tiers_for_year['NONE'] = []
     for month in master:
         for film in month['films']:
             if 'filter' in film or 'title' not in film:
@@ -106,6 +108,8 @@ def get_tiers_for_year(year, master):
                     film['month'] = month['month']
                     tiers_for_year[tier].append(film)
                 except KeyError:
+                    if no_tier:
+                        tiers_for_year['NONE'].append({'title': film['title']})
                     print(f'No Tier for {film["title"]}')
                     continue
     return tiers_for_year
@@ -138,15 +142,28 @@ def reccs(tier, num, yearsort):
 @main.command()
 @click.argument('year', default=datetime.datetime.now().year)
 @click.option('--merge', is_flag=True, default=False, help="merge sort")
-def year(year, merge):
+@click.option('--diff', is_flag=True, default=False, help="check against ranking list")
+def year(year, merge, diff):
     """Print all films for a year (corrected for effective year)"""
     goal_year = int(year)
     master = get_master()
 
-    tiers_for_year = get_tiers_for_year(goal_year, master)
+    gather_no_tier = False if not diff else True
+    tiers_for_year = get_tiers_for_year(goal_year, master, no_tier=gather_no_tier)
     total_count = sum(len(x) for x in tiers_for_year.values())
 
     final_merged = {}
+    if diff:
+        ranked = set(x.strip() for x in
+                     open(f'/home/mgm/repos/filmcanon_scripts/{year}ranking.txt').readlines())
+
+        all_films = set()
+        for tier in tiers_for_year.values():
+            for film in tier:
+                all_films.add(film['title'])
+        print(all_films - ranked)
+        print(all_films, ranked)
+        return
     for tier, films in tiers_for_year.items():
         # This is an absolute nightmare, it sorts and then uses groupby to 
         # bunch the same movies per tier from the same month:
