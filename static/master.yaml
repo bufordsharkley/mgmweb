@@ -1,4 +1,223 @@
-# Den of Thieves -- 2/11 Daly City or Tanforan--check
+- month: April 2025
+  status: ranked
+  films:
+  - title: Eephus
+    year: 2024
+    effective_year: 2025
+    director:
+    - Carson Lund
+    stubz:
+      date: 2025-04-01
+      venue: Mariemont Theatre
+    ranking: 6
+    tier: II-B
+  - title: Black Bag
+    year: 2025
+    director:
+    - Steven Soderbergh
+    stubz:
+      date: 2025-04-01
+      venue: Cinemark Oakley Station and XD
+    ranking: 5
+    tier: II-B
+  - title: The Boys from Brazil
+    year: 1978
+    director:
+    - Franklin J. Schaffner
+    ranking: 25
+    tier: III-B
+  - title: Tonsler Park
+    year: 2017
+    director:
+    - Kevin Jerome Everson
+    ranking: 26
+    tier: III-B
+  - title: Smarty
+    year: 1934
+    director:
+    - Robert Florey
+    ranking: 20
+    tier: II-C
+  - title: Chilly Scenes of Winter
+    year: 1979
+    director:
+    - Joan Micklin Silver
+    ranking: 7
+    tier: II-B
+  - title: Trouble Every Day
+    year: 2001
+    director:
+    - Claire Denis
+    ranking: 15
+    tier: II-C
+  - title: Mad Love
+    year: 1935
+    director:
+    - Karl Freund
+    ranking: 2
+    tier: II-Aa
+  - title: The Annihilation of Fish
+    year: 1999
+    director:
+    - Charles Burnett
+    stubz:
+      date: 2025-04-08
+      venue: Esquire Theatre
+    ranking: 18
+    tier: II-C
+  - title: Muriel's Wedding
+    year: 1994
+    director:
+    - P.J. Hogan
+    stubz:
+      date: 2025-04-10
+      venue: ROXIE
+    ranking: 12
+    tier: II-B
+  - title: The Oyster Princess
+    year: 1919
+    director:
+    - Ernst Lubitsch
+    ranking: 19
+    tier: II-C
+  - title: The Woman in the Yard
+    year: 2025
+    director:
+    - Jaume Collet-Serra
+    stubz:
+      date: 2025-04-15
+      venue: Cinemark Century 20 Daly City
+    ranking: 24
+    tier: III-A
+  - title: Imitation of Life
+    year: 1934
+    director:
+    - John M. Stahl
+    ranking: 14
+    tier: II-C
+  - title: Grand Tour
+    year: 2024
+    effective_year: 2025
+    director:
+    - Miguel Gomes
+    stubz:
+      date: 2025-04-17
+      venue: ROXIE
+    ranking: 9
+    tier: II-B
+  - title: Misericordia
+    year: 2024
+    effective_year: 2025
+    director:
+    - Alain Guiraudie
+    stubz:
+      date: 2025-04-18
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - rewatch: Queen Christina (1933)
+    stubz:
+      date: 2025-04-19
+      venue: Stanford Theatre
+    ranking: 22
+    tier: III-A
+  - rewatch: Dr. Jekyll and Mr. Hyde (1931)
+    stubz:
+      date: 2025-04-19
+      venue: Stanford Theatre
+    ranking: 3
+    tier: II-Aa
+  - title: A Sunday in the Country
+    year: 1984
+    director:
+    - Bertrand Tavernier
+    ranking: 1
+    tier: I
+  - title: The Little Shop of Horrors
+    year: 1960
+    director:
+    - Roger Corman
+    stubz:
+      date: 2025-04-21
+      venue: ROXIE
+    ranking: 27
+    tier: III-C
+  - title: The Shrouds
+    year: 2024
+    effective_year: 2025
+    director:
+    - David Cronenberg
+    stubz:
+      date: 2025-04-21
+      venue: ROXIE
+    ranking: 13
+    tier: II-C
+  - title: Sinners
+    year: 2025
+    director:
+    - Ryan Coogler
+    stubz:
+      date: 2025-04-22
+      venue: AMC Metreon 16
+    ranking: 10
+    tier: II-B
+  - title: Falling in Love
+    year: 1984
+    director:
+    - Ulu Grosbard
+    ranking: 23
+    tier: III-A
+  - title: Trash Humpers
+    year: 2009
+    director:
+    - Harmony Korine
+    ranking: 17
+    tier: II-C
+  - title: The Plot Against Harry
+    year: 1971
+    director:
+    - Michael Roemer
+    ranking: 11
+    tier: II-B
+  - title: 'Jerry Lee Lewis: Trouble in Mind'
+    year: 2022
+    effective_year: 2024
+    director:
+    - Ethan Coen
+    ranking: 21
+    tier: II-C
+  - title: 'Star Wars: Episode III - Revenge of the Sith'
+    year: 2005
+    director:
+    - George Lucas
+    stubz:
+      date: 2025-04-29
+      venue: Cinemark Century 20 Daly City
+    ranking: 16
+    tier: II-C
+  - title: 'Met Live in HD: Mozart: Le Nozze di Figaro'
+    year: 2025
+    director:
+    - Habib Azar
+    filter: true
+    stubz:
+      date: 2025-04-30
+      venue: Cinemark Century 20 Daly City
+  - title: Cleopatra
+    year: 1934
+    director:
+    - Cecil B. DeMille
+    ranking: 4
+    tier: II-A
+  tiers:
+    I: 1
+    II-A: 3
+    II-B: 8
+    II-C: 9
+    III-A: 3
+    III-B: 2
+    III-C: 1
+    IV: 0
 - month: March 2025
   status: ranked
   films:
@@ -212,7 +431,7 @@
     ranking: 5
     tier: II-Aa
     stubz:
-      date: 2025-02-9999
+      date: 2025-02-07
       venue: Stanford Theatre
   - title: State of the Union
     year: 1948
@@ -220,9 +439,15 @@
     - Frank Capra
     ranking: 22
     tier: III-A
+    stubz:
+      date: 2025-02-08
+      venue: Stanford Theatre
   - rewatch: Meet John Doe (1941)
     ranking: 3
     tier: I
+    stubz:
+      date: 2025-02-08
+      venue: Stanford Theatre
   - title: Den of Thieves
     year: 2018
     director:
