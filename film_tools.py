@@ -121,12 +121,13 @@ def get_tiers_for_year(year, master, no_tier=False):
 @click.option('--yearsort', is_flag=True, default=False, help="sort by year")
 def reccs(tier, num, yearsort):
     master = get_master()
-    idx = FULL_TIERS.index(tier)
-    tiers = FULL_TIERS[:idx + 1]
+    if tier != 'ALL':
+        idx = FULL_TIERS.index(tier)
+        tiers = FULL_TIERS[:idx + 1]
     all_possible_reccs = []
     for month in master:
         for film in month['films']:
-            if 'tier' in film and film['tier'] in tiers and 'title' in film:
+            if 'tier' in film and (tier == 'ALL' or film['tier'] in tiers) and 'title' in film:
                 directors = ', '.join(film['director'])
                 film_str = (f"{film['title']} ({directors}, {film['year']})")
                 all_possible_reccs.append(film_str)

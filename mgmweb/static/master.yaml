@@ -1,3 +1,230 @@
+- month: May 2025
+  status: ranked
+  films:
+  - title: About Dry Grasses
+    year: 2023
+    director:
+    - Nuri Bilge Ceylan
+    ranking: 20
+    tier: II-C
+  - title: Thunder on the Hill
+    year: 1951
+    director:
+    - Douglas Sirk
+    ranking: 23
+    tier: III-A
+  - title: The Surfer
+    year: 2024
+    effective_year: 2025
+    director:
+    - Lorcan Finnegan
+    stubz:
+      date: 2025-05-06
+      venue: Cinemark Century at Tanforan 20 & XD
+    ranking: 19
+    tier: II-C
+  - title: Warfare
+    year: 2025
+    director:
+    - Ray Mendoza
+    - Alex Garland
+    stubz:
+      date: 2025-05-06
+      venue: Cinemark Century 20 Daly City
+    ranking: 10
+    tier: II-B
+  - title: Deep Red
+    year: 1975
+    director:
+    - Dario Argento
+    ranking: 9
+    tier: II-B
+  - rewatch: Killer of Sheep (1977)
+    stubz:
+      date: 2025-05-08
+      venue: ROXIE
+    ranking: 3
+    tier: II-Aa
+  - title: Ossos
+    year: 1997
+    director:
+    - Pedro Costa
+    ranking: 26
+    tier: III-B
+  - title: The Nun's Story
+    year: 1959
+    director:
+    - Fred Zinnemann
+    stubz:
+      date: 2025-05-10
+      venue: Stanford Theatre
+    ranking: 14
+    tier: II-C
+  - title: Elisa, vida mia
+    year: 1977
+    director:
+    - Carlos Saura
+    ranking: 2
+    tier: I
+  - title: Bonjour Tristesse
+    year: 2024
+    effective_year: 2025
+    director:
+    - Durga Chew-Bose
+    stubz:
+      date: 2025-05-13
+      venue: Landmark Opera Plaza
+    ranking: 16
+    tier: II-C
+  - title: The Accountant 2
+    year: 2025
+    director:
+    - Gavin O'Connor
+    stubz:
+      date: 2025-05-13
+      venue: Cinemark Century 20 Daly City
+    ranking: 27
+    tier: III-B
+  - title: Magic Farm
+    year: 2025
+    director:
+    - Amalia Ulman
+    stubz:
+      date: 2025-05-14
+      venue: ROXIE
+    ranking: 15
+    tier: II-C
+  - title: Blue Sun Palace
+    year: 2024
+    effective_year: 2025
+    director:
+    - Constance Tsang
+    stubz:
+      date: 2025-05-15
+      venue: ROXIE
+    ranking: 12
+    tier: II-C
+  - title: Vertical Features Remake
+    year: 1978
+    director:
+    - Peter Greenaway
+    ranking: 4
+    tier: II-Aa
+  - title: Welcome to Marwen
+    year: 2018
+    director:
+    - Robert Zemeckis
+    ranking: 28
+    tier: III-C
+  - title: Overboard
+    year: 2018
+    director:
+    - Rob Greenberg
+    ranking: 25
+    tier: III-A
+  - title: Skyscraper
+    year: 2018
+    director:
+    - Rawson Marshall Thurber
+    ranking: 21
+    tier: II-C
+  - title: Caught by the Tides
+    year: 2024
+    effective_year: 2025
+    director:
+    - Jia Zhangke
+    stubz:
+      date: 2025-05-19
+      venue: ROXIE
+    ranking: 6
+    tier: II-A
+  - rewatch: Mandy (2018)
+    stubz:
+      date: 2025-05-22
+      venue: ROXIE
+    ranking: 7
+    tier: II-A
+  - title: Lady Vengeance
+    year: 2005
+    director:
+    - Chan-wook Park
+    stubz:
+      date: 2025-05-20
+      venue: ROXIE
+    ranking: 22
+    tier: II-C
+  - title: Joint Security Area
+    year: 2000
+    director:
+    - Chan-wook Park
+    ranking: 24
+    tier: III-A
+  - title: The Assassin
+    year: 2015
+    director:
+    - Hou Hsiao-hsien
+    ranking: 13
+    tier: II-C
+  - title: Friendship
+    year: 2024
+    effective_year: 2025
+    director:
+    - Andrew DeYoung
+    stubz:
+      date: 2025-05-27
+      venue: Cinemark Century Mountain View 16
+    ranking: 8
+    tier: II-B
+  - title: Invention
+    year: 2024
+    effective_year: 2025
+    director:
+    - Courtney Stephens
+    stubz:
+      date: 2025-05-28
+      venue: ROXIE
+    ranking: 11
+    tier: II-B
+  - title: Don't Torture a Duckling
+    year: 1972
+    director:
+    - Lucio Fulci
+    ranking: 18
+    tier: II-C
+  - title: Sister Midnight
+    year: 2024
+    effective_year: 2025
+    director:
+    - Karan Kandhari
+    stubz:
+      date: 2025-05-31
+      venue: AMC Mercado 20
+    ranking: 5
+    tier: II-A
+  - rewatch: Swing Time (1936)
+    stubz:
+      date: 2025-05-31
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: Broadway Melody of 1940
+    year: 1940
+    director:
+    - Norman Taurog
+    stubz:
+      date: 2025-05-31
+      venue: Stanford Theatre
+    ranking: 17
+    tier: II-C
+  tiers:
+    I: 2
+    II-A: 5
+    II-B: 4
+    II-C: 11
+    III-A: 3
+    III-B: 2
+    III-C: 1
+    IV: 0
 - month: April 2025
   status: ranked
   films:
@@ -7044,11 +7271,19 @@
     director:
     - Sofia Coppola
     tier: G
+  - title: Little Women
+    year: 1933
+    director:
+    - George Cukor
+    tier: G
   - title: When Marnie Was There
     year: 2014
     director:
     - Hiromasa Yonebayashi
     tier: G
+    stubz:
+      date: 2015-06-09
+      venue: Guild Theatre
   - title: Double Suicide
     year: 1969
     director:
