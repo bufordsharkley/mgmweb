@@ -1,5 +1,5 @@
 test:
-	env/bin/python test.py
+	python test.py
 
 freeze:
 	python freeze.py
