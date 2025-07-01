@@ -119,18 +119,61 @@ def get_tiers_for_year(year, master, no_tier=False):
 @click.option('--tier', default="II-B", help="tier or higher to recommend from")
 @click.option('--num', default=1, help="number of reccs")
 @click.option('--yearsort', is_flag=True, default=False, help="sort by year")
-def reccs(tier, num, yearsort):
+@click.option('--randomold', is_flag=True, default=False, help="Random old one")
+@click.option('--completechrono', is_flag=True, default=False, help="complete for tier")
+def reccs(tier, num, yearsort, randomold, completechrono):
+    if randomold:
+        master = get_master()
+        all_possible_reccs = []
+        for month in master:
+            year = int(month['month'].split()[-1])
+            if year > 2014:
+                continue
+            for film in month['films']:
+                if 'title' in film:
+                    directors = ', '.join(film['director'])
+                    film_str = (f"{film['title']} ({directors}, {film['year']})")
+                    all_possible_reccs.append(film_str)
+        random.shuffle(all_possible_reccs)
+        print(all_possible_reccs[0])
+        return
     master = get_master()
     if tier != 'ALL':
         idx = FULL_TIERS.index(tier)
         tiers = FULL_TIERS[:idx + 1]
+        if completechrono:
+            tiers = [tier]
     all_possible_reccs = []
+    decades = {x: 0 for x in ('1910s', '1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s')}
     for month in master:
         for film in month['films']:
             if 'tier' in film and (tier == 'ALL' or film['tier'] in tiers) and 'title' in film:
                 directors = ', '.join(film['director'])
-                film_str = (f"{film['title']} ({directors}, {film['year']})")
+                year = film['year']
+                film_str = (f"{film['title']} ({directors}, {year})")
+                if 1910 <= year < 1920:
+                    decades['1910s'] += 1
+                elif 1920 <= year < 1930:
+                    decades['1920s'] += 1
+                elif 1930 <= year < 1940:
+                    decades['1930s'] += 1
+                elif 1940 <= year < 1950:
+                    decades['1940s'] += 1
+                elif 1950 <= year < 1960:
+                    decades['1950s'] += 1
+                elif 1960 <= year < 1970:
+                    decades['1960s'] += 1
+                elif 1970 <= year < 1980:
+                    decades['1970s'] += 1
+                elif 1980 <= year < 1990:
+                    decades['1980s'] += 1
                 all_possible_reccs.append(film_str)
+    for k, v in decades.items():
+        print(f"{k}: {v}")
+    if completechrono:
+        assert tier in FULL_TIERS
+        print('\n'.join(sorted(all_possible_reccs, key=lambda x: x.rsplit(' ', 1)[1])))
+        return
     if not yearsort:
         random.shuffle(all_possible_reccs)
         print('\n'.join(x for x in all_possible_reccs[:num]))

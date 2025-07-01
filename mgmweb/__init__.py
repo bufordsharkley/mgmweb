@@ -9,7 +9,7 @@ import markdown
 import yaml
 
 #from .drawing_metadata import metadata
-from .film_logic import organize_month_data_into_tiers, flesh_out_rewatches
+from .film_logic import organize_month_data_into_tiers, flesh_out_rewatches, get_chrono_reccs
 from .frontpage_descriptions import splash_descriptions
 from .film_100 import top100films
 
@@ -193,7 +193,8 @@ def film():
     films = yaml.load(app.open_resource('static/master.yaml'),
                       Loader=yaml.FullLoader)
     random.shuffle(films[-1]['films'])
-    return flask.render_template('film.html', films=films)
+    chrono_reccs = get_chrono_reccs(films)
+    return flask.render_template('film.html', films=films, chrono=chrono_reccs)
 
 
 @app.route('/film/ranked.html')

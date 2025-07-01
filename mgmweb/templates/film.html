@@ -3,6 +3,24 @@
   {{ super() }}
 
 <script type="module" src="/static/summbit-discrete-slider.min.js"></script>
+<script type="text/javascript">
+  function expandContractChrono() {
+    var obj = {
+      'chronolist-I': 1,
+      'chronolist-II-Aa': 2,
+      'chronolist-II-A': 3,
+    };
+
+    for (var key in obj) {
+      el = document.getElementById(key)
+      el.classList.toggle('expanded')
+      el.classList.toggle('collapsed')
+    }
+    el = document.getElementById("chronocontainer")
+    el.classList.toggle('expanded')
+    el.classList.toggle('collapsed')
+  }
+</script>
 <style type="text/css">
   span.film-I {
     background-color:#baa;
@@ -42,6 +60,56 @@
    color:#147ca8;
   }
 
+  button.chronobox {
+    text-align: center;
+    font-family: 'italic_oblique';
+    background-color: #e6ebeb;
+    font-size: 1.14em;
+    color: black;
+    border: 2px solid #007fc6; /*#006fac*/
+    width: 400px;
+    margin: auto;
+    margin-bottom: .8em;
+
+  }
+
+  #chronocontainer {
+    overflow: hidden;
+    width:560px;
+    margin: auto;
+    background-color: #f4fafe;
+    padding:10px;
+    border: 4px #e0cccc;
+    border-style: none solid;
+    margin-top: -8px;
+    transition: all 3s;
+  }
+
+  .chronolist {
+    margin-top: -900em;
+    transition: all 3s;
+  }
+
+  .chronolist.expanded {
+    margin-top: 0;
+  }
+  
+  #chronocontainer.collapsed {
+    background-color: #ffffff;
+    border: none;
+  }
+
+  span.chronoentry {
+    padding: 0 1em;
+  }
+  
+  .chronoentry:nth-child(odd) {
+    background-color: #e0cccc;
+  }
+
+  .chronoentry:nth-child(even) {
+  }
+
   @media (min-width: 550px) {
   .filmrecctitle {
     text-align:center;
@@ -65,9 +133,22 @@
     }
 
 
+    document.getElementById("chronolist-I").style.display = 'none';
+    document.getElementById("chronolist-II-Aa").style.display = 'none';
+    document.getElementById("chronolist-II-A").style.display = 'none';
+    if (event.detail.value == 2) {
+      document.getElementById("chronolist-I").style.display = 'block';
+    }
+    if (event.detail.value == 3) {
+      document.getElementById("chronolist-II-Aa").style.display = 'block';
+    }
+    if (event.detail.value == 4) {
+      document.getElementById("chronolist-II-A").style.display = 'block';
+    }
+
+
     currRules = cssSliderRules[event.detail.value];
     // looping through all its rules and getting your rule
-
     for (var key in currRules) {
       var bgColor = currRules[key];
       for(let i = 0; i < stylesheet.cssRules.length; i++) {
@@ -104,6 +185,32 @@
   </div>
   </div>
   <h3 class="filmrecctitle">Film Recommendations</h3>
+  <div style="text-align:center">
+    <button class="chronobox" onclick="expandContractChrono()">chrono super-recc view</button>
+  </div>
+  <div id="chronocontainer" class="collapsed">
+    <div id="chronolist-I" class="chronolist collapsed">
+      <h4 style="font-family:'montaga';text-align:center">Semi-comprehensive-list of all films of the highest tier ({{chrono['I'] | length}} total)</h4>
+    {% for film in chrono['I'] %}
+      <span class="chronoentry">{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
+    {% endfor %}
+    <h4 style="font-family:'montaga';text-align:center">End of list</h4><div style="text-align: center"><button class="chronobox" onclick="expandContractChrono()">make this list go away</button></div>
+    </div>
+    <div id="chronolist-II-Aa" class="chronolist collapsed" style="display:none">
+      <h4 style="font-family:'montaga';text-align:center">Semi-comprehensive-list of all films of 2nd-highest tier ({{chrono['II-Aa'] | length}} total)</h4>
+    {% for film in chrono['II-Aa'] %}
+      <span class="chronoentry">{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
+    {% endfor %}
+    <h4 style="font-family:'montaga';text-align:center">End of list</h4><div style="text-align: center"><button class="chronobox" onclick="expandContractChrono()">make this list go away</button></div>
+    </div>
+    <div id="chronolist-II-A" class="chronolist collapsed" style="display:none">
+      <h4 style="font-family:'montaga';text-align:center">Semi-comprehensive-list of all films of 3rd-highest tier ({{chrono['II-A'] | length}} total)</h4>
+    {% for film in chrono['II-A'] %}
+      <span class="chronoentry">{{film.title}} ({{", ".join(film.director)}}, {{film.year}})</span>
+    {% endfor %}
+    <h4 style="font-family:'montaga';text-align:center">End of list</h4><div style="text-align: center"><button class="chronobox" onclick="expandContractChrono()">make this list go away</button></div>
+    </div>
+  </div>
   {% for month in films if month.status != "in-progress" %}
     <span class="{{"film-" if month.status == "unranked"}}">
     <span class="film-month">

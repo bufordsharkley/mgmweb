@@ -1,6 +1,29 @@
 import itertools
 
 
+def get_chrono_reccs(films):
+    tier = 'I'
+    reccs = {'I': [], 'II-Aa': [], 'II-A': []}
+    for month in films:
+        for film in month['films']:
+            if film.get('filter', False):
+                continue
+            if 'title' not in film:
+                continue
+            if 'tier' in film and film['tier'] == 'I':
+                reccs['I'].append(film)
+                reccs['II-Aa'].append(film)
+                reccs['II-A'].append(film)
+            elif 'tier' in film and film['tier'] == 'II-Aa':
+                reccs['II-Aa'].append(film)
+                reccs['II-A'].append(film)
+            elif 'tier' in film and film['tier'] == 'II-A':
+                reccs['II-A'].append(film)
+    for films in reccs.values():
+        films.sort(key=lambda x: x['year'])
+    return reccs
+
+
 def flesh_out_rewatches(master, log_errors=False):
     # First, list of all rewatches
     rewatches = set()
