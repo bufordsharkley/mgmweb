@@ -1,3 +1,224 @@
+- month: June 2025
+  status: ranked
+  films:
+  - title: Bring Her Back
+    year: 2025
+    director:
+    - Danny Philippou
+    - Michael Philippou
+    stubz:
+      date: 2025-06-03
+      venue: Cinemark Century 20 Daly City
+    ranking: 12
+    tier: II-B
+  - rewatch: Caught by the Tides (2024)
+    stubz:
+      date: 2025-06-03
+      venue: ROXIE
+    ranking: 7
+    tier: II-A
+  - title: 'Unbecoming Attractions VI: A 35mm Trailer Show'
+    filter: true
+    stubz:
+      date: 2025-06-04
+      venue: ROXIE
+  - rewatch: Ran (1985)
+    stubz:
+      date: 2025-06-04
+      venue: ROXIE
+    ranking: 2
+    tier: I
+  - title: Death Watch
+    year: 1980
+    director:
+    - Bertrand Tavernier
+    ranking: 21
+    tier: II-C
+  - rewatch: Top Hat (1935)
+    stubz:
+      date: 2025-06-07
+      venue: Stanford Theatre
+    ranking: 8
+    tier: II-B
+  - title: Dark Water
+    year: 2002
+    director:
+    - Hideo Nakata
+    ranking: 28
+    tier: III-A
+  - title: His Motorbike, Her Island
+    year: 1986
+    director:
+    - Nobuhiko Obayashi
+    stubz:
+      date: 2025-06-09
+      venue: ROXIE
+    ranking: 6
+    tier: II-Aa
+  - rewatch: The Fast and the Furious (2001)
+    stubz:
+      date: 2025-06-09
+      venue: ROXIE
+    ranking: 9
+    tier: II-B
+  - title: The Phoenician Scheme
+    year: 2025
+    director:
+    - Wes Anderson
+    stubz:
+      date: 2025-06-10
+      venue: AMC Kabuki 8
+    ranking: 5
+    tier: II-Aa
+  - title: Dangerous Animals
+    year: 2025
+    director:
+    - Sean Byrne
+    stubz:
+      date: 2025-06-10
+      venue: Cinemark Century 20 Daly City
+    ranking: 26
+    tier: III-A
+  - title: Barbarella
+    year: 1968
+    director:
+    - Roger Vadim
+    ranking: 27
+    tier: III-A
+  - title: School in the Crosshairs
+    year: 1981
+    director:
+    - Nobuhiko Obayashi
+    stubz:
+      date: 2025-06-16
+      venue: ROXIE
+    ranking: 11
+    tier: II-B
+  - title: Northern Lights
+    year: 1978
+    director:
+    - John Hanson
+    - Rob Nilsson
+    stubz:
+      date: 2025-06-17
+      venue: ROXIE
+    ranking: 16
+    tier: II-C
+  - title: 'Mission: Impossible – The Final Reckoning'
+    year: 2025
+    director:
+    - Christopher McQuarrie
+    stubz:
+      date: 2025-06-17
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
+  - title: Belle Époque
+    year: 1992
+    director:
+    - Fernando Trueba
+    ranking: 18
+    tier: II-C
+  - title: The Golden Coach
+    year: 1952
+    director:
+    - Jean Renoir
+    ranking: 4
+    tier: II-Aa
+  - title: Casualties of War
+    year: 1989
+    director:
+    - Brian De Palma
+    ranking: 25
+    tier: III-A
+  - title: Tongues Untied
+    year: 1989
+    director:
+    - Marlon T. Riggs
+    ranking: 24
+    tier: III-A
+  - title: The Mystic
+    year: 1925
+    director:
+    - Tod Browning
+    ranking: 10
+    tier: II-B
+  - title: 28 Years Later
+    year: 2025
+    director:
+    - Danny Boyle
+    stubz:
+      date: 2025-06-24
+      venue: Cinemark Century 20 Daly City
+    ranking: 13
+    tier: II-B
+  - title: 'From the World of John Wick: Ballerina'
+    year: 2025
+    director:
+    - Len Wiseman
+    - Chad Stahelski
+    stubz:
+      date: 2025-06-24
+      venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
+  - title: Volver
+    year: 2006
+    director:
+    - Pedro Almodóvar
+    ranking: 15
+    tier: II-C
+  - rewatch: Un Homme et une Femme (1966)
+    stubz:
+      date: 2025-06-25
+      venue: ROXIE
+    ranking: 3
+    tier: II-Aa
+  - title: Last Night in Soho
+    year: 2021
+    director:
+    - Edgar Wright
+    ranking: 23
+    tier: II-C
+  - rewatch: Rear Window (1954)
+    stubz:
+      date: 2025-06-27
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: Tag
+    year: 2018
+    director:
+    - Jeff Tomsic
+    ranking: 29
+    tier: IV
+  - title: The Four Musketeers
+    year: 1974
+    director:
+    - Richard Lester
+    ranking: 20
+    tier: II-C
+  - title: The Angel Levine
+    year: 1970
+    director:
+    - Ján Kadár
+    ranking: 14
+    tier: II-B
+  - title: The Lawless
+    year: 1950
+    director:
+    - Joseph Losey
+    ranking: 19
+    tier: II-C
+  tiers:
+    I: 2
+    II-A: 5
+    II-B: 7
+    II-C: 9
+    III-A: 5
+    III-B: 0
+    III-C: 0
+    IV: 1
 - month: May 2025
   status: ranked
   films:
@@ -5627,7 +5848,7 @@
     director:
     - Andrzej Żuławski
     tier: I
-  - title: French Dispatch
+  - title: The French Dispatch
     year: 2021
     director:
     - Wes Anderson
@@ -7961,12 +8182,12 @@
     year: 2013
     director:
     - Danny Boyle
-    tier: II-B
+    tier: II-A
   - title: To the Wonder
     year: 2012
     director:
     - Terrence Malick
-    tier: II-A
+    tier: II-Aa
   - title: Medium Cool
     year: 1969
     director:
@@ -18371,7 +18592,7 @@
     - Howard Hawks
     ranking: 11
     tier: II-B
-  - title: 28 Days Later...
+  - title: 28 Days Later
     year: 2002
     director:
     - Danny Boyle
@@ -18737,7 +18958,7 @@
     III-B: 1
     III-C: 0
     IV: 2
-- month: 'Before Feb 2005:'
+- month: Before Feb 2005
   films:
   - title: 12 Angry Men
     year: 1957
@@ -18747,6 +18968,7 @@
     year: 1997
     director:
     - William Friedkin
+    tier: G
   - title: '2001: A Space Odyssey'
     year: 1968
     director:
@@ -18756,6 +18978,7 @@
     year: 1935
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: The 400 Blows
     year: 1959
     director:
@@ -18768,6 +18991,7 @@
     year: 2001
     director:
     - Billy Crystal
+    tier: G
   - title: 8½
     year: 1963
     director:
@@ -18785,38 +19009,47 @@
     year: 1948
     director:
     - Charles Barton
+    tier: G
   - title: Abbott and Costello Meet the Invisible Man
     year: 1951
     director:
     - Charles Lamont
+    tier: G
   - title: Abbott and Costello Meet the Mummy
     year: 1955
     director:
     - Charles Lamont
+    tier: G
   - title: About Schmidt
     year: 2002
     director:
     - Alexander Payne
+    tier: II-Aa
   - title: The Absent Minded Professor
     year: 1961
     director:
     - Robert Stevenson
+    tier: G
   - title: 'Ace Ventura: Pet Detective'
     year: 1994
     director:
     - Tom Shadyac
+    tier: G
   - title: 'Ace Ventura: When Nature Calls'
     year: 1995
     director:
     - Steve Oedekerk
+    tier: G
   - title: Adaptation.
     year: 2002
     director:
     - Spike Jonze
+    tier: II-A
   - title: Addams Family Values
     year: 1993
     director:
     - Barry Sonnenfeld
+    tier: II-B
   - title: The Addams Family
     year: 1991
     director:
@@ -18834,6 +19067,7 @@
     director:
     - Michael Curtiz
     - William Keighley
+    tier: II-Aa
   - title: A.I. Artificial Intelligence
     year: 2001
     director:
@@ -18846,6 +19080,7 @@
     year: 1982
     director:
     - Ken Finkleman
+    tier: G
   - title: Airplane!
     year: 1980
     director:
@@ -18861,6 +19096,7 @@
     year: 2004
     director:
     - Oliver Stone
+    tier: G
   - title: Alice in Wonderland
     year: 1951
     director:
@@ -18896,6 +19132,7 @@
     year: 1930
     director:
     - Lewis Milestone
+    tier: II-A
   - title: All the President's Men
     year: 1976
     director:
@@ -18904,6 +19141,7 @@
     year: 2000
     director:
     - Billy Bob Thornton
+    tier: G
   - title: Almost Famous
     year: 2000
     director:
@@ -18920,6 +19158,7 @@
     year: 1995
     director:
     - Rob Reiner
+    tier: G
   - title: American Splendor
     year: 2003
     director:
@@ -18934,22 +19173,27 @@
     director:
     - Phil Nibbelink
     - Simon Wells
+    tier: G
   - title: An American Werewolf in London
     year: 1981
     director:
     - John Landis
+    tier: II-A
   - title: Americathon
     year: 1979
     director:
     - Neal Israel
+    tier: G
   - title: Amy & Isabelle
     year: 2001
     director:
     - Lloyd Kramer
+    tier: G
   - title: 'And the Beat Goes On: The Sonny and Cher Story'
     year: 1999
     director:
     - David Burton Morris
+    tier: G
   - title: And Then There Were None
     year: 1945
     director:
@@ -18962,6 +19206,7 @@
     year: 1994
     director:
     - William Dear
+    tier: G
   - title: Animal House
     year: 1978
     director:
@@ -18980,6 +19225,7 @@
     director:
     - Eric Darnell
     - Tim Johnson
+    tier: G
   - title: Any Given Sunday
     year: 1999
     director:
@@ -18993,6 +19239,7 @@
     year: 1979
     director:
     - Francis Ford Coppola
+    tier: II-Aa
   - title: Apollo 13
     year: 1995
     director:
@@ -19005,6 +19252,7 @@
     year: 1990
     director:
     - Frank Marshall
+    tier: G
   - title: Arsenic and Old Lace
     year: 1944
     director:
@@ -19029,6 +19277,7 @@
     year: 1999
     director:
     - Jay Roach
+    tier: G
   - title: The Autobiography of Miss Jane Pittman
     year: 1974
     director:
@@ -19037,6 +19286,7 @@
     year: 1996
     director:
     - Leon Ichaso
+    tier: G
   - title: Babe
     year: 1995
     director:
@@ -19053,6 +19303,7 @@
     year: 1985
     director:
     - Robert Zemeckis
+    tier: II-Aa
   - title: Back to the Future Part II
     year: 1989
     director:
@@ -19065,10 +19316,12 @@
     year: 1991
     director:
     - Ron Howard
+    tier: G
   - title: Balto
     year: 1995
     director:
     - Simon Wells
+    tier: G
   - title: Bambi
     year: 1942
     director:
@@ -19081,6 +19334,7 @@
     year: 1940
     director:
     - Edward F. Cline
+    tier: II-A
   - title: Barry Lyndon
     year: 1975
     director:
@@ -19107,6 +19361,7 @@
     year: 1992
     director:
     - Tim Burton
+    tier: II-Aa
   - title: Batteries Not Included
     year: 1987
     director:
@@ -19119,6 +19374,7 @@
     year: 2000
     director:
     - Jeff Bleckner
+    tier: G
   - title: A Beautiful Mind
     year: 2001
     director:
@@ -19140,14 +19396,17 @@
     year: 1989
     director:
     - David Devine
+    tier: G
   - title: Beethoven's 2nd
     year: 1993
     director:
     - Rod Daniel
-  - title: Beetle Juice
+    tier: G
+  - title: Beetlejuice
     year: 1988
     director:
     - Tim Burton
+    tier: I
   - title: Being John Malkovich
     year: 1999
     director:
@@ -19165,6 +19424,7 @@
     year: 1946
     director:
     - William Wyler
+    tier: I
   - title: The Beverly Hillbillies
     year: 1993
     director:
@@ -19185,6 +19445,7 @@
     year: 1998
     director:
     - Joel Coen & Ethan Coen
+    tier: II-Aa
   - title: The Big One
     year: 1997
     director:
@@ -19193,6 +19454,7 @@
     year: 1946
     director:
     - Howard Hawks
+    tier: G
   - title: Bill & Ted's Bogus Journey
     year: 1991
     director:
@@ -19209,10 +19471,12 @@
     year: 1991
     director:
     - Matthew Robbins
+    tier: G
   - title: Black Sheep
     year: 1996
     director:
     - Penelope Spheeris
+    tier: G
   - title: Blackmail
     year: 1929
     director:
@@ -19229,6 +19493,7 @@
     year: 1994
     director:
     - Rupert Wainwright
+    tier: G
   - title: The Blob
     year: 1958
     director:
@@ -19237,18 +19502,22 @@
     year: 1984
     director:
     - Joel Coen & Ethan Coen
+    tier: II-Aa
   - title: Blue Velvet
     year: 1986
     director:
     - David Lynch
+    tier: I
   - title: Blues Brothers 2000
     year: 1998
     director:
     - John Landis
+    tier: G
   - title: The Blues Brothers
     year: 1980
     director:
     - John Landis
+    tier: II-Aa
   - title: Body and Soul
     year: 1947
     director:
@@ -19257,7 +19526,7 @@
     year: 1967
     director:
     - Arthur Penn
-  - title: Boot, Das
+  - title: Das Boot
     year: 1981
     director:
     - Wolfgang Petersen
@@ -19265,6 +19534,7 @@
     year: 1996
     director:
     - Wes Anderson
+    tier: II-Aa
   - title: Bowfinger
     year: 1999
     director:
@@ -19277,6 +19547,7 @@
     year: 1985
     director:
     - Terry Gilliam
+    tier: II-A
   - title: Breakfast of Champions
     year: 1999
     director:
@@ -19285,6 +19556,7 @@
     year: 1935
     director:
     - James Whale
+    tier: II-Aa
   - title: The Bridge on the River Kwai
     year: 1957
     director:
@@ -19293,10 +19565,12 @@
     year: 1999
     director:
     - Martin Scorsese
+    tier: II-A
   - title: Bringing Up Baby
     year: 1938
     director:
     - Howard Hawks
+    tier: I
   - title: The Brink's Job
     year: 1978
     director:
@@ -19309,6 +19583,7 @@
     year: 2003
     director:
     - Tom Shadyac
+    tier: G
   - title: A Bug's Life
     year: 1998
     director:
@@ -19326,6 +19601,7 @@
     year: 1995
     director:
     - Greg Beeman
+    tier: G
   - title: Butch Cassidy and the Sundance Kid
     year: 1969
     director:
@@ -19342,10 +19618,12 @@
     year: 1988
     director:
     - Allan Arkush
+    tier: G
   - title: Camp Nowhere
     year: 1994
     director:
     - Jonathan Prince
+    tier: G
   - title: Cannibal Women in the Avocado Jungle of Death
     year: 1989
     director:
@@ -19384,6 +19662,7 @@
     year: 1974
     director:
     - Roman Polanski
+    tier: II-A
   - title: Christmas on Division Street
     year: 1991
     director:
@@ -19410,6 +19689,7 @@
     year: 1941
     director:
     - Orson Welles
+    tier: I
   - title: City Lights
     year: 1931
     director:
@@ -19424,6 +19704,7 @@
     director:
     - Katia Lund
     - Fernando Meirelles
+    tier: II-A
   - title: City Slickers
     year: 1991
     director:
@@ -19432,14 +19713,17 @@
     year: 1994
     director:
     - Paul Weiland
+    tier: G
   - title: Clash of the Titans
     year: 1981
     director:
     - Desmond Davis
+    tier: G
   - title: Clean Slate
     year: 1994
     director:
     - Mick Jackson
+    tier: G
   - title: Clerks
     year: 1994
     director:
@@ -19453,10 +19737,12 @@
     director:
     - Stanley Kubrick
     notes: Several rewatches (2011, September 2022)
+    tier: II-A
   - title: Clue
     year: 1985
     director:
     - Jonathan Lynn
+    tier: II-A
   - title: Clueless
     year: 1995
     director:
@@ -19474,6 +19760,7 @@
     director:
     - James W. Horne
     - Buster Keaton
+    tier: II-Aa
   - title: 'Come On, Get Happy: The Partridge Family Story'
     year: 1999
     director:
@@ -19482,14 +19769,17 @@
     year: 1988
     director:
     - John Landis
+    tier: G
   - title: The Computer Wore Tennis Shoes
     year: 1969
     director:
     - Robert Butler
+    tier: G
   - title: The Computer Wore Tennis Shoes
     year: 1995
     director:
     - Peyton Reed
+    tier: G
   - title: Con Air
     year: 1997
     director:
@@ -19502,6 +19792,7 @@
     year: 1970
     director:
     - Bernardo Bertolucci
+    tier: II-A
   - title: Congo
     year: 1995
     director:
@@ -19515,6 +19806,7 @@
     year: 1967
     director:
     - Stuart Rosenberg
+    tier: II-Aa
   - title: Crouching Tiger, Hidden Dragon
     year: 2000
     director:
@@ -19551,6 +19843,7 @@
     year: 1978
     director:
     - Terrence Malick
+    tier: II-Aa
   - title: Dead Poets Society
     year: 1989
     director:
@@ -19571,6 +19864,7 @@
     year: 1978
     director:
     - Michael Cimino
+    tier: II-Aa
   - title: Delirious
     year: 1991
     director:
@@ -19604,6 +19898,7 @@
     year: 2003
     director:
     - Lars von Trier
+    tier: II-Aa
   - title: Donnie Brasco
     year: 1997
     director:
@@ -19620,14 +19915,17 @@
     year: 1944
     director:
     - Billy Wilder
+    tier: II-A
   - title: Dr. Cyclops
     year: 1940
     director:
     - Ernest B. Shoedsack
+    tier: G
   - title: Dr. Jekyll and Ms. Hyde
     year: 1995
     director:
     - David Price
+    tier: G
   - title: Dr. No
     year: 1962
     director:
@@ -19636,6 +19934,7 @@
     year: 1964
     director:
     - Stanley Kubrick
+    tier: I
   - title: Drácula
     year: 1931
     director:
@@ -19653,6 +19952,7 @@
     year: 1994
     director:
     - Peter and Bobby Farrelly
+    tier: II-A
   - title: Dumbo
     year: 1941
     director:
@@ -19681,6 +19981,7 @@
     year: 1990
     director:
     - Tim Burton
+    tier: II-A
   - title: Eight Men Out
     year: 1988
     director:
@@ -19693,6 +19994,7 @@
     year: 1980
     director:
     - David Lynch
+    tier: II-A
   - title: Emmet Otter's Jug-Band Christmas
     year: 1977
     director:
@@ -19713,6 +20015,7 @@
     year: 1990
     director:
     - John R. Cherry III
+    tier: II-A
   - title: Ernest Goes to School
     year: 1994
     director:
@@ -19737,6 +20040,7 @@
     year: 2004
     director:
     - Michel Gondry
+    tier: II-A
   - title: European Vacation
     year: 1985
     director:
@@ -19753,6 +20057,7 @@
     year: 1986
     director:
     - Robert Mandel
+    tier: II-A
   - title: Face/Off
     year: 1997
     director:
@@ -19773,6 +20078,7 @@
     year: 1996
     director:
     - Joel Coen & Ethan Coen
+    tier: II-Aa
   - title: Fatal Attraction
     year: 1987
     director:
@@ -19809,6 +20115,7 @@
     year: 1999
     director:
     - David Fincher
+    tier: I
   - title: Finding Nemo
     year: 2003
     director:
@@ -19843,18 +20150,22 @@
     year: 1965
     director:
     - Sergio Leone
+    tier: II-Aa
   - title: For Love of the Game
     year: 1999
     director:
     - Sam Raimi
+    tier: G
   - title: For Richer or Poorer
     year: 1997
     director:
     - Bryan Spicer
+    tier: G
   - title: Forever Young
     year: 1992
     director:
     - Steve Miner
+    tier: G
   - title: Forrest Gump
     year: 1994
     director:
@@ -19863,6 +20174,7 @@
     year: 1995
     director:
     - Peter Werner
+    tier: G
   - title: Frailty
     year: 2001
     director:
@@ -19895,6 +20207,7 @@
     year: 2000
     director:
     - Gregory Hoblit
+    tier: II-A
   - title: From Here to Eternity
     year: 1953
     director:
@@ -19919,6 +20232,7 @@
     year: 2004
     director:
     - Zach Braff
+    tier: G
   - title: The General
     year: 1926
     director:
@@ -19933,7 +20247,8 @@
     year: 1966
     director:
     - Alan Rafkin
-  - title: Ghost Busters
+    tier: G
+  - title: Ghostbusters
     year: 1984
     director:
     - Ivan Reitman
@@ -19984,6 +20299,7 @@
     year: 1925
     director:
     - Charles Chaplin
+    tier: I
   - title: GoldenEye
     year: 1995
     director:
@@ -20008,10 +20324,12 @@
     year: 1966
     director:
     - Sergio Leone
+    tier: I
   - title: Goodfellas
     year: 1990
     director:
     - Martin Scorsese
+    tier: II-A
   - title: Gorgo
     year: 1961
     director:
@@ -20020,6 +20338,7 @@
     year: 1967
     director:
     - Mike Nichols
+    tier: I
   - title: La Grande illusion
     year: 1937
     director:
@@ -20072,6 +20391,7 @@
     year: 1996
     director:
     - Bronwen Hughes
+    tier: G
   - title: Harry and the Hendersons
     year: 1987
     director:
@@ -20080,6 +20400,7 @@
     year: 1950
     director:
     - Henry Koster
+    tier: II-Aa
   - title: Heart and Souls
     year: 1993
     director:
@@ -20096,10 +20417,12 @@
     year: 1974
     director:
     - Robert Stevenson
+    tier: G
   - title: Here Come the Munsters
     year: 1995
     director:
     - Robert Ginty
+    tier: G
   - title: Hero
     year: 1992
     director:
@@ -20112,6 +20435,7 @@
     year: 1940
     director:
     - Howard Hawks
+    tier: II-A
   - title: Home Alone
     year: 1990
     director:
@@ -20161,6 +20485,7 @@
     year: 2004
     director:
     - David O. Russell
+    tier: II-A
   - title: Ikiru
     year: 1952
     director:
@@ -20213,6 +20538,7 @@
     year: 1946
     director:
     - Frank Capra
+    tier: I
   - title: Jack
     year: 1996
     director:
@@ -20245,6 +20571,7 @@
     year: 1962
     director:
     - François Truffaut
+    tier: II-A
   - title: Jumanji
     year: 1995
     director:
@@ -20285,10 +20612,12 @@
     year: 1956
     director:
     - Stanley Kubrick
+    tier: I
   - title: Kind Hearts and Coronets
     year: 1949
     director:
     - Robert Hamer
+    tier: II-A
   - title: King Kong
     year: 1933
     director:
@@ -20326,6 +20655,7 @@
     year: 1938
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: Ladybugs
     year: 1992
     director:
@@ -20350,10 +20680,12 @@
     year: 1996
     director:
     - Betty Thomas
+    tier: G
   - title: Laura
     year: 1944
     director:
     - Otto Preminger
+    tier: II-A
   - title: The Lawnmower Man
     year: 1992
     director:
@@ -20379,18 +20711,22 @@
     year: 1999
     director:
     - Jose Luis Cuerda
+    tier: G
   - title: 'Léon: The Professional'
     year: 1994
     director:
     - Luc Besson
+    tier: G
   - title: Liar Liar
     year: 1997
     director:
     - Tom Shadyac
+    tier: G
   - title: The Life Aquatic with Steve Zissou
     year: 2004
     director:
     - Wes Anderson
+    tier: I
   - title: Life is Beautiful
     year: 1997
     director:
@@ -20429,6 +20765,7 @@
     year: 1986
     director:
     - Frank Oz
+    tier: II-A
   - title: Live and Let Die
     year: 1973
     director:
@@ -20445,6 +20782,7 @@
     year: 1989
     director:
     - Simon Wincer
+    tier: II-A
   - title: Look Who's Talking
     year: 1989
     director:
@@ -20470,10 +20808,12 @@
     year: 1975
     director:
     - Woody Allen
+    tier: II-Aa
   - title: The Love Bug
     year: 1997
     director:
     - Peyton Reed
+    tier: G
   - title: M
     year: 1931
     director:
@@ -20486,10 +20826,12 @@
     year: 1942
     director:
     - Orson Welles
+    tier: I
   - title: Magnolia
     year: 1999
     director:
     - Paul Thomas Anderson
+    tier: G
   - title: Major League
     year: 1989
     director:
@@ -20498,6 +20840,7 @@
     year: 1994
     director:
     - David S. Ward
+    tier: G
   - title: The Maltese Falcon
     year: 1941
     director:
@@ -20506,6 +20849,7 @@
     year: 1995
     director:
     - Stephen Herek
+    tier: G
   - title: Man on the Moon
     year: 1999
     director:
@@ -20523,10 +20867,12 @@
     year: 1975
     director:
     - John Huston
+    tier: II-Aa
   - title: The Man with the Golden Gun
     year: 1974
     director:
     - Guy Hamilton
+    tier: G
   - title: The Man Without a Face
     year: 1993
     director:
@@ -20544,6 +20890,7 @@
     year: 1976
     director:
     - John Schlesinger
+    tier: G
   - title: Marnie
     year: 1964
     director:
@@ -20576,6 +20923,7 @@
     year: 1999
     director:
     - The Wachowskis
+    tier: I
   - title: Mean Girls
     year: 2004
     director:
@@ -20604,6 +20952,7 @@
     year: 1927
     director:
     - Fritz Lang
+    tier: I
   - title: Midnight Cowboy
     year: 1969
     director:
@@ -20620,6 +20969,7 @@
     year: 2003
     director:
     - Christopher Guest
+    tier: II-Aa
   - title: Miller's Crossing
     year: 1990
     director:
@@ -20650,6 +21000,7 @@
     year: 1936
     director:
     - Charles Chaplin
+    tier: I
   - title: Mommie Dearest
     year: 1981
     director:
@@ -20687,6 +21038,7 @@
     year: 1939
     director:
     - Frank Capra
+    tier: II-A
   - title: Mrs. Doubtfire
     year: 1993
     director:
@@ -20762,6 +21114,7 @@
     year: 1988
     director:
     - David Zucker
+    tier: II-Aa
   - title: Natural Born Killers
     year: 1994
     director:
@@ -20770,10 +21123,12 @@
     year: 1984
     director:
     - Barry Levinson
+    tier: II-A
   - title: Network
     year: 1976
     director:
     - Sidney Lumet
+    tier: II-A
   - title: 'The NeverEnding Story II: The Next Chapter'
     year: 1990
     director:
@@ -20807,6 +21162,7 @@
     year: 1993
     director:
     - Henry Selick
+    tier: II-A
   - title: North
     year: 1994
     director:
@@ -20815,22 +21171,27 @@
     year: 1959
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: Nosferatu
     year: 1922
     director:
     - F.W. Murnau
+    tier: G
   - title: Not Quite Human
     year: 1987
     director:
     - Steven Hilliard
+    tier: G
   - title: Not Quite Human II
     year: 1989
     director:
     - Eric Luke
+    tier: G
   - title: Nothing But Trouble
     year: 1991
     director:
     - Dan Aykroyd
+    tier: G
   - title: Notorious
     year: 1946
     director:
@@ -20840,6 +21201,7 @@
     year: 2001
     director:
     - David Atkins
+    tier: G
   - title: Now and Then
     year: 1995
     director:
@@ -20848,6 +21210,7 @@
     year: 2000
     director:
     - Fabián Bielinsky
+    tier: G
   - title: Cinema Paradiso
     year: 1988
     director:
@@ -20856,10 +21219,12 @@
     year: 2000
     director:
     - Peter Segal
+    tier: G
   - title: The Nutty Professor
     year: 1963
     director:
     - Jerry Lewis
+    tier: II-A
   - title: The Nutty Professor
     year: 1996
     director:
@@ -20868,6 +21233,7 @@
     year: 2000
     director:
     - Joel Coen & Ethan Coen
+    tier: II-Aa
   - title: October Sky
     year: 1999
     director:
@@ -20912,6 +21278,7 @@
     year: 1975
     director:
     - Milos Forman
+    tier: II-Aa
   - title: One Hundred and One Dalmatians
     year: 1996
     director:
@@ -20926,6 +21293,7 @@
     year: 2002
     director:
     - Jake Kasdan
+    tier: G
   - title: Out of the Past
     year: 1947
     director:
@@ -20950,6 +21318,7 @@
     year: 2002
     director:
     - David Fincher
+    tier: G
   - title: Paper Moon
     year: 1973
     director:
@@ -20982,6 +21351,7 @@
     year: 1957
     director:
     - Stanley Kubrick
+    tier: I
   - title: Patton
     year: 1970
     director:
@@ -21007,10 +21377,12 @@
     year: 2004
     director:
     - Brian Robbins
+    tier: G
   - title: Persona
     year: 1966
     director:
     - Ingmar Bergman
+    tier: II-Aa
   - title: Peter Pan
     year: 1953
     director:
@@ -21133,10 +21505,12 @@
     year: 1994
     director:
     - Robert Redford
+    tier: G
   - title: The Race for the Double Helix
     year: 1987
     director:
     - Mick Jackson
+    tier: G
   - title: Raging Bull
     year: 1980
     director:
@@ -21145,6 +21519,7 @@
     year: 1981
     director:
     - Steven Spielberg
+    tier: II-Aa
   - title: Rain Man
     year: 1988
     director:
@@ -21170,6 +21545,7 @@
     year: 1950
     director:
     - Akira Kurosawa
+    tier: I
   - title: The Ratings Game
     year: 1984
     director:
@@ -21187,10 +21563,12 @@
     year: 1998
     director:
     - Jeff Bleckner
+    tier: G
   - title: Rebecca
     year: 1940
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: The Red Badge of Courage
     year: 1951
     director:
@@ -21237,6 +21615,7 @@
     year: 1983
     director:
     - Philip Kaufman
+    tier: II-Aa
   - title: Road to Perdition
     year: 2002
     director:
@@ -21245,6 +21624,7 @@
     year: 1987
     director:
     - Paul Verhoeven
+    tier: I
   - title: The Rock
     year: 1996
     director:
@@ -21265,6 +21645,7 @@
     year: 1953
     director:
     - William Wyler
+    tier: II-Aa
   - title: Romeo and Juliet
     year: 1968
     director:
@@ -21285,10 +21666,12 @@
     year: 2001
     director:
     - Wes Anderson
+    tier: I
   - title: The Rules of the Game
     year: 1939
     director:
     - Jean Renoir
+    tier: II-Aa
   - title: Rushmore
     year: 1998
     director:
@@ -21303,6 +21686,7 @@
     director:
     - Fred C. Newmeyer
     - Sam Taylor
+    tier: II-Aa
   - title: The Santa Clause
     year: 1994
     director:
@@ -21372,6 +21756,7 @@
     year: 2001
     director:
     - Stephen Chow
+    tier: II-A
   - title: The Shawshank Redemption
     year: 1994
     director:
@@ -21384,10 +21769,12 @@
     year: 1954
     director:
     - Akira Kurosawa
+    tier: II-A
   - title: The Shining
     year: 1980
     director:
     - Stanley Kubrick
+    tier: II-A
     notes: 'Rewatches: October 2019, September 2022'
   - title: Short Circuit
     year: 1986
@@ -21411,6 +21798,7 @@
     director:
     - Stanley Donen
     - Gene Kelly
+    tier: I
   - title: Sister Act
     year: 1992
     director:
@@ -21427,6 +21815,7 @@
     year: 1999
     director:
     - Mark Piznarsky
+    tier: G
   - title: Slam Dunk Ernest
     year: 1995
     director:
@@ -21435,10 +21824,12 @@
     year: 1977
     director:
     - George Roy Hill
+    tier: II-A
   - title: Sleeper
     year: 1973
     director:
     - Woody Allen
+    tier: II-Aa
   - title: Sleeping Beauty
     year: 1959
     director:
@@ -21487,6 +21878,7 @@
     year: 1959
     director:
     - Billy Wilder
+    tier: II-A
   - title: Space Jam
     year: 1996
     director:
@@ -21528,6 +21920,7 @@
     year: 1977
     director:
     - George Lucas
+    tier: II-A
   - title: 'Star Wars: Episode I - The Phantom Menace'
     year: 1999
     director:
@@ -21544,6 +21937,7 @@
     year: 2003
     director:
     - Thomas McCarthy
+    tier: II-A
   - title: Stay Tuned
     year: 1992
     director:
@@ -21565,6 +21959,7 @@
     year: 1973
     director:
     - George Roy Hill
+    tier: I
   - title: The Story of Us
     year: 1999
     director:
@@ -21573,6 +21968,7 @@
     year: 1954
     director:
     - Federico Fellini
+    tier: II-A
   - title: The Straight Story
     year: 1999
     director:
@@ -21582,10 +21978,12 @@
     year: 1946
     director:
     - Orson Welles
+    tier: II-Aa
   - title: Strangers on a Train
     year: 1951
     director:
     - Alfred Hitchcock
+    tier: II-Aa
   - title: Street Fighter
     year: 1994
     director:
@@ -21606,6 +22004,7 @@
     year: 1941
     director:
     - Preston Sturges
+    tier: II-A
   - title: 'Sunrise: A Song of Two Humans'
     year: 1927
     director:
@@ -21628,6 +22027,7 @@
     year: 1999
     director:
     - Bruce McCulloch
+    tier: G
   - title: Swingers
     year: 1996
     director:
@@ -21653,6 +22053,7 @@
     director:
     - Martin Scorsese
     notes: 'several rewatches: 2005, August 2022'
+    tier: II-Aa
   - title: Teenage Mutant Ninja Turtles
     year: 1990
     director:
@@ -21670,6 +22071,7 @@
     year: 1991
     director:
     - James Cameron
+    tier: II-Aa
   - title: The Terminator
     year: 1984
     director:
@@ -21686,14 +22088,17 @@
     year: 1998
     director:
     - Peter and Bobby Farrelly
+    tier: II-A
   - title: The Thin Man
     year: 1934
     director:
     - W.S. Van Dyke
+    tier: II-Aa
   - title: The Thin Red Line
     year: 1998
     director:
     - Terrence Malick
+    tier: II-A
   - title: The Third Man
     year: 1949
     director:
@@ -21707,6 +22112,7 @@
     year: 1984
     director:
     - Rob Reiner
+    tier: II-A
   - title: This Island Earth
     year: 1955
     director:
@@ -21728,6 +22134,7 @@
     year: 1957
     director:
     - Akira Kurosawa
+    tier: II-A
   - title: Thunderball
     year: 1965
     director:
@@ -21756,6 +22163,7 @@
     year: 1942
     director:
     - Ernst Lubitsch
+    tier: II-Aa
   - title: To Kill a Mockingbird
     year: 1962
     director:
@@ -21864,6 +22272,7 @@
     year: 1952
     director:
     - Vittorio De Sica
+    tier: II-Aa
   - title: Unbreakable
     year: 2000
     director:
@@ -21880,6 +22289,7 @@
     year: 1927
     director:
     - Tod Browning
+    tier: II-A
   - title: The Usual Suspects
     year: 1995
     director:
@@ -21896,6 +22306,7 @@
     year: 1958
     director:
     - Alfred Hitchcock
+    tier: II-A
   - title: A Very Brady Christmas
     year: 1988
     director:
@@ -21912,6 +22323,7 @@
     year: 1999
     director:
     - Sofia Coppola
+    tier: II-A
   - title: Viva Zapata!
     year: 1952
     director:
@@ -21949,6 +22361,7 @@
     year: 1991
     director:
     - Frank Oz
+    tier: II-A
   - title: What Dreams May Come
     year: 1998
     director:
@@ -21977,6 +22390,7 @@
     year: 1988
     director:
     - Robert Zemeckis
+    tier: II-A
   - title: Who's Afraid of Virginia Woolf?
     year: 1966
     director:
@@ -21985,6 +22399,7 @@
     year: 1969
     director:
     - Sam Peckinpah
+    tier: II-Aa
   - title: Wild Man Blues
     year: 1997
     director:
@@ -22018,6 +22433,7 @@
     year: 1961
     director:
     - Akira Kurosawa
+    tier: II-Aa
   - title: You Only Live Twice
     year: 1967
     director:
@@ -22026,6 +22442,7 @@
     year: 1974
     director:
     - Mel Brooks
+    tier: II-A
   - title: You've Got Mail
     year: 1998
     director:
