@@ -1,8 +1,8 @@
 test:
-	python test.py
+	uv run test.py
 
 freeze:
-	python freeze.py
+	uv run freeze.py
 
 server: freeze
 	cd mgmweb/build && python -m http.server

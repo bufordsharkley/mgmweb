@@ -1,3 +1,143 @@
+- month: July 2025
+  status: ranked
+  films:
+  - title: Materialists
+    year: 2025
+    director:
+    - Celine Song
+    stubz:
+      date: 2025-07-01
+      venue: Cinemark Century 20 Daly City
+    ranking: 19
+    tier: III-B
+  - title: Speed
+    year: 1994
+    director:
+    - Jan de Bont
+    stubz:
+      date: 2025-07-02
+      venue: ROXIE
+    ranking: 11
+    tier: II-C
+  - title: The Private Life of Don Juan
+    year: 1934
+    director:
+    - Alexander Korda
+    ranking: 4
+    tier: II-A
+  - title: The Specialists
+    year: 1969
+    director:
+    - Sergio Corbucci
+    ranking: 10
+    tier: II-B
+  - title: Intruder in the Dust
+    year: 1949
+    director:
+    - Mark Rydell
+    ranking: 12
+    tier: II-C
+  - title: On Golden Pond
+    year: 1981
+    director:
+    - Mark Rydell
+    ranking: 15
+    tier: II-C
+  - title: Douce
+    year: 1943
+    director:
+    - Claude Autant-Lara
+    ranking: 5
+    tier: II-A
+  - title: Wild Things
+    year: 1998
+    director:
+    - John McNaughton
+    ranking: 16
+    tier: III-A
+  - title: Nationtime
+    year: 1972
+    director:
+    - William Greaves
+    ranking: 17
+    tier: III-A
+  - title: Bernice Bobs Her Hair
+    year: 1976
+    director:
+    - Joan Micklin Silver
+    ranking: 3
+    tier: II-Aa
+  - title: Elio
+    year: 2025
+    director:
+    - Madeline Sharafian
+    - Domee Shi
+    - Adrian Molina
+    stubz:
+      date: 2025-07-15
+      venue: Cinemark Oakley Station and XD
+    ranking: 18
+    tier: III-A
+  - title: None Shall Escape
+    year: 1944
+    director:
+    - André De Toth
+    ranking: 14
+    tier: II-C
+  - title: Here
+    year: 2024
+    director:
+    - Robert Zemeckis
+    ranking: 8
+    tier: II-B
+  - title: Eddington
+    year: 2025
+    director:
+    - Ari Aster
+    stubz:
+      date: 2025-07-21
+      venue: Regal Cobblestone Square 20
+    ranking: 2
+    tier: II-Aa
+  - title: Cold Water
+    year: 1994
+    director:
+    - Olivier Assayas
+    ranking: 9
+    tier: II-B
+  - title: Never Open That Door
+    year: 1952
+    director:
+    - Carlos Hugo Christensen
+    ranking: 6
+    tier: II-A
+  - title: Strange Days
+    year: 1995
+    director:
+    - Kathryn Bigelow
+    ranking: 13
+    tier: II-C
+  - rewatch: In the Mood for Love (2000)
+    stubz:
+      date: 2025-07-29
+      venue: ROXIE
+    ranking: 1
+    tier: I
+  - title: If I Should Die Before I Wake
+    year: 1952
+    director:
+    - Carlos Hugo Christensen
+    ranking: 7
+    tier: II-A
+  tiers:
+    I: 1
+    II-A: 6
+    II-B: 3
+    II-C: 5
+    III-A: 3
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: June 2025
   status: ranked
   films:
