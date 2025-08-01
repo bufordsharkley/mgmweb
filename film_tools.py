@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env NODE_NO_WARNINGS=1 node --experimental-json-modules -S uv run --script
 
 import datetime
 import itertools
