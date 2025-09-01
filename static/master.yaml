@@ -1,3 +1,211 @@
+- month: August 2025
+  status: ranked
+  films:
+  - title: Ad Astra
+    year: 2019
+    director:
+    - James Gray
+    ranking: 8
+    tier: II-B
+  - title: Sorry, Baby
+    year: 2025
+    director:
+    - Eva Victor
+    stubz:
+      date: 2025-08-05
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 22
+    tier: II-C
+  - title: The Naked Gun
+    year: 2025
+    director:
+    - Akiva Schaffer
+    stubz:
+      date: 2025-08-05
+      venue: AMC DINE-IN Sunnyvale 12
+    ranking: 21
+    tier: II-C
+  - title: Certain Women
+    year: 2016
+    director:
+    - Kelly Reichardt
+    ranking: 6
+    tier: II-B
+  - rewatch: Altered States (1980)
+    ranking: 1
+    tier: I
+  - rewatch: In a Lonely Place (1950)
+    stubz:
+      date: 2025-08-08
+      venue: Stanford Theatre
+    ranking: 24
+    tier: III-A
+  - rewatch: Beat the Devil (1953)
+    stubz:
+      date: 2025-08-08
+      venue: Stanford Theatre
+    ranking: 3
+    tier: I
+  - title: Dinner at Eight
+    year: 1933
+    director:
+    - George Cukor
+    stubz:
+      date: 2025-08-09
+      venue: Stanford Theatre
+    ranking: 4
+    tier: II-A
+  - title: All Screwed Up
+    year: 1974
+    director:
+    - Lina Wertmüller
+    ranking: 12
+    tier: II-B
+  - title: Weapons
+    year: 2025
+    director:
+    - Zach Cregger
+    stubz:
+      date: 2025-08-12
+      venue: Cinemark Century Mountain View 16
+    ranking: 13
+    tier: II-C
+  - title: Three Women
+    year: 1924
+    director:
+    - Ernst Lubitsch
+    ranking: 26
+    tier: III-A
+  - title: Eureka
+    year: 1983
+    director:
+    - Nicholas Roeg
+    ranking: 23
+    tier: II-C
+  - title: Shin Godzilla
+    year: 2016
+    director:
+    - Hideaki Anno
+    - Shinji Higuchi
+    stubz:
+      date: 2025-08-19
+      venue: Cinemark Century Mountain View 16
+    ranking: 18
+    tier: II-C
+  - title: Highest 2 Lowest
+    year: 2025
+    director:
+    - Spike Lee
+    stubz:
+      date: 2025-08-19
+      venue: Regal Stonestown Galleria
+    ranking: 14
+    tier: II-C
+  - title: Superman
+    year: 2025
+    director:
+    - James Gunn
+    stubz:
+      date: 2025-08-19
+      venue: Cinemark Century 20 Daly City
+    ranking: 20
+    tier: II-C
+  - title: Architecton
+    year: 2024
+    effective_year: 2025
+    director:
+    - Viktor Kossakovsky
+    stubz:
+      date: 2025-08-20
+      venue: ROXIE
+    ranking: 9
+    tier: II-B
+  - title: Let's Hope It's a Girl
+    year: 1986
+    director:
+    - Mario Monicelli
+    ranking: 17
+    tier: II-C
+  - title: Cloud
+    year: 2024
+    effective_year: 2025
+    director:
+    - Kiyoshi Kurosawa
+    stubz:
+      date: 2025-08-21
+      venue: ROXIE
+    ranking: 27
+    tier: III-C
+  - title: Peppermint Candy
+    year: 1999
+    director:
+    - Lee Chang-dong
+    ranking: 25
+    tier: III-A
+  - title: Red Rooms
+    year: 2023
+    effective_year: 2024
+    director:
+    - Pascal Plante
+    ranking: 16
+    tier: II-C
+  - rewatch: High and Low (1963)
+    stubz:
+      date: 2025-08-25
+      venue: ROXIE
+    ranking: 2
+    tier: I
+  - title: Honey Don't
+    year: 2025
+    director:
+    - Ethan Coen
+    stubz:
+      date: 2025-08-26
+      venue: Cinemark Century at Tanforan 20 & XD
+    ranking: 19
+    tier: II-C
+  - title: Remember My Name
+    year: 1978
+    director:
+    - Alan Rudolph
+    ranking: 5
+    tier: II-A
+  - title: Laws of Gravity
+    year: 1992
+    director:
+    - Nick Gomez
+    ranking: 15
+    tier: II-C
+  - title: Sand
+    year: 2018
+    director:
+    - Tsai Ming-liang
+    stubz:
+      date: 2025-08-31
+      venue: BAMPFA
+    ranking: 7
+    tier: II-B
+  - title: Deep Cover
+    year: 1992
+    director:
+    - Bill Duke
+    ranking: 10
+    tier: II-B
+  - title: Tea and Sympathy
+    year: 1956
+    director:
+    - Vincente Minnelli
+    ranking: 11
+    tier: II-B
+  tiers:
+    I: 3
+    II-A: 2
+    II-B: 7
+    II-C: 11
+    III-A: 3
+    III-B: 0
+    III-C: 1
+    IV: 0
 - month: July 2025
   status: ranked
   films:
