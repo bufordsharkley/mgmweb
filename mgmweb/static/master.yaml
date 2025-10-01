@@ -1,3 +1,116 @@
+- month: September 2025
+  status: ranked
+  films:
+  - title: Relay
+    year: 2024
+    effective_year: 2025
+    director:
+    - David Mackenzie
+    stubz:
+      date: 2025-09-02
+      venue: Cinemark Century 20 Daly City
+    ranking: 9
+    tier: II-C
+  - title: King Lear
+    year: 1987
+    director:
+    - Jean-Luc Godard
+    ranking: 7
+    tier: II-B
+  - title: The Baltimorons
+    year: 2025
+    director:
+    - Jay Duplass
+    stubz:
+      date: 2025-09-23
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 8
+    tier: II-C
+  - title: Caught Stealing
+    year: 2025
+    director:
+    - Darren Aronofsky
+    stubz:
+      date: 2025-09-23
+      venue: Cinemark Century 20 Daly City
+    ranking: 10
+    tier: II-C
+  - title: The Devil, Probably
+    year: 1977
+    director:
+    - Robert Bresson
+    ranking: 14
+    tier: III-A
+  - title: Grosse Pointe Blank
+    year: 1997
+    director:
+    - George Armitage
+    ranking: 12
+    tier: II-C
+  - title: Boys Go to Jupiter
+    year: 2024
+    effective_year: 2025
+    director:
+    - Julian Glander
+    stubz:
+      date: 2025-09-25
+      venue: ROXIE
+    ranking: 2
+    tier: II-A
+  - title: Forever a Woman
+    year: 1955
+    director:
+    - Kinuyo Tanaka
+    ranking: 3
+    tier: II-A
+  - title: Bugsy Malone
+    year: 1976
+    director:
+    - Alan Parker
+    ranking: 6
+    tier: II-B
+  - title: Of Stars and Men
+    year: 1964
+    director:
+    - John Hubley
+    ranking: 13
+    tier: II-C
+  - rewatch: The Apartment (1960)
+    stubz:
+      date: 2025-09-27
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: 'Mission: Impossible'
+    year: 1996
+    director:
+    - Brian De Palma
+    ranking: 11
+    tier: II-C
+  - title: The Ballad of Narayama
+    year: 1958
+    director:
+    - Keisuke Kinoshita
+    ranking: 5
+    tier: II-B
+  - title: One Battle After Another
+    year: 2025
+    director:
+    - Paul Thomas Anderson
+    stubz:
+      date: 2025-09-30
+      venue: AMC Metreon 16
+    ranking: 4
+    tier: II-B
+  tiers:
+    I: 1
+    II-A: 2
+    II-B: 4
+    II-C: 6
+    III-A: 1
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: August 2025
   status: ranked
   films:
@@ -7244,6 +7357,9 @@
     director:
     - Armando Iannucci
     tier: II-B
+    stubz:
+      date: 2018-04-22
+      venue: Guild Theatre
   - title: Decasia
     year: 2002
     director:
@@ -7403,6 +7519,9 @@
     director:
     - Denis Villeneuve
     tier: II-Aa
+    stubz:
+      date: 2017-10-22
+      venue: AMC Mercado 20
   - title: Black Sunday
     year: 1960
     director:
@@ -7421,6 +7540,9 @@
     director:
     - Edgar Wright
     tier: II-A
+    stubz:
+      date: 2017-09-05
+      venue: Bluelight Cinemas 5
   - title: Man's Castle
     year: 1933
     director:
@@ -7549,6 +7671,9 @@
     director:
     - John Lee Hancock
     tier: G
+    stubz:
+      date: 2017-02-10
+      venue: Cinemark Century 20 Redwood City Downtown
   - title: Shaft
     year: 1971
     director:
@@ -7729,6 +7854,9 @@
     director:
     - Quentin Tarantino
     tier: G
+    stubz:
+      date: 2016-01-03
+      venue: AMC Mercado 20
   - title: The Sacrifice
     year: 1986
     director:
@@ -21263,6 +21391,9 @@
     year: 2003
     director:
     - The Wachowskis
+    stubz:
+      date: 2003-05-15
+      venue: AMC Newport 20
   - title: The Matrix Revolutions
     year: 2003
     director:
