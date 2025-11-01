@@ -1,3 +1,227 @@
+- month: October 2025
+  status: ranked
+  films:
+  - title: Ms. Tư Hậu
+    year: 1963
+    director:
+    - Ky Nam Pham
+    ranking: 15
+    tier: II-C
+  - title: Splitsville
+    year: 2025
+    director:
+    - Michael Angelo Covino
+    stubz:
+      date: 2025-10-02
+      venue: Presidio Theatre
+    ranking: 1
+    tier: II-Aa
+  - title: After Life
+    year: 1998
+    director:
+    - Hirokazu Kore-eda
+    stubz:
+      date: 2025-10-06
+      venue: ROXIE
+    ranking: 9
+    tier: II-B
+  - title: The Devil and Daniel Johnston
+    year: 2005
+    director:
+    - Jeff Feuerzeig
+    stubz:
+      date: 2025-10-06
+      venue: ROXIE
+    ranking: 17
+    tier: II-C
+  - title: The Smashing Machine
+    year: 2025
+    director:
+    - Benny Safdie
+    stubz:
+      date: 2025-10-07
+      venue: Cinemark Century 20 Daly City
+    ranking: 19
+    tier: II-C
+  - title: The Possessed
+    year: 1965
+    director:
+    - Luigi Bazzoni
+    - Franco Rossellini
+    stubz:
+      date: 2025-10-07
+      venue: ROXIE
+    ranking: 3
+    tier: II-A
+  - title: Anemone
+    year: 2025
+    director:
+    - Ronan Day-Lewis
+    stubz:
+      date: 2025-10-07
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
+  - title: Predators
+    year: 2025
+    director:
+    - David Osit
+    stubz:
+      date: 2025-10-08
+      venue: Alamo Drafthouse New Mission
+    ranking: 10
+    tier: II-B
+  - title: Megadoc
+    year: 2025
+    director:
+    - Mike Figgis
+    stubz:
+      date: 2025-10-09
+      venue: ROXIE
+    ranking: 18
+    tier: II-C
+  - title: SubUrbia
+    year: 1996
+    director:
+    - Richard Linklater
+    ranking: 5
+    tier: II-B
+  - title: Don't Make Waves
+    year: 1967
+    director:
+    - Alexander Mackendrick
+    ranking: 11
+    tier: II-C
+  - title: Roofman
+    year: 2025
+    director:
+    - Derek Cianfrance
+    stubz:
+      date: 2025-10-14
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 4
+    tier: II-A
+  - title: The Long Walk
+    year: 2025
+    director:
+    - Francis Lawrence
+    stubz:
+      date: 2025-10-14
+      venue: Cinemark Century 20 Daly City
+    ranking: 23
+    tier: III-A
+  - title: Battle Royale
+    year: 2000
+    director:
+    - Kinji Fukasaku
+    stubz:
+      date: 2025-10-15
+      venue: ROXIE
+    ranking: 13
+    tier: II-C
+  - title: Lonely Wives
+    year: 1931
+    director:
+    - Russell Mack
+    ranking: 20
+    tier: II-C
+  - rewatch: The Ox-Bow Incident (1943)
+    stubz:
+      date: 2025-10-17
+      venue: Stanford Theatre
+    ranking: 21
+    tier: II-C
+  - rewatch: My Darling Clementine (1946)
+    stubz:
+      date: 2025-10-17
+      venue: Stanford Theatre
+    ranking: 2
+    tier: II-Aa
+  - title: After the Hunt
+    year: 2025
+    director:
+    - Luca Guadagnino
+    stubz:
+      date: 2025-10-21
+      venue: Cinemark Century 20 Daly City
+    ranking: 24
+    tier: III-B
+  - title: Climax
+    year: 2018
+    director:
+    - Gaspar Noé
+    ranking: 7
+    tier: II-B
+  - rewatch: Johnny Guitar (1954)
+    stubz:
+      date: 2025-10-23
+      venue: Stanford Theatre
+    ranking: 16
+    tier: II-C
+  - title: Chappaquiddick
+    year: 2017
+    effective_year: 2018
+    director:
+    - John Curran
+    ranking: 25
+    tier: III-B
+  - title: Red Sparrow
+    year: 2018
+    director:
+    - Francis Lawrence
+    ranking: 26
+    tier: III-C
+  - title: Rampage
+    year: 2018
+    director:
+    - Brad Peyton
+    ranking: 27
+    tier: III-C
+  - title: The Old Man & the Gun
+    year: 2018
+    director:
+    - David Lowery
+    ranking: 8
+    tier: II-B
+  - title: Ready Player One
+    year: 2018
+    director:
+    - Steven Spielberg
+    ranking: 28
+    tier: IV
+  - title: The Mastermind
+    year: 2025
+    director:
+    - Kelly Reichardt
+    stubz:
+      date: 2025-10-26
+      venue: ROXIE
+    ranking: 12
+    tier: II-C
+  - title: Blue Moon
+    year: 2025
+    director:
+    - Richard Linklater
+    stubz:
+      date: 2025-10-29
+      venue: AMC Town Square 18
+    ranking: 6
+    tier: II-B
+  - title: That Cold Day in the Park
+    year: 1969
+    director:
+    - Robert Altman
+    ranking: 14
+    tier: II-C
+  tiers:
+    I: 0
+    II-A: 4
+    II-B: 6
+    II-C: 12
+    III-A: 1
+    III-B: 2
+    III-C: 2
+    IV: 1
 - month: September 2025
   status: ranked
   films:
