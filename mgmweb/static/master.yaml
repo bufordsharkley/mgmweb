@@ -1,3 +1,180 @@
+- month: November 2025
+  status: ranked
+  films:
+  - title: The Candidate
+    year: 1972
+    director:
+    - Michael Ritchie
+    ranking: 11
+    tier: II-B
+  - title: If I Had Legs I'd Kick You
+    year: 2025
+    director:
+    - Mary Bronstein
+    stubz:
+      date: 2025-11-03
+      venue: Esquire Theatre
+    ranking: 8
+    tier: II-B
+  - title: PTU
+    year: 2003
+    director:
+    - Johnny To
+    ranking: 17
+    tier: II-C
+  - title: Frankenstein
+    year: 2025
+    director:
+    - Guillermo del Toro
+    stubz:
+      date: 2025-11-04
+      venue: Esquire Theatre
+    ranking: 16
+    tier: II-C
+  - title: You Can Count on Me
+    year: 2000
+    director:
+    - Kenneth Lonergan
+    ranking: 12
+    tier: II-C
+  - title: Rain or Shine
+    year: 1930
+    director:
+    - Frank Capra
+    ranking: 6
+    tier: II-B
+  - title: Die My Love
+    year: 2025
+    director:
+    - Lynne Ramsay
+    ranking: 2
+    tier: I
+  - title: Celebrity
+    year: 1998
+    director:
+    - Woody Allen
+    ranking: 9
+    tier: II-B
+  - rewatch: High Noon (1952)
+    stubz:
+      date: 2025-11-15
+      venue: Stanford Theatre
+    ranking: 19
+    tier: II-C
+  - rewatch: Man of the West (1958)
+    stubz:
+      date: 2025-11-15
+      venue: Stanford Theatre
+    ranking: 10
+    tier: II-B
+  - title: Bugonia
+    year: 2025
+    director:
+    - Yorgos Lanthimos
+    stubz:
+      date: 2025-11-04
+      venue: Cinemark Century San Mateo 12
+    ranking: 15
+    tier: II-C
+  - title: Train Dreams
+    year: 2025
+    director:
+    - Clint Bentley
+    stubz:
+      date: 2025-11-18
+      venue: Landmark Opera Plaza
+    ranking: 21
+    tier: III-A
+  - title: Jay Kelly
+    year: 2025
+    director:
+    - Noah Baumbach
+    stubz:
+      date: 2025-11-18
+      venue: Grand Lake Theatre
+    ranking: 18
+    tier: II-C
+  - title: It Was Just an Accident
+    year: 2025
+    director:
+    - Jafar Panahi
+    stubz:
+      date: 2025-11-22
+      venue: ROXIE
+    ranking: 14
+    tier: II-C
+  - title: Peter Hujar's Day
+    year: 2025
+    director:
+    - Ira Sachs
+    stubz:
+      date: 2025-11-24
+      venue: ROXIE
+    ranking: 3
+    tier: II-A
+  - title: Left-Handed Girl
+    year: 2025
+    director:
+    - Shih-Ching Tsou
+    stubz:
+      date: 2025-11-26
+      venue: Landmark Opera Plaza
+    ranking: 7
+    tier: II-B
+  - title: Fellini's Casanova
+    year: 1976
+    director:
+    - Federico Fellini
+    ranking: 13
+    tier: II-C
+  - rewatch: The Naked Spur (1953)
+    stubz:
+      date: 2025-11-28
+      venue: Stanford Theatre
+    ranking: 5
+    tier: II-B
+  - title: Millennium Actress
+    year: 2001
+    director:
+    - Satoshi Kon
+    ranking: 20
+    tier: III-A
+  - title: Quintet
+    year: 1979
+    director:
+    - Robert Altman
+    ranking: 23
+    tier: IV
+  - rewatch: The Searchers (1956)
+    stubz:
+      date: 2025-11-30
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: The Unforgiven
+    year: 1960
+    director:
+    - John Huston
+    stubz:
+      date: 2025-11-30
+      venue: Stanford Theatre
+    ranking: 22
+    tier: III-B
+  - title: Trouble in Mind
+    year: 1985
+    director:
+    - Alan Rudolph
+    ranking: 4
+    tier: II-A
+  tiers:
+    I: 2
+    II-A: 2
+    II-B: 7
+    II-C: 8
+    III-A: 2
+    III-B: 1
+    III-C: 0
+    IV: 1
 - month: October 2025
   status: ranked
   films:
@@ -8537,6 +8714,11 @@
     director:
     - Kelly Reichardt
     tier: G
+  - title: 'Eagleheart: Paradise Rising'
+    year: 2014
+    director:
+    - Jason Woliner
+    tier: I
   - title: Her
     year: 2013
     director:
