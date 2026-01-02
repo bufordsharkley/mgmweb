@@ -78,7 +78,11 @@ def flesh_out_rewatches(master, log_errors=False):
                 try:
                     film['director'] = fixes[(rewatch, year)]['director']
                 except TypeError:
-                    raise Exception(f"Can't find original for {rewatch} ({year})")
+                    # EDGE CASES:
+                    if rewatch == 'Kill Bill: The Whole Bloody Affair':
+                        film['director'] = ['Quentin Tarantino']
+                    else:
+                        raise Exception(f"Can't find original for {rewatch} ({year})")
     if log_errors:
         return master, error_log
     else:

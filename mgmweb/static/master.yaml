@@ -1,3 +1,168 @@
+- month: December 2025
+  status: ranked
+  films:
+  - title: 'Wake Up Dead Man: A Knives Out Mystery'
+    year: 2025
+    director:
+    - Rian Johnson
+    stubz:
+      date: 2025-12-02
+      venue: Landmark Opera Plaza
+    ranking: 12
+    tier: II-C
+  - title: 'Predator: Badlands'
+    year: 2025
+    director:
+    - Dan Trachtenberg
+    stubz:
+      date: 2025-12-02
+      venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
+  - title: Sentimental Value
+    year: 2025
+    director:
+    - Joachim Trier
+    stubz:
+      date: 2025-12-03
+      venue: AMC Mercado 20
+    ranking: 8
+    tier: II-B
+  - title: Bug
+    year: 2006
+    director:
+    - William Friedkin
+    ranking: 20
+    tier: III-C
+  - title: I Married an Angel
+    year: 1942
+    director:
+    - W.S. Van Dyke
+    ranking: 9
+    tier: II-B
+  - rewatch: 'Kids in the Hall: Brain Candy (1996)'
+    stubz:
+      date: 2025-12-06
+      venue: ROXIE
+    ranking: 10
+    tier: II-C
+  - title: Demonlover
+    year: 2002
+    director:
+    - Olivier Assayas
+    stubz:
+      date: 2025-12-08
+      venue: ROXIE
+    ranking: 5
+    tier: II-A
+  - rewatch: 'Kill Bill: The Whole Bloody Affair (2004)'
+    stubz:
+      date: 2025-12-09
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 1
+    tier: I
+  - title: Hamnet
+    year: 2025
+    director:
+    - Chloé Zhao
+    stubz:
+      date: 2025-12-09
+      venue: Cinemark Century 20 Daly City
+    ranking: 13
+    tier: II-C
+  - title: Prince of Darkness
+    year: 1987
+    director:
+    - John Carpenter
+    ranking: 19
+    tier: III-B
+  - title: Keane
+    year: 2004
+    director:
+    - Lodge Kerrigan
+    ranking: 7
+    tier: II-B
+  - title: Ella McCay
+    year: 2025
+    director:
+    - James L. Brooks
+    stubz:
+      date: 2025-12-16
+      venue: Cinemark Century 20 Daly City
+    ranking: 11
+    tier: II-C
+  - title: Sense and Sensibility
+    year: 1995
+    director:
+    - Ang Lee
+    stubz:
+      date: 2025-12-17
+      venue: AMC Metreon 16
+    ranking: 4
+    tier: II-A
+  - title: Pandora and the Flying Dutchman
+    year: 1951
+    director:
+    - Albert Lewin
+    ranking: 3
+    tier: II-Aa
+  - title: 'Avatar: Fire and Ash'
+    year: 2025
+    director:
+    - James Cameron
+    stubz:
+      date: 2025-12-23
+      venue: AMC Metreon 16
+    ranking: 15
+    tier: II-C
+  - title: Resurrection
+    year: 2025
+    director:
+    - Bi Gan
+    stubz:
+      date: 2025-12-23
+      venue: ROXIE
+    ranking: 18
+    tier: III-A
+  - title: The Secret Agent
+    year: 2025
+    director:
+    - Kleber Mendonça Filho
+    stubz:
+      date: 2025-12-24
+      venue: AMC Kabuki 8
+    ranking: 6
+    tier: II-B
+  - title: 'Jean-Michel Basquiat: The Radiant Child'
+    year: 2010
+    director:
+    - Tamra Davis
+    ranking: 16
+    tier: II-C
+  - title: 92 in the Shade
+    year: 1975
+    director:
+    - Thomas McGuane
+    ranking: 2
+    tier: II-Aa
+  - title: No Other Choice
+    year: 2025
+    director:
+    - Chan-wook Park
+    stubz:
+      date: 2025-12-30
+      venue: AMC Metreon 16
+    ranking: 14
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 4
+    II-B: 4
+    II-C: 8
+    III-A: 1
+    III-B: 1
+    III-C: 1
+    IV: 0
 - month: November 2025
   status: ranked
   films:
@@ -49,6 +214,9 @@
     - Lynne Ramsay
     ranking: 2
     tier: I
+    stubz:
+      date: 2025-11-11
+      venue: Showcase Cinema de Lux Springdale
   - title: Celebrity
     year: 1998
     director:
@@ -6422,47 +6590,87 @@
     director:
     - Claire Denis
     tier: II-B
+    stubz:
+      date: 2022-08-03
+      venue: ROXIE
   - title: Marcel the Shell with Shoes On
     year: 2021
     director:
     - Dean Fleischer Camp
     tier: G
+    stubz:
+      date: 2022-08-03
+      venue: ROXIE
   - title: Elvis
     year: 2022
     director:
     - Baz Luhrmann
     tier: II-Aa
+    stubz:
+      date: 2022-08-07
+      venue: Roxy Stadium 14
   - title: The Visitor
     year: 1979
     director:
     - Giulio Paradisi
     tier: G
+    stubz:
+      date: 2022-08-08
+      venue: ROXIE
+  - rewatch: Taxi Driver (1976)
+    stubz:
+      date: 2022-08-09
+      venue: ROXIE
   - title: Manila in the Claws of Light
     year: 1975
     director:
     - Lino Brocka
     tier: II-B
+    stubz:
+      date: 2022-08-10
+      venue: ROXIE
   - title: We Are As Gods
     year: 2021
     director:
     - David Alvarado
     - Jason Sussberg
     tier: G
+    stubz:
+      date: 2022-08-12
+      venue: ROXIE
   - title: Fire of Love
     year: 2022
     director:
     - Sara Dosa
     tier: G
+    stubz:
+      date: 2022-08-15
+      venue: ROXIE
   - title: Wattstax
     year: 1973
     director:
     - Mel Stuart
-    tier: G
+    tier: II-B
+    stubz:
+      date: 2022-08-22
+      venue: ROXIE
+  - title: Surrealism in Animation
+    filter: true
+    stubz:
+      date: 2022-08-25
+      venue: ROXIE
+  - rewatch: The Birds (1963)
+    stubz:
+      date: 2022-08-26
+      venue: ROXIE
   - title: Emily the Criminal
     year: 2022
     director:
     - John Patton Ford
     tier: G
+    stubz:
+      date: 2022-08-29
+      venue: ROXIE
   - title: A Foreign Affair
     year: 1948
     director:
@@ -6471,27 +6679,47 @@
   status: tier norank
 - month: July 2022
   films:
+  - rewatch: Lost Highway (1997)
+    stubz:
+      date: 2022-07-06
+      venue: ROXIE
   - title: Neptune Frost
     year: 2021
     director:
     - Saul Williams
     - Anisia Uzeyman
     tier: G
+    stubz:
+      date: 2022-07-10
+      venue: ROXIE
+  - rewatch: Hard Boiled (1992)
+    stubz:
+      date: 2022-07-15
+      venue: ROXIE
   - title: Crimes of the Future
     year: 2022
     director:
     - David Cronenberg
     tier: G
+    stubz:
+      date: 2022-07-20
+      venue: ROXIE
   - title: Beyond the Black Rainbow
     year: 2010
     director:
     - Panos Cosmatos
     tier: II-B
+    stubz:
+      date: 2022-07-28
+      venue: ROXIE
   - title: 'Top Gun: Maverick'
     year: 2022
     director:
     - Joseph Kosinski
     tier: II-B
+    stubz:
+      date: 2022-07-28
+      venue: Mountain View ShowPlace ICON
   - title: Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean
     year: 1982
     director:
@@ -6510,6 +6738,9 @@
     director:
     - Angus MacLane
     tier: G
+    stubz:
+      date: 2022-06-26
+      venue: Kenwood Theatre
   status: tier norank
 - month: May 2022
   films:
@@ -6519,26 +6750,63 @@
     - Stewart Bird
     - Deborah Shaffer
     tier: G
+    stubz:
+      date: 2022-05-02
+      venue: ROXIE
   - title: Vive L'Amour
     year: 1994
     director:
     - Tsai Ming-liang
     tier: II-B
+    stubz:
+      date: 2022-05-03
+      venue: ROXIE
+  - rewatch: Picnic at Hanging Rock (1975)
+    stubz:
+      date: 2022-05-04
+      venue: ROXIE
   - title: We're All Going to the World's Fair
     year: 2021
     director:
     - Jane Schoenbrun
     tier: II-B
+    stubz:
+      date: 2022-05-11
+      venue: ROXIE
+      note: date approximate (started screening 5-07)
+  - rewatch: Lost in Translation (2003)
+    stubz:
+      date: 2022-05-14
+      venue: ROXIE
   - title: The Innocents
     year: 2021
     director:
     - Eskil Vogt
     tier: II-B
+    stubz:
+      date: 2022-05-18
+      venue: ROXIE
+  - rewatch: Eraserhead (1977)
+    stubz:
+      date: 2022-05-20
+      venue: ROXIE
+  - rewatch: Videodrome (1983)
+    stubz:
+      date: 2022-05-20
+      venue: ROXIE
   - title: The Seduction of Mimi
     year: 1972
     director:
     - Lina Wertmüller
     tier: II-Aa
+  - rewatch: The Blood of a Poet (1930)
+    stubz:
+      date: 2022-05-25
+      venue: ROXIE
+  - rewatch: The Fly (1986)
+    stubz:
+      date: 2022-05-26
+      venue: ROXIE
   status: tier norank
 - month: April 2022
   films:
@@ -6547,16 +6815,33 @@
     director:
     - Apichatpong Weerasethakul
     tier: G
+    stubz:
+      date: 2022-04-04
+      venue: ROXIE
   - title: The Batwoman
     year: 1968
     director:
     - René Cardona
     tier: G
+    stubz:
+      date: 2022-04-05
+      venue: ROXIE
   - title: Everything Everywhere All at Once
     year: 2022
     director:
     - Daniel Kwan & Daniel Scheinert
     tier: II-A
+    stubz:
+      date: 2022-04-12
+      venue: ROXIE
+  - rewatch: Five Easy Pieces (1970)
+    stubz:
+      date: 2022-04-13
+      venue: ROXIE
+  - rewatch: Inland Empire (2006)
+    stubz:
+      date: 2022-04-18
+      venue: ROXIE
   - title: Trapped
     year: 1949
     director:
@@ -6570,6 +6855,7 @@
     director:
     - Denis Villeneuve
     tier: G
+  - rewatch: Speed Racer (2008)
   - title: Vantage Point
     year: 2008
     director:
@@ -6580,21 +6866,39 @@
     director:
     - Clark Gregg
     tier: G
+  - title: '2022 Oscar Nominated Short Films: Animation'
+    filter: true
+    stubz:
+      date: 2022-03-15
+      venue: ROXIE
   - title: Rock Bottom Riser
     year: 2021
     director:
     - Fern Silva
     tier: G
+    stubz:
+      date: 2022-03-17
+      venue: ROXIE
   - title: The Worst Person in the World
     year: 2021
     director:
     - Joachim Trier
     tier: I
+    stubz:
+      date: 2022-03-17
+      venue: ROXIE
+  - rewatch: Playtime (1967)
+    stubz:
+      date: 2022-03-20
+      venue: ROXIE
   - title: Son of the White Mare
     year: 1981
     director:
     - Marcell Jankovics
     tier: II-A
+    stubz:
+      date: 2022-03-22
+      venue: ROXIE
   - title: 5 Fingers
     year: 1952
     director:
@@ -6613,6 +6917,9 @@
     director:
     - Tsai Ming-liang
     tier: II-Aa
+    stubz:
+      date: 2022-02-11
+      venue: ROXIE
   - title: 'Disney''s FastPass: A Complicated History'
     year: 2021
     director:
@@ -6626,11 +6933,17 @@
     director:
     - Lana Wachowski
     tier: G
+    stubz:
+      date: 2022-01-01
+      venue: Mountain View ShowPlace ICON
   - title: Licorice Pizza
     year: 2021
     director:
     - Paul Thomas Anderson
     tier: II-Aa
+    stubz:
+      date: 2022-01-07
+      venue: Mountain View ShowPlace ICON
   - title: Children of a Lesser God
     year: 1986
     director:
@@ -6641,6 +6954,10 @@
     director:
     - Joel Coen
     tier: II-B
+    stubz:
+      date: 2022-01-20
+      venue: Mariemont Theatre
+      note: approximate date
   status: tier norank
 - month: December 2021
   films:
@@ -6654,6 +6971,9 @@
     director:
     - Cary Joji Fukunaga
     tier: G
+    stubz:
+      date: 2021-12-07
+      venue: AMC Metreon 16
   - title: Bound
     year: 1996
     director:
@@ -6697,6 +7017,9 @@
     director:
     - Denis Villeneuve
     tier: II-A
+    stubz:
+      date: 2021-11-25
+      venue: Mountain View ShowPlace ICON
   status: tier norank
 - month: October 2021
   films:
@@ -6710,11 +7033,17 @@
     director:
     - Andrzej Żuławski
     tier: I
+    stubz:
+      date: 2021-10-20
+      venue: ROXIE
   - title: The French Dispatch
     year: 2021
     director:
     - Wes Anderson
     tier: II-A
+    stubz:
+      date: 2021-10-30
+      venue: Mountain View ShowPlace ICON
   - title: Personal Property
     year: 1937
     director:
@@ -6728,11 +7057,18 @@
     director:
     - David Lowery
     tier: II-A
+    stubz:
+      date: 2021-09-11
+      venue: AMC Kabuki 8
   - title: The Card Counter
     year: 2021
     director:
     - Paul Schrader
     tier: II-B
+    stubz:
+      date: 2021-09-15
+      venue: Alamo Drafthouse New Mission
+      note: approximate date
   - title: What Just Happened
     year: 2008
     director:
@@ -6781,6 +7117,9 @@
     director:
     - Michael Sarnoski
     tier: II-B
+    stubz:
+      date: 2021-08-26
+      venue: AMC Kabuki 8
   - title: Jumper
     year: 2008
     director:
@@ -6796,6 +7135,9 @@
     director:
     - Michael Mann
     tier: II-A
+    stubz:
+      date: 2021-08-30
+      venue: ROXIE
   status: tier norank
 - month: July 2021
   films:
@@ -6893,6 +7235,9 @@
     director:
     - Chloé Zhao
     tier: II-Aa
+    stubz:
+      date: 2021-04-03
+      venue: Landmark Embarcadero Center Cinema
   - title: The Tall Target
     year: 1951
     director:
@@ -7004,11 +7349,17 @@
     director:
     - Jordan Peele
     tier: G
+    stubz:
+      date: 2020-11-10
+      venue: AMC Mercado 20
   - title: Hunt for Red October
     year: 1990
     director:
     - John McTiernan
     tier: G
+    stubz:
+      date: 2020-11-10
+      venue: AMC Mercado 20
   - title: Images
     year: 1972
     director:
@@ -7303,6 +7654,9 @@
     director:
     - Eric Notarnicola
     tier: G
+    stubz:
+      date: 2019-10-09
+      venue: Landmark Embarcadero Center Cinema
   - title: Little Man, What Now?
     year: 1934
     director:
@@ -7389,6 +7743,9 @@
     director:
     - Rick Alverson
     tier: II-B
+    stubz:
+      date: 2019-08-12
+      venue: Landmark Opera Plaza
   - title: Welcome to Woop Woop
     year: 1997
     director:
@@ -7408,6 +7765,9 @@
     director:
     - Quentin Tarantino
     tier: I
+    stubz:
+      date: 2019-07-19
+      venue: Mountain View ShowPlace ICON
   status: tier norank
 - month: April 2019
   films:
@@ -8307,6 +8667,9 @@
     director:
     - Pete Docter
     tier: II-A
+    stubz:
+      date: 2015-10-25
+      venue: Bluelight Cinemas 5
   status: tier norank
 - month: September 2015
   films:
@@ -8348,6 +8711,10 @@
     director:
     - George Miller
     tier: II-B
+    stubz:
+      date: 2015-08-25
+      venue: Bluelight Cinemas 5
+      note: very approximate date
   status: tier norank
 - month: July 2015
   films:
@@ -8397,6 +8764,9 @@
     director:
     - Alex Garland
     tier: II-B
+    stubz:
+      date: 2015-06-23
+      venue: Bluelight Cinemas 5
   status: tier norank
 - month: May 2015
   films:
@@ -9231,6 +9601,10 @@
     director:
     - Ben Affleck
     tier: G
+    stubz:
+      date: 2012-12-20
+      venue: Kenwood Theatre
+      note: very approximate date
   - title: The Broadway Melody
     year: 1929
     director:

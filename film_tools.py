@@ -1,4 +1,7 @@
-#!/usr/bin/env NODE_NO_WARNINGS=1 node --experimental-json-modules -S uv run --script
+#!/bin/sh
+""":"
+exec uv run --project "$(dirname "$0")" python "$0" "$@" #
+"""
 
 import datetime
 import itertools
