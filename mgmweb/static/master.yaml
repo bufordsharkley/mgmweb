@@ -1,5 +1,5 @@
 - month: December 2025
-  status: in-progress
+  status: ranked
   films:
   - title: 'Wake Up Dead Man: A Knives Out Mystery'
     year: 2025
@@ -8,6 +8,8 @@
     stubz:
       date: 2025-12-02
       venue: Landmark Opera Plaza
+    ranking: 12
+    tier: II-C
   - title: 'Predator: Badlands'
     year: 2025
     director:
@@ -15,6 +17,8 @@
     stubz:
       date: 2025-12-02
       venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
   - title: Sentimental Value
     year: 2025
     director:
@@ -22,18 +26,26 @@
     stubz:
       date: 2025-12-03
       venue: AMC Mercado 20
+    ranking: 8
+    tier: II-B
   - title: Bug
     year: 2006
     director:
     - William Friedkin
+    ranking: 20
+    tier: III-C
   - title: I Married an Angel
     year: 1942
     director:
     - W.S. Van Dyke
+    ranking: 9
+    tier: II-B
   - rewatch: 'Kids in the Hall: Brain Candy (1996)'
     stubz:
       date: 2025-12-06
       venue: ROXIE
+    ranking: 10
+    tier: II-C
   - title: Demonlover
     year: 2002
     director:
@@ -41,10 +53,14 @@
     stubz:
       date: 2025-12-08
       venue: ROXIE
+    ranking: 5
+    tier: II-A
   - rewatch: 'Kill Bill: The Whole Bloody Affair (2004)'
     stubz:
       date: 2025-12-09
       venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 1
+    tier: I
   - title: Hamnet
     year: 2025
     director:
@@ -52,14 +68,20 @@
     stubz:
       date: 2025-12-09
       venue: Cinemark Century 20 Daly City
+    ranking: 13
+    tier: II-C
   - title: Prince of Darkness
     year: 1987
     director:
     - John Carpenter
+    ranking: 19
+    tier: III-B
   - title: Keane
     year: 2004
     director:
     - Lodge Kerrigan
+    ranking: 7
+    tier: II-B
   - title: Ella McCay
     year: 2025
     director:
@@ -67,6 +89,8 @@
     stubz:
       date: 2025-12-16
       venue: Cinemark Century 20 Daly City
+    ranking: 11
+    tier: II-C
   - title: Sense and Sensibility
     year: 1995
     director:
@@ -74,10 +98,14 @@
     stubz:
       date: 2025-12-17
       venue: AMC Metreon 16
+    ranking: 4
+    tier: II-A
   - title: Pandora and the Flying Dutchman
     year: 1951
     director:
     - Albert Lewin
+    ranking: 3
+    tier: II-Aa
   - title: 'Avatar: Fire and Ash'
     year: 2025
     director:
@@ -85,6 +113,8 @@
     stubz:
       date: 2025-12-23
       venue: AMC Metreon 16
+    ranking: 15
+    tier: II-C
   - title: Resurrection
     year: 2025
     director:
@@ -92,6 +122,8 @@
     stubz:
       date: 2025-12-23
       venue: ROXIE
+    ranking: 18
+    tier: III-A
   - title: The Secret Agent
     year: 2025
     director:
@@ -99,14 +131,38 @@
     stubz:
       date: 2025-12-24
       venue: AMC Kabuki 8
+    ranking: 6
+    tier: II-B
   - title: 'Jean-Michel Basquiat: The Radiant Child'
     year: 2010
     director:
     - Tamra Davis
+    ranking: 16
+    tier: II-C
   - title: 92 in the Shade
     year: 1975
     director:
     - Thomas McGuane
+    ranking: 2
+    tier: II-Aa
+  - title: No Other Choice
+    year: 2025
+    director:
+    - Chan-wook Park
+    stubz:
+      date: 2025-12-30
+      venue: AMC Metreon 16
+    ranking: 14
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 4
+    II-B: 4
+    II-C: 8
+    III-A: 1
+    III-B: 1
+    III-C: 1
+    IV: 0
 - month: November 2025
   status: ranked
   films:
