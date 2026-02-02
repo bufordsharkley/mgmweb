@@ -1,3 +1,185 @@
+- month: January 2026
+  status: ranked
+  films:
+  - title: Marty Supreme
+    year: 2025
+    director:
+    - Josh Safdie
+    stubz:
+      date: 2026-01-03
+      venue: Cinemark Century Mountain View 16
+    ranking: 1
+    tier: II-A
+  - title: The Plague
+    year: 2025
+    effective_year: 2026
+    director:
+    - Charlie Polinger
+    stubz:
+      date: 2026-01-06
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 13
+    tier: II-C
+  - title: La Grazia
+    year: 2025
+    director:
+    - Paolo Sorrentino
+    stubz:
+      date: 2026-01-07
+      venue: Landmark Opera Plaza
+    ranking: 18
+    tier: II-C
+  - title: Bacurau
+    year: 2019
+    director:
+    - Kleber Mendonça Filho
+    - Juliano Dornelles
+    stubz:
+      date: 2026-01-08
+      venue: ROXIE
+    ranking: 20
+    tier: III-B
+  - title: Roadblock
+    year: 1951
+    director:
+    - Harold Daniels
+    ranking: 8
+    tier: II-B
+  - title: Is This Thing On?
+    year: 2025
+    director:
+    - Bradley Cooper
+    stubz:
+      date: 2026-01-13
+      venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
+  - title: Father Mother Sister Brother
+    year: 2025
+    director:
+    - Jim Jarmusch
+    stubz:
+      date: 2026-01-14
+      venue: Landmark Opera Plaza
+    ranking: 12
+    tier: II-C
+  - title: Seven Days to Noon
+    year: 1950
+    director:
+    - John Boulting
+    - Roy Boulting
+    ranking: 5
+    tier: II-B
+  - title: Bones and All
+    year: 2022
+    director:
+    - Luca Guadagnino
+    ranking: 16
+    tier: II-C
+  - title: The Chronology of Water
+    year: 2025
+    effective_year: 2026
+    director:
+    - Kristen Stewart
+    stubz:
+      date: 2026-01-19
+      venue: ROXIE
+    ranking: 11
+    tier: II-B
+  - title: Dead Man's Wire
+    year: 2025
+    effective_year: 2026
+    director:
+    - Gus Van Sant
+    stubz:
+      date: 2026-01-20
+      venue: Cinemark Century 20 Daly City
+    ranking: 19
+    tier: III-A
+  - title: Magellan
+    year: 2025
+    effective_year: 2026
+    director:
+    - Lav Diaz
+    stubz:
+      date: 2026-01-21
+      venue: ROXIE
+    ranking: 15
+    tier: II-C
+  - title: My Lucky Stars
+    year: 1985
+    director:
+    - Sammo Hung
+    ranking: 4
+    tier: II-A
+  - title: OBEX
+    year: 2025
+    effective_year: 2026
+    director:
+    - Albert Birney
+    stubz:
+      date: 2026-01-24
+      venue: ROXIE
+    ranking: 14
+    tier: II-C
+  - title: Elvira Madigan
+    year: 1967
+    director:
+    - Bo Widerberg
+    ranking: 7
+    tier: II-B
+  - title: Sound of Falling
+    year: 2025
+    effective_year: 2026
+    director:
+    - Mascha Schilinski
+    stubz:
+      date: 2026-01-25
+      venue: ROXIE
+    ranking: 6
+    tier: II-B
+  - title: When the Wind Blows
+    year: 1986
+    director:
+    - Jimmy T. Murakami
+    stubz:
+      date: 2026-01-26
+      venue: ROXIE
+    ranking: 2
+    tier: II-A
+  - title: Mercy
+    year: 2026
+    director:
+    - Timur Bekmambetov
+    stubz:
+      date: 2026-01-27
+      venue: Regal Stonestown Galleria
+    ranking: 9
+    tier: II-B
+  - title: '28 Years Later: The Bone Temple'
+    year: 2026
+    director:
+    - Nia DaCosta
+    stubz:
+      date: 2026-01-27
+      venue: Cinemark Century Mountain View 16
+    ranking: 10
+    tier: II-B
+  - title: Le Ciel est à vous
+    year: 1944
+    director:
+    - Jean Grémillon
+    ranking: 3
+    tier: II-A
+  tiers:
+    I: 0
+    II-A: 4
+    II-B: 7
+    II-C: 7
+    III-A: 1
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: December 2025
   status: ranked
   films:
