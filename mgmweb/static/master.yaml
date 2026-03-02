@@ -1,3 +1,207 @@
+- month: February 2026
+  status: ranked
+  films:
+  - title: The Testament of Ann Lee
+    year: 2025
+    director:
+    - Mona Fastvold
+    stubz:
+      date: 2026-02-03
+      venue: AMC Newport 20
+    ranking: 19
+    tier: II-C
+  - title: White Vertigo
+    year: 1956
+    director:
+    - Giorgio Ferroni
+    ranking: 11
+    tier: II-B
+  - title: Bengazi
+    year: 1955
+    director:
+    - John Brahm
+    ranking: 9
+    tier: II-B
+  - title: Five Came Back
+    year: 1939
+    director:
+    - John Farrow
+    ranking: 4
+    tier: II-A
+  - title: Deep Valley
+    year: 1947
+    director:
+    - Jean Negulesco
+    ranking: 10
+    tier: II-B
+  - title: Send Help
+    year: 2026
+    director:
+    - Sam Raimi
+    stubz:
+      date: 2026-02-10
+      venue: Showcase Cinema de Lux Springdale
+    ranking: 13
+    tier: II-C
+  - title: Seven Sweethearts
+    year: 1942
+    director:
+    - Frank Borzage
+    ranking: 1
+    tier: II-Aa
+  - title: Of Human Hearts
+    year: 1938
+    director:
+    - Clarence Brown
+    ranking: 15
+    tier: II-C
+  - title: The V.I.P.s
+    year: 1963
+    director:
+    - Anthony Asquith
+    ranking: 21
+    tier: II-C
+  - title: 'Ohio: Wild at Heart'
+    year: 2025
+    director:
+    - Shaun MacGillivray
+    filter: true
+    stubz:
+      date: 2026-02-16
+      venue: Robert D. Lindner OMNIMAX
+  - title: Midnight in Paris
+    year: 2011
+    director:
+    - Woody Allen
+    ranking: 17
+    tier: II-C
+  - title: The Vanishing Virginian
+    year: 1942
+    director:
+    - Frank Borzage
+    ranking: 3
+    tier: II-A
+  - title: Nirvanna the Band the Show the Movie
+    year: 2025
+    effective_year: 2026
+    director:
+    - Matt Johnson
+    ranking: 6
+    tier: II-B
+  - rewatch: Best in Show (2000)
+    stubz:
+      date: 2026-02-17
+      venue: Esquire Theatre
+    ranking: 5
+    tier: II-A
+  - title: Moulin Rouge!
+    year: 2001
+    director:
+    - Baz Luhrmann
+    ranking: 24
+    tier: III-A
+  - title: Maps to the Stars
+    year: 2014
+    effective_year: 2015
+    director:
+    - David Cronenberg
+    ranking: 20
+    tier: II-C
+  - title: A Star Is Born
+    year: 1954
+    director:
+    - George Cukor
+    stubz:
+      date: 2026-02-21
+      venue: Stanford Theatre
+    ranking: 18
+    tier: II-C
+  - title: Andy Hardy Meets Debutante
+    year: 1940
+    director:
+    - George B. Seitz
+    stubz:
+      date: 2026-02-21
+      venue: Stanford Theatre
+    ranking: 14
+    tier: II-C
+  - title: 'EPiC: Elvis Presley in Concert'
+    year: 2025
+    effective_year: 2026
+    director:
+    - Baz Luhrmann
+    stubz:
+      date: 2026-02-22
+      venue: AMC Metreon 16
+    ranking: 2
+    tier: II-Aa
+  - title: Four Rooms
+    year: 1995
+    director:
+    - Allison Anders
+    - Alexandre Rockwell
+    - Robert Rodriguez
+    - Quentin Tarantino
+    ranking: 16
+    tier: II-C
+  - title: Good Luck, Have Fun, Don't Die
+    year: 2025
+    effective_year: 2026
+    director:
+    - Gore Verbinski
+    stubz:
+      date: 2026-02-24
+      venue: Cinemark Century 20 Daly City
+    ranking: 22
+    tier: II-C
+  - title: Ganja & Hess
+    year: 1946
+    director:
+    - Bill Gunn
+    stubz:
+      date: 2026-02-24
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - title: Road to Utopia
+    year: 1946
+    director:
+    - Hal Walker
+    stubz:
+      date: 2026-02-26
+      venue: Stanford Theatre
+    ranking: 25
+    tier: III-C
+  - title: My Favorite Blonde
+    year: 1942
+    director:
+    - Sidney Lanfield
+    stubz:
+      date: 2026-02-26
+      venue: Stanford Theatre
+    ranking: 23
+    tier: III-A
+  - title: Carlito's Way
+    year: 1993
+    director:
+    - Brian De Palma
+    ranking: 12
+    tier: II-C
+  - title: Ms. 45
+    year: 1981
+    director:
+    - Abel Ferrara
+    ranking: 7
+    tier: II-B
+  tiers:
+    I: 0
+    II-A: 5
+    II-B: 6
+    II-C: 11
+    III-A: 2
+    III-B: 0
+    III-C: 1
+    IV: 0
 - month: January 2026
   status: ranked
   films:
@@ -6953,9 +7157,8 @@
     - Jane Schoenbrun
     tier: II-B
     stubz:
-      date: 2022-05-11
+      date: 2022-05-10
       venue: ROXIE
-      note: date approximate (started screening 5-07)
   - rewatch: Lost in Translation (2003)
     stubz:
       date: 2022-05-14
@@ -8724,6 +8927,12 @@
     director:
     - Henry Levin
     tier: II-B
+  - title: Carnegie Hall
+    year: 1947
+    director:
+    - Edgar G. Ulmer
+    note: approximate date, based on TCM screening?
+    tier: G
   - title: The Woman on the Beach
     year: 1947
     director:
@@ -18042,6 +18251,10 @@
     - Claude Sautet
     ranking: 14
     tier: II-C
+    stubz:
+      date: 2006-04-18
+      venue: Belcourt Theatre
+      note: approximate date, opened 4-14
   - title: I Was Born, But...
     year: 1932
     director:
@@ -18918,6 +19131,10 @@
     ranking: 10.5
     notes: originally 15, III-A, several rewatches, ~2007, June 2024 -> II-B
     tier: II-B
+    stubz:
+      date: 2005-11-09
+      venue: Sarratt Cinema
+      note: date somewhat specious, should be doublechecked
   - title: The Exterminating Angel
     year: 1962
     director:
@@ -19167,6 +19384,10 @@
     - Jan Hrebejk
     ranking: 21
     tier: IV
+    stubz:
+      date: 2005-09-30
+      venue: Sarratt Cinema
+      note: date is approx, other sources (dubious) say different
   status: ranked
   tiers:
     I: 5
@@ -19823,6 +20044,10 @@
     - Clint Eastwood
     ranking: 26
     tier: III-C
+    stubz:
+      date: 2005-05-17
+      venue: Danbarry Dollar Saver
+      note: date approximate
   - title: Napoleon Dynamite
     year: 2004
     director:
@@ -19986,6 +20211,10 @@
     - Mark Achbar
     ranking: 21
     tier: IV
+    stubz:
+      date: 2005-04-26
+      venue: Sarratt Cinema
+      note: this date is specious, based on a special screening?
   - title: 'Three Colors: Blue'
     year: 1993
     director:
@@ -21754,6 +21983,10 @@
     year: 2003
     director:
     - Wolfgang Becker
+    stubz:
+      date: 2004-10-26
+      venue: Sarratt Cinema
+      note: approximate
   - title: Good Will Hunting
     year: 1997
     director:
@@ -21932,6 +22165,10 @@
     year: 2003
     director:
     - Gabriele Salvatores
+    stubz:
+      date: 2004-11-09
+      venue: Sarratt Cinema
+      note: approx; played 11-8 to 11-14
   - title: The Incredible Shrinking Woman
     year: 1981
     director:
