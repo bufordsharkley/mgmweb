@@ -1,3 +1,147 @@
+- month: March 2026
+  status: in-progress
+  films:
+  - title: A Poet
+    year: 2025
+    effective_year: 2026
+    director:
+    - Simón Mesa Soto
+    stubz:
+      date: 2026-03-03
+      venue: ROXIE
+  - title: Herdsmen of the Sun
+    year: 1989
+    director:
+    - Werner Herzog
+  - title: '2025 Oscar Nominated Short Films: Animation'
+    filter: true
+    stubz:
+      date: 2026-03-05
+      venue: ROXIE
+  - title: Hooper
+    year: 1978
+    director:
+    - Hal Needham
+  - title: The Big Broadcast of 1938
+    year: 1938
+    director:
+    - Mitchell Leisen
+    stubz:
+      date: 2026-03-07
+      venue: Stanford Theatre
+  - title: Never Say Die
+    year: 1939
+    director:
+    - Elliott Nugent
+    stubz:
+      date: 2026-03-07
+      venue: Stanford Theatre
+  - title: Bad Times at the El Royale
+    year: 2018
+    director:
+    - Drew Goddard
+  - title: Days and Nights in the Forest
+    year: 1970
+    director:
+    - Satyajit Ray
+    stubz:
+      date: 2026-03-09
+      venue: ROXIE
+  - title: Sirāt
+    year: 2025
+    effective_year: 2026
+    director:
+    - Óliver Laxe
+    stubz:
+      date: 2026-03-10
+      venue: Cinemark Century 20 Daly City
+  - title: Crime 101
+    year: 2026
+    director:
+    - Bart Layton
+    stubz:
+      date: 2026-03-10
+      venue: Cinemark Century 20 Daly City
+  - title: A Useful Ghost
+    year: 2025
+    effective_year: 2026
+    director:
+    - Ratchapoom Boonbunchachoke
+    stubz:
+      date: 2026-03-10
+      venue: ROXIE
+  - title: "F1: The Movie"
+    year: 2025
+    director:
+    - Joseph Kosinski
+    stubz:
+      date: 2026-03-11
+      venue: Cinemark Century at Tanforan 20 & XD
+  - rewatch: Only God Forgives (2013)
+    stubz:
+      date: 2026-03-11
+      venue: ROXIE
+  - title: The Fearmakers
+    year: 1958
+    director:
+    - Jacques Tourneur
+  - title: Wuthering Heights
+    year: 2026
+    director:
+    - Emerald Fennell
+    stubz:
+      date: 2026-03-17
+      venue: Cinemark Century 20 Daly City
+  - title: The Revenant
+    year: 2015
+    director:
+    - Alejandro González Iñárritu
+    stubz:
+      date: 2026-03-18
+      venue: AMC Metreon 16
+  - title: The Napa Boys
+    year: 2025
+    effective_year: 2026
+    director:
+    - Nick Corirossi
+    stubz:
+      date: 2026-03-19
+      venue: Alamo Drafthouse New Mission
+  - title: Bright Star
+    year: 2009
+    director:
+    - Jane Campion
+  - title: The God of Cookery
+    year: 1996
+    director:
+    - Stephen Chow
+    - Lee Lik-chi
+    stubz:
+      date: 2026-03-24
+      venue: Alamo Drafthouse New Mission
+      note: Presented as surprise, as part of AGFADROME Mystery Voyage
+  - title: Requiem for a Vampire
+    year: 1972
+    director:
+    - Jean Rollin
+  - title: Hard to Handle
+    year: 1933
+    director:
+    - Mervyn LeRoy
+  - title: Forbidden Fruits
+    year: 2026
+    director:
+    - Meredith Alloway
+    stubz:
+      date: 2026-03-31
+      venue: Cinemark Century 20 Daly City
+  - title: The Mummy Returns
+    year: 2021
+    director:
+    - Stephen Sommers
+    stubz:
+      date: 2026-03-31
+      venue: Cinemark Century 20 Daly City
 - month: February 2026
   status: ranked
   films:
