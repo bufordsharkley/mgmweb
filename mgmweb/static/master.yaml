@@ -1,5 +1,5 @@
 - month: March 2026
-  status: in-progress
+  status: ranked
   films:
   - title: A Poet
     year: 2025
@@ -9,10 +9,14 @@
     stubz:
       date: 2026-03-03
       venue: ROXIE
+    ranking: 4
+    tier: II-A
   - title: Herdsmen of the Sun
     year: 1989
     director:
     - Werner Herzog
+    ranking: 15
+    tier: II-C
   - title: '2025 Oscar Nominated Short Films: Animation'
     filter: true
     stubz:
@@ -22,6 +26,8 @@
     year: 1978
     director:
     - Hal Needham
+    ranking: 10
+    tier: II-C
   - title: The Big Broadcast of 1938
     year: 1938
     director:
@@ -29,6 +35,8 @@
     stubz:
       date: 2026-03-07
       venue: Stanford Theatre
+    ranking: 12
+    tier: II-C
   - title: Never Say Die
     year: 1939
     director:
@@ -36,10 +44,14 @@
     stubz:
       date: 2026-03-07
       venue: Stanford Theatre
+    ranking: 7
+    tier: II-B
   - title: Bad Times at the El Royale
     year: 2018
     director:
     - Drew Goddard
+    ranking: 13
+    tier: II-C
   - title: Days and Nights in the Forest
     year: 1970
     director:
@@ -47,6 +59,8 @@
     stubz:
       date: 2026-03-09
       venue: ROXIE
+    ranking: 5
+    tier: II-B
   - title: Sirāt
     year: 2025
     effective_year: 2026
@@ -55,6 +69,8 @@
     stubz:
       date: 2026-03-10
       venue: Cinemark Century 20 Daly City
+    ranking: 16
+    tier: III-A
   - title: Crime 101
     year: 2026
     director:
@@ -62,6 +78,8 @@
     stubz:
       date: 2026-03-10
       venue: Cinemark Century 20 Daly City
+    ranking: 8
+    tier: II-B
   - title: A Useful Ghost
     year: 2025
     effective_year: 2026
@@ -70,21 +88,29 @@
     stubz:
       date: 2026-03-10
       venue: ROXIE
-  - title: "F1: The Movie"
+    ranking: 3
+    tier: II-A
+  - title: 'F1: The Movie'
     year: 2025
     director:
     - Joseph Kosinski
     stubz:
       date: 2026-03-11
       venue: Cinemark Century at Tanforan 20 & XD
+    ranking: 22
+    tier: III-A
   - rewatch: Only God Forgives (2013)
     stubz:
       date: 2026-03-11
       venue: ROXIE
+    ranking: 1
+    tier: I
   - title: The Fearmakers
     year: 1958
     director:
     - Jacques Tourneur
+    ranking: 17
+    tier: III-A
   - title: Wuthering Heights
     year: 2026
     director:
@@ -92,6 +118,8 @@
     stubz:
       date: 2026-03-17
       venue: Cinemark Century 20 Daly City
+    ranking: 18
+    tier: III-A
   - title: The Revenant
     year: 2015
     director:
@@ -99,6 +127,8 @@
     stubz:
       date: 2026-03-18
       venue: AMC Metreon 16
+    ranking: 18
+    tier: III-A
   - title: The Napa Boys
     year: 2025
     effective_year: 2026
@@ -107,10 +137,14 @@
     stubz:
       date: 2026-03-19
       venue: Alamo Drafthouse New Mission
+    ranking: 6
+    tier: II-B
   - title: Bright Star
     year: 2009
     director:
     - Jane Campion
+    ranking: 2
+    tier: II-Aa
   - title: The God of Cookery
     year: 1996
     director:
@@ -120,14 +154,20 @@
       date: 2026-03-24
       venue: Alamo Drafthouse New Mission
       note: Presented as surprise, as part of AGFADROME Mystery Voyage
+    ranking: 11
+    tier: II-C
   - title: Requiem for a Vampire
     year: 1972
     director:
     - Jean Rollin
+    ranking: 21
+    tier: III-A
   - title: Hard to Handle
     year: 1933
     director:
     - Mervyn LeRoy
+    ranking: 9
+    tier: II-B
   - title: Forbidden Fruits
     year: 2026
     director:
@@ -135,6 +175,8 @@
     stubz:
       date: 2026-03-31
       venue: Cinemark Century 20 Daly City
+    ranking: 20
+    tier: III-A
   - title: The Mummy Returns
     year: 2021
     director:
@@ -142,6 +184,17 @@
     stubz:
       date: 2026-03-31
       venue: Cinemark Century 20 Daly City
+    ranking: 14
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 3
+    II-B: 5
+    II-C: 6
+    III-A: 7
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: February 2026
   status: ranked
   films:
