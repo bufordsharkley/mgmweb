@@ -1,3 +1,239 @@
+- month: April 2026
+  status: ranked
+  films:
+  - title: Reprise
+    year: 2006
+    director:
+    - Joachim Trier
+    ranking: 3
+    tier: II-Aa
+  - title: Alpha
+    year: 2025
+    effective_year: 2026
+    director:
+    - Julia Ducournau
+    stubz:
+      date: 2026-04-01
+      venue: AMC Kabuki 8
+    ranking: 25
+    tier: III-A
+  - title: Two Prosecutors
+    year: 2025
+    effective_year: 2026
+    director:
+    - Sergei Loznitsa
+    stubz:
+      date: 2026-04-02
+      venue: ROXIE
+    ranking: 19
+    tier: II-C
+  - title: The Drama
+    year: 2026
+    director:
+    - Kristoffer Borgli
+    stubz:
+      date: 2026-04-07
+      venue: Cinemark Century Mountain View 16
+    ranking: 14
+    tier: II-C
+  - title: Barbary Coast
+    year: 1935
+    director:
+    - Howard Hawks
+    ranking: 23
+    tier: II-C
+  - title: Calamity Jane
+    year: 1953
+    director:
+    - David Butler
+    stubz:
+      date: 2026-04-13
+      venue: ROXIE
+    ranking: 13
+    tier: II-C
+  - title: Chime
+    year: 2024
+    director:
+    - Kiyoshi Kurosawa
+    stubz:
+      date: 2026-04-13
+      venue: ROXIE
+    ranking: 12
+    tier: II-B
+  - title: Serpent's Path
+    year: 1998
+    director:
+    - Kiyoshi Kurosawa
+    stubz:
+      date: 2026-04-13
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - title: 'The AI Doc: Or How I Became an Apocaloptimist'
+    year: 2026
+    director:
+    - Daniel Roher
+    - Charlie Tyrell
+    stubz:
+      date: 2026-04-14
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 10
+    tier: II-B
+  - title: They Will Kill You
+    year: 2026
+    director:
+    - Kirill Sokolov
+    stubz:
+      date: 2026-04-14
+      venue: Cinemark Century 20 Daly City
+    ranking: 7
+    tier: II-B
+  - title: Fantasy Life
+    year: 2025
+    effective_year: 2026
+    director:
+    - Matthew Shear
+    stubz:
+      date: 2026-04-15
+      venue: Landmark Opera Plaza
+    ranking: 15
+    tier: II-C
+  - title: Cave of Forgotten Dreams
+    year: 2010
+    effective_year: 2011
+    director:
+    - Werner Herzog
+    stubz:
+      date: 2026-04-15
+      venue: AMC Metreon 16
+    ranking: 11
+    tier: II-B
+  - title: Heart of Glass
+    year: 1976
+    director:
+    - Werner Herzog
+    ranking: 5
+    tier: II-Aa
+  - title: Kontinental '25
+    year: 2025
+    effective_year: 2026
+    director:
+    - Radu Jude
+    stubz:
+      date: 2026-04-20
+      venue: ROXIE
+    ranking: 16
+    tier: II-C
+  - title: Exit 8
+    year: 2025
+    effective_year: 2026
+    director:
+    - Genki Kawamura
+    stubz:
+      date: 2026-04-21
+      venue: Cinemark Century 20 Daly City
+    ranking: 26
+    tier: III-A
+  - title: Faces of Death
+    year: 2026
+    director:
+    - Daniel Goldhaber
+    stubz:
+      date: 2026-04-21
+      venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
+  - title: A Ghost Story
+    year: 2017
+    director:
+    - David Lowery
+    stubz:
+      date: 2026-04-22
+      venue: Landmark Opera Plaza
+    ranking: 6
+    tier: II-A
+  - title: Trains
+    year: 2024
+    effective_year: 2026
+    director:
+    - Maciej Drygas
+    stubz:
+      date: 2026-04-22
+      venue: ROXIE
+    ranking: 22
+    tier: II-C
+  - title: małni—towards the ocean, towards the shore
+    year: 2020
+    effective_year: 2021
+    director:
+    - Sky Hopinka
+    ranking: 21
+    tier: II-C
+  - rewatch: Rebecca (1940)
+    stubz:
+      date: 2026-04-25
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - rewatch: The Lady Vanishes (1938)
+    stubz:
+      date: 2026-04-25
+      venue: Stanford Theatre
+    ranking: 4
+    tier: II-Aa
+  - rewatch: Bad Day at Black Rock (1955)
+    filter: true
+    notes: Watched for classic laserdisc commentary
+  - title: Mother Mary
+    year: 2026
+    director:
+    - David Lowery
+    stubz:
+      date: 2026-04-28
+      venue: Cinemark Century 20 Daly City
+    ranking: 24
+    tier: III-A
+  - title: Fuze
+    year: 2025
+    effective_year: 2026
+    director:
+    - David Mackenzie
+    stubz:
+      date: 2026-04-28
+      venue: Cinemark Century at Tanforan 20 & XD
+    ranking: 20
+    tier: II-C
+  - title: Mile End Kicks
+    year: 2025
+    effective_year: 2026
+    director:
+    - Chandler Levack
+    stubz:
+      date: 2026-04-29
+      venue: Landmark Opera Plaza
+    ranking: 18
+    tier: II-C
+  - title: The World's Greatest Sinner
+    year: 1962
+    director:
+    - Timothy Carey
+    ranking: 9
+    tier: II-B
+  - title: Vengeance Is Mine
+    year: 1984
+    director:
+    - Michael Roemer
+    ranking: 2
+    tier: I
+  tiers:
+    I: 2
+    II-A: 4
+    II-B: 6
+    II-C: 11
+    III-A: 3
+    III-B: 0
+    III-C: 0
+    IV: 0
 - month: March 2026
   status: ranked
   films:
@@ -283,6 +519,9 @@
     effective_year: 2026
     director:
     - Matt Johnson
+    stubz:
+      date: 2026-02-17
+      venue: Esquire Theatre
     ranking: 6
     tier: II-B
   - rewatch: Best in Show (2000)
@@ -14249,7 +14488,7 @@
     - Ernest B. Schoedsack
     ranking: 7
     tier: II-B
-  - title: El
+  - title: Él
     year: 1953
     director:
     - Luis Buñuel
