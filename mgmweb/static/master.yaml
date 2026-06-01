@@ -1,26 +1,212 @@
-# stranger
-# adjustment - sat
-# under the volcano - monday
-# queen kelly -may 6?7?
-# friday program
-# saboteur
-# saboteaage -0 sat
-# lubtisch - sunday so this is parsi
-# what happened was...
-# blue heron - mon
-# project hail mary - tue
-#  the christophers - wed
-#  no picnic - roxie thu
-#  the wrong man - fri
-#  armageddon time - mon
-# obsession -tue
-# our hero balthazar - wed
-# ---------------------
-#
-# tokyo-ga
-# erupcja - sun
-# demons 
-# silent friend -mon
+- month: May 2026
+  status: ranked
+  films:
+  - title: The Stranger
+    year: 2025
+    effective_year: 2026
+    director:
+    - François Ozon
+    stubz:
+      date: 2026-05-01
+      venue: ROXIE
+    ranking: 19
+    tier: II-C
+  - title: Period of Adjustment
+    year: 1962
+    director:
+    - George Roy Hill
+    ranking: 13
+    tier: II-C
+  - rewatch: Under the Volcano (1984)
+    stubz:
+      date: 2026-05-04
+      venue: ROXIE
+    ranking: 18
+    tier: II-C
+  - title: Queen Kelly
+    year: 1929
+    director:
+    - Erich von Stroheim
+    stubz:
+      date: 2026-05-06
+      venue: Castro Theatre
+    ranking: 23
+    tier: III-A
+  - title: Amazing Tales From The Archives
+    filter: true
+    stubz:
+      date: 2026-05-07
+      venue: Castro Theatre
+  - rewatch: Saboteur (1942)
+    stubz:
+      date: 2026-05-09
+      venue: Stanford Theatre
+    ranking: 10
+    tier: II-B
+  - rewatch: Sabotage (1936)
+    stubz:
+      date: 2026-05-09
+      venue: Stanford Theatre
+    ranking: 1
+    tier: I
+  - title: So This Is Paris
+    year: 1926
+    director:
+    - Ernst Lubitsch
+    stubz:
+      date: 2026-05-10
+      venue: Castro Theatre
+    ranking: 3
+    tier: II-Aa
+  - title: What Happened Was...
+    year: 1994
+    director:
+    - Tom Noonan
+    ranking: 5
+    tier: II-B
+  - title: Blue Heron
+    year: 2025
+    effective_year: 2026
+    director:
+    - Sophy Romvari
+    stubz:
+      date: 2026-05-11
+      venue: ROXIE
+    ranking: 11
+    tier: II-B
+  - title: Project Hail Mary
+    year: 2026
+    director:
+    - Phil Lord
+    - Christopher Miller
+    stubz:
+      date: 2026-05-12
+      venue: Cinemark Century 20 Daly City
+    ranking: 24
+    tier: III-A
+  - title: The Christophers
+    year: 2025
+    effective_year: 2026
+    director:
+    - Steven Soderbergh
+    stubz:
+      date: 2026-05-13
+      venue: Landmark Opera Plaza
+    ranking: 17
+    tier: II-C
+  - title: No Picnic
+    year: 1986
+    director:
+    - Philip Hartman
+    stubz:
+      date: 2026-05-14
+      venue: ROXIE
+    ranking: 8
+    tier: II-B
+  - rewatch: The Wrong Man (1956)
+    stubz:
+      date: 2026-05-15
+      venue: Stanford Theatre
+    ranking: 16
+    tier: II-C
+  - title: Armageddon Time
+    year: 2022
+    director:
+    - James Gray
+    ranking: 6
+    tier: II-B
+  - title: Obsession
+    year: 2025
+    effective_year: 2026
+    director:
+    - Curry Barker
+    stubz:
+      date: 2026-05-19
+      venue: Cinemark Century 20 Daly City
+    ranking: 25
+    tier: III-C
+  - title: Our Hero, Balthazar
+    year: 2025
+    effective_year: 2026
+    director:
+    - Oscar Boyson
+    stubz:
+      date: 2026-05-20
+      venue: Landmark Opera Plaza
+    ranking: 7
+    tier: II-B
+  - title: Tokyo-Ga
+    year: 1985
+    director:
+    - Wim Wenders
+    ranking: 2
+    tier: II-Aa
+  - title: Erupcja
+    year: 2025
+    effective_year: 2026
+    director:
+    - Pete Ohs
+    ranking: 4
+    tier: II-A
+  - title: Demons
+    year: 1971
+    director:
+    - Toshio Matsumoto
+    ranking: 12
+    tier: II-B
+  - title: Silent Friend
+    year: 2025
+    effective_year: 2026
+    director:
+    - Ildikó Enyedi
+    stubz:
+      date: 2026-05-25
+      venue: ROXIE
+    ranking: 22
+    tier: III-A
+  - title: I Love Boosters
+    year: 2026
+    director:
+    - Boots Riley
+    stubz:
+      date: 2026-05-26
+      venue: Cinemark Century 20 Daly City
+    ranking: 20
+    tier: II-C
+  - title: Shinjuku Boys
+    year: 1995
+    director:
+    - Kim Longinotto
+    - Jano Williams
+    ranking: 9
+    tier: II-B
+  - title: The Big Hit
+    year: 1998
+    director:
+    - Kirk Wong
+    ranking: 14
+    tier: II-C
+  - title: Up the Down Staircase
+    year: 1967
+    director:
+    - Robert Mulligan
+    ranking: 21
+    tier: II-C
+  - title: 52 Pick-Up
+    year: 1986
+    director:
+    - John Frankenheimer
+    ranking: 15
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 3
+    II-B: 8
+    II-C: 9
+    III-A: 3
+    III-B: 0
+    III-C: 1
+    IV: 0
 - month: April 2026
   status: ranked
   films:
