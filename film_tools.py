@@ -83,6 +83,8 @@ def current(month):
     if month == 'LAST':
         for month in master:
             if month['status'] != ('in-progress'):
+                if month['status'].startswith('in-'):
+                    raise Exception("It's 'in-progress'")
                 continue
             print_month_contents(month)
     else:
