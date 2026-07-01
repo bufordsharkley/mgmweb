@@ -1,3 +1,174 @@
+- month: June 2026
+  status: ranked
+  films:
+  - title: The Last of Mrs. Cheyney
+    year: 1937
+    director:
+    - Richard Boleslawski
+    ranking: 8
+    tier: II-B
+  - title: Zandy's Bride
+    year: 1974
+    director:
+    - Jan Troell
+    ranking: 19
+    tier: III-A
+  - title: The Sheep Detectives
+    year: 2026
+    director:
+    - Kyle Balda
+    stubz:
+      date: 2026-06-04
+      venue: Showcase Cinema de Lux Springdale
+    ranking: 11
+    tier: II-C
+  - title: Roughly Speaking
+    year: 1945
+    director:
+    - Michael Curtiz
+    ranking: 13
+    tier: II-C
+  - title: Carolina Caroline
+    year: 2025
+    effective_year: 2026
+    director:
+    - Adam Rehmeier
+    stubz:
+      date: 2026-06-09
+      venue: Esquire Theatre
+    ranking: 21
+    tier: III-B
+  - title: Mona Lisa
+    year: 1986
+    director:
+    - Neil Jordan
+    ranking: 15
+    tier: II-C
+  - title: The Bride!
+    year: 2026
+    director:
+    - Maggie Gyllenhaal
+    ranking: 22
+    tier: IV
+  - title: The Furious
+    year: 2025
+    effective_year: 2026
+    director:
+    - Kenji Tanigaki
+    stubz:
+      date: 2026-06-16
+      venue: Cinemark Century 20 Daly City
+    ranking: 6
+    tier: II-B
+  - title: Disclosure Day
+    year: 2026
+    director:
+    - Steven Spielberg
+    stubz:
+      date: 2026-06-16
+      venue: Cinemark Century 20 Daly City
+    ranking: 18
+    tier: II-C
+  - title: Graduate First
+    year: 1978
+    director:
+    - Maurice Pialat
+    ranking: 2
+    tier: II-Aa
+  - title: Loulou
+    year: 1980
+    director:
+    - Maurice Pialat
+    ranking: 12
+    tier: II-C
+  - title: The Postman Always Rings Twice
+    year: 1981
+    director:
+    - Bob Rafelson
+    ranking: 10
+    tier: II-C
+  - title: Backrooms
+    year: 2026
+    director:
+    - Kane Parsons
+    stubz:
+      date: 2026-06-23
+      venue: Cinemark Century 20 Daly City
+    ranking: 9
+    tier: II-C
+  - title: The Death of Robin Hood
+    year: 2026
+    director:
+    - Michael Sarnoski
+    stubz:
+      date: 2026-06-23
+      venue: Cinemark Century 20 Daly City
+    ranking: 4
+    tier: II-A
+  - title: Point Break
+    year: 1991
+    director:
+    - Kathryn Bigelow
+    ranking: 5
+    tier: II-A
+  - title: Three Strangers
+    year: 1946
+    director:
+    - Jean Negulesco
+    ranking: 3
+    tier: II-A
+  - rewatch: Casablanca (1942)
+    stubz:
+      date: 2026-06-28
+      venue: Stanford Theatre
+    ranking: 1
+    tier: II-Aa
+  - rewatch: The Maltese Falcon (1941)
+    stubz:
+      date: 2026-06-28
+      venue: Stanford Theatre
+    ranking: 7
+    tier: II-B
+  - title: Rose of Nevada
+    year: 2025
+    effective_year: 2026
+    director:
+    - Mark Jenkin
+    stubz:
+      date: 2026-06-29
+      venue: ROXIE
+    ranking: 14
+    tier: II-C
+  - title: Girls Like Girls
+    year: 2026
+    director:
+    - Hayley Kiyoko
+    stubz:
+      date: 2026-06-30
+      venue: Cinemark Century 20 Daly City
+    ranking: 17
+    tier: II-C
+  - title: Death Is a Caress
+    year: 1949
+    director:
+    - Edith Carlmar
+    ranking: 20
+    tier: III-A
+  - title: Farewell, Friend
+    year: 1968
+    director:
+    - Jean Herman
+    ranking: 16
+    tier: II-C
+  tiers:
+    I: 0
+    II-A: 5
+    II-B: 3
+    II-C: 10
+    III-A: 2
+    III-B: 1
+    III-C: 0
+    IV: 1
 - month: May 2026
   status: ranked
   films:
@@ -21944,7 +22115,7 @@
     year: 1942
     director:
     - Michael Curtiz
-    tier: I
+    tier: II-Aa
   - title: Casper
     year: 1995
     director:
