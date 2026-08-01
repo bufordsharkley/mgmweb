@@ -1,3 +1,178 @@
+- month: July 2026
+  status: ranked
+  films:
+  - title: Tuner
+    year: 2025
+    effective_year: 2026
+    director:
+    - Daniel Roher
+    stubz:
+      date: 2026-07-01
+      venue: Landmark Opera Plaza
+    ranking: 8
+    tier: II-B
+  - title: The Eagle Shooting Heroes
+    year: 1993
+    director:
+    - Jeffrey Lau
+    ranking: 18
+    tier: II-C
+  - title: The Crowd Roars
+    year: 1932
+    director:
+    - Howard Hawks
+    ranking: 5
+    tier: II-B
+  - title: Uncertain Glory
+    year: 1944
+    director:
+    - Raoul Walsh
+    ranking: 12
+    tier: II-C
+  - title: Vox Lux
+    year: 2018
+    director:
+    - Brady Corbet
+    ranking: 11
+    tier: II-B
+  - title: Maddie's Secret
+    year: 2025
+    effective_year: 2026
+    director:
+    - John Early
+    stubz:
+      date: 2026-07-07
+      venue: Cinemark Century 20 Daly City
+    ranking: 13
+    tier: II-C
+  - title: Mur Murs
+    year: 1981
+    director:
+    - Agnès Varda
+    stubz:
+      date: 2026-07-08
+      venue: ROXIE
+    ranking: 15
+    tier: II-C
+  - title: Rifkin's Festival
+    year: 2020
+    effective_year: 2022
+    director:
+    - Woody Allen
+    ranking: 23
+    tier: III-B
+  - title: Heat Lightning
+    year: 1934
+    director:
+    - Mervyn LeRoy
+    ranking: 1
+    tier: II-A
+  - title: The Wild Angels
+    year: 1966
+    director:
+    - Roger Corman
+    ranking: 4
+    tier: II-A
+  - title: Minions & Monsters
+    year: 2026
+    director:
+    - Pierre Coffin
+    stubz:
+      date: 2026-07-14
+      venue: Cinemark Oakley Station and XD
+    ranking: 16
+    tier: II-C
+  - title: Green Light
+    year: 1937
+    director:
+    - Frank Borzage
+    ranking: 21
+    tier: III-A
+  - title: I'm Dancing as Fast as I Can
+    year: 1982
+    director:
+    - Jack Hofsiss
+    ranking: 20
+    tier: II-C
+  - title: The Street Fighter
+    year: 1974
+    director:
+    - Shigehiro Ozawa
+    ranking: 3
+    tier: II-A
+  - title: The Affairs of Anatol
+    year: 1921
+    director:
+    - Cecil B. DeMille
+    ranking: 19
+    tier: II-C
+  - title: Gail Daughtry and the Celebrity Sex Pass
+    year: 2026
+    director:
+    - David Wain
+    stubz:
+      date: 2026-07-21
+      venue: Esquire Theatre
+    ranking: 17
+    tier: II-C
+  - title: An Unmarried Woman
+    year: 1978
+    director:
+    - Paul Mazursky
+    ranking: 2
+    tier: II-A
+  - title: The Invite
+    year: 2026
+    director:
+    - Olivia Wilde
+    stubz:
+      date: 2026-07-23
+      venue: Esquire Theatre
+    ranking: 10
+    tier: II-B
+  - title: Going Hollywood
+    year: 1933
+    director:
+    - Raoul Walsh
+    ranking: 6
+    tier: II-B
+  - title: Arco
+    year: 2025
+    effective_year: 2026
+    director:
+    - Ugo Bienvenu
+    stubz:
+      date: 2026-07-27
+      venue: Chautauqua Cinema
+    ranking: 14
+    tier: II-C
+  - title: The Man Who Loved Women
+    year: 1977
+    director:
+    - François Truffaut
+    ranking: 22
+    tier: III-A
+  - title: My Heart Is That Eternal Rose
+    year: 1989
+    director:
+    - Patrick Tam
+    ranking: 7
+    tier: II-B
+  - title: Man Wanted
+    year: 1932
+    director:
+    - William Dieterle
+    ranking: 9
+    tier: II-B
+  tiers:
+    I: 0
+    II-A: 4
+    II-B: 7
+    II-C: 9
+    III-A: 2
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: June 2026
   status: ranked
   films:
