@@ -2274,6 +2274,33 @@
         "vintage": "PROBZ cdcol",
         "year": "1994"
     },
+    "02602639": {
+        "album": "\u00a1Jonathan, Te Vas A Emocionar!",
+        "albumsort": "1994\u00a1Jonathan, Te Vas A Emocionar!",
+        "artist": "Jonathan Richman",
+        "label": "Rounder",
+        "sampling": false,
+        "tracks": [
+            "Pantomima De \"El Amor Brujo\"",
+            "Harpo En Su Harpa",
+            "No Te Oye",
+            "No M\u00e1s Por Fun",
+            "Papel De Chicle",
+            "Los Vecinos",
+            "Compadrito Coraz\u00f3n",
+            "Melod\u00eda Tradicional Ecuadoriana",
+            "Shirin Y Farad",
+            "Reno",
+            "Cerca",
+            "El U.F.O. Man",
+            "Ahora Es Mejor",
+            "Sabor A M\u00ed",
+            "Una Fuerza Alla (A Higher Power)"
+        ],
+        "uuid": "02602639",
+        "vintage": "cdcol",
+        "year": "1994"
+    },
     "02609520": {
         "album": "March Of The Zapotec / Realpeople Holland [Disc 1]",
         "albumsort": "March Of The Zapotec / Realpeople Holland [Disc 1]",
@@ -3225,6 +3252,7 @@
         "album": "Rancho Deluxe",
         "albumsort": "001975Rancho Deluxe",
         "artist": "Jimmy Buffett",
+        "forcecomp": true,
         "label": "Var\u00e8se Sarabande",
         "sampling": false,
         "tracks": [
@@ -3904,7 +3932,7 @@
     },
     "04361813": {
         "album": "Spectacular World Of Classic Film Scores",
-        "albumsort": "011978Spectacular World Of Classic Film Scores",
+        "albumsort": "001978Spectacular World Of Classic Film Scores",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -3955,7 +3983,7 @@
             "Salome: The Dance Of The Seven Veils"
         ],
         "uuid": "04361813",
-        "vintage": "PROBZ cdcol",
+        "vintage": "cdcol",
         "year": "1978"
     },
     "04406858": {
@@ -5302,7 +5330,7 @@
             "You've Got A Friend In Me"
         ],
         "uuid": "05968969",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1995"
     },
     "05996605": {
@@ -5933,7 +5961,7 @@
             "Move Away And Shine (In A Dream Version)"
         ],
         "uuid": "06524693",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2005"
     },
     "06542592": {
@@ -7245,6 +7273,32 @@
         "vintage": "Unavailable Elsewhere",
         "year": "1966"
     },
+    "07581823": {
+        "album": "The Amazing California Health And Happiness Road Show",
+        "albumsort": "2000The Amazing California Health And Happiness Road Show",
+        "artist": "The Mermen",
+        "label": "Mesa",
+        "sampling": false,
+        "tracks": [
+            "Unto The Resplendent",
+            "White Trash Raga",
+            "Merry Go Round",
+            "Miki's Lush Beehive",
+            "Sway",
+            "Walking The Peach",
+            "Emmylou Rides Clarence West And Then South",
+            "To Be Naked And French Is Always Hard",
+            "Bare White",
+            "Little Stinky Kitty",
+            "Sponge Cookie",
+            "Heart Beatitude",
+            "Burn Intro",
+            "Burn"
+        ],
+        "uuid": "07581823",
+        "vintage": "cdcol",
+        "year": "2000"
+    },
     "07621328": {
         "album": "Volume 4: 1931-1932 ",
         "albumsort": "2002Volume 4: 1931-1932 ",
@@ -8087,6 +8141,22 @@
         "uuid": "08491250",
         "vintage": "cdcol",
         "year": "1955"
+    },
+    "08554392": {
+        "album": "Monster Movie",
+        "albumsort": "1969Monster Movie",
+        "artist": "CAN",
+        "label": "Music Factory",
+        "sampling": false,
+        "tracks": [
+            "Father Cannot Yell",
+            "Mary, Mary So Contrary",
+            "Outside My Door",
+            "Yoo Doo Right"
+        ],
+        "uuid": "08554392",
+        "vintage": "cdcol",
+        "year": "1969"
     },
     "08631980": {
         "album": "I Want To Be With You",
@@ -8979,6 +9049,54 @@
         "vintage": "cdcol",
         "year": "1791"
     },
+    "09674046": {
+        "album": "Electro Lounge - Electronic Excursions in Hi-Fi Stereo",
+        "albumsort": "481999Electro Lounge - Electronic Excursions in Hi-Fi Stereo",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "",
+                "Martin Denny",
+                "Dean Elliot",
+                "King Curtis",
+                "",
+                "Dean Martin & Julie London",
+                "Leroy Holmes",
+                "Louis Prima",
+                "Leroy Holmes",
+                "",
+                "April Stevens",
+                "John Barry",
+                "Yma Sumac",
+                "Elmer Bernstein",
+                "",
+                "John Buzon Trio"
+            ]
+        },
+        "label": "The Right Stuff",
+        "sampling": false,
+        "tracks": [
+            "Prologue",
+            "Hypnotique [\u00dcberzone Remix]",
+            "Lonesome Road [\u00b5-Ziq Remix]",
+            "Watermelon Man [Utah Saints Remix]",
+            "Tutorial",
+            "Sway [Rip-Off Artist Remix]",
+            "The James Bond Theme [Brian Gearwhore & Alex Xenophon Remix]",
+            "Jump, Jive, An' Wail [Tranquility Bass Remix]",
+            "The Good, the Bad and the Ugly [Oldskool Gusgus Mix]",
+            "Tutorial",
+            "Do it Again [Wagon Christ Remix]",
+            "Seance on a Wet Afternoon [Omni Trio Remix]",
+            "Gopher (Mambo) [Q-Burns Abstract Message Remix]",
+            "Staccato's Theme [Happening at Waldo's Mix]",
+            "Epilogue",
+            "Caravan [Eat Static Remix]"
+        ],
+        "uuid": "09674046",
+        "vintage": "cdcol",
+        "year": "1999"
+    },
     "09726725": {
         "album": "On The Rocks",
         "albumsort": "1959On The Rocks",
@@ -9138,6 +9256,19 @@
         "vintage": "cdcol",
         "year": "1954-1960"
     },
+    "09892999": {
+        "album": "A Month In The Brazilian Rainforest: Dawn Chorus",
+        "albumsort": "1990A Month In The Brazilian Rainforest: Dawn Chorus",
+        "artist": "The Atmosphere Collection",
+        "label": "Rykodisc",
+        "sampling": false,
+        "tracks": [
+            "Dawn Chorus"
+        ],
+        "uuid": "09892999",
+        "vintage": "cdcol",
+        "year": "1990"
+    },
     "09897301": {
         "album": "Mondo Frat Dance Bash A Go Go",
         "albumsort": "551995Mondo Frat Dance Bash A Go Go",
@@ -9215,6 +9346,80 @@
         "uuid": "09897301",
         "vintage": "cdcol",
         "year": "1964"
+    },
+    "09909503": {
+        "album": "Wavy Gravy",
+        "albumsort": "999999Wavy Gravy",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "tune kid program",
+                "The Juveniles",
+                "trailer",
+                "Ho Ho Laughing Monster",
+                "trailer",
+                "Hambone Hunter",
+                "trailer",
+                "The Motions",
+                "trailer",
+                "Igor And The Maniacs",
+                "unknown poet",
+                "Moses Longpiece",
+                "trailer",
+                "Senator Everett McKinley",
+                "unknown",
+                "unknown preacher",
+                "Selwyn Cox",
+                "trailer",
+                "trailer",
+                "Porter Wagoner",
+                "trailer",
+                "The Saxons",
+                "trailer",
+                "Eddie Noack",
+                "trailer",
+                "The Lone Twister",
+                "Commercial",
+                "trailer",
+                "Wendell Austin"
+            ]
+        },
+        "label": "Beware",
+        "sampling": true,
+        "tracks": [
+            "Howdy Doody Time",
+            "Bo Diddley",
+            "The Woman Hunt",
+            "Ho Ho Laughing Monster",
+            "Humanoids From The Deep",
+            "Bacon Fat",
+            "Pickup On 101",
+            "Bumble Bee '65",
+            "The Virgin Witch",
+            "Big Green",
+            "necrophiliac poetry",
+            "Slide Her Under The Door",
+            "Graveyard Tramps",
+            "Wild Thing",
+            "I Need It",
+            "Message From God",
+            "His name is Jesus",
+            "Chain Gang Women",
+            "The Vault Of Horror",
+            "The Rubber Room",
+            "Shanty Tramp",
+            "Draggin' Around",
+            "Vampire Playgirls",
+            "Psycho",
+            "Sweet Susie",
+            "The Lone Twister",
+            "Desperate Rock & Roll Commercial - X Rated",
+            "Psychedelic Circus",
+            "LSD"
+        ],
+        "uuid": "09909503",
+        "vintage": "Sampling (online)",
+        "year": "1962"
     },
     "09916391": {
         "album": "I Don't Have A Friend",
@@ -9314,7 +9519,7 @@
             "Sunday's Pretty Icons"
         ],
         "uuid": "10009757",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2010"
     },
     "10073257": {
@@ -10711,6 +10916,48 @@
         "vintage": "PROBZsampling",
         "year": "1951-1957"
     },
+    "12441566": {
+        "album": "Mixmag Presents... The Mongo Hotline",
+        "albumsort": "x2002Mixmag Presents... The Mongo Hotline",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Astronaughty",
+                "Mr. Scruff",
+                "Earl Zinger",
+                "The Vicar",
+                "LTJ Bukem",
+                "Coldcut",
+                "Midfield General",
+                "Depth Charge",
+                "Vanishing Point",
+                "Gak Sato",
+                "The Transistors",
+                "Linval Thompson",
+                "Dillinger"
+            ]
+        },
+        "label": "Mixmag",
+        "sampling": false,
+        "tracks": [
+            "72 Moogs In The Sky",
+            "Fish",
+            "Song 2",
+            "Morning Prayer",
+            "Music",
+            "More Beats And Pieces",
+            "General Of The Midfield",
+            "Sex Sluts N Heaven",
+            "Gravity",
+            "Green City",
+            "Mission On Venus",
+            "I Like To Smoke Marijuana",
+            "Marijuana In My Brain"
+        ],
+        "uuid": "12441566",
+        "vintage": "cdcol",
+        "year": "1978-2002"
+    },
     "12447515": {
         "album": "Signal Morning",
         "albumsort": "Signal Morning",
@@ -10741,7 +10988,7 @@
     },
     "12471941": {
         "album": "Music From The Singing Detective And More D1",
-        "albumsort": "432002Music From The Singing Detective And More D1",
+        "albumsort": "021986Music From The Singing Detective And More D1",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -10784,7 +11031,7 @@
             "We'll Meet Again"
         ],
         "uuid": "12471941",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1935"
     },
     "12521837": {
@@ -10960,7 +11207,7 @@
     },
     "12770205": {
         "album": "Place Of General Happiness - Lyrics By Earnest Noyes Brookings, Vol 2",
-        "albumsort": "1991Place Of General Happiness - Lyrics By Earnest Noyes Brookings, Vol 2",
+        "albumsort": "x1991Place Of General Happiness - Lyrics By Earnest Noyes Brookings, Vol 2",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -11296,6 +11543,26 @@
         "vintage": "PROBZsampling",
         "year": "1963-2000"
     },
+    "13081685": {
+        "album": "Omnibust",
+        "albumsort": "1960Omnibust",
+        "artist": "Spike Jones",
+        "label": "Liberty",
+        "sampling": false,
+        "tracks": [
+            "ah-1, ah-2, ah-Sunset Strip",
+            "Loretta's Soaperetta",
+            "Captain Bangaroo",
+            "The Late Late Movies\u2012Part I",
+            "The Wonderful World Of Hari Kari",
+            "I Search For Golden Adventure (In My Seven Leaky Boots)",
+            "A Mudder's Day Sport Spectacular (William Tell Overture)",
+            "The Late Late Movies\u2012Part II"
+        ],
+        "uuid": "13081685",
+        "vintage": "cdcol",
+        "year": "1960"
+    },
     "13110630": {
         "album": "Never Let The Same Bee Sting You Twice D2",
         "albumsort": "402005Never Let The Same Bee Sting You Twice D2",
@@ -11363,6 +11630,43 @@
         "uuid": "13110630",
         "vintage": "annex",
         "year": "1927-1935"
+    },
+    "13149113": {
+        "album": "Orff \u2022 Carmina Burana",
+        "albumsort": "81518061984Orff \u2022 Carmina Burana",
+        "artist": "Carl Orff",
+        "label": "Deutsche Grammophon",
+        "sampling": false,
+        "tracks": [
+            "Fortuna Imperatrix Mundi: O Fortuna",
+            "Fortuna Imperatrix Mundi: Fortune Plango Vulnera",
+            "Primo Vere: Veris Leta Facies",
+            "Primo Vere: Omnia Sol Temperat",
+            "Primo Vere: Ecce Gratum",
+            "Uf Dem Anger: Tanz",
+            "Uf Dem Anger: Floret Silva Nobilis",
+            "Uf Dem Anger: Chramer, Gip Die Varwe Mir",
+            "Uf Dem Anger: Reie; Swaz Hie Gat Umbe; Chume, Chum, Geselle Min!",
+            "Uf Dem Anger: Were Diu Werlt Alle Min",
+            "In Taberna: Estuans Interius",
+            "In Taberna: Olim Lacus Colueram",
+            "In Taberna: Ego Sum Abbas",
+            "In Taberna: In Taberna Quando Sumus",
+            "Cour D'Amours: Amor Volat Undique",
+            "Cour D'Amours: Dies, Nox Et Omnia",
+            "Cour D'Amours: Stetit Puella",
+            "Cour D'Amours: Circa Mea Pectora",
+            "Cour D'Amours: Si Puer Cum Puellula",
+            "Cour D'Amours: Veni, Veni, Venias",
+            "Cour D'Amours: In Trutina",
+            "Cour D'Amours: Tempus Est Iocundum",
+            "Cour D'Amours: Dulcissime",
+            "Blanziflor Et Helena: Ave Formosissima",
+            "Fortuna Imperatrix Mundi: O Fortuna"
+        ],
+        "uuid": "13149113",
+        "vintage": "cdcol",
+        "year": "1937"
     },
     "13171019": {
         "album": "Transmalinnia",
@@ -11482,6 +11786,38 @@
         "uuid": "13388037",
         "vintage": "PROBZsampling",
         "year": "2006"
+    },
+    "13423154": {
+        "album": "50,000,00 Elvis Fans Can't Be Wrong",
+        "albumsort": "1959Elvis' Golden Records, Vol. 2-50,000,00 Elvis Fans Can't Be Wrong",
+        "artist": "Elvis Presley",
+        "label": "RCA Victor",
+        "sampling": false,
+        "tracks": [
+            "A Big Hunk O' Love",
+            "My Wish Came True",
+            "(Now And Then There's) A Fool Such As I",
+            "I Need Your Love Tonight",
+            "Don't",
+            "I Beg Of You",
+            "Santa Bring My Baby Back (To Me)",
+            "Santa Claus Is Back In Town",
+            "(Let's Have A) Party",
+            "Paralyzed",
+            "One Night",
+            "I Got Stung",
+            "King Creole",
+            "Wear My Ring Around Your Neck",
+            "Doncha' Think It's Time",
+            "Mean Woman Blues",
+            "Playing For Keeps",
+            "Hard Headed Woman",
+            "Got A Lot O' Livin' To Do!",
+            "(There'll Be) Peace In The Valley (For Me)"
+        ],
+        "uuid": "13423154",
+        "vintage": "cdcol",
+        "year": "1956-1958"
     },
     "13432778": {
         "album": "The Jazz Arranger, Volume 1 (1928-1940)",
@@ -11745,6 +12081,39 @@
         "uuid": "14000704",
         "vintage": "PROBZsampling",
         "year": "1965"
+    },
+    "14034806": {
+        "album": "Jumper",
+        "albumsort": "002008Jumper",
+        "artist": "John Powell",
+        "label": "Lakeshore Records",
+        "sampling": false,
+        "tracks": [
+            "My Day So Far",
+            "Splash",
+            "First Jumps",
+            "Bridges, Rules, Banking",
+            "Surf's Up",
+            "1000 Volts",
+            "Roland Snoops",
+            "You Hear Me Laughing",
+            "Coliseum Tour",
+            "Coliseum Fight",
+            "Echo Of Mom",
+            "Airport Departure",
+            "In Hospital",
+            "It's Sayonara",
+            "Race To Millie",
+            "David Comes Clean",
+            "Roland At The Lair",
+            "Jumper Vs. Jumper",
+            "The Sacrifice",
+            "A Head Start",
+            "A Jump Off"
+        ],
+        "uuid": "14034806",
+        "vintage": "cdcol",
+        "year": "2008"
     },
     "14052838": {
         "album": "Blonde Redhead",
@@ -13537,7 +13906,7 @@
             "Angel Band"
         ],
         "uuid": "15798504",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1928-2000"
     },
     "15811115": {
@@ -13636,6 +14005,31 @@
         "uuid": "16003986",
         "vintage": "PROBZsampling",
         "year": "2010"
+    },
+    "16056754": {
+        "album": "Everybody's Got It Easy But Me",
+        "albumsort": "2012Everybody's Got It Easy But Me",
+        "artist": "The Intelligence",
+        "label": "In The Red",
+        "sampling": false,
+        "tracks": [
+            "I Like LA",
+            "Hippy Provider",
+            "Evil Is Easy",
+            "Techno Tuesday",
+            "The Entertainer",
+            "Reading And Writing About Partying",
+            "Dim Limelights",
+            "(They Found Me On The Back Of) The Galaxy",
+            "I'm Closed",
+            "Little Town Flirt",
+            "Return To Foam",
+            "Sunny Backyard",
+            "Fidelity"
+        ],
+        "uuid": "16056754",
+        "vintage": "cdcol",
+        "year": "2012"
     },
     "16083116": {
         "album": "Inca Taqui",
@@ -15368,6 +15762,50 @@
         "vintage": "PROBZ cdcol",
         "year": "1996"
     },
+    "18402002": {
+        "album": "Songs For Marshmallow Lovers",
+        "albumsort": "611997Songs For Marshmallow Lovers",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Wallpaper",
+                "Various Artists",
+                "Fantastic Everlasting Gobstopper",
+                "Adventures In Stereo",
+                "The Pearlfishers",
+                "Milky",
+                "Die Moullinettes",
+                "South American Getaway",
+                "Loveletter",
+                "Viva Maria!",
+                "Tomorrows World",
+                "Malcolm Ross",
+                "Gazelle",
+                "Wallpaper"
+            ]
+        },
+        "label": "Marina",
+        "sampling": false,
+        "tracks": [
+            "3d Stewardess",
+            "Barberella",
+            "I Am A Kitten",
+            "Waves On",
+            "Brazilian Boat",
+            "The Emperor Of Orange",
+            "Alfio Brambilla (Martini Mix)",
+            "Expo Tenerife",
+            "We Can Fly",
+            "Nothing To Lose",
+            "Kites Are Fun",
+            "Happy Boy",
+            "Parazone",
+            "A Song For The Jet Set"
+        ],
+        "uuid": "18402002",
+        "vintage": "cdcol",
+        "year": "1994-1997"
+    },
     "18430050": {
         "album": "Delirium in Hi-Fi",
         "albumsort": "1957Delirium in Hi-Fi",
@@ -15391,6 +15829,41 @@
         "uuid": "18430050",
         "vintage": "cdcol",
         "year": "1957"
+    },
+    "18450259": {
+        "album": "Texas Worried Blues",
+        "albumsort": "1989Texas Worried Blues",
+        "artist": "Henry \"Ragtime Texas\" Thomas",
+        "label": "Yazoo",
+        "sampling": false,
+        "tracks": [
+            "Fishing Blues",
+            "Old Country Stomp",
+            "Charmin' Betsy",
+            "Lovin' Babe",
+            "Railroadin' Some",
+            "Don't Leave Me Here",
+            "The Little Red Caboose",
+            "Bob McKinney",
+            "Honey, Won't You Allow Me One More Chance?",
+            "Run, Mollie, Run",
+            "Shanty Blues",
+            "Woodhouse Blues",
+            "John Henry",
+            "Cottonfield Blues",
+            "Arkansas",
+            "The Fox And The Hounds",
+            "Red River Blues",
+            "Jonah In The Wilderness",
+            "When The Train Comes Along",
+            "Bull Doze Blues",
+            "Don't Ease Me In",
+            "Texas Easy Street",
+            "Texas Worried Blues"
+        ],
+        "uuid": "18450259",
+        "vintage": "cdcol",
+        "year": "1927-1929"
     },
     "18465203": {
         "album": "Dots And Loops",
@@ -15513,7 +15986,7 @@
     },
     "18625403": {
         "album": "Music From The Singing Detective And More D2",
-        "albumsort": "432002Music From The Singing Detective And More D2",
+        "albumsort": "021986Music From The Singing Detective And More D2",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -15556,7 +16029,7 @@
             "I'm Making Believe"
         ],
         "uuid": "18625403",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1935"
     },
     "18647329": {
@@ -17216,7 +17689,7 @@
                 "Savages",
                 "Wanted",
                 "5 P.M.",
-                "Something ELse",
+                "Something Else",
                 "The Bounty Hunters",
                 "The Missing Lynx",
                 "Stonemen",
@@ -17351,7 +17824,7 @@
     },
     "20331045": {
         "album": "Pennies From Heaven D1",
-        "albumsort": "431993Pennies From Heaven D1",
+        "albumsort": "021978Pennies From Heaven D1",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -17410,7 +17883,7 @@
             "Better Think Twice"
         ],
         "uuid": "20331045",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1931-1938"
     },
     "20337307": {
@@ -18143,6 +18616,24 @@
         "vintage": "cdcol",
         "year": "1956-1970"
     },
+    "21456119": {
+        "album": "Moonscape",
+        "albumsort": "1964Moonscape",
+        "artist": "Michael Garrick Trio",
+        "label": "Airborne Records/Trunk Records",
+        "sampling": false,
+        "tracks": [
+            "Moonscape",
+            "Music For Shattering Supermarkets",
+            "Sketches Of Israel",
+            "A Face In The Crowd",
+            "Man, Have You Ever Heard",
+            "Take Off"
+        ],
+        "uuid": "21456119",
+        "vintage": "cdol",
+        "year": "1964"
+    },
     "21495748": {
         "album": "Plan 9 From Outer Space: Original Motion Picture Soundtrack",
         "albumsort": "99999Plan 9 From Outer Space",
@@ -18864,7 +19355,7 @@
                 "Johnny Pearson"
             ]
         },
-        "label": "",
+        "label": "Scamp",
         "sampling": false,
         "tracks": [
             "In the Limelight",
@@ -18886,7 +19377,7 @@
         ],
         "uuid": "22357729",
         "vintage": "cdcol",
-        "year": "1962"
+        "year": "1959-1981"
     },
     "22374020": {
         "album": "The Man Who Wasn't There",
@@ -19860,6 +20351,32 @@
         "vintage": "PROBZsampling",
         "year": "1967"
     },
+    "23369951": {
+        "album": "Hi-Fi Snock Uptown",
+        "albumsort": "1972Hi-Fi Snock Uptown",
+        "artist": "Michael Hurley",
+        "label": "Raccoon/Warner Bros.",
+        "sampling": false,
+        "tracks": [
+            "Blue Driver",
+            "Water Train",
+            "The Sun Is Slowly Sinkin'",
+            "Old Black Crow",
+            "The Twilight Zone",
+            "I'm Worried I'm Worried",
+            "In Florida",
+            "Mr. Whiskerwits",
+            "Lilly Pads Upon the Pond",
+            "Eyes Eyes",
+            "The Girl I Love",
+            "Uncle Bob's Corner",
+            "Ratface",
+            "Trinidad"
+        ],
+        "uuid": "23369951",
+        "vintage": "cdcol",
+        "year": "1972"
+    },
     "23376600": {
         "album": "Was It Him or His Music?",
         "albumsort": "Was It Him or His Music?",
@@ -20262,7 +20779,7 @@
             "Livin A Dream"
         ],
         "uuid": "23598362",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2006"
     },
     "23657765": {
@@ -20846,7 +21363,7 @@
         "album": "Red to Blue",
         "albumsort": "1985Red to Blue",
         "artist": "Leon Redbone",
-        "label": "",
+        "label": "August Records Inc./Rounder",
         "sampling": false,
         "tracks": [
             "Diamonds Don't Mean A Thing",
@@ -20863,7 +21380,7 @@
             "Think Of Me Thinking Of You"
         ],
         "uuid": "24611501",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1985"
     },
     "24661118": {
@@ -21195,7 +21712,7 @@
             "Dolly Dollar"
         ],
         "uuid": "25168948",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1978-1982"
     },
     "25208213": {
@@ -22779,7 +23296,7 @@
             "Lonesome Town"
         ],
         "uuid": "27289334",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2005"
     },
     "27499550": {
@@ -23229,6 +23746,46 @@
         "uuid": "27908047",
         "vintage": "annex",
         "year": "1961-1963"
+    },
+    "27929148": {
+        "album": "A Tramp Shining",
+        "albumsort": "1968A Tramp Shining",
+        "artist": "Richard Harris",
+        "label": "Dunhill Records",
+        "sampling": false,
+        "tracks": [
+            "Didn't We",
+            "Paper Chase",
+            "Name Of My Sorrow",
+            "Lovers Such As I",
+            "In The Final Hours",
+            "Macarthur Park",
+            "Dancing Girl",
+            "If You Must Leave My Life",
+            "A Tramp Shining"
+        ],
+        "uuid": "27929148",
+        "vintage": "cdcol",
+        "year": "1968"
+    },
+    "27985594": {
+        "album": "The Body Is A Message Of The Universe \u304b\u3089\u3060\u306f\u5b87\u5b99\u306e\u30e1\u30c3\u30bb\u30fc\u30b8",
+        "albumsort": "1987The Body Is A Message Of The Universe \u304b\u3089\u3060\u306f\u5b87\u5b99\u306e\u30e1\u30c3\u30bb\u30fc\u30b8",
+        "artist": "Shiho Yabuki \u77e2\u5439\u7d2b\u5e06",
+        "label": "Morning/Subliminal Sounds",
+        "sampling": false,
+        "tracks": [
+            "Tomoshibi \u706f\u706b",
+            "Samadhi \u4e09\u5473 (In Dedication to the 1200th aniversary of Enryaku Temple, Tendai Sect, Japan)",
+            "Winterland \u51ac \u51b7\u6c17",
+            "Tenshingoso \u5929\u771f\u4e94\u76f8 (Earth, Wind, Fire, Water and Spirit)",
+            "Forestland \u6625",
+            "Tawamure \u622f\u308c (Cosmic Dance)",
+            "Ki No Nagare \u6c17\u306e\u6d41\u308c (The Way Of The Energy Flow)"
+        ],
+        "uuid": "27985594",
+        "vintage": "cdcol",
+        "year": "1987"
     },
     "28194655": {
         "album": "God Help The Girl",
@@ -23893,6 +24450,68 @@
         "vintage": "PROBZ cdcol",
         "year": "1988"
     },
+    "28859231": {
+        "album": "The Jazz Keyboards Of",
+        "albumsort": "x1955The Jazz Keyboards Of",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Lennie Tristano",
+                "Lennie Tristano",
+                "Lennie Tristano",
+                "Lennie Tristano",
+                "Bobby Scott",
+                "Bobby Scott",
+                "Bobby Scott",
+                "Marian McPartland",
+                "Marian McPartland",
+                "Joe Bushkin",
+                "Joe Bushkin",
+                "Joe Bushkin"
+            ]
+        },
+        "label": "Savoy",
+        "sampling": false,
+        "tracks": [
+            "Supersonic",
+            "On A Planet",
+            "Air Pocket",
+            "Celestia",
+            "Just One Of Those Things",
+            "But Beautiful",
+            "I Married An Angel",
+            "Love You Madly",
+            "Just Squeeze Me",
+            "Mean To Me",
+            "Indian Summer",
+            "Indiana"
+        ],
+        "uuid": "28859231",
+        "vintage": "cdcol",
+        "year": "1946-1953"
+    },
+    "28893861": {
+        "album": "The Sylvie And Babs Hi-Fi Companion D2",
+        "albumsort": "2015The Sylvie And Babs Hi-Fi Companion D2",
+        "artist": "Nurse With Wound",
+        "label": "United Dirter",
+        "sampling": false,
+        "tracks": [
+            "Entr\u00e9e; Cream Of Nowhere Remix \u2013 MS Waldron",
+            "Summertime Belongs To Me",
+            "Elderly Man River",
+            "Down To The River",
+            "Chicken In Drag",
+            "Poo Poo Song",
+            "Yoko's Anniversary",
+            "Excerpt From Pricksongs",
+            "It Just Ain't So",
+            "Dessert; Irregular Around The Margins Remix \u2013 Andrew Liles"
+        ],
+        "uuid": "28893861",
+        "vintage": "cdcol",
+        "year": "????"
+    },
     "28929827": {
         "album": "Congratulations",
         "albumsort": "2010Congratulations",
@@ -24477,6 +25096,64 @@
         "uuid": "29503921",
         "vintage": "Sampling (kzsu)",
         "year": "2010"
+    },
+    "29522246": {
+        "album": "Now we are ten",
+        "albumsort": "x2007Now we are ten",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Basil Kirchin",
+                "Sven Libaek",
+                "Herbie Hancock",
+                "Jonny Trunk",
+                "Delia Derbyshire (as Li De La Russe)",
+                "Douglas Wood",
+                "Vernon Elliott",
+                "Orriel Smith",
+                "Mike Sammes",
+                "Sven Libaek",
+                "Paul Lewis",
+                "John Cameron",
+                "Marc Wilkinson",
+                "The Michael Garrick Trio",
+                "Dirty Fan Male",
+                "Dirty Fan Male",
+                "Mike Sammes",
+                "The Barbara Moore Singers",
+                "Basil Kirchin",
+                "Wisbey",
+                "Bill Posters Will Be Banned"
+            ]
+        },
+        "label": "Trunk Records",
+        "sampling": false,
+        "tracks": [
+            "Start Counting (Demo)",
+            "Dark World",
+            "Kiddush",
+            "Zeus",
+            "Delia's Psychedelian Waltz",
+            "Icicles",
+            "Clangers - Music (edit)",
+            "Tiffany Glass",
+            "Timex",
+            "Nature Waltz",
+            "Waiting For Nina",
+            "Kes - Opening And Titles",
+            "Kathy Crowned from Blood on Satans Claw",
+            "Sketches Of Israel",
+            "Martin's Theme",
+            "My Special Message",
+            "Sweet Young Fumbles",
+            "The Elf",
+            "Negatives",
+            "The Ladies Bras",
+            "Hula Saw (Live at The Bull in Barnes)"
+        ],
+        "uuid": "29522246",
+        "vintage": "cdcol",
+        "year": "1964-2007"
     },
     "29545572": {
         "album": "Complete Works V4 D1",
@@ -25163,7 +25840,7 @@
             "Norville's Reprise"
         ],
         "uuid": "30098081",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1994"
     },
     "30106161": {
@@ -25190,7 +25867,7 @@
             "End Title"
         ],
         "uuid": "30106161",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1974"
     },
     "30113405": {
@@ -25323,7 +26000,7 @@
             "Just Like Honey"
         ],
         "uuid": "30178786",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2003"
     },
     "30192106": {
@@ -25509,6 +26186,23 @@
         "uuid": "30640473",
         "vintage": "cdcol",
         "year": "2011"
+    },
+    "30702233": {
+        "album": "Soothing Sounds For Baby Volume 1 (1 to 6 Months)",
+        "albumsort": "1962Soothing Sounds For Baby Volume 1 (1 to 6 Months)",
+        "artist": "Raymond Scott",
+        "label": "Epic/Basta",
+        "sampling": false,
+        "tracks": [
+            "Lullaby",
+            "Sleepy Time",
+            "The Music Box",
+            "Nursery Rhyme",
+            "Tic Toc"
+        ],
+        "uuid": "30702233",
+        "vintage": "cdcol",
+        "year": "1962"
     },
     "30705478": {
         "album": "Presidential Campaign Songs",
@@ -25996,6 +26690,27 @@
         "uuid": "31201821",
         "vintage": "cdcol",
         "year": "1927-1934"
+    },
+    "31218941": {
+        "album": "Sting Like a Bee",
+        "albumsort": "1979Sting Like a Bee",
+        "artist": "Bumblebee Unlimited",
+        "label": "RCA Victor/Unidisc",
+        "sampling": false,
+        "tracks": [
+            "I Got a Big Bee",
+            "Lady Bug",
+            "I Love You",
+            "Space Shuttle Ride",
+            "Honey Bun",
+            "Love Bug",
+            "Funk for Days",
+            "Everybody Dance",
+            "Lady Bug (12\" version)"
+        ],
+        "uuid": "31218941",
+        "vintage": "cdcol",
+        "year": "1976-1979"
     },
     "31299170": {
         "album": "Pop American Style D2",
@@ -27968,7 +28683,7 @@
     },
     "33559709": {
         "album": "Music From The Singing Detective And More D3",
-        "albumsort": "432002Music From The Singing Detective And More D3",
+        "albumsort": "021986Music From The Singing Detective And More D3",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -28011,7 +28726,7 @@
             "The Clouds Will Soon Roll By"
         ],
         "uuid": "33559709",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1935-1944"
     },
     "33564240": {
@@ -28636,28 +29351,6 @@
         "uuid": "34129313",
         "vintage": "PROBZsampling",
         "year": "1994"
-    },
-    "34139207": {
-        "album": "Summer Moods",
-        "albumsort": "1985Summer Moods",
-        "artist": "Mystic Moods",
-        "label": "Bainbridge",
-        "sampling": false,
-        "tracks": [
-            "Theme From A Summer Place",
-            "Love Token",
-            "The Look Of Love",
-            "Moonlight",
-            "Days Of Wine And Roses",
-            "Come Saturday Morning",
-            "Visions",
-            "Ne Dis Rien",
-            "Touch",
-            "The First Time"
-        ],
-        "uuid": "34139207",
-        "vintage": "cdcol",
-        "year": "1966-1972"
     },
     "34154383": {
         "album": "The Road I'm On: A Retrospective D2",
@@ -29828,8 +30521,44 @@
             "My Kind Of Town (Reprise)"
         ],
         "uuid": "35602261",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1966"
+    },
+    "35671899": {
+        "album": "Fishing With John",
+        "albumsort": "0219911998Fishing With John",
+        "artist": "John Lurie",
+        "forcecomp": true,
+        "label": "strange & beautiful music",
+        "sampling": false,
+        "tracks": [
+            "Ahhh... Fishing",
+            "Canoe",
+            "The Beast",
+            "Arriving At Kenny's",
+            "Nana Jug",
+            "Horse Guitar",
+            "Fish Dance",
+            "Backwards Flute",
+            "Tugboat",
+            "River Of Men",
+            "Shark Drive",
+            "Freezing Guitar",
+            "Flutter",
+            "Leon's House",
+            "Revenge Of Fish Dance",
+            "Ketchak",
+            "Struggle Of Man",
+            "Little",
+            "Snowmobile Dismount",
+            "Ignore The Giant",
+            "World Of Adventure",
+            "Long Walk Home",
+            "Fishing With John"
+        ],
+        "uuid": "35671899",
+        "vintage": "cdcol",
+        "year": "1991"
     },
     "35689802": {
         "album": "Rendezvous In Okonkuluku",
@@ -30491,6 +31220,50 @@
         "vintage": "annex",
         "year": "1971"
     },
+    "36805401": {
+        "album": "Om Lounge3",
+        "albumsort": "x2000Om Lounge3",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Boozoo Bajou",
+                "Pimp Rekker",
+                "King Kooba",
+                "Fila Brazillia",
+                "Kevin Yost",
+                "Chaser",
+                "Herbert",
+                "East West Connection",
+                "Andy Caldwell",
+                "The Verbrilli Sound",
+                "Soulstice",
+                "J Boogie's Dubtronic Science",
+                "People Under The Stairs",
+                "John Howard"
+            ]
+        },
+        "label": "Om Records",
+        "sampling": false,
+        "tracks": [
+            "Under My Sensi (Les Demons Flowers Mix)",
+            "Mackzen And Relaxin'",
+            "Koobesq",
+            "Airlock Homes",
+            "Drums Delicious",
+            "Blue Planet (Abacus Blue Planeteria Remix)",
+            "The Last Beat (House Dub)",
+            "Love Music (Twisted Jazz Mix)",
+            "Tropicalis",
+            "Cansada",
+            "Tenderly",
+            "La Sangre",
+            "Schooled In The Trade",
+            "Spacewalk"
+        ],
+        "uuid": "36805401",
+        "vintage": "cdcol",
+        "year": "1998-2000"
+    },
     "36853766": {
         "album": "L'Alibi",
         "albumsort": "0019692007L'Alibi",
@@ -31022,6 +31795,20 @@
         "uuid": "37865282",
         "vintage": "PROBZsampling",
         "year": "2005"
+    },
+    "37897190": {
+        "album": "The Sylvie And Babs Hi-Fi Companion",
+        "albumsort": "1985The Sylvie And Babs Hi-Fi Companion",
+        "artist": "Nurse With Wound",
+        "label": "L.A.Y.L.A.H.",
+        "sampling": false,
+        "tracks": [
+            "You Walrus Hurt The One You Love",
+            "Great Balls Of Fur"
+        ],
+        "uuid": "37897190",
+        "vintage": "cdcol",
+        "year": "1985"
     },
     "37909610": {
         "album": "That's All Folks!: Cartoon Songs From Merrie Melodies & Looney Tunes [Disc 2]",
@@ -32321,6 +33108,21 @@
         "vintage": "cdcol",
         "year": "1954-1978"
     },
+    "39293590": {
+        "album": "The Jugglin' Jive Of",
+        "albumsort": "1985The Jugglin' Jive Of",
+        "artist": "Fats Waller And His Orchestra",
+        "label": "Sandy Hook Records",
+        "sampling": false,
+        "tracks": [
+            "Yacht Club, NYC - 14th Oct 1938",
+            "Yacht Club, NYC - 18th Oct 1938",
+            "NBC Studios, NYC - 16th July 1938"
+        ],
+        "uuid": "39293590",
+        "vintage": "cdcol",
+        "year": "1938"
+    },
     "39294477": {
         "album": "Singin' In The Rain: Original Motion Picture Soundtrack",
         "albumsort": "1996Singin' In The Rain: Original Motion Picture Soundtrack",
@@ -32397,6 +33199,36 @@
         "uuid": "39390897",
         "vintage": "PROBZ cdcol",
         "year": "1968"
+    },
+    "39410433": {
+        "album": "Only God Forgives",
+        "albumsort": "002013Only God Forgives",
+        "artist": "Cliff Martinez",
+        "forcecomp": true,
+        "label": "Milan",
+        "sampling": false,
+        "tracks": [
+            "Only God Forgives",
+            "Ask Him Why He Killed My Brother",
+            "Chang and Sword",
+            "Chang Vision",
+            "Do As Thou Will",
+            "Can't Forget",
+            "Crystal Checking In",
+            "More Hands",
+            "Sister Part 1",
+            "Take It Off",
+            "Leave My Son In Peace",
+            "Falling In Love",
+            "Crystal and the Bodybuilders",
+            "Ladies Close Your Eyes",
+            "Bride of Chang",
+            "Wanna Fight",
+            "You're My Dream"
+        ],
+        "uuid": "39410433",
+        "vintage": "cdcol",
+        "year": "2013"
     },
     "39465447": {
         "album": "Shame, Shame",
@@ -32670,6 +33502,28 @@
         "uuid": "39588187",
         "vintage": "cdcol",
         "year": "1997-2000"
+    },
+    "39597419": {
+        "album": "Helio",
+        "albumsort": "2003Helio",
+        "artist": "Flim",
+        "label": "Tomlab",
+        "sampling": false,
+        "tracks": [
+            "How I Trashed My Knees",
+            "Little Roadache",
+            "Conversation",
+            "Chime",
+            "Is That Me?",
+            "New Livingin",
+            "Helio",
+            "Snow Behind My Chairs",
+            "For Fred",
+            "Hell II"
+        ],
+        "uuid": "39597419",
+        "vintage": "cdcol",
+        "year": "2003"
     },
     "39795441": {
         "album": "La Traviata",
@@ -34006,6 +34860,72 @@
         "vintage": "PROBZsampling",
         "year": "1970"
     },
+    "41538900": {
+        "album": "Atlas Jazz Explosion",
+        "albumsort": "462006Atlas Jazz Explosion",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Jackie Kelso",
+                "Harold Austin",
+                "Harold Austin",
+                "June Davis w/ Freddie Washington's Band",
+                "June Davis w/ Freddie Washington's Band",
+                "Freddie Washington's Band",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton",
+                "Charlie Singleton"
+            ]
+        },
+        "label": "Re/Empire",
+        "sampling": false,
+        "tracks": [
+            "Blue Moon",
+            "Smiles",
+            "Not Yet",
+            "Easy Pickin' (Part I)",
+            "Encore",
+            "My Buddy",
+            "Once More",
+            "Piccadilly",
+            "The Sleeper",
+            "Rat-A-Tat",
+            "Easy Pickin' [Part II]",
+            "Jesse's Ideas [Part I]",
+            "Jesse's Ideas [Part II]",
+            "I Am One Of God's Children (Without Wings)",
+            "8-9-10",
+            "Congo Buggie",
+            "The Super Chief",
+            "The Boardwalk",
+            "Blow Mr. Singleton",
+            "Deep Purple",
+            "Oozing Along",
+            "Gone With The Wind",
+            "Pony Express",
+            "Broadway Beat",
+            "Jivin' With Doctor Jive"
+        ],
+        "uuid": "41538900",
+        "vintage": "cdcol",
+        "year": "1951-1959"
+    },
     "41568127": {
         "album": "Moondance",
         "albumsort": "1970Moondance",
@@ -34227,6 +35147,36 @@
         "uuid": "41763800",
         "vintage": "cdcol",
         "year": "1978"
+    },
+    "41805357": {
+        "album": "Different Dimensions",
+        "albumsort": "1997Different Dimensions",
+        "artist": "Tomita",
+        "label": "Camden",
+        "sampling": false,
+        "tracks": [
+            "Snowflakes Are Dancing",
+            "Dawn Chorus",
+            "Bolero",
+            "Ballet Of The Chicks In Their Shells",
+            "Reverie",
+            "Gardens In The Rain",
+            "Footprints In The Snow",
+            "A World Of Different Dimensions",
+            "Arabesque No. 1",
+            "Infernal Dance Of King Kastchei",
+            "The Girl With The Flaxen Hair",
+            "The Great Gate Of Kiev",
+            "Passepied",
+            "The Old Castle",
+            "Whistle Train",
+            "Promenade",
+            "Golliwog's Cakewalk",
+            "Canon Of Three Stars"
+        ],
+        "uuid": "41805357",
+        "vintage": "cdcol",
+        "year": "1974-1984"
     },
     "41834635": {
         "album": "The Madcap Laughs",
@@ -34690,7 +35640,7 @@
     },
     "42268013": {
         "album": "Fellini & Rota",
-        "albumsort": "012001Fellini & Rota",
+        "albumsort": "001979Fellini & Rota",
         "artist": "Nino Rota",
         "forcecomp": true,
         "label": "",
@@ -34714,7 +35664,7 @@
             "Prova D'orchestra (Orchestra Rehearsal)"
         ],
         "uuid": "42268013",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1952-1979"
     },
     "42312115": {
@@ -35306,7 +36256,7 @@
         "album": "On The Track",
         "albumsort": "1975On The Track",
         "artist": "Leon Redbone",
-        "label": "",
+        "label": "Warner Bros.",
         "sampling": false,
         "tracks": [
             "Sweet Mama Hurry Home Or I'll Be Gone",
@@ -35322,7 +36272,7 @@
             "Polly Wolly Doodle"
         ],
         "uuid": "42915778",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1975"
     },
     "42941182": {
@@ -35468,7 +36418,7 @@
             "Mighty Wind"
         ],
         "uuid": "42987343",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2003"
     },
     "43003944": {
@@ -36508,7 +37458,7 @@
             "Blood Simpler"
         ],
         "uuid": "44531853",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1984-1987"
     },
     "44552501": {
@@ -36584,7 +37534,7 @@
             "Margaret Yang's Theme"
         ],
         "uuid": "44701412",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1950-1999"
     },
     "44727895": {
@@ -37093,6 +38043,31 @@
         "vintage": "PROBZsampling",
         "year": "1999"
     },
+    "45266817": {
+        "album": "The Virgin Suicides",
+        "albumsort": "001999The Virgin Suicides",
+        "artist": "Air",
+        "label": "Record Makers/Source/Astralwerks",
+        "sampling": false,
+        "tracks": [
+            "Playground Love",
+            "Clouds Up",
+            "Bathroom Girl",
+            "Cemetary Party",
+            "Dark Messages",
+            "The Word 'Hurricane'",
+            "Dirty Trip",
+            "Highschool Lover",
+            "Afternoon Sister",
+            "Ghost Song",
+            "Empty House",
+            "Dead Bodies",
+            "Suicide Underground"
+        ],
+        "uuid": "45266817",
+        "vintage": "cdcol",
+        "year": "1999"
+    },
     "45347584": {
         "album": "Telstar: The Complete D2",
         "albumsort": "9999Tornados Telstar D2",
@@ -37130,6 +38105,28 @@
         "uuid": "45347584",
         "vintage": "PROBZsampling",
         "year": "????"
+    },
+    "45358604": {
+        "album": "Time Is",
+        "albumsort": "1971Time Is",
+        "artist": "The Idle Race",
+        "label": "Regal Zonophone",
+        "sampling": false,
+        "tracks": [
+            "Dancing Flower",
+            "Sad O'Sad",
+            "The Clock",
+            "I Will See You",
+            "By the Sun",
+            "Alcatraz",
+            "And the Rain",
+            "She Sang Hymns out of Tune",
+            "Bitter Green",
+            "We Want It All"
+        ],
+        "uuid": "45358604",
+        "vintage": "cdcol",
+        "year": "1971"
     },
     "45545213": {
         "album": "Elvis At Sun",
@@ -37277,55 +38274,6 @@
         "vintage": "cdcol",
         "year": "2005"
     },
-    "45831111": {
-        "album": "Rancho Deluxe",
-        "albumsort": "99999Rancho Deluxe",
-        "artist": {
-            "albumartist": "Various Artists",
-            "trackartists": [
-                "Jimmy Buffett",
-                "Jeff Bridges",
-                "Jimmy Buffett",
-                "Jimmy Buffett with Roger Bartlett",
-                "Jeff Bridges",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Jeff Bridges",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Sam Waterston and Jeff Bridges",
-                "Jimmy Buffett",
-                "Jimmy Buffett",
-                "Jimmy Buffett"
-            ]
-        },
-        "sampling": true,
-        "tracks": [
-            "Rancho Deluxe (Main Title)",
-            "X-Mas Bonus",
-            "Ridin' In Style",
-            "Left Me With A Nail To Drive",
-            "Rustler's That's Us",
-            "Cattle Truckin'",
-            "Countin' The Cows Ev'ry Day",
-            "The Wrangler",
-            "Rancho Deluxe (End Title)",
-            "Livingston Saturday Night",
-            "Dork",
-            "Some Gothic Ranch Action",
-            "Wonder Why You Ever Go Home",
-            "Hood Ornament",
-            "Fifteen Gears",
-            "Can't Remember When I Slept Last",
-            "Rancho Deluxe"
-        ],
-        "uuid": "45831111",
-        "vintage": "PROBZsampling",
-        "year": "1975"
-    },
     "45831752": {
         "album": "Little Joe And The Thrillers Meet The Schoolboys",
         "albumsort": "501991Little Joe And The Thrillers Meet The Schoolboys",
@@ -37440,6 +38388,50 @@
         "uuid": "45918214",
         "vintage": "cdcol",
         "year": "1924-1931"
+    },
+    "45983436": {
+        "album": "Sincerely, Future Pollution",
+        "albumsort": "2017Sincerely, Future Pollution",
+        "artist": "Timber Timbre",
+        "label": "City Slang",
+        "sampling": false,
+        "tracks": [
+            "Velvet Gloves & Spit",
+            "Grifting",
+            "Skin Tone",
+            "Moment",
+            "Sewer Blues",
+            "Western Questions",
+            "Sincerely, Future Pollution",
+            "Bleu Nuit",
+            "Floating Cathedral"
+        ],
+        "uuid": "45983436",
+        "vintage": "cdcol",
+        "year": "2017"
+    },
+    "46063978": {
+        "album": "Made In USA",
+        "albumsort": "1994Made In USA",
+        "artist": "Pizzicato Five",
+        "label": "Matador/Readymade Inc./Triad",
+        "sampling": false,
+        "tracks": [
+            "I",
+            "Sweet Soul Revue",
+            "Magic Carpet Ride",
+            "Readymade FM",
+            "Baby Love Child",
+            "Twiggy Twiggy/Twiggy Vs. James Bond",
+            "This Year's Girl #2",
+            "I Wanna Be Like You",
+            "Go Go Dancer",
+            "Catchy",
+            "Peace Music"
+        ],
+        "uuid": "46063978",
+        "vintage": "cdcol",
+        "year": "1994"
     },
     "46065276": {
         "album": "Casino Royale",
@@ -39377,6 +40369,78 @@
         "vintage": "PROBZsampling",
         "year": "1950-1965"
     },
+    "48426303": {
+        "album": "Proud Of You",
+        "albumsort": "1989Proud Of You",
+        "artist": "Al Bowlly",
+        "label": "ASV/Living Era",
+        "sampling": false,
+        "tracks": [
+            "Marie",
+            "Sweet Someone",
+            "Colorado Sunset",
+            "Is That The Way To Treat A Sweetheart?",
+            "When Mother Nature Sings Her Lullaby",
+            "Two Sleepy People",
+            "Sweet As A Song",
+            "Goodnight Angel",
+            "Any Broken Hearts To Mend?",
+            "Al Bowlly Remembers (medley): Lover Come Back To Me / Dancing In The Dark / I'm Gonna Sit Right Down And Write Myself A Letter / Auf Wiedersechen My Dear",
+            "The Very Thought Of You",
+            "You're As Pretty As A Picture",
+            "Proud Of You",
+            "True",
+            "Summer's End",
+            "There's Rain In My Eyes",
+            "Bei Mir Bist Du Schoen",
+            "When The Organ Played \"O Promise Me\"",
+            "While The Cigarette Was Burning",
+            "Penny Sernade"
+        ],
+        "uuid": "48426303",
+        "vintage": "cdcol",
+        "year": "1934-1938"
+    },
+    "48489596": {
+        "album": "\"Okay, America!\" (Alternate Takes and Rarities)",
+        "albumsort": "1992\"Okay, America!\" (Alternate Takes and Rarities)",
+        "artist": "The Boswell Sisters",
+        "label": "Jass Records",
+        "sampling": false,
+        "tracks": [
+            "Sing A Little Jingle",
+            "Star Dust",
+            "Put That Sun Back In The Sky",
+            "Was That The Human Thing To Do?",
+            "Was That The Human Thing To Do?",
+            "New Orleans Medley, Part I: Way Down Yonder In New Orleans",
+            "New Orleans Medley, Part I: Dear Old Southland",
+            "New Orleans Medley, Part I: High Society",
+            "New Orleans Medley, Part I: Rampart Street Blues",
+            "New Orleans Medley, Part II: Milneburg Joys",
+            "New Orleans Medley, Part II: Panama",
+            "New Orleans Medley, Part II: River Stay 'Way From My Door",
+            "Washboard Blues",
+            "Lawd, You Made The Night Too Long",
+            "Okay, America! Medley, Part I: She Was Just A Tartar's Daughter",
+            "Okay, America! Medley, Part I: Love Me Tonight",
+            "Okay, America! Medley, Part I: Strange As It Seems",
+            "Okay, America! Medley, Part II: My Romance",
+            "Okay, America! Medley, Part II: The Old Man Of The Mountain",
+            "We Just Couldn't Say Goodbye",
+            "Sleep, Come On And Take Me",
+            "Down Amoung The Sheltering Palms",
+            "42nd Street",
+            "The Darktown Strutter's Ball",
+            "If I Had A Million Dollars",
+            "Dinah",
+            "Fare Thee Well, Annabelle",
+            "Lullaby Of Broadway"
+        ],
+        "uuid": "48489596",
+        "vintage": "cdcol",
+        "year": "1931-1935"
+    },
     "48498984": {
         "album": "The Get It! Raw Funk Of '67 - '69!",
         "albumsort": "99999Get It! Raw Funk Of '67 - '69!",
@@ -40017,6 +41081,74 @@
         "vintage": "PROBZsampling",
         "year": "2010"
     },
+    "49193282": {
+        "album": "Ragtime to Jazz 2: 1916 - 1922",
+        "albumsort": "401997Ragtime to Jazz 2: 1916 - 1922",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Fred Van Eps Trio",
+                "Original Dixieland Jazz Band",
+                "Earl Fuller's Famous Jazz Band",
+                "Anonymous Jazz Band",
+                "Anonymous Jazz Band",
+                "Paul Biese & His Novelty Orchestra",
+                "Louisiana Five",
+                "Louisiana Five",
+                "Lopez & Hamilton's Kings Of Harmony Orchestra",
+                "Lopez & Hamilton's Kings Of Harmony Orchestra",
+                "Yerkes' Novelty Five",
+                "Yerke's Southern Five",
+                "Whiteway Jazz Band",
+                "Whiteway Jazz Band",
+                "Eubie Blake",
+                "Brown & Terry Jazzola Boys",
+                "Lanin's Southern Serenaders",
+                "Unknown Black Orchestra",
+                "Mamie Smith's Jazz Hounds",
+                "Ladd's Black Aces",
+                "Husk O'Hare's Super Orchestra Of Chicago",
+                "Husk O'Hare's Super Orchestra Of Chicago",
+                "Bobby Lee & his Music Landers",
+                "Bobby Lee & his Music Landers",
+                "Syncopating Skeeters",
+                "Syncopating Skeeters"
+            ]
+        },
+        "label": "Timeless",
+        "sampling": false,
+        "tracks": [
+            "Teasing the Cat",
+            "At the Jass Band Ball",
+            "Jazz De Luxe",
+            "A Good Man Is Hard to Find",
+            "Lonesome Road",
+            "Yellow Dog Blues",
+            "Hello, Hello",
+            "Weeping Willow Blues",
+            "Bluin' the Blues",
+            "Dixieland One-Step",
+            "Left Alone Blues Intro: Good Night Boat",
+            "Railroad Blues",
+            "Blues My Naughty Sweetie Gives to Me",
+            "Tiger Rag",
+            "Sounds of Africa",
+            "Saxophone Blues",
+            "Shake It and Break It",
+            "Muscle Shoals Blues",
+            "The Decatur Street Blues",
+            "Virginia Blues",
+            "Tiger Rag",
+            "San",
+            "Truly",
+            "Hot Lips",
+            "Loose Feet",
+            "Telephone Blues"
+        ],
+        "uuid": "49193282",
+        "vintage": "cdcol",
+        "year": "1916-1922"
+    },
     "49215508": {
         "album": "Back From The Grave V1",
         "albumsort": "551983Back From The Grave V1",
@@ -40505,7 +41637,7 @@
             "Singin' In The Rain"
         ],
         "uuid": "49974082",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1817-1971"
     },
     "50011748": {
@@ -41490,6 +42622,41 @@
         "vintage": "PROBZ cdcol",
         "year": "1929"
     },
+    "51048834": {
+        "album": "Everything Is Hotsy-Totsy Now",
+        "albumsort": "1996Everything Is Hotsy-Totsy Now",
+        "artist": "The Coon-Sanders' Nighthawks",
+        "label": "ASV/Living Era",
+        "sampling": false,
+        "tracks": [
+            "Nighthawk Blues",
+            "Red-hot Mamma",
+            "I'm Gonna Charleston Back To Charleston",
+            "Alone At Last",
+            "Yes, Sir! That's My Baby!",
+            "Everything Is Hotsy-totsy Now",
+            "Flamin' Mamie",
+            "Deep Henderson",
+            "My Baby Knows How",
+            "Slue-foot",
+            "Mine, All Mine!",
+            "Wail, The",
+            "Hallucinations",
+            "Stay Out Of The South",
+            "Oh! You Have No Idea",
+            "Here Comes My Ball And Chain",
+            "Little Orphan Annie",
+            "Rhythm King",
+            "We Love Us",
+            "Alone In The Rain",
+            "After You've Gone",
+            "The Darktown Strutters' Ball",
+            "Keepin' Out Of Mischief Now"
+        ],
+        "uuid": "51048834",
+        "vintage": "cdcol",
+        "year": "1924-1932"
+    },
     "51107354": {
         "album": "Pig Lib",
         "albumsort": "9999Stephen Malkmus and the Jicks Pig Lib",
@@ -41721,7 +42888,7 @@
     },
     "51417251": {
         "album": "Vampire Songs - Music From Dracula's Castle",
-        "albumsort": "1997Vampire Songs - Music From Dracula's Castle",
+        "albumsort": "x1997Vampire Songs - Music From Dracula's Castle",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -44607,6 +45774,36 @@
         "vintage": "annex",
         "year": "1947-1949"
     },
+    "54342255": {
+        "album": "The Best Of Word Jazz, Vol. 1",
+        "albumsort": "1990The Best Of Word Jazz, Vol. 1",
+        "artist": "Ken Nordine",
+        "label": "Dot/Rhino Word Beat",
+        "sampling": false,
+        "tracks": [
+            "My Baby",
+            "Original Sin",
+            "What Time Is It?",
+            "Confessions Of 349-18-5171",
+            "Hunger Is From",
+            "The Vidiot",
+            "Reaching Into In",
+            "Adult Kindergarten",
+            "The Sound Museum",
+            "Bury-It-Yourself Time Capsules",
+            "Anytime, Anytime",
+            "A Whistler",
+            "Flibberty Jib",
+            "Faces In The Jazzamatazz",
+            "I Used To Think My Right Hand Was Uglier Than My Left",
+            "Looks Like It's Going To Rain",
+            "Down The Drain",
+            "You're Getting Better"
+        ],
+        "uuid": "54342255",
+        "vintage": "cdcol",
+        "year": "1957-1960"
+    },
     "54390614": {
         "album": "Beyond The Blue Horizon",
         "albumsort": "2001Beyond The Blue Horizon",
@@ -44645,7 +45842,7 @@
     },
     "54401319": {
         "album": "The Sopranos",
-        "albumsort": "001999Sopranos",
+        "albumsort": "021999Sopranos",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -44679,7 +45876,7 @@
             "Viking"
         ],
         "uuid": "54401319",
-        "vintage": "PROBZsampling",
+        "vintage": "cdcol",
         "year": "1956-1999"
     },
     "54482743": {
@@ -46731,7 +47928,7 @@
         "album": "Odyshape",
         "albumsort": "1981Odyshape",
         "artist": "The Raincoats",
-        "label": "",
+        "label": "Rough Trade",
         "sampling": false,
         "tracks": [
             "Shouting Out Loud",
@@ -46745,7 +47942,7 @@
             "Go Away"
         ],
         "uuid": "56908950",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1981"
     },
     "56920254": {
@@ -46804,6 +48001,30 @@
         "uuid": "56927150",
         "vintage": "PROBZ cdcol",
         "year": "1973"
+    },
+    "56952573": {
+        "album": "Batman Exclusive Original Television Soundtrack Album",
+        "albumsort": "021966Batman Exclusive Original Television Soundtrack Album",
+        "artist": "Nelson Riddle",
+        "label": "20th Century Fox Records",
+        "sampling": false,
+        "tracks": [
+            "Batman Theme",
+            "Batman Riddles The Riddler! \u2012 Or \u2012 (Hi Diddle Riddle)",
+            "Batusi A-Go! Go! \u2012 Or \u2012 (I Shouldn't Wish To Attract Attention)",
+            "Two Perfectly Ordinary People \u2012 Or \u2012 (!!!!)",
+            "Holy-Hole-In-The-Doughnut \u2012 Or \u2012 (Robin, You've Done It Again!)",
+            "Batman Pows The Penguin \u2012 Or \u2012 (Aha, My Fine-Feathered Finks!)",
+            "To The Batmobile!",
+            "Batman Blues",
+            "Holy Flypaper",
+            "Batman Thaws Mr. Freeze \u2012 Or \u2012 (That's The Way The Ice-Cube Crumbles!)",
+            "Gotham City",
+            "Zelda Tempts Batman \u2012 Or \u2012 (Must He Go It Alone????)"
+        ],
+        "uuid": "56952573",
+        "vintage": "cdcol",
+        "year": "1966"
     },
     "57043607": {
         "album": "Smile",
@@ -46977,6 +48198,42 @@
         "uuid": "57233513",
         "vintage": "cdcol",
         "year": "1729-1975"
+    },
+    "57256731": {
+        "album": "Shadow Masters: New, Used, & Absurd D2",
+        "albumsort": "x2002Shadow Masters: New, Used, & Absurd D2",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Cujo",
+                "Shinj\u016b Gumi",
+                "Magnetic",
+                "Terre Thaemlitz",
+                "Goo",
+                "Kosma",
+                "BMF",
+                "DJ Cam",
+                "P.B.K.",
+                "DJ Part"
+            ]
+        },
+        "label": "Shadow Records",
+        "sampling": false,
+        "tracks": [
+            "Trespassing (Chalice Mix)",
+            "Innerscar (Belleville Meditation Blues Mix By Kid Loco)",
+            "Scared Sacred",
+            "Hovering Glows (Dietrich Schoenemann Remix)",
+            "The Greatest (DJ Cam Revisits Goo)",
+            "Aeroboot (Megashira Remix)",
+            "Grandmaster (Q-Burns Abstract Message Remix)",
+            "Return Of The Jedi (Luh Mix)",
+            "Nightfall",
+            "Finger Painting"
+        ],
+        "uuid": "57256731",
+        "vintage": "cdcol",
+        "year": "1996-2002"
     },
     "57325509": {
         "album": "You're The One - The Best Of The Vogues",
@@ -47280,6 +48537,58 @@
         "vintage": "PROBZ cdcol",
         "year": "1948"
     },
+    "57518301": {
+        "album": "Skyscraper: Original Motion Picture Soundtrack",
+        "albumsort": "002018Skyscraper: Original Motion Picture Soundtrack",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Steve Jablonsky",
+                "Jamie N Commons"
+            ]
+        },
+        "label": "Milan",
+        "sampling": false,
+        "tracks": [
+            "Hostage Pt. 1",
+            "Will & Sarah",
+            "Welcome To Heaven",
+            "Botha",
+            "The Crane",
+            "Chopper Ambush",
+            "Duct Tape",
+            "Bridge Collapse",
+            "Proper Motivation",
+            "Out On A Ledge",
+            "Georgia & Henry",
+            "Reflections",
+            "Hostage Pt. 2",
+            "Reboot",
+            "Lucky Man",
+            "Skyscraper",
+            "The Pearl",
+            "Walls"
+        ],
+        "uuid": "57518301",
+        "vintage": "cdcol",
+        "year": "2018"
+    },
     "57554126": {
         "album": "The Quietvibrationland",
         "albumsort": "2000The Quietvibrationland",
@@ -47332,6 +48641,34 @@
         "uuid": "57563448",
         "vintage": "annex",
         "year": "????"
+    },
+    "57724854": {
+        "album": "Conan The Barbarian",
+        "albumsort": "001982Conan The Barbarian",
+        "artist": "Basil Poledouris",
+        "label": "Var\u00e8se Sarabande",
+        "sampling": false,
+        "tracks": [
+            "Anvil Of Crom",
+            "Riddle Of Steel/Riders Of Doom",
+            "The Gift Of Fury",
+            "Wheel Of Pain",
+            "Atlantean Sword",
+            "Theology/Civilization",
+            "Wifeing (Theme of Love from 'Conan The Barbarian')",
+            "The Leaving/The Search",
+            "Mountain Of Power Procession",
+            "The Tree Of Woe",
+            "Recovery",
+            "The Kitchen/The Orgy",
+            "The Funeral Pyre",
+            "Battle Of The Mounds",
+            "Death Of Rexor",
+            "Orphans Of Doom/The Awakening"
+        ],
+        "uuid": "57724854",
+        "vintage": "cdcol",
+        "year": "1982"
     },
     "57738386": {
         "album": "Northern Soul Forever",
@@ -47637,7 +48974,7 @@
             "The Repudiated Immortals"
         ],
         "uuid": "58151037",
-        "vintage": "PROBZ cdcol",
+        "vintage": "cdcol",
         "year": "2005"
     },
     "58159172": {
@@ -47662,6 +48999,42 @@
         "uuid": "58159172",
         "vintage": "PROBZ cdcol",
         "year": "2018"
+    },
+    "58222897": {
+        "album": "Shadow Masters: New, Used, & Absurd D1",
+        "albumsort": "x2002Shadow Masters: New, Used, & Absurd D1",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Doris Days",
+                "Taxi",
+                "DJ Krush",
+                "Sayma",
+                "Anthea",
+                "Marschmellows",
+                "Colleen Max Fisher",
+                "James Hardway",
+                "Ollano",
+                "Agent 5.1"
+            ]
+        },
+        "label": "Shadow Records",
+        "sampling": false,
+        "tracks": [
+            "To Ulrike M (Zero 7 Mix)",
+            "Take What You Want (Hacienda's Take A Little Bit Longer Mix)",
+            "Big City Lover (Remix)",
+            "Not So Sure",
+            "Always 2 Always",
+            "Soulpower (Jazzanova's Straight Dub Mix)",
+            "Innocent",
+            "Going Home",
+            "Antipodes",
+            "Cake Song"
+        ],
+        "uuid": "58222897",
+        "vintage": "cdcol",
+        "year": "1995-2002"
     },
     "58233469": {
         "album": "Singin' The Blues",
@@ -48280,6 +49653,28 @@
         "vintage": "PROBZ cdcol",
         "year": "1969"
     },
+    "59204684": {
+        "album": "The Matrix: Original Motion Picture Score",
+        "albumsort": "001999The Matrix: Original Motion Picture Score",
+        "artist": "Don Davis",
+        "label": "Var\u00e8se Sarabande",
+        "sampling": false,
+        "tracks": [
+            "Main Title/Trinity Infinity",
+            "Unable To Speak",
+            "The Power Plant",
+            "Welcome to the Real World",
+            "The Hotel Ambush",
+            "Exit Mr. Hat",
+            "A Virus",
+            "Bullet-time",
+            "Ontological Shock",
+            "Anything is Possible"
+        ],
+        "uuid": "59204684",
+        "vintage": "cdcol",
+        "year": "1999"
+    },
     "59279322": {
         "album": "The Voice of Tony Burrows",
         "albumsort": "11996The Voice of Tony Burrows",
@@ -48867,7 +50262,7 @@
             "Everyday Feels Like Sunday"
         ],
         "uuid": "59864480",
-        "vintage": "PROBZ cdcol",
+        "vintage": "cdcol",
         "year": "2005"
     },
     "59880415": {
@@ -51050,7 +52445,7 @@
             "The Godfather Finale"
         ],
         "uuid": "62456001",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1972"
     },
     "62502076": {
@@ -51353,7 +52748,7 @@
             "Chick Habit"
         ],
         "uuid": "62679627",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1956-2007"
     },
     "62727093": {
@@ -52044,6 +53439,43 @@
         "uuid": "63542020",
         "vintage": "PROBZsampling",
         "year": "1990"
+    },
+    "63574037": {
+        "album": "Puttin' on the Ritz",
+        "albumsort": "2002Puttin' on the Ritz",
+        "artist": "Harry Richman",
+        "label": "ASV/Living Era",
+        "sampling": false,
+        "tracks": [
+            "Puttin' on the Ritz",
+            "There's Danger in Your Eyes, Cherie",
+            "Singing a Vagabond Song",
+            "Will You Remember Me?",
+            "Lucky Day",
+            "The Birth of the Blues",
+            "I'm on the Crest of a Wave",
+            "Blue Skies",
+            "Muddy Water",
+            "Hallelujah!",
+            "Just Like a Butterfly That's Caught in the Rain",
+            "King for a Day",
+            "I Can't Give You Anything But Love, Baby",
+            "Exactly Like You",
+            "On the Sunny Side of the Street",
+            "Thank Your Father",
+            "When Your Lover Has Gone",
+            "I Love a Parade",
+            "Life Begins When You're in Love",
+            "Suzannah",
+            "Alone",
+            "If I Should Lose You",
+            "The Night Is Young and You're So Beautiful!",
+            "Pennies from Heaven",
+            "Walking My Baby Back Home"
+        ],
+        "uuid": "63574037",
+        "vintage": "cdcol",
+        "year": "1925-1947"
     },
     "63724783": {
         "album": "Decade D1",
@@ -53296,28 +54728,6 @@
         "vintage": "annex",
         "year": "1926-1937"
     },
-    "65215150": {
-        "album": "Made In USA",
-        "albumsort": "Made In USA",
-        "artist": "Pizzicato Five",
-        "sampling": true,
-        "tracks": [
-            "I",
-            "Sweet Soul Revue",
-            "Magic Carpet Ride",
-            "Readymade FM",
-            "Baby Love Child",
-            "Twiggy Twiggy [Twiggy Vs. James Bond]",
-            "This Year's Girl #2",
-            "I Wanna Be Like You",
-            "Go Go Dancer",
-            "Catchy",
-            "Peace Music"
-        ],
-        "uuid": "65215150",
-        "vintage": "PROBZsampling",
-        "year": "1991-1994"
-    },
     "65267324": {
         "album": "Burn Your Fire For No Witness",
         "albumsort": "Burn Your Fire For No Witness",
@@ -54027,7 +55437,7 @@
             "Waterloo Sunset"
         ],
         "uuid": "65825708",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1967"
     },
     "65842387": {
@@ -57097,6 +58507,28 @@
         "vintage": "PROBZsampling",
         "year": "2000"
     },
+    "69969295": {
+        "album": "Summer Moods",
+        "albumsort": "1985Summer Moods",
+        "artist": "The Mystic Moods Orchestra",
+        "label": "Bainbridge",
+        "sampling": false,
+        "tracks": [
+            "Theme From A Summer Place",
+            "Love Token",
+            "The Look Of Love",
+            "Moonlight",
+            "Days Of Wine And Roses",
+            "Come Saturday Morning",
+            "Visions",
+            "Ne Dis Rien",
+            "Touch",
+            "The First Time"
+        ],
+        "uuid": "69969295",
+        "vintage": "cdcol",
+        "year": "1966-1972"
+    },
     "70030125": {
         "album": "Vacation",
         "albumsort": "9999Blank Tapes Vacatino",
@@ -58389,6 +59821,36 @@
         "vintage": "annex",
         "year": "1961"
     },
+    "72004617": {
+        "album": "First Recordings 1976-78",
+        "albumsort": "1989First Recordings 1976-78",
+        "artist": "The Klezmorim",
+        "label": "Arhoolie",
+        "sampling": false,
+        "tracks": [
+            "Di Zilberne Khasene",
+            "Cintec De Dragoste",
+            "Thalassa",
+            "Thalassa",
+            "Fidl Volach",
+            "Medyatsiner Waltz",
+            "Sherele",
+            "Mayn Rue Plats",
+            "A Glezele Vayn",
+            "Baym Rebns Sude",
+            "Lebedik Un Freylekh",
+            "Sirba/ Hora",
+            "Doina",
+            "Papirosn",
+            "Firen Di Mekhutonim Aheym",
+            "Trello Hasaposerviko/ Sonya/ Anushke",
+            "Af Shabes In Vilma",
+            "Taxim"
+        ],
+        "uuid": "72004617",
+        "vintage": "cdcol",
+        "year": "1976-1978"
+    },
     "72021271": {
         "album": "Hag",
         "albumsort": "1971Hag",
@@ -58410,6 +59872,70 @@
         "uuid": "72021271",
         "vintage": "cdcol",
         "year": "1971"
+    },
+    "72033953": {
+        "album": "On a Coconut Island, Music of Hawaii",
+        "albumsort": "421994On a Coconut Island, Music of Hawaii",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Palakiko & Paaluhi",
+                "Louis Armstrong with the Polynesians",
+                "Segis Luvaun",
+                "Hawaiian Guitars (Benny Nawahi)",
+                "Samoan Troupe (Tau Moe)",
+                "Kanui & Lula",
+                "Felix Mendelssohn and His Hawaiian Serenaders",
+                "Les \"Tamarii Tahiti\"",
+                "George \"Tautu\" Archer & the Pagans",
+                "Sol K Bright and his Hollywaiians",
+                "Four Hawaiian Guitars (Benny Nawahi)",
+                "Felix Mendelssohn and His Hawaiian Serenaders",
+                "Dick McIntire's Harmony Hawaiians",
+                "George \"Tautu\" Archer & the Pagans",
+                "Augie Goupil And His Royal Tahitians",
+                "Hawaien Trio Tau Moe",
+                "Hawaien Trio Tau Moe",
+                "Das Hawaiian-Trio Tau Moe",
+                "Augie Goupil And His Royal Tahitians",
+                "Augie Goupil And His Royal Tahitians",
+                "Andy Iona And His Islanders",
+                "Andy Iona And His Islanders",
+                "Ray Kinney and his Hawaiian Musical Ambassadors",
+                "Ray Kinney and his Hawaiian Musical Ambassadors"
+            ]
+        },
+        "label": "Harlequin",
+        "sampling": false,
+        "tracks": [
+            "Honolulu March",
+            "On a Coconut Island",
+            "Wela-ka-hao",
+            "My Girl from the South Sea Isles",
+            "He Aloha No O Honolulu",
+            "Pue Carnation",
+            "Hawaiian Love",
+            "Tau Tiare Iti",
+            "Les Femmes D'Amerique",
+            "He Ono",
+            "Black Boy Blues",
+            "Maui Waltz",
+            "Paahana",
+            "Papio",
+            "Papio",
+            "Malihini Mele",
+            "Va'lii",
+            "My Golden Baby",
+            "Tahiti O Tera",
+            "Mokihana",
+            "Maui Girl",
+            "Minnehaha",
+            "Palolo",
+            "Ke ka Upu"
+        ],
+        "uuid": "72033953",
+        "vintage": "cdcol",
+        "year": "1928-1941"
     },
     "72039991": {
         "album": "The Kitchen Tapes",
@@ -58474,6 +60000,74 @@
         "uuid": "72148662",
         "vintage": "PROBZsampling",
         "year": "1997"
+    },
+    "72174962": {
+        "album": "Come Get It I Got It.",
+        "albumsort": "2002Come Get It I Got It.",
+        "artist": {
+            "albumartist": "David Holmes introducing The Free Association",
+            "trackartists": [
+                "",
+                "Sixto Rodriguez",
+                "The Free Association",
+                "Hodges, James, Smith & Crawford",
+                "Muddy Waters",
+                "The Johnny Otis Show",
+                "Rex Garvin & The Mighty Cravers",
+                "Harold Alexander",
+                "The Free Association",
+                "The Free Association",
+                "Ray Bryant",
+                "Cyril Neville",
+                "A Fascinating Musical Experience",
+                "JuJus",
+                "Betty Adams",
+                "The Staple Singers",
+                "The Free Association",
+                "The Free Association",
+                "The Free Association",
+                "Johnny Jones & The King Casuals",
+                "The Free Association",
+                "Valentin Mehler",
+                "The Peter Thomas Sound Orchestra",
+                "Andr\u00e9 Perry",
+                "The Free Association",
+                "The Free Association"
+            ]
+        },
+        "label": "13 Amp",
+        "sampling": false,
+        "tracks": [
+            "Intro",
+            "Sugarman",
+            "Effectin'",
+            "Nobody",
+            "Tom Cat",
+            "Country Girl",
+            "Strange Happenings",
+            "Mama Soul",
+            "Don't Mess Hair",
+            "Start Of Something",
+            "Up Above The Rock",
+            "Gossip",
+            "The Monster",
+            "Sweet Songs",
+            "Make It Real (Ride On)",
+            "Why? (Am I Treated So Bad)",
+            "This Could Be Your Sister",
+            "Salut La Dolce Vita Pt 1",
+            "House Music",
+            "Purple Haze",
+            "Salut La Dolce Vita Pt 2",
+            "Herbstplatte '69",
+            "Stars And Rockets",
+            "Ode A L'affaire",
+            "Sounds Phoney",
+            "Don't Believe A Word"
+        ],
+        "uuid": "72174962",
+        "vintage": "cdcol",
+        "year": "1968-2002"
     },
     "72216785": {
         "album": "The Dance Band Years D1",
@@ -58856,6 +60450,30 @@
         "vintage": "cdcol",
         "year": "1956"
     },
+    "73061172": {
+        "album": "Byrne/Moran/Lurie/Torke",
+        "albumsort": "1992Byrne/Moran/Lurie/Torke",
+        "artist": "Balanescu Quartet",
+        "label": "Argo",
+        "sampling": false,
+        "tracks": [
+            "Byrne: High Life For 9 Instruments",
+            "Moran: Music From The Towers Of The Moon - Mvt. 1",
+            "Moran: Music From The Towers Of The Moon - Mvt. 2",
+            "Moran: Music From The Towers Of The Moon - Mvt. 3",
+            "Moran: Music From The Towers Of The Moon - Mvt. 4",
+            "Lurie: Stranger Than Paradise - Bella By Barlight",
+            "Lurie: Stranger Than Paradise - Improvisation 1",
+            "Lurie: Stranger Than Paradise - The Good & Happy Army",
+            "Lurie: Stranger Than Paradise - The Sad Trees/The Lamposts Are Mine",
+            "Lurie: Stranger Than Paradise - Evan & Willlie's Room/Eva Packing",
+            "Lurie: Stranger Than Paradise - Improvisation 2",
+            "Torke: Chalk"
+        ],
+        "uuid": "73061172",
+        "vintage": "cdcol",
+        "year": "1992"
+    },
     "73123251": {
         "album": "How to Stuff a Wild Bikini",
         "albumsort": "001965How to Stuff a Wild Bikini",
@@ -58992,7 +60610,7 @@
             "You're My Wicked Life"
         ],
         "uuid": "73228605",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1966-2003"
     },
     "73236132": {
@@ -59719,6 +61337,54 @@
         "uuid": "73886200",
         "vintage": "cdcol",
         "year": "1936"
+    },
+    "73948602": {
+        "album": "The Blues 1923 To 1933",
+        "albumsort": "401988The Blues 1923 To 1933",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Ida Cox",
+                "Cleo Gibson",
+                "Rosa Henderson",
+                "Frances Hereford",
+                "Memphis Jug Band",
+                "Ma Rainey",
+                "Issie Ringgold",
+                "Jimmie Rodgers",
+                "Bessie Smith",
+                "Mamie Smith",
+                "Victoria Spivey",
+                "Eva Taylor",
+                "Ethel Waters",
+                "Margaret Webster",
+                "Margaret Whitmire",
+                "Lena Wilson"
+            ]
+        },
+        "label": "ABC Records",
+        "sampling": false,
+        "tracks": [
+            "Give Me A Break Blues",
+            "Nothin' But Blues",
+            "Barrel House Blues",
+            "Midnight Mama",
+            "Kansas City Blues",
+            "Prove It On Me Blues",
+            "Be On Your Merry Way",
+            "Blue Yodel No. 9",
+            "Nobody Knows You When You're Down And Out",
+            "Jenny's Ball",
+            "Moaning The Blues",
+            "Organ Grinder",
+            "Get Up Off Your Knees",
+            "I've Got What It Takes",
+            "That Thing's Done Been Put On Me",
+            "He Used To Be Your Man"
+        ],
+        "uuid": "73948602",
+        "vintage": "cdcol",
+        "year": "1923-1933"
     },
     "73966247": {
         "album": "Los Amigos Del Beta Bandidos",
@@ -60987,7 +62653,7 @@
         "album": "Goofing-Off Suite",
         "albumsort": "1955Goofing-Off Suite",
         "artist": "Pete Seeger",
-        "label": "",
+        "label": "Folkways Records",
         "sampling": false,
         "tracks": [
             "Opening Theme",
@@ -61009,7 +62675,7 @@
             "Woody's Rag"
         ],
         "uuid": "75741500",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1955"
     },
     "75813003": {
@@ -61648,7 +63314,7 @@
     },
     "76770574": {
         "album": "Deeper Polka: More Dance Music from the Midwest",
-        "albumsort": "2002Deeper Polka: More Dance Music from the Midwest",
+        "albumsort": "x2002Deeper Polka: More Dance Music from the Midwest",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -61739,6 +63405,28 @@
         "uuid": "76798095",
         "vintage": "PROBZ cdcol",
         "year": "1967"
+    },
+    "76799927": {
+        "album": "Back To The Story",
+        "albumsort": "2007Back To The Story",
+        "artist": "The Idle Race",
+        "label": "EMI/Zonophone",
+        "sampling": false,
+        "tracks": [
+            "Here We Go Round the Lemon Tree",
+            "My Father's Son",
+            "Imposters of Life's Magazine",
+            "Knocking Nails into My House",
+            "Days Of The Broken Arrows",
+            "Worn Red Carpet",
+            "In the Summertime",
+            "Told You Twice",
+            "Neanderthal Man",
+            "Victim of Circumstance"
+        ],
+        "uuid": "76799927",
+        "vintage": "cdcol",
+        "year": "1967-1970"
     },
     "77002957": {
         "album": "Jazz Loon",
@@ -64020,7 +65708,7 @@
     },
     "79579154": {
         "album": "The Cocktail Shaker - New Groovy Kitsch & Space-Age Pop",
-        "albumsort": "1997The Cocktail Shaker - New Groovy Kitsch & Space-Age Pop",
+        "albumsort": "x1997The Cocktail Shaker - New Groovy Kitsch & Space-Age Pop",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -64119,28 +65807,6 @@
         "uuid": "79626309",
         "vintage": "PROBZsampling",
         "year": "2010"
-    },
-    "79662856": {
-        "album": "The Matrix: Original Motion Picture Score",
-        "albumsort": "1999The Matrix: Original Motion Picture Score",
-        "artist": "Don Davis",
-        "label": "Var\u00e8se Sarabande",
-        "sampling": true,
-        "tracks": [
-            "Main Title / Trinity Infinity",
-            "Unable to Speak",
-            "The Power Plant",
-            "Welcome to the Real World",
-            "The Hotel Ambush",
-            "Exit Mr. Hat",
-            "A Virus",
-            "Bullet-time",
-            "Ontological Shock",
-            "Anything Is Possible"
-        ],
-        "uuid": "79662856",
-        "vintage": "Sampling (amj)",
-        "year": "1999"
     },
     "79719519": {
         "album": "The Original Washington Square",
@@ -65763,6 +67429,29 @@
         "vintage": "cdcol",
         "year": "1956-1964"
     },
+    "81280439": {
+        "album": "60 Years Of \"Music America Hates Best\"",
+        "albumsort": "196060 Years Of \"Music America Hates Best\"",
+        "artist": "Spike Jones",
+        "label": "Liberty",
+        "sampling": false,
+        "tracks": [
+            "I Kiss Your Hand, Madame",
+            "Knock, Knock, Who's There?",
+            "River, Stay 'Way From My Door",
+            "Pimples And Braces",
+            "Hut Sut Song",
+            "Strip Polka",
+            "Mairzy Doats",
+            "The 20's Roar (Medley)",
+            "Melody Of Love (Why Do I Love You)",
+            "Three Little Fishies",
+            "Kookie, Kookie, Lend Me Your Comb (Spooky, Spooky, Lend Me Your Tomb)"
+        ],
+        "uuid": "81280439",
+        "vintage": "cdcol",
+        "year": "1960"
+    },
     "81575504": {
         "album": "The Golden Age Of American Rock 'n' Roll - Volume 3",
         "albumsort": "521991Golden Age Of American Rock 'n' Roll - Volume 3",
@@ -65838,6 +67527,54 @@
         "uuid": "81575504",
         "vintage": "cdcol",
         "year": "1955-1963"
+    },
+    "81675190": {
+        "album": "Quantic presents: The World's Rarest Funk 45s",
+        "albumsort": "582006Quantic presents: The World's Rarest Funk 45s",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Larry Ellis & The Black Hater",
+                "The Soul Lifters",
+                "The Sades Of Black",
+                "Prepositio",
+                "Vern Blair Debate",
+                "The Latin Breed",
+                "Herman Hitson",
+                "The Brothers Seven",
+                "Soul Excitement",
+                "Gene Anderson",
+                "Tony Bowe & The Soul-Choppers",
+                "The PC's Ltd.",
+                "Sandi & Matues",
+                "M-BAND",
+                "James Polk & The Brothers",
+                "The 'Great' Deltas"
+            ]
+        },
+        "label": "Quantic/Jazzman",
+        "sampling": false,
+        "tracks": [
+            "Funky Thing (Pt. 1)",
+            "Hot Funky And Sweaty",
+            "Mystery Of Black (Pt. 1)",
+            "Something Different",
+            "Ooh Ah Ee",
+            "I Turn You On",
+            "Ain't No Other Way",
+            "Evil Ways",
+            "Stay Together",
+            "The Loneliest One",
+            "Boilin' Water",
+            "Fast Man",
+            "The World (Pt. 1)",
+            "Egg Roll",
+            "Just Plain Funk",
+            "Tra La La"
+        ],
+        "uuid": "81675190",
+        "vintage": "cdcol",
+        "year": "1967-1975"
     },
     "81715804": {
         "album": "Ram",
@@ -66239,6 +67976,48 @@
         "vintage": "annex",
         "year": "1987-1993"
     },
+    "81943342": {
+        "album": "Sexy Beast Original Soundtrack",
+        "albumsort": "002001Sexy Beast Original Soundtrack",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "The Stranglers",
+                "Henry Mancini & His Orchestra",
+                "Unkle With South",
+                "Unkle With South",
+                "Unkle With South",
+                "Unkle With South",
+                "Unkle With South",
+                "Unkle With South",
+                "Derek Martin",
+                "Roque Ba\u00f1os",
+                "Roque Ba\u00f1os",
+                "Roque Ba\u00f1os",
+                "Dean Martin"
+            ]
+        },
+        "label": "Beyond",
+        "sampling": false,
+        "tracks": [
+            "Peaches",
+            "Lujon",
+            "Cocaine And Camcorders (Original Version)",
+            "Cocaine And Camcorders (UNKLE Variation)",
+            "Logan's Run",
+            "Psychosis",
+            "Paranoid (UNKLE Variation)",
+            "Suicide",
+            "Daddy Rollin' Stone",
+            "Gal & Dedee",
+            "Teddy The Beast",
+            "Party At The Restaurant",
+            "Sway"
+        ],
+        "uuid": "81943342",
+        "vintage": "cdcol",
+        "year": "1954-2001"
+    },
     "82007523": {
         "album": "For Everyman",
         "albumsort": "1973For Everyman",
@@ -66265,7 +68044,7 @@
         "album": "Summer Sun",
         "albumsort": "2003Summer Sun",
         "artist": "Yo La Tengo",
-        "label": "",
+        "label": "Matador",
         "sampling": false,
         "tracks": [
             "Beach Party Tonight",
@@ -66283,7 +68062,7 @@
             "Take Care"
         ],
         "uuid": "82023549",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2003"
     },
     "82031174": {
@@ -66777,6 +68556,33 @@
         "vintage": "PROBZsampling",
         "year": "2005"
     },
+    "82859047": {
+        "album": "Presents The Swings",
+        "albumsort": "1995Presents The Swings",
+        "artist": "Ond\u0159ej Havelka",
+        "label": "Angel",
+        "sampling": false,
+        "tracks": [
+            "Let Yourself Go",
+            "That Can't Take That Away From Me",
+            "Kalamazoo",
+            "Mood Indigo",
+            "It's Only A Paper Moon",
+            "Don't Sit Under The Apple Tree",
+            "I'm Putting My Eggs In One Basket",
+            "Beat Me, Daddy, Eight To The Bar",
+            "The Lady Is A Tramp",
+            "Mr. Sandman",
+            "Jingle Bells",
+            "Sonny Boy",
+            "So Rare",
+            "Night And Day",
+            "Oh, Miss Hannah"
+        ],
+        "uuid": "82859047",
+        "vintage": "cdcol",
+        "year": "1995"
+    },
     "82992256": {
         "album": "Tragic Songs from the Grassy Knoll: John F. Kennedy 50th Anniversary Collection",
         "albumsort": "312013Tragic Songs from the Grassy Knoll: John F. Kennedy 50th Anniversary Collection",
@@ -67138,7 +68944,7 @@
             "Ezekiel 25:17"
         ],
         "uuid": "83609170",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1958-1994"
     },
     "83627228": {
@@ -67330,6 +69136,60 @@
         "vintage": "annex",
         "year": "1936-1938"
     },
+    "83687079": {
+        "album": "Drive: Original Motion Picture Soundtrack",
+        "albumsort": "002011Drive: Original Motion Picture Soundtrack",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Kavinsky & Lovefoxxx",
+                "Desire",
+                "College Feat. Electric Youth",
+                "Riz Ortolani Feat. Katyna Ranieri",
+                "Chromatics",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez",
+                "Cliff Martinez"
+            ]
+        },
+        "label": "Lakeshore Records",
+        "sampling": false,
+        "tracks": [
+            "Nightcall",
+            "Under Your Spell",
+            "A Real Hero",
+            "Oh My Love",
+            "Tick Of The Clock",
+            "Rubber Head",
+            "I Drive",
+            "He Had A Good Time",
+            "They Broke His Pelvis",
+            "Kick Your Teeth",
+            "Where's The Deluxe Version?",
+            "See You In Four",
+            "After The Chase",
+            "Hammer",
+            "Wrong Floor",
+            "Skull Crushing",
+            "My Name On A Car",
+            "On The Beach",
+            "Bride Of Deluxe"
+        ],
+        "uuid": "83687079",
+        "vintage": "cdcol",
+        "year": "1971-2011"
+    },
     "83758151": {
         "album": "Down From The Mountain",
         "albumsort": "002001Down From The Mountain",
@@ -67470,7 +69330,7 @@
         "album": "Darling Corey",
         "albumsort": "1950Darling Corey",
         "artist": "Pete Seeger",
-        "label": "",
+        "label": "Folkways Records",
         "sampling": false,
         "tracks": [
             "John Riley",
@@ -67488,7 +69348,7 @@
             "Get Along Little Dogies"
         ],
         "uuid": "83960700",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1950"
     },
     "84075109": {
@@ -68898,6 +70758,28 @@
         "vintage": "PROBZsampling",
         "year": "2010"
     },
+    "86025142": {
+        "album": "Another Stormy Night",
+        "albumsort": "1983Another Stormy Night",
+        "artist": "The Mystic Moods Orchestra",
+        "label": "Bainbridge",
+        "sampling": false,
+        "tracks": [
+            "Far From The Madding Crowd",
+            "Autumn Leaves",
+            "Friendly Persuasion",
+            "Minstrel Boy",
+            "Symphony",
+            "A Dream",
+            "Love Theme From \"Tristan And Isolde\"",
+            "My Own True Love",
+            "Crystal Morning",
+            "Sayonara"
+        ],
+        "uuid": "86025142",
+        "vintage": "cdcol",
+        "year": "1966-1972"
+    },
     "86096764": {
         "album": "The Monument Story D2",
         "albumsort": "541994Monument Story D2",
@@ -69017,7 +70899,7 @@
     },
     "86210851": {
         "album": "Pennies From Heaven D2",
-        "albumsort": "431993Pennies From Heaven D2",
+        "albumsort": "021978Pennies From Heaven D2",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -69076,7 +70958,7 @@
             "Pennies from Heaven (Selection - Let's Call A Heart A Heart, Pennies From Heaven)"
         ],
         "uuid": "86210851",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1927-1938"
     },
     "86271343": {
@@ -70493,7 +72375,7 @@
         "album": "On The Beach",
         "albumsort": "1974On The Beach",
         "artist": "Neil Young",
-        "label": "",
+        "label": "Reprise",
         "sampling": false,
         "tracks": [
             "Walk On",
@@ -70506,7 +72388,7 @@
             "Ambulance Blues"
         ],
         "uuid": "88052721",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1974"
     },
     "88067647": {
@@ -70529,6 +72411,39 @@
         "uuid": "88067647",
         "vintage": "PROBZsampling",
         "year": "1992"
+    },
+    "88115763": {
+        "album": "Now Is The Caroling Season",
+        "albumsort": "1957Now Is The Caroling Season",
+        "artist": "Fred Waring and the Pennsylvanians",
+        "label": "Capitol",
+        "sampling": false,
+        "tracks": [
+            "Now Is The Caroling Season",
+            "We Three Kings",
+            "Winter Wonderland",
+            "Here We Come Awassailing",
+            "O Christmas Tree",
+            "Silver Bells",
+            "Angels We Have Heard On High",
+            "In Sweetest Jubilee",
+            "The Twelve Days Of Christmas",
+            "Masters In This Hall",
+            "White Christmas",
+            "Now Is The Caroling Season/Sleigh Ride (Medley)",
+            "Christmas Was Meant For Children",
+            "Heigh Ho The Holly",
+            "O Come, O Come, Emmanuel",
+            "Bring A Torch, Jeannette Isabella",
+            "I Heard The Bells On Christmas Day",
+            "Angels, From The Realms Of Glory",
+            "The Christmas Song (Merry Christmas To You)",
+            "It Was A Night Of Wonder",
+            "March Of The Kings"
+        ],
+        "uuid": "88115763",
+        "vintage": "1957",
+        "year": "1957"
     },
     "88138836": {
         "album": "Cameo Parkway: The Greatest Hits",
@@ -71339,7 +73254,7 @@
     },
     "88924900": {
         "album": "Pennies From Heaven D3",
-        "albumsort": "431993Pennies From Heaven D3",
+        "albumsort": "021978Pennies From Heaven D3",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -71392,7 +73307,7 @@
             "Love Is The Sweetest Thing"
         ],
         "uuid": "88924900",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1935"
     },
     "88954577": {
@@ -72177,7 +74092,7 @@
     },
     "89895834": {
         "album": "Refined Lard: A Trunk Records Sampler",
-        "albumsort": "2012Refined Lard: A Trunk Records Sampler",
+        "albumsort": "x2012Refined Lard: A Trunk Records Sampler",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -73587,7 +75502,7 @@
             "Queen Bitch"
         ],
         "uuid": "91113323",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1964-2004"
     },
     "91126238": {
@@ -74421,7 +76336,7 @@
             "He Really Needs Me"
         ],
         "uuid": "92226910",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1958-2002"
     },
     "92254205": {
@@ -75591,7 +77506,7 @@
         "album": "Gorilla",
         "albumsort": "1967Gorilla",
         "artist": "Bonzo Dog Doo-Dah Band",
-        "label": "[EMI[",
+        "label": "Liberty",
         "sampling": false,
         "tracks": [
             "Cool Britannia",
@@ -75611,7 +77526,7 @@
             "The Sound of Music"
         ],
         "uuid": "94172778",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1967"
     },
     "94348564": {
@@ -75962,30 +77877,6 @@
         "uuid": "94477438",
         "vintage": "annex",
         "year": "1927-1929"
-    },
-    "94498690": {
-        "album": "Everybody's Got It Easy But Me",
-        "albumsort": "9999Intelligence Everybody's Got It Easy",
-        "artist": "The Intelligence",
-        "sampling": true,
-        "tracks": [
-            "I Like LA",
-            "Hippy Provider",
-            "Evil Is Easy",
-            "Techno Tuesday",
-            "The Entertainer",
-            "Reading And Writing About Partying",
-            "Dim Limelights",
-            "(They Found Me On The Back Of) The Galaxy",
-            "I'm Closed",
-            "Little Town Flirt",
-            "Return To Foam",
-            "Sunny Backyard",
-            "Fidelity"
-        ],
-        "uuid": "94498690",
-        "vintage": "PROBZsampling",
-        "year": "2012"
     },
     "94517121": {
         "album": "Transformer",
@@ -76537,6 +78428,34 @@
         "vintage": "annex",
         "year": "1951"
     },
+    "94995106": {
+        "album": "Elvis' Gold Records, Vol. 5",
+        "albumsort": "1984Elvis' Golden Records, Vol. 5",
+        "artist": "Elvis Presley",
+        "label": "RCA",
+        "sampling": false,
+        "tracks": [
+            "Suspicious Minds",
+            "Kentucky Rain",
+            "In The Ghetto",
+            "Clean Up Your Own Back Yard",
+            "Burning Love",
+            "If You Talk In Your Sleep",
+            "For The Heart",
+            "Moody Blue",
+            "Way Down",
+            "Big Boss Man",
+            "Guitar Man",
+            "U.S. Male",
+            "You Don't Have To Say You Love Me",
+            "Edge Of Reality",
+            "Memories",
+            "If I Can Dream"
+        ],
+        "uuid": "94995106",
+        "vintage": "cdcol",
+        "year": "1967-1977"
+    },
     "95111878": {
         "album": "Pyramid Landing and Other Favorites",
         "albumsort": "1997Pyramid Landing and Other Favorites",
@@ -76833,7 +78752,7 @@
             "His Head All Red"
         ],
         "uuid": "95517752",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1982-1983"
     },
     "95539328": {
@@ -78004,6 +79923,52 @@
         "vintage": "PROBZ cdcol",
         "year": "1962-1967"
     },
+    "97046598": {
+        "album": "She Had A Taste For Music",
+        "albumsort": "x1999She Had A Taste For Music",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Massimo Moriconi & Roberto Fogu",
+                "Nico Fidenco",
+                "Franco De Gemini",
+                "Gianfranco Plenizio",
+                "Armando Trovajoli",
+                "Franco De Gemini",
+                "Nico Fidenco",
+                "Gianfranco Plenizio",
+                "Teo Usuelli",
+                "Armando Trovajoli",
+                "Nico Fidenco",
+                "Gianfranco Plenizio",
+                "Franco De Gemini",
+                "Armando Trovajoli",
+                "Nico Fidenco"
+            ]
+        },
+        "label": "Dagored",
+        "sampling": false,
+        "tracks": [
+            "Small Fawn Clawn",
+            "Red Sound",
+            "Cheops & Nefertiti",
+            "Grigio Peria",
+            "L'Ospite",
+            "What Is This Love",
+            "La Via Della Prostituzione",
+            "Voce D'Amore",
+            "Piacere Sequence",
+            "Signora Sono Le Otto",
+            "Make Love On The Wing",
+            "Musica Per Anna",
+            "Cairo Night",
+            "Kinky Peanuts",
+            "Dutch Poppy"
+        ],
+        "uuid": "97046598",
+        "vintage": "cdcol",
+        "year": "1971-1981"
+    },
     "97053758": {
         "album": "Frolic Diner Part 1",
         "albumsort": "531993Frolic Diner Part 1",
@@ -78801,6 +80766,19 @@
         "vintage": "cdcol",
         "year": "1959-1964"
     },
+    "97958530": {
+        "album": "Google is my Brain",
+        "albumsort": "2012Google is my Brain",
+        "artist": "not a bus",
+        "label": "notabus.com",
+        "sampling": false,
+        "tracks": [
+            "Google is my Brain"
+        ],
+        "uuid": "97958530",
+        "vintage": "cdcol",
+        "year": "2012"
+    },
     "97960484": {
         "album": "Shake Sugaree",
         "albumsort": "9999ElizabetH Cotten Shake Sugaree",
@@ -78916,7 +80894,7 @@
         "album": "Neon Bible",
         "albumsort": "2007Neon Bible",
         "artist": "The Arcade Fire",
-        "label": "",
+        "label": "Merge",
         "sampling": false,
         "tracks": [
             "Black Mirror",
@@ -78932,7 +80910,7 @@
             "My Body Is A Cage"
         ],
         "uuid": "98088344",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "2007"
     },
     "98147491": {
@@ -80500,5 +82478,28 @@
         "uuid": "99882793",
         "vintage": "cdcol",
         "year": "1962"
+    },
+    "99959953": {
+        "album": "Human Ceremony",
+        "albumsort": "2016Human Ceremony",
+        "artist": "Sunflower Bean",
+        "label": "Fat Possum Records",
+        "sampling": false,
+        "tracks": [
+            "Human Ceremony",
+            "Come On",
+            "2013",
+            "Easier Said",
+            "This Kind Of Feeling",
+            "I Was Home",
+            "Creation Myth",
+            "Wall Watcher",
+            "I Want You To Give Me Enough Time",
+            "Oh, I Just Don't Know",
+            "Space Exploration Disaster"
+        ],
+        "uuid": "99959953",
+        "vintage": "cdcol",
+        "year": "2016"
     }
 }
