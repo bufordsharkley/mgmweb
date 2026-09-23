@@ -1,3 +1,112 @@
+- month: September 2026
+  status: in-progress
+  - title: Teenage Sex and Death at Camp Miasma
+    year: 2026
+    director:
+    - Jane Schoenbrun
+    stubz:
+      date: 2026-09-01
+      venue: Alamo Drafthouse New Mission
+  - title: Caged
+    year: 1950
+    director:
+    - John Cromwell
+  - title: Juke Girl
+    year: 1942
+    director:
+    - Curtis Bernhardt
+  - title: More American Graffiti
+    year: 1979
+    director:
+    - Bill L. Norton
+  - title: Akira
+    year: 1988
+    director:
+    - Katsuhiro Otomo
+    stubz:
+      date: 2026-09-08
+      venue: Cinemark Century 20 Daly City
+  - title: Tony
+    year: 2026
+    director:
+    - Matt Johnson
+    stubz:
+      date: 2026-09-08
+      venue: AMC Kabuki 8
+  - title: Der Fan
+    year: 1982
+    director:
+    - Eckhart Schmidt
+    stubz:
+      date: 2026-09-08
+      venue: Alamo Drafthouse New Mission
+  - title: Hot Spot
+    year: 2026
+    director:
+    - Agnieszka Smoczyńska
+    stubz:
+      date: 2026-09-09
+      venue: AMC Metreon 16
+  - title: Buddy
+    year: 2026
+    director:
+    - Casper Kelly
+    stubz:
+      date: 2026-09-09
+      venue: AMC Metreon 16
+  - title: Alexander's Ragtime Band
+    year: 1938
+    director:
+    - Henry King
+    stubz:
+      date: 2026-09-13
+      venue: Stanford Theatre
+  - title: Tin Pan Alley
+    year: 1940
+    director:
+    - Walter Lang
+    stubz:
+      date: 2026-09-13
+      venue: Stanford Theatre
+  - title: Hope
+    year: 2026
+    director:
+    - Na Hong-jin
+    stubz:
+      date: 2026-09-16
+      venue: AMC Kabuki 8
+  - title: The American Astronaut
+    year: 2001
+    director:
+    - Cory McAbee
+    stubz:
+      date: 2026-09-16
+      venue: ROXIE
+  - title: Letty Lynton
+    year: 1932
+    director:
+    - Clarence Brown
+    stubz:
+      date: 2026-09-17
+      venue: ROXIE
+  - title: Moon Over Miami
+    year: 1941
+    director:
+    - Walter Lang
+    stubz:
+      date: 2026-09-20
+      venue: Stanford Theatre
+  - title: Down Argentine Way
+    year: 1940
+    director:
+    - Irving Cummings
+    stubz:
+      date: 2026-09-20
+      venue: Stanford Theatre
+  - title: The Swindle
+    year: 1997
+    director:
+    - Claude Chabrol
 - month: August 2026
   status: ranked
   films:
@@ -23048,6 +23157,11 @@
     year: 1987
     director:
     - Stanley Kubrick
+  - title: Gallavants
+    year: 1984
+    director:
+    - Art Vitello
+  - title: Gandhi
   - title: Gallipoli
     year: 1981
     director:
