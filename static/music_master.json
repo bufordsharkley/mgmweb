@@ -79,7 +79,7 @@
                 "Sam Price And His Texas Blusicians"
             ]
         },
-        "label": "",
+        "label": "Decca Jazz/GRP",
         "sampling": false,
         "tracks": [
             "Swingin' On The Famous Door",
@@ -391,7 +391,7 @@
                 "Memphis Sheiks"
             ]
         },
-        "label": "",
+        "label": "Old Hat Records",
         "sampling": false,
         "tracks": [
             "The Spasm",
@@ -420,7 +420,7 @@
             "He's in the Jailhouse Now"
         ],
         "uuid": "00553706",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1927-1935"
     },
     "00564940": {
@@ -1862,7 +1862,7 @@
     },
     "02223789": {
         "album": "Cruisin' 1956 (CD)",
-        "albumsort": "521971Cruisin' 1956 (CD)",
+        "albumsort": "0319561971Cruisin' 1956 (CD)",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -1879,7 +1879,8 @@
                 "Carl Perkins"
             ]
         },
-        "sampling": true,
+        "label": "Increase Records",
+        "sampling": false,
         "tracks": [
             "Robin Seymour Theme",
             "Roll Over Beethoven",
@@ -1894,7 +1895,7 @@
             "Blue Suede Shoes"
         ],
         "uuid": "02223789",
-        "vintage": "PROBZsampling",
+        "vintage": "cdcol",
         "year": "1956"
     },
     "02304175": {
@@ -2984,6 +2985,19 @@
         "uuid": "03233771",
         "vintage": "annex",
         "year": "1965"
+    },
+    "03267267": {
+        "album": "Disney's Electrical Parade",
+        "albumsort": "x2001Disney's Electrical Parade",
+        "artist": "Disneyland Resort",
+        "label": "Buena Vista Records",
+        "sampling": false,
+        "tracks": [
+            "Disney's Electrical Parade"
+        ],
+        "uuid": "03267267",
+        "vintage": "cdcol",
+        "year": "1972-1984"
     },
     "03302059": {
         "album": "Runnin' Strong",
@@ -5177,6 +5191,19 @@
         "vintage": "PROBZ cdcol",
         "year": "1890"
     },
+    "05694455": {
+        "album": "In Sara, Mencken, Christ and Beethoven there were men and women",
+        "albumsort": "1974In Sara, Mencken, Christ and Beethoven there were men and women",
+        "artist": "Robert Ashley",
+        "label": "Cramps Records",
+        "sampling": false,
+        "tracks": [
+            "In Sara/Mencken/Christ and Beethoven there were men and women"
+        ],
+        "uuid": "05694455",
+        "vintage": "cdcol",
+        "year": "1972"
+    },
     "05728817": {
         "album": "More Than Music",
         "albumsort": "1967More Than Music",
@@ -5287,7 +5314,7 @@
     },
     "05968969": {
         "album": "Toy Story",
-        "albumsort": "Toy Story",
+        "albumsort": "001995Toy Story",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -5309,7 +5336,7 @@
                 "Randy Newman & Lyle Lovett"
             ]
         },
-        "label": "",
+        "label": "Walt Disney Records",
         "sampling": false,
         "tracks": [
             "You've Got A Friend In Me",
@@ -10029,7 +10056,7 @@
                 "Boyracer"
             ]
         },
-        "label": "Slumberland",
+        "label": "Slumberland Records",
         "sampling": false,
         "tracks": [
             "Walking Into Walls",
@@ -11597,7 +11624,7 @@
                 "Louie Lasky"
             ]
         },
-        "label": "",
+        "label": "Document Records",
         "sampling": false,
         "tracks": [
             "Church Bells Blues (Alternate Take)",
@@ -11628,7 +11655,7 @@
             "Caroline"
         ],
         "uuid": "13110630",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1927-1935"
     },
     "13149113": {
@@ -14871,7 +14898,7 @@
                 "Eartha Kitt"
             ]
         },
-        "label": "",
+        "label": "Rhino Records",
         "sampling": false,
         "tracks": [
             "The Lady Is a Tramp",
@@ -14894,7 +14921,7 @@
             "Mademoiselle Kitt"
         ],
         "uuid": "17219117",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1952"
     },
     "17304322": {
@@ -18149,7 +18176,7 @@
     },
     "20743958": {
         "album": "Cruisin' 1957 - Joe Niagara - WIBG Philadelphia Pennsylvania",
-        "albumsort": "Cruisin' 1957 - Joe Niagara - WIBG Philadelphia Pennsylvania",
+        "albumsort": "031957Cruisin' 1957 - Joe Niagara - WIBG Philadelphia Pennsylvania",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -20318,7 +20345,7 @@
     },
     "23322559": {
         "album": "Cruisin' 1967 (CD)",
-        "albumsort": "521971Cruisin' 1967 (CD)",
+        "albumsort": "0319671971Cruisin' 1967 (CD)",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -24921,9 +24948,10 @@
     },
     "29390275": {
         "album": "The Complete Stark Rags 1908-1919",
-        "albumsort": "2000Complete Stark Rags 1908-1919",
+        "albumsort": "81201132000Complete Stark Rags 1908-1919",
         "artist": "Joseph Lamb",
-        "label": "",
+        "forcecomp": true,
+        "label": "Basta",
         "sampling": false,
         "tracks": [
             "Sensation",
@@ -24940,7 +24968,7 @@
             "Bohemia Rag"
         ],
         "uuid": "29390275",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1908-1919"
     },
     "29394474": {
@@ -26371,7 +26399,7 @@
     },
     "30884101": {
         "album": "Cruisin' 1961 (CD)",
-        "albumsort": "521971Cruisin' 1961 (CD)",
+        "albumsort": "0319611971Cruisin' 1961 (CD)",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -26388,6 +26416,7 @@
                 "The Marathons"
             ]
         },
+        "label": "Increase Records",
         "sampling": true,
         "tracks": [
             "Arnie \"Woo Woo\" Ginsberg Theme",
@@ -26403,7 +26432,7 @@
             "Peanut Butter"
         ],
         "uuid": "30884101",
-        "vintage": "PROBZsampling",
+        "vintage": "cdcol",
         "year": "1961"
     },
     "30893928": {
@@ -26711,6 +26740,34 @@
         "uuid": "31218941",
         "vintage": "cdcol",
         "year": "1976-1979"
+    },
+    "31279926": {
+        "album": "Dime Grind Palace",
+        "albumsort": "2003Dime Grind Palace",
+        "artist": "Sex Mob",
+        "label": "Ropeadope Records",
+        "sampling": false,
+        "tracks": [
+            "Entrance Music",
+            "Kitchen",
+            "Dime Grind Palace",
+            "Translation 1",
+            "Blue And Sentimental",
+            "Mothra",
+            "Slide Serenade",
+            "Translation 4",
+            "Nobert's Weiner",
+            "Baby Let Me Hold Your Hand",
+            "Translation 2",
+            "Artie Shaw",
+            "Call To The Freaks",
+            "Translation 3",
+            "Conk Buster",
+            "Exit Music"
+        ],
+        "uuid": "31279926",
+        "vintage": "cdcol",
+        "year": "2003"
     },
     "31299170": {
         "album": "Pop American Style D2",
@@ -27268,8 +27325,9 @@
     },
     "31823430": {
         "album": "Lies, Sissies, and Fiascoes D2",
-        "albumsort": "721999Lies, Sissies, and Fiascoes D2",
+        "albumsort": "031999Lies, Sissies, and Fiascoes D2",
         "artist": "This American Life",
+        "forcecomp": true,
         "label": "",
         "sampling": false,
         "tracks": [
@@ -31390,6 +31448,22 @@
         "vintage": "cdcol",
         "year": "1967"
     },
+    "37013408": {
+        "album": "Horse Power EP",
+        "albumsort": "2010Horse Power EP",
+        "artist": "Dale Earnhardt Jr. Jr.",
+        "label": "Quite Scientific Records",
+        "sampling": false,
+        "tracks": [
+            "Nothing But Our Love",
+            "Vocal Chords",
+            "Simple Girl",
+            "God Only Knows"
+        ],
+        "uuid": "37013408",
+        "vintage": "cdcol",
+        "year": "2010"
+    },
     "37044633": {
         "album": "20th Century Masters: The Millennium Collection - The Best Of Les Paul",
         "albumsort": "9999Les Paul 20th Century",
@@ -32143,7 +32217,7 @@
                 "Mose Allison"
             ]
         },
-        "label": "",
+        "label": "Rhino Records",
         "sampling": false,
         "tracks": [
             "Thirteen Men",
@@ -35098,7 +35172,7 @@
                 "Bernice Edwards"
             ]
         },
-        "label": "",
+        "label": "Columbia/Legacy",
         "sampling": false,
         "tracks": [
             "Sam-The Hot Dog Man",
@@ -35123,7 +35197,7 @@
             "Butcher Shop Blues"
         ],
         "uuid": "41758692",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1928-1939"
     },
     "41763800": {
@@ -36469,7 +36543,7 @@
                 "Bobby Hammack Quartet"
             ]
         },
-        "label": "",
+        "label": "Rhino Records",
         "sampling": false,
         "tracks": [
             "Will You Still Be Mine?",
@@ -39236,7 +39310,7 @@
                 "Luke Jordan"
             ]
         },
-        "label": "",
+        "label": "Document Records",
         "sampling": false,
         "tracks": [
             "James Alley",
@@ -39266,7 +39340,7 @@
             "Won't You Be Kind"
         ],
         "uuid": "46773546",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1927-1929"
     },
     "46828873": {
@@ -53393,7 +53467,7 @@
     },
     "63517017": {
         "album": "Lies, Sissies, and Fiascoes D1",
-        "albumsort": "721999Lies, Sissies, and Fiascoes D1",
+        "albumsort": "031999Lies, Sissies, and Fiascoes D1",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -54696,7 +54770,7 @@
                 "J.E. Mainer's Mountaineers"
             ]
         },
-        "label": "",
+        "label": "Old Hat Records",
         "sampling": false,
         "tracks": [
             "Gonna Tip Out Tonight",
@@ -54725,7 +54799,7 @@
             "Kiss Me Cindy"
         ],
         "uuid": "65157276",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1926-1937"
     },
     "65267324": {
@@ -56263,7 +56337,7 @@
     },
     "66942459": {
         "album": "New Music for Electronic and Recorded Media: Women In Electronic Music - 1977",
-        "albumsort": "New Music for Electronic and Recorded Media: Women In Electronic Music - 1977",
+        "albumsort": "591977New Music for Electronic and Recorded Media: Women In Electronic Music - 1977",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -56277,7 +56351,7 @@
                 "Laurie Anderson"
             ]
         },
-        "label": "",
+        "label": "1750 Arch Records/Composers Recordings, Inc.",
         "sampling": false,
         "tracks": [
             "Music of the Spheres",
@@ -58392,6 +58466,30 @@
         "uuid": "69778128",
         "vintage": "PROBZ cdcol",
         "year": "1983"
+    },
+    "69785681": {
+        "album": "I Hear A New World",
+        "albumsort": "1991I Hear A New World",
+        "artist": "Joe Meek",
+        "label": "Triumph/RPM Records",
+        "sampling": false,
+        "tracks": [
+            "I Hear A New World",
+            "Orbit Around The Moon",
+            "Entry Of The Globbots",
+            "The Bublight",
+            "March Of The Dribcots",
+            "Love Dance Of The Saroos",
+            "Glob Waterfall",
+            "Magnetic Field",
+            "Valley Of The Saroos",
+            "Dribcots Space Boat",
+            "Disc Dance Of The Globbots",
+            "Valley Of No Return"
+        ],
+        "uuid": "69785681",
+        "vintage": "cdcol",
+        "year": "1960"
     },
     "69788590": {
         "album": "Hornet Leg 09 Ribbon Of Fear (k rec)",
@@ -62430,6 +62528,31 @@
         "vintage": "cdcol",
         "year": "1992"
     },
+    "75251885": {
+        "album": "Il Casanova Di Federico Fellini",
+        "albumsort": "001976Il Casanova Di Federico Fellini",
+        "artist": "Nino Rota",
+        "label": "CAM",
+        "sampling": false,
+        "tracks": [
+            "O Venezia, Venaga, Venusia",
+            "L'uccello Magico",
+            "A Pranzo Dalla Marchesa Durf\u00e8",
+            "The Great Mouna",
+            "Canto Della Buranella",
+            "L'uccello Magico A Parigi",
+            "L' Intermezzo Della Mantide Religiosa",
+            "Pin Penin",
+            "L'uccello Magico A Dresda",
+            "Ricordo Di Henriette",
+            "L' Uccello Magico A Roma",
+            "Il Duca Di Wuttenberg",
+            "La Poup\u00e9e Automate"
+        ],
+        "uuid": "75251885",
+        "vintage": "cdcol",
+        "year": "1976"
+    },
     "75253523": {
         "album": "Let The Poison Out",
         "albumsort": "2011Let The Poison Out",
@@ -63166,7 +63289,7 @@
     },
     "76436812": {
         "album": "Cruisin' 1962 - Russ \"Weird Beard\" Knight - KLIF Dallas Texas",
-        "albumsort": "Cruisin' 1962 - Russ \"Weird Beard\" Knight - KLIF Dallas Texas",
+        "albumsort": "031962Cruisin' 1962 - Russ \"Weird Beard\" Knight - KLIF Dallas Texas",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -65333,7 +65456,7 @@
     },
     "79262777": {
         "album": "Rodgers & Hart - With A Song In My Heart - The Songs Of Rodgers & Hart",
-        "albumsort": "482001Rodgers & Hart - With A Song In My Heart - The Songs Of Rodgers & Hart",
+        "albumsort": "432001Rodgers & Hart - With A Song In My Heart - The Songs Of Rodgers & Hart",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -67948,7 +68071,7 @@
                 "McTells"
             ]
         },
-        "label": "",
+        "label": "K Records",
         "sampling": false,
         "tracks": [
             "Rover and Rusty",
@@ -67973,7 +68096,7 @@
             "Clean"
         ],
         "uuid": "81914882",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1987-1993"
     },
     "81943342": {
@@ -69102,7 +69225,7 @@
                 "Virgil Childers"
             ]
         },
-        "label": "",
+        "label": "Document Records",
         "sampling": false,
         "tracks": [
             "Ford V-8",
@@ -69133,7 +69256,7 @@
             "Preacher And The Bear"
         ],
         "uuid": "83684460",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1936-1938"
     },
     "83687079": {
@@ -69458,6 +69581,31 @@
         "uuid": "84126410",
         "vintage": "PROBZ cdcol",
         "year": "1970-1971"
+    },
+    "84136873": {
+        "album": "Instant Holograms On Metal Film",
+        "albumsort": "2025Instant Holograms On Metal Film",
+        "artist": "Stereolab",
+        "label": "Warp Records/Duophonic UHF Disks",
+        "sampling": false,
+        "tracks": [
+            "Mystical Plosives",
+            "Aerial Troubles",
+            "Melodie Is A Wound",
+            "Immortal Hands",
+            "Vermona F Transistor",
+            "Le Coeur Et La Force",
+            "Electrified Teenybop!",
+            "Transmuted Matter",
+            "Esemplastic Creeping Eruption",
+            "If You Remember I Forgot How To Dream Pt.1",
+            "Flashes From Everywhere",
+            "Colour Television",
+            "If You Remember I Forgot How To Dream Pt.2"
+        ],
+        "uuid": "84136873",
+        "vintage": "cdcol",
+        "year": "2025"
     },
     "84266233": {
         "album": "Great Original Performances 1924 - 1938",
@@ -70559,6 +70707,32 @@
         "uuid": "85649467",
         "vintage": "PROBZ cdcol",
         "year": "1986"
+    },
+    "85665154": {
+        "album": "In Filth Your Mystery Is Kingdom / Far Smile Peasant In Yellow Music",
+        "albumsort": "2026In Filth Your Mystery Is Kingdom / Far Smile Peasant In Yellow Music",
+        "artist": "Dagmar Zuniga",
+        "label": "People's Coalition Of Tandy",
+        "sampling": false,
+        "tracks": [
+            "Even God Gets Stuck In Devotion",
+            "Plenty For All The Masses",
+            "Plenty (For All Of Life's Messes)",
+            "Even God Gets Stuck In Devotion",
+            "Garden",
+            "Photography The Hard Way",
+            "Why I Remember (Each Day Of Summer)",
+            "Ln60: Jupiter Opposite Jupiter",
+            "Rose Of Mysterious Union",
+            "A Car With No Lights On",
+            "Her Master's Voice",
+            "Memory Always Sees The Loved One Smaller",
+            "In Filth Your Mystery Is Kingdom",
+            "To Live Happily"
+        ],
+        "uuid": "85665154",
+        "vintage": "cdcol",
+        "year": "2026"
     },
     "85672846": {
         "album": "Viktoria Und Ihr Husar/Frau Luna/Die Blume Von Hawaii",
@@ -71916,6 +72090,68 @@
         "uuid": "87634562",
         "vintage": "PROBZsampling",
         "year": "2003"
+    },
+    "87655948": {
+        "album": "Hype!: The Motion Picture Soundtrack",
+        "albumsort": "001996Hype!: The Motion Picture Soundtrack",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "The Fastbacks",
+                "Wipers",
+                "U-Men",
+                "Green River",
+                "Soundgarden",
+                "Mudhoney",
+                "Nirvana",
+                "Some Velvet Sidewalk",
+                "Dead Moon",
+                "Girl Trouble",
+                "Tad",
+                "Gas Huffer",
+                "Young Fresh Fellows",
+                "Supersuckers",
+                "7 Year Bitch",
+                "The Gits",
+                "Flop",
+                "Posies",
+                "Pearl Jam",
+                "Mark Lanegan",
+                "Pigeonhed",
+                "The Fastbacks",
+                "Sara Bell"
+            ]
+        },
+        "label": "Sub Pop",
+        "sampling": false,
+        "tracks": [
+            "K Street [live]",
+            "Return Of The Rat",
+            "Dig It A Hole",
+            "Swallow My Pride [unrel. demo]",
+            "Nothing To Say",
+            "Touch Me I'm Sick [live]",
+            "Negative Creep",
+            "Mousetrap [live]",
+            "54/40 [live]",
+            "My Hometown",
+            "Giant Killer",
+            "Hotcakes [7\" version]",
+            "Low Beat",
+            "I Say Fuck [live]",
+            "Knot [live]",
+            "Second Skin [live]",
+            "Julie Francavilla [unrel. demo]",
+            "Throwaway [live]",
+            "Not For You [live on radio]",
+            "The River Rise",
+            "Fire's Coming Down",
+            "Just Say",
+            "Smells Like Teen Spirit [dance version]"
+        ],
+        "uuid": "87655948",
+        "vintage": "cdcol",
+        "year": "1980-1996"
     },
     "87677230": {
         "album": "Animation \u2022 Imagination",
@@ -74092,7 +74328,7 @@
     },
     "89895834": {
         "album": "Refined Lard: A Trunk Records Sampler",
-        "albumsort": "x2012Refined Lard: A Trunk Records Sampler",
+        "albumsort": "612012Refined Lard: A Trunk Records Sampler",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -77165,6 +77401,46 @@
         "vintage": "PROBZ cdcol",
         "year": "1930-1935"
     },
+    "93729503": {
+        "album": "Covert Operations",
+        "albumsort": "x1998Covert Operations",
+        "artist": {
+            "albumartist": "Various Artists",
+            "trackartists": [
+                "Avatars Of Dub",
+                "Thievery Corporation",
+                "Ursula 1000",
+                "Thunderball",
+                "Avatars Of Dub",
+                "Thievery Corporation",
+                "Thunderball",
+                "Margo vs. Thunderball",
+                "Thievery Corporation",
+                "Avatars Of Dub",
+                "Ursula 1000",
+                "Thunderball"
+            ]
+        },
+        "label": "Eighteenth Street Lounge Music",
+        "sampling": false,
+        "tracks": [
+            "Sex Elevator Music (Thievery Corporation Mix)",
+            "Sun, Moon And Stars",
+            "Bass And Tremble",
+            "Chronic Dose",
+            "Codeword: Mantra",
+            "Killer's Waltz",
+            "This Girl",
+            "Let Everything Be",
+            "Assault On Babylon",
+            "Digeratidub",
+            "Full On Cheetah",
+            "The Moon, The Sky"
+        ],
+        "uuid": "93729503",
+        "vintage": "cdcol",
+        "year": "1997-1998"
+    },
     "93737054": {
         "album": "Hospital",
         "albumsort": "9999Gary Young Hospital",
@@ -77195,7 +77471,7 @@
     },
     "93807038": {
         "album": "Cruisin' 1964 (CD)",
-        "albumsort": "521971Cruisin' 1964 (CD)",
+        "albumsort": "0319641971Cruisin' 1964 (CD)",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -77774,21 +78050,6 @@
         "uuid": "94461278",
         "vintage": "PROBZ cdcol",
         "year": "2006"
-    },
-    "94462343": {
-        "album": "Horse Power EP",
-        "albumsort": "9999Dale Earnhardt Jr Jr Horse Power",
-        "artist": "Dale Earnhardt Jr. Jr.",
-        "sampling": true,
-        "tracks": [
-            "Nothing But Our Love",
-            "Vocal Chords",
-            "Simple Girl",
-            "God Only Knows"
-        ],
-        "uuid": "94462343",
-        "vintage": "PROBZsampling",
-        "year": "2010"
     },
     "94468812": {
         "album": "Animals In The Median",
@@ -80095,7 +80356,7 @@
         "album": "The Biggest Little Band In The Land",
         "albumsort": "1999Biggest Little Band In The Land",
         "artist": "John Kirby",
-        "label": "",
+        "label": "ASV/Living Era",
         "sampling": false,
         "tracks": [
             "The Lady Is A Tramp (with Midge Williams)",
@@ -80125,7 +80386,7 @@
             "Mop Mop"
         ],
         "uuid": "97087156",
-        "vintage": "annex",
+        "vintage": "cdcol",
         "year": "1937-1945"
     },
     "97130889": {
@@ -80972,7 +81233,7 @@
     },
     "98162490": {
         "album": "Achtung! German Grooves",
-        "albumsort": "Achtung! German Grooves",
+        "albumsort": "582007Achtung! German Grooves",
         "artist": {
             "albumartist": "Various Artists",
             "trackartists": [
@@ -80998,7 +81259,7 @@
                 "Walter Kubiczek"
             ]
         },
-        "label": "",
+        "label": "Bureau B.",
         "sampling": false,
         "tracks": [
             "Mabusso",
@@ -82355,7 +82616,7 @@
                 "John Barry"
             ]
         },
-        "label": "",
+        "label": "Rhino Records",
         "sampling": false,
         "tracks": [
             "A Man and a Woman (Un Homme et une Femme)",
