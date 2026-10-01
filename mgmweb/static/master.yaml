@@ -1,3 +1,215 @@
+- month: September 2026
+  status: ranked
+  films:
+  - title: Teenage Sex and Death at Camp Miasma
+    year: 2026
+    director:
+    - Jane Schoenbrun
+    stubz:
+      date: 2026-09-01
+      venue: Alamo Drafthouse New Mission
+    ranking: 21
+    tier: III-A
+  - title: Caged
+    year: 1950
+    director:
+    - John Cromwell
+    ranking: 2
+    tier: II-A
+  - title: Juke Girl
+    year: 1942
+    director:
+    - Curtis Bernhardt
+    ranking: 19
+    tier: II-C
+  - title: More American Graffiti
+    year: 1979
+    director:
+    - Bill L. Norton
+    ranking: 4
+    tier: II-A
+  - title: Akira
+    year: 1988
+    director:
+    - Katsuhiro Otomo
+    stubz:
+      date: 2026-09-08
+      venue: Cinemark Century 20 Daly City
+    ranking: 20
+    tier: II-C
+  - title: Tony
+    year: 2026
+    director:
+    - Matt Johnson
+    stubz:
+      date: 2026-09-08
+      venue: AMC Kabuki 8
+    ranking: 11
+    tier: II-C
+  - title: Der Fan
+    year: 1982
+    director:
+    - Eckhart Schmidt
+    stubz:
+      date: 2026-09-08
+      venue: Alamo Drafthouse New Mission
+    ranking: 12
+    tier: II-C
+  - title: Hot Spot
+    year: 2026
+    director:
+    - Agnieszka Smoczyńska
+    stubz:
+      date: 2026-09-09
+      venue: AMC Metreon 16
+    ranking: 1
+    tier: II-A
+  - title: Buddy
+    year: 2026
+    director:
+    - Casper Kelly
+    stubz:
+      date: 2026-09-09
+      venue: AMC Metreon 16
+    ranking: 16
+    tier: II-C
+  - title: Alexander's Ragtime Band
+    year: 1938
+    director:
+    - Henry King
+    stubz:
+      date: 2026-09-13
+      venue: Stanford Theatre
+    ranking: 5
+    tier: II-B
+  - title: Tin Pan Alley
+    year: 1940
+    director:
+    - Walter Lang
+    stubz:
+      date: 2026-09-13
+      venue: Stanford Theatre
+    ranking: 15
+    tier: II-C
+  - title: Hope
+    year: 2026
+    director:
+    - Na Hong-jin
+    stubz:
+      date: 2026-09-16
+      venue: AMC Kabuki 8
+    ranking: 24
+    tier: IV
+  - title: The American Astronaut
+    year: 2001
+    director:
+    - Cory McAbee
+    stubz:
+      date: 2026-09-16
+      venue: ROXIE
+    ranking: 7
+    tier: II-B
+  - title: Letty Lynton
+    year: 1932
+    director:
+    - Clarence Brown
+    stubz:
+      date: 2026-09-17
+      venue: ROXIE
+    ranking: 9
+    tier: II-B
+  - title: Moon Over Miami
+    year: 1941
+    director:
+    - Walter Lang
+    stubz:
+      date: 2026-09-20
+      venue: Stanford Theatre
+    ranking: 6
+    tier: II-B
+  - title: Down Argentine Way
+    year: 1940
+    director:
+    - Irving Cummings
+    stubz:
+      date: 2026-09-20
+      venue: Stanford Theatre
+    ranking: 23
+    tier: III-A
+  - title: The Swindle
+    year: 1997
+    director:
+    - Claude Chabrol
+    ranking: 17
+    tier: II-C
+  - title: Chronovisor
+    year: 2026
+    director:
+    - Jack Auen
+    - Kevin Walker
+    stubz:
+      date: 2026-09-22
+      venue: Alamo Drafthouse New Mission
+    ranking: 3
+    tier: II-A
+  - title: Armageddon
+    year: 1977
+    director:
+    - Alain Jessua
+    ranking: 18
+    tier: II-C
+  - title: Late Fame
+    year: 2025
+    effective_year: 2026
+    director:
+    - Kent Jones
+    stubz:
+      date: 2026-09-24
+      venue: Landmark Opera Plaza
+    ranking: 14
+    tier: II-C
+  - title: Sun Valley Serenade
+    year: 1941
+    director:
+    - H. Bruce Humberstone
+    stubz:
+      date: 2026-09-26
+      venue: Stanford Theatre
+    ranking: 10
+    tier: II-B
+  - title: Orchestra Wives
+    year: 1942
+    director:
+    - Archie Mayo
+    stubz:
+      date: 2026-09-26
+      venue: Stanford Theatre
+    ranking: 13
+    tier: II-C
+  - title: The Voice of the Moon
+    year: 1990
+    director:
+    - Federico Fellini
+    ranking: 22
+    tier: III-A
+  - title: Ha-Chan, Shake Your Booty!
+    year: 2026
+    director:
+    - Josef Kubota Wladyka
+    stubz:
+      date: 2026-09-30
+      venue: Esquire Theatre
+    ranking: 8
+    tier: II-B
+  tiers:
+    I: 0
+    II-A: 4
+    II-B: 6
+    II-C: 10
+    III-A: 3
+    III-B: 0
+    III-C: 0
+    IV: 1
 - month: August 2026
   status: ranked
   films:
@@ -23048,6 +23260,10 @@
     year: 1987
     director:
     - Stanley Kubrick
+  - title: Gallavants
+    year: 1984
+    director:
+    - Art Vitello
   - title: Gallipoli
     year: 1981
     director:

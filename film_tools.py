@@ -5,6 +5,7 @@ exec uv run --project "$(dirname "$0")" python "$0" "$@" #
 
 import datetime
 import itertools
+import pathlib
 import random
 
 import click
@@ -93,6 +94,38 @@ def current(month):
             if month['month'] != target:
                 continue
             print_month_contents(month)
+
+
+def get_tiered_ranking_tuples_for_year(year, master):
+    resp = []
+    #resp['NONE'] = []
+    for month in master:
+        this_month = {tier: [] for tier in FULL_TIERS}
+        this_month['NONE'] = []
+        for film in month['films']:
+            if 'filter' in film or 'title' not in film:
+                continue
+            try:
+                film_year = film['effective_year']
+            except KeyError:
+                film_year = film['year']
+            if film_year == year:
+                try:
+                    tier = film['tier']
+                except KeyError:
+                    assert month['status'] == 'in-progress'
+                    tier= 'NONE'
+                this_month[tier].append(film)
+        for tier, data in this_month.items():
+            if not data:
+                continue
+            if tier == 'NONE' or len(data) < 2:
+                resp.append((tier, month['month'], data))
+            else:
+                resp.append((tier, month['month'], sorted(data, key=lambda x: x['ranking'])))
+        #if month['month'] != 'September 2026':
+        #    raise Exception(this_month)
+    return resp
 
 
 def get_tiers_for_year(year, master, no_tier=False):
@@ -187,32 +220,46 @@ def reccs(tier, num, yearsort, randomold, completechrono):
 
 
 
+@main.command()
+@click.argument('year', default=datetime.datetime.now().year)
+@click.option('-f', '--file', 'file_path', default=None, help="file for vetting; default in ~/repos/filmcanon_scripts")
+#@click.option('--merge', is_flag=True, default=False, help="merge sort")
+#@click.option('--diff', is_flag=True, default=False, help="check against ranking list")
+def yearlistcheck(year, file_path):
+    if file_path is None:
+        file_path = pathlib.Path.home() / "repos/filmcanon_scripts" / f"{year}ranking.txt"
+    if not file_path.exists():
+        raise Exception(f"{file_path} does not exist")
+    print(year, file_path)
+    master = get_master()
+    tiers_for_year = get_tiered_ranking_tuples_for_year(year, master)
+    #print(tiers_for_year)
+    ranked = set(x.strip() for x in open(file_path).readlines())
+    #tiers_for_year = get_tiers_for_year(year, master)
+    # EASY TEST: WHICH ARE MISSING
+    all_films = set()
+    for chain in tiers_for_year:
+        tier, month, data = chain
+        for film in data:
+            #print(film)
+            all_films.add(film['title'])
+    print(all_films - ranked)
+    print(ranked - all_films)
+
 
 @main.command()
 @click.argument('year', default=datetime.datetime.now().year)
 @click.option('--merge', is_flag=True, default=False, help="merge sort")
-@click.option('--diff', is_flag=True, default=False, help="check against ranking list")
-def year(year, merge, diff):
+def year(year, merge):
     """Print all films for a year (corrected for effective year)"""
     goal_year = int(year)
     master = get_master()
 
-    gather_no_tier = False if not diff else True
+    gather_no_tier = False
     tiers_for_year = get_tiers_for_year(goal_year, master, no_tier=gather_no_tier)
     total_count = sum(len(x) for x in tiers_for_year.values())
 
     final_merged = {}
-    if diff:
-        ranked = set(x.strip() for x in
-                     open(f'/home/mgm/repos/filmcanon_scripts/{year}ranking.txt').readlines())
-
-        all_films = set()
-        for tier in tiers_for_year.values():
-            for film in tier:
-                all_films.add(film['title'])
-        print(all_films - ranked)
-        print(all_films, ranked)
-        return
     for tier, films in tiers_for_year.items():
         # This is an absolute nightmare, it sorts and then uses groupby to 
         # bunch the same movies per tier from the same month:
