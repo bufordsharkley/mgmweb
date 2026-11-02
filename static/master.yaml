@@ -1,3 +1,149 @@
+- month: October 2026
+  status: ranked
+  films:
+  - title: Hell Drivers
+    year: 1957
+    director:
+    - Cy Endfield
+    ranking: 4
+    tier: II-B
+  - title: Dr. Kildare's Victory
+    year: 1942
+    director:
+    - W.S. Van Dyke
+    ranking: 9
+    tier: II-C
+  - title: Digger
+    year: 2026
+    director:
+    - Alejandro González Iñárritu
+    stubz:
+      date: 2026-10-06
+      venue: Cinemark Oakley Station and XD
+    ranking: 3
+    tier: II-B
+  - title: Primetime
+    year: 2026
+    director:
+    - Lance Oppenheim
+    stubz:
+      date: 2026-10-06
+      venue: AMC Newport 20
+    ranking: 16
+    tier: II-C
+  - title: Hitler's Madman
+    year: 1943
+    director:
+    - Douglas Sirk
+    ranking: 17
+    tier: III-A
+  - title: Resident Evil
+    year: 2026
+    director:
+    - Zach Cregger
+    stubz:
+      date: 2026-10-07
+      venue: Esquire Theatre
+    ranking: 12
+    tier: II-C
+  - title: A Fine Pair
+    year: 1968
+    director:
+    - Francesco Maselli
+    ranking: 2
+    tier: II-A
+  - title: The History of Concrete
+    year: 2026
+    director:
+    - John Wilson
+    stubz:
+      date: 2026-10-14
+      venue: Esquire Theatre
+    ranking: 8
+    tier: II-C
+  - title: You Can See Everything
+    year: 1957
+    director:
+    - Nathan Fielder
+    - Lance Oppenheim
+    stubz:
+      date: 2026-10-19
+      venue: Harkins Flagstaff 16
+    ranking: 1
+    tier: I
+  - title: Kanal
+    year: 1957
+    director:
+    - Andrzej Wajda
+    ranking: 10
+    tier: II-C
+  - title: Velvet Goldmine
+    year: 1998
+    director:
+    - Todd Haynes
+    ranking: 14
+    tier: II-C
+  - title: Lisztomania
+    year: 1975
+    director:
+    - Ken Russell
+    ranking: 7
+    tier: II-C
+  - title: Your Mother Your Mother Your Mother
+    year: 2026
+    director:
+    - Bassam Tariq
+    stubz:
+      date: 2026-10-27
+      venue: Cinemark Century 20 Redwood City Downtown
+    ranking: 13
+    tier: II-C
+  - title: Filipiñana
+    year: 2026
+    director:
+    - Rafael Manuel
+    stubz:
+      date: 2026-10-27
+      venue: ROXIE
+    ranking: 6
+    tier: II-B
+  - title: Possible Love
+    year: 2026
+    director:
+    - Lee Chang-dong
+    stubz:
+      date: 2026-10-29
+      venue: Landmark Opera Plaza
+    ranking: 18
+    tier: III-B
+  - title: Eve's Bayou
+    year: 1997
+    director:
+    - Kasi Lemmons
+    ranking: 11
+    tier: II-C
+  - title: Bloody Nose, Empty Pockets
+    year: 2020
+    director:
+    - Bill Ross IV
+    - Turner Ross
+    ranking: 5
+    tier: II-B
+  - title: The Mad Magician
+    year: 1954
+    director:
+    - John Brahm
+    ranking: 15
+    tier: II-C
+  tiers:
+    I: 1
+    II-A: 1
+    II-B: 4
+    II-C: 10
+    III-A: 1
+    III-B: 1
+    III-C: 0
+    IV: 0
 - month: September 2026
   status: ranked
   films:
@@ -22689,6 +22835,14 @@
     year: 2000
     director:
     - Tarsem Singh
+  - title: Charlie's Angels
+    year: 2000
+    director:
+    - McG
+    stubz:
+      date: 2001-01-20
+      venue: Forest Fair Super Saver Cinema
+      note: date extremely approximate, not researched at all
   - title: Charlotte's Web
     year: 1973
     director:
